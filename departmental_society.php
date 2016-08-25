@@ -52,7 +52,7 @@
             <div class="animatedParent">
               <div class="animated bounceInUp slower">
                 <div class="team-block">
-                  <h2 class="title">Meet the Team</h2>
+                  <h3 class="title">Meet the Team</h3>
                   <ul class="row">
                     <li class="col-lg-4 col-md-6 col-sm-4 col-xs-6">
                       <img src="images/team1.jpg" alt="">
