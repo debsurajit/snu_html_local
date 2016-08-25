@@ -826,21 +826,21 @@ img {
 .left-menu {
   background: #ffffff;
 }
-/* line 55, ../sass/_mixins.scss */
+/* line 54, ../sass/_mixins.scss */
 .left-menu ul {
   padding-left: 23px;
   list-style: none;
 }
-/* line 59, ../sass/_mixins.scss */
+/* line 57, ../sass/_mixins.scss */
 .left-menu ul li {
   border-bottom: #f0f0f0 1px solid;
   list-style: none;
 }
-/* line 63, ../sass/_mixins.scss */
+/* line 60, ../sass/_mixins.scss */
 .left-menu ul li:last-child {
   border: none;
 }
-/* line 67, ../sass/_mixins.scss */
+/* line 63, ../sass/_mixins.scss */
 .left-menu ul li a {
   color: #000000;
   padding: 20px 0;
@@ -848,14 +848,28 @@ img {
   font-family: "crimson_textroman";
   font-size: 1rem;
 }
-/* line 74, ../sass/_mixins.scss */
+/* line 69, ../sass/_mixins.scss */
 .left-menu ul li a:hover {
   color: #8d5715;
   cursor: pointer;
-  font-weight: bold;
+  font-family: "crimson_textbold";
 }
-/* line 79, ../sass/_mixins.scss */
-.left-menu ul li a:hover:hover:after {
+/* line 73, ../sass/_mixins.scss */
+.left-menu ul li a:hover:after {
+  font-family: FontAwesome;
+  content: "\f105";
+  display: inline-block;
+  padding-left: 20px;
+  line-height: 12px;
+}
+/* line 82, ../sass/_mixins.scss */
+.left-menu ul li .active {
+  color: #8d5715;
+  cursor: pointer;
+  font-family: "crimson_textbold";
+}
+/* line 86, ../sass/_mixins.scss */
+.left-menu ul li .active:after {
   font-family: FontAwesome;
   content: "\f105";
   display: inline-block;
@@ -869,13 +883,13 @@ ul.leftmenu-bottom {
   padding: 0;
   margin: 0;
 }
-/* line 118, ../sass/_mixins.scss */
+/* line 124, ../sass/_mixins.scss */
 ul.leftmenu-bottom li {
   list-style: none;
   padding: 0;
   margin-top: 15px;
 }
-/* line 123, ../sass/_mixins.scss */
+/* line 128, ../sass/_mixins.scss */
 ul.leftmenu-bottom li a {
   display: block;
   padding: 20px;
@@ -886,7 +900,7 @@ ul.leftmenu-bottom li a {
   font-size: 1rem;
   font-weight: bold;
 }
-/* line 133, ../sass/_mixins.scss */
+/* line 137, ../sass/_mixins.scss */
 ul.leftmenu-bottom li a:hover {
   background: #8d5715;
   color: #ffffff;
@@ -898,7 +912,7 @@ ul.leftmenu-bottom li a:hover {
   margin-top: 10px;
   font-size: 0.75rem;
 }
-/* line 97, ../sass/_mixins.scss */
+/* line 102, ../sass/_mixins.scss */
 .breadcrumb span {
   color: #8d5715;
 }
