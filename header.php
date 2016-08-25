@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="css/about-department-society.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animations.css">
-    
+    <link rel="stylesheet" href="css/work-with-us.css">
+    <link rel="stylesheet" href="css/contact-us.css">
+
 
    </head>
 <body>
@@ -157,8 +159,8 @@
                                     <ul class="dropdown-menu">
                                         <li><a href="department.php">The Department</a></li>
                                         <li><a href="departmental_society.php">Departmental Society</a></li>
-                                        <li><a href="#">Work with Us</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="work_with_us.php">Work with Us</a></li>
+                                        <li><a href="contact_us.php">Contact</a></li>
 
                                     </ul>
                                 </li>
