@@ -103,8 +103,8 @@
     <div class="logo-section">
         <div class="container">
             <div class="row">
-                 <div class="col-xs-4 col-sm-4 col-lg-3 logo"><img src="images/snu-dept-logo.jpg">
-                    
+                 <div class="col-xs-4 col-sm-4 col-lg-3 logo"><a href="index.php"><img src="images/snu-dept-logo.jpg">
+                     </a> 
                 </div>
                 <div class="col-xs-3 col-sm-3 col-lg-3 dept-name"><span>Department</span> <span>of</span>
                     Economics</div>

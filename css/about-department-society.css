@@ -539,11 +539,17 @@ h6 {
 .search ul li:last-child {
   margin-left: 50px;
 }
-/* line 309, ../sass/_common.scss */
+@media screen and (max-width: 768px) {
+  /* line 307, ../sass/_common.scss */
+  .search ul li:last-child {
+    margin-left: 25px;
+  }
+}
+/* line 312, ../sass/_common.scss */
 .search ul li:last-child a {
   border-left: 2px solid #c3c3c3;
 }
-/* line 313, ../sass/_common.scss */
+/* line 316, ../sass/_common.scss */
 .search ul li a {
   font-family: "gotham_mediumregular";
   color: #c3c3c3;
@@ -551,7 +557,7 @@ h6 {
   font-size: 0.875rem;
 }
 
-/* line 323, ../sass/_common.scss */
+/* line 326, ../sass/_common.scss */
 .search-area {
   background: #7a490c;
   padding: 40px 0;
@@ -561,7 +567,7 @@ h6 {
   left: 0;
   display: none;
 }
-/* line 331, ../sass/_common.scss */
+/* line 334, ../sass/_common.scss */
 .search-area input {
   width: 100%;
   background: none;
@@ -572,62 +578,62 @@ h6 {
   margin-bottom: 15px;
 }
 @media screen and (min-width: 635px) {
-  /* line 331, ../sass/_common.scss */
+  /* line 334, ../sass/_common.scss */
   .search-area input {
     width: 44%;
     margin-bottom: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 331, ../sass/_common.scss */
+  /* line 334, ../sass/_common.scss */
   .search-area input {
     width: 49%;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 331, ../sass/_common.scss */
+  /* line 334, ../sass/_common.scss */
   .search-area input {
     width: 58%;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 331, ../sass/_common.scss */
+  /* line 334, ../sass/_common.scss */
   .search-area input {
     width: 65%;
   }
 }
-/* line 352, ../sass/_common.scss */
+/* line 355, ../sass/_common.scss */
 .search-area input:focus {
   outline: inherit;
 }
-/* line 355, ../sass/_common.scss */
+/* line 358, ../sass/_common.scss */
 .search-area input::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   font-family: "source_sans_prolight";
   font-size: 2rem;
   color: #d4cccc;
 }
-/* line 361, ../sass/_common.scss */
+/* line 364, ../sass/_common.scss */
 .search-area input::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "source_sans_prolight";
   font-size: 2rem;
   color: #d4cccc;
 }
-/* line 367, ../sass/_common.scss */
+/* line 370, ../sass/_common.scss */
 .search-area input:-ms-input-placeholder {
   /* IE 10+ */
   font-family: "source_sans_prolight";
   font-size: 2rem;
   color: #d4cccc;
 }
-/* line 374, ../sass/_common.scss */
+/* line 377, ../sass/_common.scss */
 .search-area span {
   font-size: 0.75rem;
   color: #ffffff;
   font-family: "open_sanslight";
 }
-/* line 379, ../sass/_common.scss */
+/* line 382, ../sass/_common.scss */
 .search-area button {
   background: #8d5715;
   border: 1px solid #8d5715;
@@ -636,74 +642,74 @@ h6 {
   padding: 5px 35px;
   margin-left: 15px;
 }
-/* line 386, ../sass/_common.scss */
+/* line 389, ../sass/_common.scss */
 .search-area button:last-child {
   background: none;
   margin-left: 5px;
 }
-/* line 390, ../sass/_common.scss */
+/* line 393, ../sass/_common.scss */
 .search-area button:focus {
   outline: inherit;
 }
 
 /* department main menu  */
-/* line 399, ../sass/_common.scss */
+/* line 402, ../sass/_common.scss */
 .department-main-menu {
   border: 1px solid #e7e7e7;
   border-right: none;
   border-left: none;
 }
-/* line 403, ../sass/_common.scss */
+/* line 406, ../sass/_common.scss */
 .department-main-menu .navbar-default {
   background: none;
   border: none;
   margin: 0;
 }
 @media screen and (max-width: 768px) {
-  /* line 407, ../sass/_common.scss */
+  /* line 410, ../sass/_common.scss */
   .department-main-menu .navbar-default .navbar-collapse {
     height: 300px;
     overflow-y: scroll;
   }
 }
-/* line 413, ../sass/_common.scss */
+/* line 416, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav {
   text-align: center;
   width: 100%;
 }
 @media screen and (max-width: 768px) {
-  /* line 413, ../sass/_common.scss */
+  /* line 416, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav {
     text-align: left;
   }
 }
-/* line 419, ../sass/_common.scss */
+/* line 422, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li {
   display: inline-block;
   float: unset;
   padding: 0 31px;
 }
 @media screen and (max-width: 1200px) {
-  /* line 419, ../sass/_common.scss */
+  /* line 422, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li {
     padding: 0 15px;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 419, ../sass/_common.scss */
+  /* line 422, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li {
     padding: 0;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 419, ../sass/_common.scss */
+  /* line 422, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li {
     float: left;
     width: 100%;
     padding: 0;
   }
 }
-/* line 434, ../sass/_common.scss */
+/* line 437, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li a {
   font-size: 1rem;
   color: #000000;
@@ -711,47 +717,47 @@ h6 {
   padding: 10px 25px;
 }
 @media screen and (max-width: 768px) {
-  /* line 434, ../sass/_common.scss */
+  /* line 437, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li a {
     padding: 10px 20px;
     line-height: 20px;
     border-bottom: #e7e7e7 1px solid;
   }
 }
-/* line 445, ../sass/_common.scss */
+/* line 448, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li .dropdown-menu {
   left: 31px;
 }
 @media screen and (max-width: 1200px) {
-  /* line 445, ../sass/_common.scss */
+  /* line 448, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li .dropdown-menu {
     left: 15px;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 445, ../sass/_common.scss */
+  /* line 448, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li .dropdown-menu {
     left: 0;
   }
 }
-/* line 455, ../sass/_common.scss */
+/* line 458, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li:last-child .dropdown-menu {
   right: 31px;
   left: inherit;
 }
 @media screen and (max-width: 1200px) {
-  /* line 455, ../sass/_common.scss */
+  /* line 458, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li:last-child .dropdown-menu {
     right: 15px;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 455, ../sass/_common.scss */
+  /* line 458, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li:last-child .dropdown-menu {
     right: 0;
   }
 }
-/* line 468, ../sass/_common.scss */
+/* line 471, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li.open a {
   color: #8d5715;
   font-family: "open_sansbold";
@@ -761,33 +767,33 @@ h6 {
   border-bottom: 1px solid #ffffff;
 }
 @media screen and (max-width: 768px) {
-  /* line 468, ../sass/_common.scss */
+  /* line 471, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li.open a {
     border: none;
   }
 }
-/* line 479, ../sass/_common.scss */
+/* line 482, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu {
   border: 1px solid #8d5715;
 }
 @media screen and (max-width: 768px) {
-  /* line 479, ../sass/_common.scss */
+  /* line 482, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu {
     padding-left: 20px;
     border: none;
   }
 }
-/* line 485, ../sass/_common.scss */
+/* line 488, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu li {
   width: 100%;
   border-top: 1px solid #e7e7e7;
   padding: 0 50px 0 20px;
 }
-/* line 489, ../sass/_common.scss */
+/* line 492, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu li:first-child {
   border-top: none;
 }
-/* line 492, ../sass/_common.scss */
+/* line 495, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu li a {
   color: #000000;
   font-family: "source_sans_proregular";
