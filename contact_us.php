@@ -20,54 +20,55 @@
             <div class="middle-content">
 
               <div class="contact-person">
-              <h1>Contact</h1>
-              <strong>Harish Venkatesh</strong><br/>
-                Head, Department of Civil Engineering
-              
-              <table width="100%" border="0" align="left">
-                <tr>
-                  <td valign="middle" width="20%" align="left">Location</td>
-                  <td valign="middle" width="5%" align="left">:</td>
-                  <td valign="middle" align="left">B220</td>
-                </tr>
-                
-                <tr>
-                  <td valign="middle" align="left">Phone</td>
-                  <td valign="middle" align="left">:</td>
-                  <td valign="middle" align="left">1234567890, Ext:200</td>
-                </tr>
-                
-                <tr>
-                  <td valign="middle" align="left">Email ID</td>
-                  <td valign="middle" align="left">:</td>
-                  <td valign="middle" align="left"><a href="mailto:callme-any-time@snu.edu.in">callme-any-time@snu.edu.in</a></td>
-                </tr>
-              </table>
+                <div class="animatedParent">
+                  <h1 class="animated fadeIn slower">Contact</h1></div>
+                <strong>Harish Venkatesh</strong>
+                <br/> Head, Department of Civil Engineering
+
+                <table width="100%" border="0" align="left">
+                  <tr>
+                    <td valign="middle" width="20%" align="left">Location</td>
+                    <td valign="middle" width="5%" align="left">:</td>
+                    <td valign="middle" align="left">B220</td>
+                  </tr>
+
+                  <tr>
+                    <td valign="middle" align="left">Phone</td>
+                    <td valign="middle" align="left">:</td>
+                    <td valign="middle" align="left">1234567890, Ext:200</td>
+                  </tr>
+
+                  <tr>
+                    <td valign="middle" align="left">Email ID</td>
+                    <td valign="middle" align="left">:</td>
+                    <td valign="middle" align="left"><a href="mailto:callme-any-time@snu.edu.in">callme-any-time@snu.edu.in</a></td>
+                  </tr>
+                </table>
               </div>
-              
+
               <div class="contact-person">
-              <strong>Indhukanth</strong><br/>
-                Position
-              
-              <table width="100%" border="0" align="left">
-                <tr>
-                  <td valign="middle" width="20%" align="left">Location</td>
-                  <td valign="middle" width="5%" align="left">:</td>
-                  <td valign="middle" align="left">B220</td>
-                </tr>
-                
-                <tr>
-                  <td valign="middle" align="left">Phone</td>
-                  <td valign="middle" align="left" >:</td>
-                  <td valign="middle" align="left">1234567890, Ext:200</td>
-                </tr>
-                
-                <tr>
-                  <td valign="middle" align="left">Email ID</td>
-                  <td valign="middle" align="left">:</td>
-                  <td valign="middle" align="left"><a href="mailto:callme-any-time@snu.edu.in">callme-any-time@snu.edu.in</a></td>
-                </tr>
-              </table>
+                <strong>Indhukanth</strong>
+                <br/> Position
+
+                <table width="100%" border="0" align="left">
+                  <tr>
+                    <td valign="middle" width="20%" align="left">Location</td>
+                    <td valign="middle" width="5%" align="left">:</td>
+                    <td valign="middle" align="left">B220</td>
+                  </tr>
+
+                  <tr>
+                    <td valign="middle" align="left">Phone</td>
+                    <td valign="middle" align="left">:</td>
+                    <td valign="middle" align="left">1234567890, Ext:200</td>
+                  </tr>
+
+                  <tr>
+                    <td valign="middle" align="left">Email ID</td>
+                    <td valign="middle" align="left">:</td>
+                    <td valign="middle" align="left"><a href="mailto:callme-any-time@snu.edu.in">callme-any-time@snu.edu.in</a></td>
+                  </tr>
+                </table>
               </div>
             </div>
           </div>
@@ -75,11 +76,17 @@
 
           <!-- Right Panel Start -->
           <div class="col-sm-4 right-panel">
+            
+            <div class="animatedParent">
+            <div class="animated bounceInRight slow">
             <div class="map"><img src="images/map.jpg" alt=""></div>
-            <p>Block C, Academic Block,<br/>
-            Shiv Nadar University, NH91, Tehsil<br/>
-            Dadri, Gautam Buddha Nagar,<br/>
-            Uttar Pradesh - 201314</p>
+              </div>
+            </div>
+              
+            <p>Block C, Academic Block,
+              <br/> Shiv Nadar University, NH91, Tehsil
+              <br/> Dadri, Gautam Buddha Nagar,
+              <br/> Uttar Pradesh - 201314</p>
           </div>
 
 
