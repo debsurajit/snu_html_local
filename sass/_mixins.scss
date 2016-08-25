@@ -67,6 +67,8 @@
         color: $black-color;
         padding: 20px 0;
         display: block;
+        font-family: $font-family-crimson-roman;
+        font-size: $font-size;
         
         &:hover {
           color: $department-base-color;
@@ -78,6 +80,7 @@
             content:"\f105";
             display: inline-block;
             padding-left:20px;
+            line-height: 12px;
           }
         }
       }
@@ -105,3 +108,31 @@
     margin: 0;
 } 
 
+/*Left Menu bottom*/
+@mixin leftmenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      list-style: none;
+      padding: 0;
+      margin-top: 15px;
+      
+      a {
+        display: block;
+        padding: 20px;
+        text-align: center;
+        border: $department-base-color 2px solid;
+        color: $department-base-color;
+        text-decoration: none;
+        font-size: $font-size;
+        font-weight: bold;
+        
+        &:hover {
+          background: $department-base-color;
+          color: $white-color;
+        }
+      }
+    }
+  }
