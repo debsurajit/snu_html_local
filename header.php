@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/about-department-society.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/work-with-us.css">
     
 
    </head>
