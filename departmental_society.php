@@ -9,14 +9,7 @@
     
     <!-- Left Panel Start -->
     <div class="col-sm-3">
-      <div class="left-menu">
-        <ul>
-          <li><a>The Department</a></li>
-          <li><a class="active">Departmental Societies</a></li>
-          <li><a>Work With Us</a></li>
-          <li><a>Contact</a></li>
-        </ul>
-      </div>
+      <?php include 'include/about-side-menu.php';?>
       <ul class="leftmenu-bottom">
         <li><a href="#">Interested in us?</a></li>
         <li><a href="#">Check out our Blog</a></li>
