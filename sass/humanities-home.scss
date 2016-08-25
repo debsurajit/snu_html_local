@@ -1,0 +1,435 @@
+@import 'main_import';
+
+/*  banner section */
+
+.humanity-banner-section {
+    .banner-img {
+        max-width: 1920px;
+        margin: 0 auto;
+        height: 430px;
+        margin-top: 243px;
+        position: relative;
+        @media screen and(max-width: $sm) {
+            height: 450px;
+        }
+        @media screen and(max-width:$xs) {
+            height: 700px;
+        }
+        img {
+            width: 1920px;
+            height: 430px;
+            position: absolute;
+            @media screen and(max-width: $sm) {
+                height: 450px;
+            }
+            @media screen and(max-width:$xs) {
+                height: 700px;
+            }
+        }
+    }
+    .banner-content {
+        padding: 100px 15px;
+        @media screen and(max-width: $sm) {
+            padding: 60px 15px;
+        }
+        @media screen and(max-width:$axs) {
+            padding: 48px 15px;
+        }
+        @media screen and(max-width:$xs) {
+            padding: 0 15px;
+            .full-width {
+                width: 50%;
+            }
+        }
+        .left-content {
+            color: $white-color;
+            h1 {
+                font-size: $font-lg;
+                color: $white-color;
+            }
+            p {
+                font-size: $font-size-sm;
+                font-family: $font-family-open-sans-light;
+            }
+        }
+        .right-content {
+            color: $white-color;
+            font-family: $font-family-open-sans-light;
+            font-size: $font-size-xs;
+            text-align: center;
+            line-height: 18px;
+            @media screen and(max-width: $sm) {
+                font-size: $font-size-m;
+            }
+            img {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+            span {
+                font-family: $font-family-open-sans-semibold;
+                width: 100%;
+                font-size: $font-size-m;
+                float: left;
+                padding-top: 10px;
+                @media screen and(max-width: $sm) {
+                    font-size: $font-size;
+                }
+            }
+        }
+    }
+}
+
+
+/* event section css */
+
+.humanity-event-section {
+    position: relative;
+    padding-bottom: 100px;
+    .humanity-event-section-bg {
+        background: $department-background;
+        height: 220px;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+    }
+    .research-update {
+        h5 {
+            @include small-heading;
+            color: $department-text-gray;
+            text-align: center;
+            padding: 45px 0 15px;
+        }
+        .slide {
+            box-shadow: 0 0 35px 15px rgba(0, 0, 0, 0.1);
+            .carousel-indicators {
+                top: 0;
+                right: 0;
+                left: inherit;
+                margin: 5px;
+                width: auto;
+                li {
+                    width: 8px;
+                    height: 8px;
+                    margin: 0;
+                }
+            }
+            .carousel-caption {
+                font-family: $font-family-open-sans-semibold;
+                font-size: $font-size;
+                text-shadow: none;
+                text-align: left;
+                left: 15px;
+                bottom: 15px;
+                right: inherit;
+                padding: 0;
+                width: 210px;
+                span {
+                    font-family: $font-family-open-sans-semibold;
+                    font-size: $font-size-s;
+                    width: 100%;
+                    float: left;
+                }
+            }
+        }
+    }
+    .upcoming-events {
+        h5 {
+            @include small-heading;
+            color: $department-text-gray;
+            text-align: center;
+            padding: 45px 0 15px;
+        }
+        .upcoming-events-block {
+            box-shadow: 0 0 35px 15px rgba(0, 0, 0, 0.1);
+            background: $widgets-background;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid darken($widgets-background, 20%);
+            @media screen and(max-width: $lg) {
+                padding: 10px;
+            }
+            .date {
+                width: 50px;
+                float: left;
+                font-size: $font-size-m;
+                font-family: $font-family-open-sans-bold;
+                line-height: 18px;
+                @media screen and(max-width: $lg) {
+                    width: 34px;
+                    height: 50px;
+                }
+            }
+            span {
+                width: 100%;
+                float: left;
+                font-size: $font-h4;
+                font-family: $font-family-open-sans-light;
+            }
+        }
+        .event-content {
+            font-size: $font-size-s;
+            color: $department-text-gray;
+            line-height: 26px;
+            h5 {
+                color: $department-base-color;
+                font-family: $font-family-open-sans-semibold;
+                text-transform: capitalize;
+                font-size: $font-size-m;
+                padding: 0;
+                text-align: left;
+                margin: 0;
+                @media screen and(max-width: $lg) {
+                    font-size: $font-size-s;
+                }
+            }
+            p {
+                @media screen and(max-width: $lg) {
+                    line-height: 14px;
+                }
+            }
+        }
+    }
+}
+
+
+/*  humanitices-program-section  */
+
+.humanitices-program-section{
+        background:$black-color;
+        min-height: 400px;
+        position: relative;
+        margin-bottom: 50px;
+
+    .max-width{
+           background:$black-color;
+            min-height: 400px;
+            width: auto;
+            margin: 0 auto;
+            position: relative;
+            max-width: auto;
+            color:red;
+        @media screen and (min-width:1920px){
+            width: 1920px;
+            margin: 0 auto;
+            max-width: 1920px;
+        }
+        .white-bg{
+            background: $white-color;
+           
+            width: 380px;
+            min-height: 400px;
+            float: left;
+            position: absolute;
+            left: 0;
+            @media screen and (min-width:$sm){
+                width: 150px;
+            }
+            @media screen and (min-width:$md){
+                width: 250px;
+            }
+            @media screen and (min-width:$lg){
+                width: 380px;
+            }
+            @media screen and (min-width:1920px){
+                width: 650px;
+            }
+            @media screen and (max-width:$sm){
+               display: none;
+            }
+            .widget-bg{
+                background: $department-background;
+                height: 580px;
+                position: absolute;
+                width: 200px;
+                top: 30px;
+                
+                @media screen and (max-width:$md){
+                width: 50px;
+            }
+                @media screen and (max-width:$sm){
+               display: none;
+            }
+            }
+        }
+    }
+    
+    .program-title{
+        h5{
+            @include small-heading;
+            padding: 0;
+            margin: 25px 0;
+            padding: 0 10px;
+        }
+
+        
+    }
+    
+    .body-cotation-text{
+        font-family: $font-family-crimson-italic;
+        color: $white-color;
+        font-size: $font-size-sm;
+        line-height: 30px;
+        padding: 50px 0 50px 100px;
+        @media screen and (max-width:$md){
+            padding-left: 30px;
+        }
+        @media screen and (max-width:$md){
+            padding-bottom: 0;
+        }
+        p{
+            &:nth-child(2){
+                span{
+                    width: 100%;
+                    float: left;
+                    font-family: $font-family-open-sans-semibold;
+                    color: $department-base-color;
+                    font-size: $font-size;
+                }
+                font-family: $font-family-open-sans-light;
+                font-size: $font-size-s;
+                line-height: 18px;
+            }
+        }
+    }
+    
+    .humanities-programs-button{
+        padding-top: 70px;
+        button{
+            @include humanities-gray-button;
+           text-align: left;
+            float: right;
+            margin-bottom: 15px;
+            @media screen and (max-width:$sm){
+               width: 250px;
+                &:first-child{
+                    float: left;
+                }
+            }
+            
+            @media screen and (max-width:$axs){
+               width: 100%;
+                &:first-child{
+                    float: left;
+                }
+            }
+        }
+        
+    }
+}
+
+
+/* research area section */
+
+.research-area {
+    padding-bottom: 30px;
+    .event-area-img {
+        .overlap-area {
+            margin-bottom: 30px;
+            display: table;
+            img {
+                width: 100%;
+            }
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: table-cell;
+                padding: 0 15px;
+                width: 100%;
+                height: 100%;
+                vertical-align: middle;
+                div {
+                    background: rgba(0, 0, 0, 0.3);
+                    width: 100%;
+                    display: table;
+                    height: 100%;
+                    text-align: center;
+                    h4 {
+                        display: table-cell;
+                        height: 100%;
+                        vertical-align: middle;
+                        color: $white-color;
+                        font-family: $font-family-open-sans;
+                    }
+                }
+            }
+        }
+    }
+    .event-area-content {
+        padding-top: 0;
+        @media screen and(min-width: $lg) {
+            padding-top: 125px;
+        }
+        h5 {
+             @include small-heading;
+            padding: 0;
+        }
+        h1 {
+            padding-top: 0;
+        }
+        p {
+            font-size: $font-size;
+            a {
+                font-family: $font-family-open-sans-bold;
+                color: $department-base-color;
+                text-decoration: underline;
+                font-size: $font-size;
+            }
+        }
+    }
+}
+
+
+/* news secton */
+
+.news-section {
+    background: $widgets-background;
+    padding: 20px 0 10px;
+    margin-bottom: 30px;
+    h5{
+        @include small-heading;
+    }
+    
+    
+    .thumbnail {
+        background: none;
+        padding: 0;
+        border: none;
+        img {
+            width: 100%;
+        }
+        .caption {
+            padding: 10px 0 0;
+            color: $black-color;
+            h3 {
+                padding: 0 0 10px 0;
+                line-height: 24px;
+                min-height: 60px;
+            }
+            p {
+                margin: 0;
+            }
+        }
+    }
+    .new-content {
+        color: $department-text-gray;
+        font-size: $font-size-s;
+        font-family: $font-family-open-sans-bold;
+        h4 {
+            font-family: $font-family-open-sans-semibold;
+            color: $department-base-color;
+            margin: 0 0 20px;
+            font-size: $font-size-l;
+        }
+        .read-more {
+            @include read-more-button;
+        }
+    }
+    
+    .full-width{
+         @media screen and(max-width: $xs) {
+                   width: 100%;
+                }
+    }
+}

@@ -1,0 +1,38 @@
+@import 'main_import';
+
+.margin-top {
+  margin-top: 250px;
+}
+
+/*Banner*/
+.banner {
+  margin-top: 40px; 
+  
+  img {
+    max-width: 100%;
+  }
+}
+
+/*Left Panel*/
+.left-menu {
+  @include left-menu-structure;
+}
+
+.breadcrumb {
+  @include breadcrumb;
+}/*Left Panel*/
+.left-menu {
+  @include left-menu-structure;
+}
+
+.breadcrumb {
+  @include breadcrumb;
+}
+
+#owl-demo {
+  .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}

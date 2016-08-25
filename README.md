@@ -1,1 +1,0 @@
-# snu_html_local

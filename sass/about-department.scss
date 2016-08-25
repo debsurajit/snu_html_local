@@ -1,0 +1,58 @@
+@import 'main_import';
+
+/*Banner*/
+
+.banner {
+    @include banner-max-width;
+    margin-top: 280px;
+}
+
+
+/*Left Panel*/
+
+.left-menu {
+    @include left-menu-structure;
+}
+
+.breadcrumb {
+    @include breadcrumb;
+}
+
+
+/*Middle Content Panel*/
+
+.middle-content {
+    a {
+        color: $department-base-color;
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.title {
+    @include heading-title;
+}
+
+
+/*Right Panel*/
+
+.right-panel {
+    padding: 93px 0 0;
+    @media screen and (max-width: $sm) {
+        padding: 20px 0 0;
+    }
+    h4 {
+        font-size: $font-size-m;
+        padding-top: 6px;
+        span {
+            font-size: $font-size-s;
+        }
+    }
+    .testimonial {
+        color: $department-highlight-color;
+        font-style: italic;
+        font-size: $font-size-s;
+    }
+}
