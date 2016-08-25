@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="css/work-with-us.css">
-    
+    <link rel="stylesheet" href="css/contact-us.css">
+
 
    </head>
 <body>
