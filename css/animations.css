@@ -30,6 +30,13 @@
     animation-fill-mode: both; 
 }
 
+.slowMost{
+     -webkit-animation-duration: 4s; 
+    animation-duration: 4s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+}
+
 /* Added by Andy Meetan */
 .delay-250 {
     -webkit-animation-delay:0.25s;
