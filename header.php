@@ -103,8 +103,8 @@
     <div class="logo-section">
         <div class="container">
             <div class="row">
-                 <div class="col-xs-4 col-sm-4 col-lg-3 logo"><img src="images/snu-dept-logo.jpg">
-                    
+                 <div class="col-xs-4 col-sm-4 col-lg-3 logo"><a href="index.php"><img src="images/snu-dept-logo.jpg">
+                     </a> 
                 </div>
                 <div class="col-xs-3 col-sm-3 col-lg-3 dept-name"><span>Department</span> <span>of</span>
                     Economics</div>
@@ -155,11 +155,11 @@
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li><a href="#">Separated link</a></li>
-                                        
+                                        <li><a href="department.php">The Department</a></li>
+                                        <li><a href="departmental_society.php">Departmental Society</a></li>
+                                        <li><a href="#">Work with Us</a></li>
+                                        <li><a href="#">Contact</a></li>
+
                                     </ul>
                                 </li>
                                 
