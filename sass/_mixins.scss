@@ -1,138 +1,143 @@
 @import 'variables';
-
 @mixin transition($transition) {
-        transition: $transition;
-        -webkit-transition: $transition;
-        -moz-transition: $transition;
-    }
+    transition: $transition;
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+}
 
-
-@mixin read-more-button{
-
-        background: $department-base-color;
-        border: none;
-        font-size: $font-size-l;
-        color: $white-color;
-        padding: 20px;
-        width: 250px;
+@mixin read-more-button {
+    background: $department-base-color;
+    border: none;
+    font-size: $font-size-l;
+    color: $white-color;
+    padding: 20px;
+    width: 250px;
     font-family: $font-family-open-sans;
-
 }
 
-@mixin small-heading{
-   
-        font-family: $font-family-open-sans-bold;
-        color: $department-light-gray;
+@mixin small-heading {
+    font-family: $font-family-open-sans-bold;
+    color: $department-light-gray;
+    font-size: $font-size-l;
+    text-transform: uppercase;
+    padding: 0 15px 10px;
+    @media screen and (min-width: $sm) {
+        font-size: $font-size;
+    }
+    @media screen and (min-width: $md) {
         font-size: $font-size-m;
-        text-transform: uppercase;
-        padding: 0 15px 10px;
+    }
 }
 
-@mixin humanities-gray-button{
+@mixin humanities-gray-button {
     background: $department-text-gray;
-        border: none;
-        font-size: $font-size-l;
-        color: $white-color;
-        padding: 20px;
-        width: 100%;
+    border: none;
+    font-size: $font-size-l;
+    color: $white-color;
+    padding: 20px;
+    width: 100%;
     font-family: $font-family-open-sans;
 }
 
 @mixin banner-max-width {
-  margin: 0 auto;
-  max-width: 1440px;
-  position: relative;
-  height: 720px;
-   @media screen and (max-width: $md) {
-    height: auto;
-  }
+    margin: 0 auto;
+    max-width: 1440px;
+    position: relative;
+    height: 720px;
+    @media screen and (max-width: $md) {
+        height: auto;
+    }
 }
 
 @mixin left-menu-structure {
-  background: $white-color;
-  
-  ul {
-    padding-left: 23px;
-    list-style: none;
-    
-    li {
-      border-bottom: $widgets-background 1px solid;
-      list-style: none;
-      
-      &:last-child {
-        border: none;
-      }
-      
-      a {
-        color: $black-color;
-        padding: 20px 0;
-        display: block;
-        font-family: $font-family-crimson-roman;
-        font-size: $font-size;
-        
-        &:hover {
-          color: $department-base-color;
-          cursor: pointer;
-          font-weight: bold;
-          
-          &:hover:after {
-            font-family: FontAwesome;
-            content:"\f105";
-            display: inline-block;
-            padding-left:20px;
-            line-height: 12px;
-          }
+    background: $white-color;
+    ul {
+        padding-left: 23px;
+        list-style: none;
+        li {
+            border-bottom: $widgets-background 1px solid;
+            list-style: none;
+            &:last-child {
+                border: none;
+            }
+            a {
+                color: $black-color;
+                padding: 20px 0;
+                display: block;
+                font-family: $font-family-crimson-roman;
+                font-size: $font-size;
+                &:hover {
+                    color: $department-base-color;
+                    cursor: pointer;
+                    font-family: $font-family-crimson-bold;
+                    &:after {
+                        font-family: FontAwesome;
+                        content: "\f105";
+                        display: inline-block;
+                        padding-left: 20px;
+                        line-height: 12px;
+                    }
+                }
+            }
+            .active {
+                color: $department-base-color;
+                cursor: pointer;
+                font-family: $font-family-crimson-bold;
+                &:after {
+                    font-family: FontAwesome;
+                    content: "\f105";
+                    display: inline-block;
+                    padding-left: 20px;
+                    line-height: 12px;
+                }
+            }
         }
-      }
     }
-  }
 }
 
 @mixin breadcrumb {
-  background: none;
-  margin-top: 10px;
-  font-size: $font-size-s;
-  
-  span {
-    color: $department-base-color;
-  }
+    background: none;
+    margin-top: 10px;
+    font-size: $font-size-s;
+    span {
+        color: $department-base-color;
+    }
 }
 
 @mixin heading-title {
     font-size: 2rem;
     line-height: 32px;
     color: $department-base-color;
-    font-family:$font-family-crimson-roman;
+    font-family: $font-family-crimson-roman;
     font-weight: normal;
     padding: 30px 0;
     margin: 0;
-} 
+}
+
 
 /*Left Menu bottom*/
+
 @mixin leftmenu {
     list-style: none;
     padding: 0;
     margin: 0;
-    
     li {
-      list-style: none;
-      padding: 0;
-      margin-top: 15px;
-      
-      a {
-        display: block;
-        padding: 20px;
-        text-align: center;
-        border: $department-base-color 2px solid;
-        color: $department-base-color;
-        text-decoration: none;
-        font-size: $font-size;
-        font-weight: bold;
-        
-        &:hover {
-          background: $department-base-color;
-          color: $white-color;
+        list-style: none;
+        padding: 0;
+        margin-top: 15px;
+        a {
+            display: block;
+            padding: 20px;
+            text-align: center;
+            border: $department-base-color 2px solid;
+            color: $department-base-color;
+            text-decoration: none;
+            font-size: $font-size;
+            font-weight: bold;
+            &:hover {
+                background: $department-base-color;
+                color: $white-color;
+            }
         }
-      }
     }
-  }
+}

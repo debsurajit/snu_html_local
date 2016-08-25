@@ -58,8 +58,8 @@
     <div class="humanity-event-section-bg">&nbsp;</div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-2">&nbsp;</div>
-            <div class="col-sm-4 research-update">
+            <div class="col-md-1 col-lg-2 hidden-sm hidden-xs">&nbsp;</div>
+            <div class="col-xs-6 col-md-5 col-lg-4 research-update">
                 <h5>Research Updates</h5>
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                       <!-- Indicators -->
@@ -91,7 +91,7 @@
                      
                     </div>
             </div>
-            <div class="col-sm-4 upcoming-events">
+            <div class="col-xs-6  col-md-5 col-lg-4 upcoming-events">
                 <h5>Upcoming Events</h5>
                 <div class="upcoming-events-block">
                     <div>
@@ -137,7 +137,7 @@
                 </div>
                 
             </div>
-            <div class="col-sm-2">&nbsp;</div>
+            <div class="col-md-1 col-lg-2 hidden-sm hidden-xs">&nbsp;</div>
         </div>
     </div>
 </div>  <!-- Event section end  -->
@@ -242,6 +242,7 @@
                 <div class="thumbnail">
                   <img src="images/humanity-news-img.jpg">
                   <div class="caption">
+                    <span>02 May 2016</span>  
                     <h3>Thumbnail label Thumbnail label</h3>
                     <p>Morbi vulputate lorem vitae mattis condimentum pharetra</p>
                    
@@ -253,6 +254,7 @@
                 <div class="thumbnail">
                   <img src="images/humanity-news-img.jpg">
                   <div class="caption">
+                      <span>02 May 2016</span>
                     <h3>Thumbnail label</h3>
                     <p>Morbi vulputate lorem vitae mattis condimentum pharetra</p>
                    
@@ -264,6 +266,7 @@
                 <div class="thumbnail">
                   <img src="images/humanity-news-img.jpg">
                   <div class="caption">
+                      <span>02 May 2016</span>
                     <h3>Thumbnail label</h3>
                     <p>Morbi vulputate lorem vitae mattis condimentum pharetra</p>
                    
