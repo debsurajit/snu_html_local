@@ -47,7 +47,7 @@
 
       <div class="row">
         <div class="col-sm-8">
-          <h2 class="title">Accreditition</h2>
+          <h3>Accreditition</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis nulla. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis nulla. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu.</p>
         </div>
         <div class="col-sm-4 right-panel">
