@@ -155,11 +155,11 @@
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li><a href="#">Separated link</a></li>
-                                        
+                                        <li><a href="department.php">The Department</a></li>
+                                        <li><a href="departmental_society.php">Departmental Society</a></li>
+                                        <li><a href="#">Work with Us</a></li>
+                                        <li><a href="#">Contact</a></li>
+
                                     </ul>
                                 </li>
                                 
