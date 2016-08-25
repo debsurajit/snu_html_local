@@ -23,11 +23,15 @@
     <div class="col-sm-9">
       <div class="row">
         <div class="col-sm-8 middle-content">
-          <h1>The Department</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">Nulla eu mattis nulla</a>. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis nulla. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis nulla. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis nulla. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis nulla. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu.</p>
-
-
+          <div class="animatedParent">
+            <h1 class="animated fadeIn slower">The Department</h1>
+          </div>
+          <div class="animatedParent">
+            <div class="animated bounceInUp slower">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">Nulla eu mattis nulla</a>. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis nulla. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis nulla. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullam class="animated fadeIn slower"corper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis nulla. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis nulla. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu.</p>
+            </div>
+          </div>
 
 
         </div>
@@ -35,24 +39,37 @@
 
         <!-- Right Panel Start -->
         <div class="col-sm-4 right-panel">
-          <img src="images/right-img.jpg" alt=" ">
+          <div class="animatedParent">
+            <div class="animated bounceInRight slower">
+              <img src="images/right-img.jpg" alt=" ">
+            </div>
+          </div>
           <h4>Dr. Jaydeep Chaterjee<br/>
         <span>Head of the Department</span></h4>
           <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis nulla. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu.</p>
 
-          
+
         </div>
         <!-- Right Panel End -->
       </div>
 
       <div class="row">
         <div class="col-sm-8">
-          <h2 class="title">Accreditition</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis nulla. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis nulla. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu.</p>
+
+          <div class="animatedParent">
+            <div class="animated bounceInUp slower">
+              <h2 class="title">Accreditition</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis nulla. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis nulla. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu.</p>
+            </div>
+          </div>
         </div>
         <div class="col-sm-4 right-panel">
-          <img src="images/iao-logo.jpg" alt=" ">
-          <img src="images/bac-logo.jpg" alt=" ">
+          <div class="animatedParent">
+            <div class="animated bounceInRight slower">
+              <img src="images/iao-logo.jpg" alt=" ">
+              <img src="images/bac-logo.jpg" alt=" ">
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -60,6 +77,4 @@
   </div>
 
 
-<?php include 'footer.php';?>
-
-
+  <?php include 'footer.php';?>
