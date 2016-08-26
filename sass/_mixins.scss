@@ -53,10 +53,10 @@
     background: $white-color;
     box-shadow: 12px 1px 50px 8px rgba(0, 0, 0, 0.05);
     ul {
-        padding-left: 23px;
+        
         list-style: none;
         li {
-            border-bottom: $widgets-background 1px solid;
+            
             list-style: none;
             &:last-child {
                 border: none;
@@ -65,8 +65,10 @@
                 color: $black-color;
                 padding: 20px 0;
                 display: block;
+                border-bottom: $widgets-background 1px solid;
                 font-family: $font-family-crimson-roman;
                 font-size: $font-size;
+                margin-left: 20px;
                 
             @media screen and (max-width:$sm) {
                 font-size: $font-size-l;
@@ -82,7 +84,8 @@
                         padding-left: 20px;
                         line-height: 12px;
                     }
-                }
+                }              
+              
             }
             .active {
                 color: $department-base-color;
@@ -96,6 +99,24 @@
                     line-height: 12px;
                 }
             }
+          
+
+                    ul {
+            
+            
+              width: 100%;
+              padding-left: 20px;
+              background: $light-gray-button-color;
+              
+              li {
+                
+                a {
+                  border-bottom: $white-color 2px solid;
+                }
+              }
+            
+          }
+          
         }
     }
 }
@@ -209,4 +230,40 @@
     @media screen and (max-width:$axs){
                 margin-bottom: 30px;
             }
+}
+
+/*Team Structure*/
+
+@mixin team-structure {
+  ul {
+        list-style: none;
+        padding: 0;
+        li {
+            list-style: none;
+            font-size: $font-size-s;
+            margin-bottom: 25px;
+            line-height: 16px;
+            font-family: $font-family-medium;
+            @media screen and (max-width: $lg) {
+                img {
+                    max-width: 100%;
+                    padding: 0 5px;
+                }
+            }
+            @media screen and (max-width:$sm) {
+                text-align: center;
+            }
+            h3 {
+                font-size: $font-size-m;
+                color: $black-color;
+                padding: 10px 0 0;
+                line-height: 16px;
+                font-family: $font-family-medium;
+            }
+            a {
+                color: $black-color;
+                text-decoration: underline;
+            }
+        }
+    }
 }

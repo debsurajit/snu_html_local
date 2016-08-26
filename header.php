@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/contact-us.css">
     <link rel="stylesheet" href="css/areas-of-research.css">
     <link rel="stylesheet" href="css/facilities.css">
+    <link rel="stylesheet" href="css/people-faculty.css">
 
 
    </head>
