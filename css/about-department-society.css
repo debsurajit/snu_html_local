@@ -225,7 +225,7 @@ h3 {
   color: #8d5715;
   font-family: "crimson_textroman";
   font-weight: normal;
-  padding: 30px 0;
+  padding: 50px 0 25px;
   margin: 0;
 }
 
@@ -851,7 +851,7 @@ h6 {
     font-size: 1rem;
   }
 }
-/* line 175, ../sass/_mixins.scss */
+/* line 187, ../sass/_mixins.scss */
 .undergraduate-brown-button span {
   color: #ffffff;
   font-family: "open_sansbold";
@@ -890,7 +890,7 @@ h6 {
     font-size: 1rem;
   }
 }
-/* line 204, ../sass/_mixins.scss */
+/* line 215, ../sass/_mixins.scss */
 .undergraduate-gray-button span {
   color: #8d5715;
   font-family: "open_sansbold";
@@ -1072,11 +1072,25 @@ h6 {
 }
 
 /*First Paragraph of Content*/
-/* line 664, ../sass/_common.scss */
+/* line 665, ../sass/_common.scss */
 .crimsone-text {
   font-family: "crimson_textroman";
   font-size: 1rem;
   margin-bottom: 25px;
+}
+
+/* line 671, ../sass/_common.scss */
+.top-fix-color-bg-wrapper {
+  position: relative;
+}
+/* line 673, ../sass/_common.scss */
+.top-fix-color-bg-wrapper .top-fix-color-bg {
+  background: #eee5dc;
+  width: 350px;
+  position: absolute;
+  left: -310px;
+  top: -7px;
+  height: 400px;
 }
 
 /* line 3, ../sass/about-department-society.scss */
@@ -1107,39 +1121,39 @@ img {
 }
 /* line 55, ../sass/_mixins.scss */
 .left-menu ul {
-  padding-left: 23px;
   list-style: none;
 }
-/* line 58, ../sass/_mixins.scss */
+/* line 57, ../sass/_mixins.scss */
 .left-menu ul li {
-  border-bottom: #f0f0f0 1px solid;
   list-style: none;
 }
-/* line 61, ../sass/_mixins.scss */
+/* line 59, ../sass/_mixins.scss */
 .left-menu ul li:last-child {
   border: none;
 }
-/* line 64, ../sass/_mixins.scss */
+/* line 62, ../sass/_mixins.scss */
 .left-menu ul li a {
   color: #000000;
   padding: 20px 0;
   display: block;
+  border-bottom: #f0f0f0 1px solid;
   font-family: "crimson_textroman";
   font-size: 1rem;
+  margin-left: 20px;
 }
 @media screen and (max-width: 768px) {
-  /* line 64, ../sass/_mixins.scss */
+  /* line 62, ../sass/_mixins.scss */
   .left-menu ul li a {
     font-size: 1.125rem;
   }
 }
-/* line 74, ../sass/_mixins.scss */
+/* line 73, ../sass/_mixins.scss */
 .left-menu ul li a:hover {
   color: #8d5715;
   cursor: pointer;
   font-family: "crimson_textbold";
 }
-/* line 78, ../sass/_mixins.scss */
+/* line 77, ../sass/_mixins.scss */
 .left-menu ul li a:hover:after {
   font-family: FontAwesome;
   content: "\f105";
@@ -1147,19 +1161,33 @@ img {
   padding-left: 20px;
   line-height: 12px;
 }
-/* line 87, ../sass/_mixins.scss */
+/* line 86, ../sass/_mixins.scss */
 .left-menu ul li .active {
   color: #8d5715;
   cursor: pointer;
   font-family: "crimson_textbold";
 }
-/* line 91, ../sass/_mixins.scss */
+/* line 90, ../sass/_mixins.scss */
 .left-menu ul li .active:after {
   font-family: FontAwesome;
   content: "\f105";
   display: inline-block;
   padding-left: 20px;
   line-height: 12px;
+}
+/* line 98, ../sass/_mixins.scss */
+.left-menu ul li ul {
+  width: 100%;
+  padding-left: 20px;
+  background: #f8f8f8;
+}
+/* line 103, ../sass/_mixins.scss */
+.left-menu ul li ul li a {
+  border-bottom: #ffffff 2px solid;
+}
+/* line 108, ../sass/_mixins.scss */
+.left-menu ul li ul li:last-child a {
+  border-bottom: none;
 }
 
 /* line 28, ../sass/about-department-society.scss */
@@ -1168,13 +1196,13 @@ ul.leftmenu-bottom {
   padding: 0;
   margin: 0;
 }
-/* line 125, ../sass/_mixins.scss */
+/* line 141, ../sass/_mixins.scss */
 ul.leftmenu-bottom li {
   list-style: none;
   padding: 0;
   margin-top: 15px;
 }
-/* line 129, ../sass/_mixins.scss */
+/* line 145, ../sass/_mixins.scss */
 ul.leftmenu-bottom li a {
   display: block;
   padding: 20px;
@@ -1185,7 +1213,7 @@ ul.leftmenu-bottom li a {
   font-size: 1rem;
   font-weight: bold;
 }
-/* line 138, ../sass/_mixins.scss */
+/* line 154, ../sass/_mixins.scss */
 ul.leftmenu-bottom li a:hover {
   background: #8d5715;
   color: #ffffff;
@@ -1197,7 +1225,7 @@ ul.leftmenu-bottom li a:hover {
   margin-top: 10px;
   font-size: 0.75rem;
 }
-/* line 107, ../sass/_mixins.scss */
+/* line 123, ../sass/_mixins.scss */
 .breadcrumb span {
   color: #8d5715;
 }

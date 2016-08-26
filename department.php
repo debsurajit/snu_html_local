@@ -4,13 +4,14 @@
   <!-- Banner Start -->
   <div class="banner">
     <img src="images/department-banner.jpg" alt="">
+      <div class="top-fix-color-bg">&nbsp;</div>
   </div>
   <!-- Banner End -->
 
 
   <!-- Content Start -->
   <div class="container">
-
+     
     <div class="breadcrumb col-md-offset-3">About / <span>The Department</span></div>
 
     <!-- Left Panel Start -->

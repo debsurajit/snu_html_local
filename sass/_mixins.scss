@@ -53,10 +53,8 @@
     background: $white-color;
     box-shadow: 12px 1px 50px 8px rgba(0, 0, 0, 0.05);
     ul {
-        padding-left: 23px;
         list-style: none;
         li {
-            border-bottom: $widgets-background 1px solid;
             list-style: none;
             &:last-child {
                 border: none;
@@ -65,12 +63,13 @@
                 color: $black-color;
                 padding: 20px 0;
                 display: block;
+                border-bottom: $widgets-background 1px solid;
                 font-family: $font-family-crimson-roman;
                 font-size: $font-size;
-                
-            @media screen and (max-width:$sm) {
-                font-size: $font-size-l;
-            }
+                margin-left: 20px;
+                @media screen and (max-width: $sm) {
+                    font-size: $font-size-l;
+                }
                 &:hover {
                     color: $department-base-color;
                     cursor: pointer;
@@ -96,9 +95,26 @@
                     line-height: 12px;
                 }
             }
+            ul {
+                width: 100%;
+                padding-left: 20px;
+                background: $light-gray-button-color;
+                li {
+                    a {
+                        border-bottom: $white-color 2px solid;
+                    }
+                    
+                    &:last-child{
+                       a {
+                        border-bottom: none;
+                    } 
+                    }
+                }
+            }
         }
     }
 }
+
 
 @mixin breadcrumb {
     background: none;
@@ -139,8 +155,6 @@
                 background: $department-base-color;
                 color: $white-color;
             }
-            
-            
         }
     }
 }
@@ -148,7 +162,7 @@
 
 /* undergraduate body button */
 
-@mixin undergraduate-brown-button{
+@mixin undergraduate-brown-button {
     background: $department-base-color;
     border: none;
     font-size: $font-size-xl;
@@ -158,27 +172,25 @@
     margin-top: 20px;
     min-height: 78px;
     font-family: $font-family-open-sans-light;
-    
-    @media screen and (min-width:$axs){
+    @media screen and (min-width: $axs) {
         width: 47%;
         font-size: $font-size-ll;
     }
-    
-    @media screen and (min-width:$sm){
+    @media screen and (min-width:$sm) {
         width: 100%;
         font-size: $font-size-l;
     }
-    @media screen and (min-width:$md){
+    @media screen and (min-width:$md) {
         width: 47%;
         font-size: $font-size;
     }
-    span{
+    span {
         color: $white-color;
         font-family: $font-family-open-sans-bold;
     }
 }
 
-@mixin undergraduate-gray-button{
+@mixin undergraduate-gray-button {
     background: $widgets-background;
     border: none;
     font-size: $font-size-xl;
@@ -188,25 +200,23 @@
     font-family: $font-family-open-sans-light;
     margin-top: 20px;
     min-height: 78px;
-    @media screen and (min-width:$axs){
+    @media screen and (min-width: $axs) {
         width: 47%;
         font-size: $font-size-ll;
     }
-    
-    @media screen and (min-width:$sm){
+    @media screen and (min-width:$sm) {
         width: 100%;
         font-size: $font-size-l;
     }
-    @media screen and (min-width:$md){
+    @media screen and (min-width:$md) {
         width: 47%;
         font-size: $font-size;
     }
-    span{
+    span {
         color: $department-base-color;
         font-family: $font-family-open-sans-bold;
     }
-    
-    @media screen and (max-width:$axs){
-                margin-bottom: 30px;
-            }
+    @media screen and (max-width:$axs) {
+        margin-bottom: 30px;
+    }
 }
