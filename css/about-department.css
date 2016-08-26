@@ -887,6 +887,12 @@ h6 {
   color: #8d5715;
   font-family: "open_sansbold";
 }
+@media screen and (max-width: 635px) {
+  /* line 520, ../sass/_common.scss */
+  .undergraduate-gray-button {
+    margin-bottom: 30px;
+  }
+}
 
 /* Right Side Academic calender section */
 /* line 528, ../sass/_common.scss */
@@ -897,7 +903,7 @@ h6 {
   color: #8d5715;
 }
 /* line 536, ../sass/_common.scss */
-.academic-calender button:nth-child(2) {
+.academic-calender .button-1 {
   background: none;
   border: 2px solid #8d5715;
   width: 100%;
@@ -909,32 +915,32 @@ h6 {
 }
 @media screen and (min-width: 635px) {
   /* line 536, ../sass/_common.scss */
-  .academic-calender button:nth-child(2) {
+  .academic-calender .button-1 {
     font-size: 1.375em;
     font-family: "open_sansbold";
   }
 }
 @media screen and (min-width: 768px) {
   /* line 536, ../sass/_common.scss */
-  .academic-calender button:nth-child(2) {
+  .academic-calender .button-1 {
     font-size: 1.125rem;
     font-family: "open_sansbold";
   }
 }
 @media screen and (min-width: 992px) {
   /* line 536, ../sass/_common.scss */
-  .academic-calender button:nth-child(2) {
+  .academic-calender .button-1 {
     font-size: 0.875rem;
   }
 }
 @media screen and (min-width: 1200px) {
   /* line 536, ../sass/_common.scss */
-  .academic-calender button:nth-child(2) {
+  .academic-calender .button-1 {
     font-size: 1rem;
   }
 }
-/* line 561, ../sass/_common.scss */
-.academic-calender button:nth-child(3) {
+/* line 562, ../sass/_common.scss */
+.academic-calender .button-2 {
   background: url(../images/button-bg.jpg) no-repeat 0 -1px #8d5715;
   border: none;
   width: 100%;
@@ -944,28 +950,28 @@ h6 {
   color: #ffffff;
 }
 @media screen and (min-width: 635px) {
-  /* line 561, ../sass/_common.scss */
-  .academic-calender button:nth-child(3) {
+  /* line 562, ../sass/_common.scss */
+  .academic-calender .button-2 {
     font-size: 1.375em;
     font-family: "open_sansbold";
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 561, ../sass/_common.scss */
-  .academic-calender button:nth-child(3) {
+  /* line 562, ../sass/_common.scss */
+  .academic-calender .button-2 {
     font-size: 1.125rem;
     font-family: "open_sansbold";
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 561, ../sass/_common.scss */
-  .academic-calender button:nth-child(3) {
+  /* line 562, ../sass/_common.scss */
+  .academic-calender .button-2 {
     font-size: 0.875rem;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 561, ../sass/_common.scss */
-  .academic-calender button:nth-child(3) {
+  /* line 562, ../sass/_common.scss */
+  .academic-calender .button-2 {
     font-size: 1rem;
   }
 }
@@ -990,7 +996,7 @@ h6 {
 /* line 13, ../sass/about-department.scss */
 .left-menu {
   background: #ffffff;
-  box-shadow: 12px 1px 50px 8px rgba(0, 0, 0, 0.04);
+  box-shadow: 12px 1px 50px 8px rgba(0, 0, 0, 0.05);
 }
 /* line 55, ../sass/_mixins.scss */
 .left-menu ul {
@@ -1109,3 +1115,5 @@ h6 {
   font-style: italic;
   font-size: 0.75rem;
 }
+
+/*# sourceMappingURL=about-department.css.map */
