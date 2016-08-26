@@ -139,6 +139,7 @@
 /*19px*/
 /*20px*/
 /*22px*/
+/*15px*/
 /*14px*/
 /*12px*/
 /*11px*/
@@ -970,22 +971,51 @@ h6 {
   }
 }
 
-/* line 3, ../sass/contact-us.scss */
-.contact-person {
-  margin-bottom: 40px;
-  overflow: hidden;
-}
-/* line 7, ../sass/contact-us.scss */
-.contact-person table {
-  margin-top: 10px;
-}
-/* line 10, ../sass/contact-us.scss */
-.contact-person table a {
-  text-decoration: none;
-  color: #000000;
+/*Content*/
+/* line 4, ../sass/areas-of-research.scss */
+.crimsone-text {
+  font-family: "crimson_textroman";
+  font-size: 1rem;
+  margin-bottom: 25px;
 }
 
-/* line 17, ../sass/contact-us.scss */
-.map {
-  margin-bottom: 20px;
+/*Research Table*/
+/* line 11, ../sass/areas-of-research.scss */
+.research-table {
+  margin: 60px 0 50px;
+}
+/* line 15, ../sass/areas-of-research.scss */
+.research-table tr:nth-child(odd) {
+  background: #f8f8f8;
+}
+/* line 19, ../sass/areas-of-research.scss */
+.research-table td {
+  padding: 15px;
+  font-size: 0.75rem;
+  color: #656565;
+}
+/* line 24, ../sass/areas-of-research.scss */
+.research-table td:first-child {
+  font-size: 0.875rem;
+  color: #000000;
+  font-weight: 600;
+  width: 45%;
+}
+/* line 31, ../sass/areas-of-research.scss */
+.research-table td:last-child {
+  font-size: 0.75rem;
+  color: #8d5715;
+  font-weight: 600;
+  text-decoration: underline;
+  position: relative;
+  padding-left: 30px;
+}
+/* line 39, ../sass/areas-of-research.scss */
+.research-table td:last-child:after {
+  content: '';
+  position: absolute;
+  top: 16%;
+  left: 0;
+  height: 68%;
+  border-left: #ededed 2px solid;
 }

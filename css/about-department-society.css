@@ -139,6 +139,7 @@
 /*19px*/
 /*20px*/
 /*22px*/
+/*15px*/
 /*14px*/
 /*12px*/
 /*11px*/
@@ -968,6 +969,12 @@ h6 {
   .academic-calender button:nth-child(3) {
     font-size: 1rem;
   }
+}
+
+/*Top Margin for Fixed-header*/
+/* line 589, ../sass/_common.scss */
+.margin-top {
+  margin-top: 250px;
 }
 
 /* line 3, ../sass/about-department-society.scss */
