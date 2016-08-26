@@ -1,0 +1,70 @@
+@import 'main_import';
+
+.faculty-description{
+    h1{
+        padding-bottom: 0;
+    }
+    
+    .work_experience{
+        td{
+            padding: 0 0 10px 10px;
+            position: relative;
+            &:first-child{
+                font-size: $font-size;
+                line-height: 18px;
+                border-left: 2px solid #666;
+                
+                @media screen and (min-width:$sm){
+                    font-size: $font-size-m;
+                }
+                @media screen and (min-width:$md){
+                   font-size: $font-size-s; 
+                }
+                &:after{
+                    content: "\f111";
+                    font-family: $font-awesome;
+                    top:10px;
+                    left: -6px;
+                    position: absolute;
+                }
+            }
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+
+/* right side image section */
+
+.faculty-image{
+    position: relative;
+    p{
+        padding: 10px 0;
+        span{
+            width: 100%;
+            float: left;
+            color: $department-base-color;
+            font-weight: bold;
+        }
+        
+        a{
+            color: $black-color;
+            &:hover{
+                 color:lighten($black-color, 40%);
+            }
+        }
+    }
+    
+    .faculty-right-gray-bg{
+        background: $widgets-background;
+        width: 500px;
+        height: 700px;
+        position: absolute;
+        right: -330px;
+        top: 100px;
+        z-index: -1;
+        }
+}
+

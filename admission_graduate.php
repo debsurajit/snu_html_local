@@ -2,8 +2,8 @@
 
   <!-- Content Start -->
   <div class="container margin-top">
-
-    <div class="breadcrumb col-md-offset-3">Academics / <span>Graduate</span></div>
+      <div class="top-fix-color-bg-wrapper"><div class="top-fix-color-bg">&nbsp;</div></div>
+    <div class="breadcrumb col-md-offset-3">Admissions / <span>Graduate</span></div>
 
     <div class="row">
     
