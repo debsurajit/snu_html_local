@@ -56,7 +56,7 @@ h3 {
     color: $department-base-color;
     font-family: $font-family-crimson-roman;
     font-weight: normal;
-    padding: 30px 0;
+    padding: 50px 0 25px;
     margin: 0;
 }
 
@@ -657,6 +657,7 @@ h6 {
 
 .margin-top {
   margin-top: 250px;
+    
 }
 
 /*First Paragraph of Content*/
@@ -665,4 +666,16 @@ h6 {
   font-family: $font-family-crimson-roman;
   font-size: $font-size;
   margin-bottom: 25px;
+}
+
+.top-fix-color-bg-wrapper{
+        position: relative;
+        .top-fix-color-bg{
+        background: $department-background;
+        width: 350px;
+        position: absolute;
+        left: -310px;
+        top: -7px;
+        height: 400px;
+    }
 }

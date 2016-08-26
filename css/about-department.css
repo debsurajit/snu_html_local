@@ -226,7 +226,7 @@ h3 {
   color: #8d5715;
   font-family: "crimson_textroman";
   font-weight: normal;
-  padding: 30px 0;
+  padding: 50px 0 25px;
   margin: 0;
 }
 
@@ -852,7 +852,7 @@ h6 {
     font-size: 1rem;
   }
 }
-/* line 196, ../sass/_mixins.scss */
+/* line 194, ../sass/_mixins.scss */
 .undergraduate-brown-button span {
   color: #ffffff;
   font-family: "open_sansbold";
@@ -891,7 +891,7 @@ h6 {
     font-size: 1rem;
   }
 }
-/* line 225, ../sass/_mixins.scss */
+/* line 222, ../sass/_mixins.scss */
 .undergraduate-gray-button span {
   color: #8d5715;
   font-family: "open_sansbold";
@@ -1073,11 +1073,25 @@ h6 {
 }
 
 /*First Paragraph of Content*/
-/* line 664, ../sass/_common.scss */
+/* line 665, ../sass/_common.scss */
 .crimsone-text {
   font-family: "crimson_textroman";
   font-size: 1rem;
   margin-bottom: 25px;
+}
+
+/* line 671, ../sass/_common.scss */
+.top-fix-color-bg-wrapper {
+  position: relative;
+}
+/* line 673, ../sass/_common.scss */
+.top-fix-color-bg-wrapper .top-fix-color-bg {
+  background: #eee5dc;
+  width: 350px;
+  position: absolute;
+  left: -310px;
+  top: -7px;
+  height: 400px;
 }
 
 /*Banner*/
@@ -1106,7 +1120,7 @@ h6 {
 .left-menu ul {
   list-style: none;
 }
-/* line 58, ../sass/_mixins.scss */
+/* line 59, ../sass/_mixins.scss */
 .left-menu ul li {
   list-style: none;
 }
@@ -1130,13 +1144,13 @@ h6 {
     font-size: 1.125rem;
   }
 }
-/* line 76, ../sass/_mixins.scss */
+/* line 77, ../sass/_mixins.scss */
 .left-menu ul li a:hover {
   color: #8d5715;
   cursor: pointer;
   font-family: "crimson_textbold";
 }
-/* line 80, ../sass/_mixins.scss */
+/* line 81, ../sass/_mixins.scss */
 .left-menu ul li a:hover:after {
   font-family: FontAwesome;
   content: "\f105";
@@ -1144,13 +1158,13 @@ h6 {
   padding-left: 20px;
   line-height: 12px;
 }
-/* line 90, ../sass/_mixins.scss */
+/* line 91, ../sass/_mixins.scss */
 .left-menu ul li .active {
   color: #8d5715;
   cursor: pointer;
   font-family: "crimson_textbold";
 }
-/* line 94, ../sass/_mixins.scss */
+/* line 95, ../sass/_mixins.scss */
 .left-menu ul li .active:after {
   font-family: FontAwesome;
   content: "\f105";
@@ -1164,9 +1178,13 @@ h6 {
   padding-left: 20px;
   background: #f8f8f8;
 }
-/* line 113, ../sass/_mixins.scss */
+/* line 109, ../sass/_mixins.scss */
 .left-menu ul li ul li a {
   border-bottom: #ffffff 2px solid;
+}
+/* line 114, ../sass/_mixins.scss */
+.left-menu ul li ul li:last-child a {
+  border-bottom: none;
 }
 
 /* line 17, ../sass/about-department.scss */
@@ -1175,7 +1193,7 @@ h6 {
   margin-top: 10px;
   font-size: 0.75rem;
 }
-/* line 128, ../sass/_mixins.scss */
+/* line 130, ../sass/_mixins.scss */
 .breadcrumb span {
   color: #8d5715;
 }
@@ -1229,3 +1247,5 @@ h6 {
   font-style: italic;
   font-size: 0.75rem;
 }
+
+/*# sourceMappingURL=about-department.css.map */

@@ -153,6 +153,7 @@
 /* Department section  */
 /*Left Menu bottom*/
 /* undergraduate body button */
+/*Team Structure*/
 @media screen and (max-width: 768px) {
   /* line 3, ../sass/_common.scss */
   html {
@@ -225,7 +226,7 @@ h3 {
   color: #8d5715;
   font-family: "crimson_textroman";
   font-weight: normal;
-  padding: 30px 0;
+  padding: 50px 0 25px;
   margin: 0;
 }
 
@@ -851,7 +852,7 @@ h6 {
     font-size: 1rem;
   }
 }
-/* line 175, ../sass/_mixins.scss */
+/* line 194, ../sass/_mixins.scss */
 .undergraduate-brown-button span {
   color: #ffffff;
   font-family: "open_sansbold";
@@ -890,7 +891,7 @@ h6 {
     font-size: 1rem;
   }
 }
-/* line 204, ../sass/_mixins.scss */
+/* line 222, ../sass/_mixins.scss */
 .undergraduate-gray-button span {
   color: #8d5715;
   font-family: "open_sansbold";
@@ -1072,11 +1073,25 @@ h6 {
 }
 
 /*First Paragraph of Content*/
-/* line 664, ../sass/_common.scss */
+/* line 665, ../sass/_common.scss */
 .crimsone-text {
   font-family: "crimson_textroman";
   font-size: 1rem;
   margin-bottom: 25px;
+}
+
+/* line 671, ../sass/_common.scss */
+.top-fix-color-bg-wrapper {
+  position: relative;
+}
+/* line 673, ../sass/_common.scss */
+.top-fix-color-bg-wrapper .top-fix-color-bg {
+  background: #eee5dc;
+  width: 350px;
+  position: absolute;
+  left: -310px;
+  top: -7px;
+  height: 400px;
 }
 
 /*  banner section */
@@ -1573,3 +1588,5 @@ section {
     width: 100%;
   }
 }
+
+/*# sourceMappingURL=engineering.css.map */
