@@ -19,8 +19,7 @@ body {
     font-family: $font-family-open-sans;
     overflow-x: hidden;
     line-height: 24px;
-    
-    @media screen and (max-width:$sm) {
+    @media screen and (max-width: $sm) {
         font-size: $font-size-sm;
     }
 }
@@ -188,7 +187,7 @@ h6 {
         }
         ul.navbar-right {
             @media screen and (min-width: $sm) {
-                width:auto;
+                width: auto;
             }
             @media screen and (min-width:$md) {
                 width: auto;
@@ -204,12 +203,10 @@ h6 {
                     @media screen and (min-width:$lg) {
                         padding: 8px 15px;
                     }
-                    
-                    &:last-child{
+                    &:last-child {
                         padding-right: 0;
                     }
                 }
-                
             }
         }
     }
@@ -510,76 +507,148 @@ h6 {
     }
 }
 
+/* inner body bottom padding */
+
+ @media screen and (min-width: $sm) {
+    .middle-content {
+        padding-bottom: 50px;
+    }
+}
 
 /* Undergraduate body button */
 
-.undergraduate-brown-button{
+.undergraduate-brown-button {
     @include undergraduate-brown-button;
 }
 
-.undergraduate-gray-button{
+.undergraduate-gray-button {
     @include undergraduate-gray-button;
 }
 
 
 /* Right Side Academic calender section */
 
-.academic-calender{
-    h5{
-        font-family: $font-family-open-sans-light;
+.academic-calender {
+    h5 {
+        font-family: $font-family-open-sans;
         padding: 0 0 10px 0;
         margin: 0;
         color: $department-base-color;
     }
-    
-    button{
-        &:nth-child(2){
-            background: none;
-            border: 2px solid $department-base-color;
-            width:100%;
-            padding: 20px 10px;
-            font-family: $font-family-open-sans;
-            font-size:$font-size-xxl;
-             color: $department-base-color;
-            margin: 20px 0;
-            @media screen and (min-width:$axs){
-                font-size:$font-size-xxl;
-                font-family: $font-family-open-sans-bold;
+    .calender-slider {
+        border: 2px solid $department-base-color;
+        padding: 10px 0;
+        position: relative;
+        .carousel {
+            position: inherit;
+            border-bottom: 2px solid $department-base-color;
+            padding: 0 10px;
+            .carousel-indicators {
+                top: -23px;
+                left: 0;
+                bottom: inherit;
+                width: 100%;
+                margin: 0;
+                li {
+                    border: 2px solid $department-base-color;
+                    margin: 0;
+                    background: $white-color;
+                }
+                li.active {
+                    width: 10px;
+                    height: 10px;
+                    background: $department-base-color;
+                }
             }
-            @media screen and (min-width:$sm){
-                font-size:$font-size-l;
-                font-family: $font-family-open-sans-bold;
-            }
-            @media screen and (min-width:$md){
-                font-size:$font-size-m;
-            }
-            @media screen and (min-width:$lg){
-                font-size:$font-size;
+            
+            .carousel-caption {
+                position: relative;
+                right: 0;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                padding: 0;
+                margin-bottom: 10px;
+                text-align: left;
+                text-shadow: none;
+                color: $black-color;
+                font-size: $font-size-s;
+                line-height: 18px;
+                @media screen and (max-width: $sm) {
+                        font-size: $font-size-sm;
+                        
+                    }
+                span{
+                    width: 100%;
+                    float: left;
+                    color: $department-base-color;
+                    font-family: $font-family-open-sans-bold;
+                    font-size: $font-size-s;
+                    margin-bottom: 3px;
+                    @media screen and (max-width: $sm) {
+                        font-size: $font-size-sm;
+                        
+                    }
+                }
             }
         }
+        &:after{
+            content: '';
+            width: 100%;
+            height: 2px;
+            background: $department-base-color;
+            position: absolute;
+            bottom: 4px;
+        }
         
-        &:nth-child(3){
-            background: url(../images/button-bg.jpg) no-repeat 0 -1px $department-base-color;
-            border: none;
-            width:100%;
-            padding: 20px 10px;
-            font-family: $font-family-open-sans;
-            font-size:$font-size-xxl;
-             color: $white-color;
-             @media screen and (min-width:$axs){
-                font-size:$font-size-xxl;
-                font-family: $font-family-open-sans-bold;
-            }
-            @media screen and (min-width:$sm){
-                font-size:$font-size-l;
-                font-family: $font-family-open-sans-bold;
-            }
-            @media screen and (min-width:$md){
-                font-size:$font-size-m;
-            }
-            @media screen and (min-width:$lg){
-                font-size:$font-size;
-            }
+    }/* calender slider css end */
+    
+    
+    .button-1 {
+        background: none;
+        border: 2px solid $department-base-color;
+        width: 100%;
+        padding: 20px 10px;
+        font-family: $font-family-open-sans;
+        font-size: $font-size-xxl;
+        color: $department-base-color;
+        margin: 20px 0;
+        @media screen and (min-width: $axs) {
+            font-size: $font-size-xxl;
+            font-family: $font-family-open-sans-bold;
+        }
+        @media screen and (min-width:$sm) {
+            font-size: $font-size-l;
+            font-family: $font-family-open-sans-bold;
+        }
+        @media screen and (min-width:$md) {
+            font-size: $font-size-m;
+        }
+        @media screen and (min-width:$lg) {
+            font-size: $font-size;
+        }
+    }
+    .button-2 {
+        background: url(../images/button-bg.jpg) no-repeat 0 -1px $department-base-color;
+        border: none;
+        width: 100%;
+        padding: 20px 10px;
+        font-family: $font-family-open-sans;
+        font-size: $font-size-xxl;
+        color: $white-color;
+        @media screen and (min-width: $axs) {
+            font-size: $font-size-xxl;
+            font-family: $font-family-open-sans-bold;
+        }
+        @media screen and (min-width:$sm) {
+            font-size: $font-size-l;
+            font-family: $font-family-open-sans-bold;
+        }
+        @media screen and (min-width:$md) {
+            font-size: $font-size-m;
+        }
+        @media screen and (min-width:$lg) {
+            font-size: $font-size;
         }
     }
 }

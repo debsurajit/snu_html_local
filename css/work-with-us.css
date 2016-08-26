@@ -151,6 +151,7 @@
 /*17px*/
 /* Department section  */
 /*Left Menu bottom*/
+/* undergraduate body button */
 @media screen and (max-width: 768px) {
   /* line 3, ../sass/_common.scss */
   html {
@@ -179,17 +180,23 @@ body {
   overflow-x: hidden;
   line-height: 24px;
 }
+@media screen and (max-width: 768px) {
+  /* line 15, ../sass/_common.scss */
+  body {
+    font-size: 1.063rem;
+  }
+}
 
-/* line 24, ../sass/_common.scss */
+/* line 28, ../sass/_common.scss */
 a {
   color: #20456c;
 }
-/* line 26, ../sass/_common.scss */
+/* line 30, ../sass/_common.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 31, ../sass/_common.scss */
+/* line 35, ../sass/_common.scss */
 h1 {
   font-size: 2rem;
   line-height: 32px;
@@ -200,7 +207,7 @@ h1 {
   margin: 0;
 }
 
-/* line 41, ../sass/_common.scss */
+/* line 45, ../sass/_common.scss */
 h2 {
   font-size: 1.625rem;
   color: #8d5715;
@@ -210,30 +217,31 @@ h2 {
   line-height: 32px;
 }
 
-/* line 50, ../sass/_common.scss */
+/* line 54, ../sass/_common.scss */
 h3 {
-  font-family: "timesbold";
   font-size: 1.5rem;
   line-height: 32px;
   color: #8d5715;
+  font-family: "crimson_textroman";
+  font-weight: normal;
   padding: 30px 0;
   margin: 0;
 }
 
-/* line 59, ../sass/_common.scss */
+/* line 64, ../sass/_common.scss */
 h4 {
   font-family: "gotham_mediumregular";
   font-size: 1.375rem;
 }
 
-/* line 64, ../sass/_common.scss */
+/* line 69, ../sass/_common.scss */
 h5 {
   font-family: "source_sans_probold";
   font-size: 1.25rem;
   color: #3A3A3A;
 }
 
-/* line 70, ../sass/_common.scss */
+/* line 75, ../sass/_common.scss */
 h6 {
   font-family: "gotham_mediumregular";
   font-size: 1.063rem;
@@ -242,13 +250,13 @@ h6 {
 }
 
 /*   top header css  */
-/* line 80, ../sass/_common.scss */
+/* line 85, ../sass/_common.scss */
 .fixed-header {
   position: fixed;
   width: 100%;
 }
 
-/* line 85, ../sass/_common.scss */
+/* line 90, ../sass/_common.scss */
 .main-header {
   background: #ffffff;
   position: fixed;
@@ -258,11 +266,11 @@ h6 {
   z-index: 4;
 }
 
-/* line 94, ../sass/_common.scss */
+/* line 99, ../sass/_common.scss */
 .top_menu {
   background: #8d5715;
 }
-/* line 96, ../sass/_common.scss */
+/* line 101, ../sass/_common.scss */
 .top_menu .navbar-default {
   background: none;
   border: none;
@@ -270,15 +278,15 @@ h6 {
   min-height: auto;
   position: inherit;
 }
-/* line 102, ../sass/_common.scss */
+/* line 107, ../sass/_common.scss */
 .top_menu .navbar-default .navbar-collapse {
   border: none;
 }
-/* line 105, ../sass/_common.scss */
+/* line 110, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav {
   margin: 0;
 }
-/* line 108, ../sass/_common.scss */
+/* line 113, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li a {
   font-size: 0.875rem;
   color: #ffffff;
@@ -286,23 +294,23 @@ h6 {
   padding: 8px 15px 8px 0;
 }
 @media screen and (max-width: 768px) {
-  /* line 108, ../sass/_common.scss */
+  /* line 113, ../sass/_common.scss */
   .top_menu .navbar-default ul.navbar-nav li a {
     font-size: 1.25rem;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 108, ../sass/_common.scss */
+  /* line 113, ../sass/_common.scss */
   .top_menu .navbar-default ul.navbar-nav li a {
     font-size: 1.188rem;
     padding: 8px 0;
   }
 }
-/* line 122, ../sass/_common.scss */
+/* line 127, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown {
   position: inherit;
 }
-/* line 124, ../sass/_common.scss */
+/* line 129, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu {
   background: #7a490c;
   position: absolute;
@@ -313,27 +321,27 @@ h6 {
   border: none;
   padding: 30px 0;
 }
-/* line 135, ../sass/_common.scss */
+/* line 140, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu li a:hover {
   background: #633b0a;
 }
-/* line 141, ../sass/_common.scss */
+/* line 146, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu .top-drop-down-menu div {
   min-height: 200px;
 }
 @media screen and (max-width: 480px) {
-  /* line 141, ../sass/_common.scss */
+  /* line 146, ../sass/_common.scss */
   .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu .top-drop-down-menu div {
     width: 100%;
     margin-bottom: 30px;
     min-height: auto;
   }
 }
-/* line 148, ../sass/_common.scss */
+/* line 153, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu .top-drop-down-menu div:first-child {
   padding-left: 0;
 }
-/* line 151, ../sass/_common.scss */
+/* line 156, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu .top-drop-down-menu div h6 {
   font-family: "open_sansbold";
   font-size: 0.75rem;
@@ -341,63 +349,67 @@ h6 {
   margin-bottom: 15px;
   text-transform: uppercase;
 }
-/* line 159, ../sass/_common.scss */
+/* line 164, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu .top-drop-down-menu ul {
   padding-left: 25px;
 }
-/* line 161, ../sass/_common.scss */
+/* line 166, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu .top-drop-down-menu ul li {
   list-style-type: none;
 }
-/* line 163, ../sass/_common.scss */
+/* line 168, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu .top-drop-down-menu ul li a {
   color: #b79d7c;
   font-size: 1rem;
   line-height: 30px;
 }
-/* line 167, ../sass/_common.scss */
+/* line 172, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu .top-drop-down-menu ul li a:hover {
   background: none;
   color: #ffffff;
 }
-/* line 178, ../sass/_common.scss */
+/* line 183, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.open a {
   background: none;
   color: #ffffff;
 }
 @media screen and (min-width: 768px) {
-  /* line 184, ../sass/_common.scss */
-  .top_menu .navbar-default ul.navbar-right {
-    width: 100%;
-  }
-}
-@media screen and (min-width: 992px) {
-  /* line 184, ../sass/_common.scss */
+  /* line 189, ../sass/_common.scss */
   .top_menu .navbar-default ul.navbar-right {
     width: auto;
   }
 }
-/* line 192, ../sass/_common.scss */
+@media screen and (min-width: 992px) {
+  /* line 189, ../sass/_common.scss */
+  .top_menu .navbar-default ul.navbar-right {
+    width: auto;
+  }
+}
+/* line 197, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-right li a {
   padding: 8px 21px;
   font-size: 0.688rem;
   font-family: "open_sansbold";
 }
 @media screen and (min-width: 992px) {
-  /* line 192, ../sass/_common.scss */
+  /* line 197, ../sass/_common.scss */
   .top_menu .navbar-default ul.navbar-right li a {
     padding: 8px 11px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 192, ../sass/_common.scss */
+  /* line 197, ../sass/_common.scss */
   .top_menu .navbar-default ul.navbar-right li a {
     padding: 8px 15px;
   }
 }
+/* line 208, ../sass/_common.scss */
+.top_menu .navbar-default ul.navbar-right li a:last-child {
+  padding-right: 0;
+}
 
 /* Slide drop Down  */
-/* line 212, ../sass/_common.scss */
+/* line 221, ../sass/_common.scss */
 .top_menu .dropdown .dropdown-menu {
   transition: 0.7s;
   -webkit-transition: 0.7s;
@@ -408,65 +420,65 @@ h6 {
   opacity: 0;
 }
 
-/* line 220, ../sass/_common.scss */
+/* line 229, ../sass/_common.scss */
 .top_menu .dropdown.open .dropdown-menu {
   max-height: 350px;
   opacity: 1;
 }
 @media screen and (max-width: 992px) {
-  /* line 220, ../sass/_common.scss */
+  /* line 229, ../sass/_common.scss */
   .top_menu .dropdown.open .dropdown-menu {
     overflow-y: scroll;
   }
 }
 
 /* logo section  */
-/* line 231, ../sass/_common.scss */
+/* line 240, ../sass/_common.scss */
 .logo {
   width: auto;
   padding-right: 0;
 }
 @media screen and (max-width: 768px) {
-  /* line 231, ../sass/_common.scss */
+  /* line 240, ../sass/_common.scss */
   .logo {
     width: 37%;
     text-align: center;
   }
 }
 @media screen and (max-width: 635px) {
-  /* line 231, ../sass/_common.scss */
+  /* line 240, ../sass/_common.scss */
   .logo {
     width: 50%;
     text-align: center;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 231, ../sass/_common.scss */
+  /* line 240, ../sass/_common.scss */
   .logo {
     width: 100%;
     text-align: center;
     padding-right: 15px;
   }
 }
-/* line 247, ../sass/_common.scss */
+/* line 256, ../sass/_common.scss */
 .logo img {
   width: auto;
   padding: 25px 0;
 }
 @media screen and (max-width: 1200px) {
-  /* line 247, ../sass/_common.scss */
+  /* line 256, ../sass/_common.scss */
   .logo img {
     width: auto;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 247, ../sass/_common.scss */
+  /* line 256, ../sass/_common.scss */
   .logo img {
     width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 247, ../sass/_common.scss */
+  /* line 256, ../sass/_common.scss */
   .logo img {
     width: auto;
     margin: 0 auto;
@@ -474,7 +486,7 @@ h6 {
   }
 }
 
-/* line 264, ../sass/_common.scss */
+/* line 273, ../sass/_common.scss */
 .dept-name {
   font-family: "open_sanssemibold";
   color: #8d5715;
@@ -483,23 +495,23 @@ h6 {
   margin: 25px 0;
   border-left: 1px solid #000000;
 }
-/* line 271, ../sass/_common.scss */
+/* line 280, ../sass/_common.scss */
 .dept-name span {
   color: #000000;
   font-family: "open_sanslight";
 }
-/* line 274, ../sass/_common.scss */
+/* line 283, ../sass/_common.scss */
 .dept-name span:nth-child(2) {
   font-family: "crimson_textitalic";
 }
 @media screen and (max-width: 635px) {
-  /* line 264, ../sass/_common.scss */
+  /* line 273, ../sass/_common.scss */
   .dept-name {
     width: 200px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 264, ../sass/_common.scss */
+  /* line 273, ../sass/_common.scss */
   .dept-name {
     width: 100%;
     padding: 0 15px 20px 15px;
@@ -508,37 +520,44 @@ h6 {
   }
 }
 
-/* line 289, ../sass/_common.scss */
+/* line 298, ../sass/_common.scss */
 .search {
-  padding: 25px 0;
+  padding: 25px 15px;
+  float: right;
 }
 @media screen and (max-width: 635px) {
-  /* line 289, ../sass/_common.scss */
+  /* line 298, ../sass/_common.scss */
   .search {
     width: 100%;
     padding: 0;
   }
 }
-/* line 296, ../sass/_common.scss */
+/* line 306, ../sass/_common.scss */
 .search ul li {
   line-height: 78px;
   display: inline-block;
 }
 @media screen and (max-width: 635px) {
-  /* line 296, ../sass/_common.scss */
+  /* line 306, ../sass/_common.scss */
   .search ul li {
     line-height: 18px;
   }
 }
-/* line 302, ../sass/_common.scss */
+/* line 312, ../sass/_common.scss */
 .search ul li:last-child {
   margin-left: 50px;
 }
-/* line 304, ../sass/_common.scss */
+@media screen and (max-width: 768px) {
+  /* line 312, ../sass/_common.scss */
+  .search ul li:last-child {
+    margin-left: 25px;
+  }
+}
+/* line 317, ../sass/_common.scss */
 .search ul li:last-child a {
   border-left: 2px solid #c3c3c3;
 }
-/* line 308, ../sass/_common.scss */
+/* line 321, ../sass/_common.scss */
 .search ul li a {
   font-family: "gotham_mediumregular";
   color: #c3c3c3;
@@ -546,7 +565,7 @@ h6 {
   font-size: 0.875rem;
 }
 
-/* line 318, ../sass/_common.scss */
+/* line 331, ../sass/_common.scss */
 .search-area {
   background: #7a490c;
   padding: 40px 0;
@@ -556,7 +575,7 @@ h6 {
   left: 0;
   display: none;
 }
-/* line 326, ../sass/_common.scss */
+/* line 339, ../sass/_common.scss */
 .search-area input {
   width: 100%;
   background: none;
@@ -567,62 +586,62 @@ h6 {
   margin-bottom: 15px;
 }
 @media screen and (min-width: 635px) {
-  /* line 326, ../sass/_common.scss */
+  /* line 339, ../sass/_common.scss */
   .search-area input {
     width: 44%;
     margin-bottom: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 326, ../sass/_common.scss */
+  /* line 339, ../sass/_common.scss */
   .search-area input {
     width: 49%;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 326, ../sass/_common.scss */
+  /* line 339, ../sass/_common.scss */
   .search-area input {
     width: 58%;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 326, ../sass/_common.scss */
+  /* line 339, ../sass/_common.scss */
   .search-area input {
     width: 65%;
   }
 }
-/* line 347, ../sass/_common.scss */
+/* line 360, ../sass/_common.scss */
 .search-area input:focus {
   outline: inherit;
 }
-/* line 350, ../sass/_common.scss */
+/* line 363, ../sass/_common.scss */
 .search-area input::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   font-family: "source_sans_prolight";
   font-size: 2rem;
   color: #d4cccc;
 }
-/* line 356, ../sass/_common.scss */
+/* line 369, ../sass/_common.scss */
 .search-area input::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "source_sans_prolight";
   font-size: 2rem;
   color: #d4cccc;
 }
-/* line 362, ../sass/_common.scss */
+/* line 375, ../sass/_common.scss */
 .search-area input:-ms-input-placeholder {
   /* IE 10+ */
   font-family: "source_sans_prolight";
   font-size: 2rem;
   color: #d4cccc;
 }
-/* line 369, ../sass/_common.scss */
+/* line 382, ../sass/_common.scss */
 .search-area span {
   font-size: 0.75rem;
   color: #ffffff;
   font-family: "open_sanslight";
 }
-/* line 374, ../sass/_common.scss */
+/* line 387, ../sass/_common.scss */
 .search-area button {
   background: #8d5715;
   border: 1px solid #8d5715;
@@ -631,74 +650,74 @@ h6 {
   padding: 5px 35px;
   margin-left: 15px;
 }
-/* line 381, ../sass/_common.scss */
+/* line 394, ../sass/_common.scss */
 .search-area button:last-child {
   background: none;
   margin-left: 5px;
 }
-/* line 385, ../sass/_common.scss */
+/* line 398, ../sass/_common.scss */
 .search-area button:focus {
   outline: inherit;
 }
 
 /* department main menu  */
-/* line 394, ../sass/_common.scss */
+/* line 407, ../sass/_common.scss */
 .department-main-menu {
   border: 1px solid #e7e7e7;
   border-right: none;
   border-left: none;
 }
-/* line 398, ../sass/_common.scss */
+/* line 411, ../sass/_common.scss */
 .department-main-menu .navbar-default {
   background: none;
   border: none;
   margin: 0;
 }
 @media screen and (max-width: 768px) {
-  /* line 402, ../sass/_common.scss */
+  /* line 415, ../sass/_common.scss */
   .department-main-menu .navbar-default .navbar-collapse {
     height: 300px;
     overflow-y: scroll;
   }
 }
-/* line 408, ../sass/_common.scss */
+/* line 421, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav {
   text-align: center;
   width: 100%;
 }
 @media screen and (max-width: 768px) {
-  /* line 408, ../sass/_common.scss */
+  /* line 421, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav {
     text-align: left;
   }
 }
-/* line 414, ../sass/_common.scss */
+/* line 427, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li {
   display: inline-block;
   float: unset;
   padding: 0 31px;
 }
 @media screen and (max-width: 1200px) {
-  /* line 414, ../sass/_common.scss */
+  /* line 427, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li {
     padding: 0 15px;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 414, ../sass/_common.scss */
+  /* line 427, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li {
     padding: 0;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 414, ../sass/_common.scss */
+  /* line 427, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li {
     float: left;
     width: 100%;
     padding: 0;
   }
 }
-/* line 429, ../sass/_common.scss */
+/* line 442, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li a {
   font-size: 1rem;
   color: #000000;
@@ -706,47 +725,47 @@ h6 {
   padding: 10px 25px;
 }
 @media screen and (max-width: 768px) {
-  /* line 429, ../sass/_common.scss */
+  /* line 442, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li a {
     padding: 10px 20px;
     line-height: 20px;
     border-bottom: #e7e7e7 1px solid;
   }
 }
-/* line 440, ../sass/_common.scss */
+/* line 453, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li .dropdown-menu {
   left: 31px;
 }
 @media screen and (max-width: 1200px) {
-  /* line 440, ../sass/_common.scss */
+  /* line 453, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li .dropdown-menu {
     left: 15px;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 440, ../sass/_common.scss */
+  /* line 453, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li .dropdown-menu {
     left: 0;
   }
 }
-/* line 450, ../sass/_common.scss */
+/* line 463, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li:last-child .dropdown-menu {
   right: 31px;
   left: inherit;
 }
 @media screen and (max-width: 1200px) {
-  /* line 450, ../sass/_common.scss */
+  /* line 463, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li:last-child .dropdown-menu {
     right: 15px;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 450, ../sass/_common.scss */
+  /* line 463, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li:last-child .dropdown-menu {
     right: 0;
   }
 }
-/* line 463, ../sass/_common.scss */
+/* line 476, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li.open a {
   color: #8d5715;
   font-family: "open_sansbold";
@@ -756,33 +775,33 @@ h6 {
   border-bottom: 1px solid #ffffff;
 }
 @media screen and (max-width: 768px) {
-  /* line 463, ../sass/_common.scss */
+  /* line 476, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li.open a {
     border: none;
   }
 }
-/* line 474, ../sass/_common.scss */
+/* line 487, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu {
   border: 1px solid #8d5715;
 }
 @media screen and (max-width: 768px) {
-  /* line 474, ../sass/_common.scss */
+  /* line 487, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu {
     padding-left: 20px;
     border: none;
   }
 }
-/* line 480, ../sass/_common.scss */
+/* line 493, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu li {
   width: 100%;
   border-top: 1px solid #e7e7e7;
   padding: 0 50px 0 20px;
 }
-/* line 484, ../sass/_common.scss */
+/* line 497, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu li:first-child {
   border-top: none;
 }
-/* line 487, ../sass/_common.scss */
+/* line 500, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu li a {
   color: #000000;
   font-family: "source_sans_proregular";
@@ -790,44 +809,213 @@ h6 {
   padding: 10px 0;
 }
 
-/* line 3, ../sass/work-with-us.scss */
+/* Undergraduate body button */
+/* line 516, ../sass/_common.scss */
+.undergraduate-brown-button {
+  background: #8d5715;
+  border: none;
+  font-size: 1.25rem;
+  color: #c3c3c3;
+  padding: 15px 10px;
+  width: 100%;
+  margin-top: 20px;
+  min-height: 78px;
+  font-family: "open_sanslight";
+}
+@media screen and (min-width: 635px) {
+  /* line 516, ../sass/_common.scss */
+  .undergraduate-brown-button {
+    width: 47%;
+    font-size: 1.188rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 516, ../sass/_common.scss */
+  .undergraduate-brown-button {
+    width: 100%;
+    font-size: 1.125rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 516, ../sass/_common.scss */
+  .undergraduate-brown-button {
+    width: 47%;
+    font-size: 1rem;
+  }
+}
+/* line 175, ../sass/_mixins.scss */
+.undergraduate-brown-button span {
+  color: #ffffff;
+  font-family: "open_sansbold";
+}
+
+/* line 520, ../sass/_common.scss */
+.undergraduate-gray-button {
+  background: #f0f0f0;
+  border: none;
+  font-size: 1.25rem;
+  color: #d58320;
+  padding: 15px 10px;
+  width: 100%;
+  font-family: "open_sanslight";
+  margin-top: 20px;
+  min-height: 78px;
+}
+@media screen and (min-width: 635px) {
+  /* line 520, ../sass/_common.scss */
+  .undergraduate-gray-button {
+    width: 47%;
+    font-size: 1.188rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 520, ../sass/_common.scss */
+  .undergraduate-gray-button {
+    width: 100%;
+    font-size: 1.125rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 520, ../sass/_common.scss */
+  .undergraduate-gray-button {
+    width: 47%;
+    font-size: 1rem;
+  }
+}
+/* line 204, ../sass/_mixins.scss */
+.undergraduate-gray-button span {
+  color: #8d5715;
+  font-family: "open_sansbold";
+}
+@media screen and (max-width: 635px) {
+  /* line 520, ../sass/_common.scss */
+  .undergraduate-gray-button {
+    margin-bottom: 30px;
+  }
+}
+
+/* Right Side Academic calender section */
+/* line 528, ../sass/_common.scss */
+.academic-calender h5 {
+  font-family: "open_sanslight";
+  padding: 0 0 10px 0;
+  margin: 0;
+  color: #8d5715;
+}
+/* line 536, ../sass/_common.scss */
+.academic-calender .button-1 {
+  background: none;
+  border: 2px solid #8d5715;
+  width: 100%;
+  padding: 20px 10px;
+  font-family: "open_sansregular";
+  font-size: 1.375em;
+  color: #8d5715;
+  margin: 20px 0;
+}
+@media screen and (min-width: 635px) {
+  /* line 536, ../sass/_common.scss */
+  .academic-calender .button-1 {
+    font-size: 1.375em;
+    font-family: "open_sansbold";
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 536, ../sass/_common.scss */
+  .academic-calender .button-1 {
+    font-size: 1.125rem;
+    font-family: "open_sansbold";
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 536, ../sass/_common.scss */
+  .academic-calender .button-1 {
+    font-size: 0.875rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 536, ../sass/_common.scss */
+  .academic-calender .button-1 {
+    font-size: 1rem;
+  }
+}
+/* line 562, ../sass/_common.scss */
+.academic-calender .button-2 {
+  background: url(../images/button-bg.jpg) no-repeat 0 -1px #8d5715;
+  border: none;
+  width: 100%;
+  padding: 20px 10px;
+  font-family: "open_sansregular";
+  font-size: 1.375em;
+  color: #ffffff;
+}
+@media screen and (min-width: 635px) {
+  /* line 562, ../sass/_common.scss */
+  .academic-calender .button-2 {
+    font-size: 1.375em;
+    font-family: "open_sansbold";
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 562, ../sass/_common.scss */
+  .academic-calender .button-2 {
+    font-size: 1.125rem;
+    font-family: "open_sansbold";
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 562, ../sass/_common.scss */
+  .academic-calender .button-2 {
+    font-size: 0.875rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 562, ../sass/_common.scss */
+  .academic-calender .button-2 {
+    font-size: 1rem;
+  }
+}
+
+/* line 2, ../sass/work-with-us.scss */
 .filter {
   padding: 15px;
   border: #000000 1px solid;
   margin: 30px 0;
   line-height: 14px;
 }
-/* line 9, ../sass/work-with-us.scss */
+/* line 7, ../sass/work-with-us.scss */
 .filter span {
   display: block;
   border-left: #000000 2px solid;
   padding-left: 5px;
 }
 
-/* line 16, ../sass/work-with-us.scss */
+/* line 14, ../sass/work-with-us.scss */
 .filter-table {
   margin-bottom: 50px;
 }
-/* line 20, ../sass/work-with-us.scss */
+/* line 17, ../sass/work-with-us.scss */
 .filter-table tr:nth-child(odd) {
   background: #f8f8f8;
 }
-/* line 24, ../sass/work-with-us.scss */
+/* line 21, ../sass/work-with-us.scss */
 .filter-table td {
   padding: 15px;
   font-size: 0.75rem;
   color: #656565;
 }
-/* line 29, ../sass/work-with-us.scss */
+/* line 25, ../sass/work-with-us.scss */
 .filter-table td:first-child {
   font-size: 0.875rem;
   color: #000000;
 }
 
-/* line 37, ../sass/work-with-us.scss */
+/* line 33, ../sass/work-with-us.scss */
 .bottm-block h2 {
   font-family: "crimson_textroman";
   font-size: 1.375rem;
   padding: 15px 0;
   margin: 0;
 }
+
+/*# sourceMappingURL=work-with-us.css.map */

@@ -51,7 +51,7 @@
 
 @mixin left-menu-structure {
     background: $white-color;
-    box-shadow: 12px 1px 50px 8px rgba(0, 0, 0, 0.04);
+    box-shadow: 12px 1px 50px 8px rgba(0, 0, 0, 0.05);
     ul {
         padding-left: 23px;
         list-style: none;
@@ -205,4 +205,8 @@
         color: $department-base-color;
         font-family: $font-family-open-sans-bold;
     }
+    
+    @media screen and (max-width:$axs){
+                margin-bottom: 30px;
+            }
 }
