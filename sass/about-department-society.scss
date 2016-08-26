@@ -18,7 +18,6 @@ img {
     }
 }
 
-
 /*Left Panel*/
 
 .left-menu {
@@ -32,7 +31,6 @@ ul.leftmenu-bottom {
 .breadcrumb {
     @include breadcrumb;
 }
-
 
 /*Right Panel*/
 
@@ -78,34 +76,5 @@ ul.leftmenu-bottom {
 /*Midle Content*/
 
 .team-block {
-    ul {
-        list-style: none;
-        padding: 0;
-        li {
-            list-style: none;
-            font-size: $font-size-s;
-            margin-bottom: 25px;
-            line-height: 16px;
-            font-family: $font-family-medium;
-            @media screen and (max-width: $lg) {
-                img {
-                    max-width: 100%;
-                    padding: 0 5px;
-                }
-            }
-            @media screen and (max-width:$sm) {
-                text-align: center;
-            }
-            h3 {
-                font-size: $font-size-m;
-                color: $black-color;
-                padding: 10px 0 0;
-                line-height: 16px;
-                font-family: $font-family-medium;
-            }
-            a {
-                color: $black-color;
-            }
-        }
-    }
+  @include team-structure;
 }

@@ -153,6 +153,7 @@
 /* Department section  */
 /*Left Menu bottom*/
 /* undergraduate body button */
+/*Team Structure*/
 @media screen and (max-width: 768px) {
   /* line 3, ../sass/_common.scss */
   html {
@@ -851,7 +852,7 @@ h6 {
     font-size: 1rem;
   }
 }
-/* line 181, ../sass/_mixins.scss */
+/* line 194, ../sass/_mixins.scss */
 .undergraduate-brown-button span {
   color: #ffffff;
   font-family: "open_sansbold";
@@ -890,7 +891,7 @@ h6 {
     font-size: 1rem;
   }
 }
-/* line 209, ../sass/_mixins.scss */
+/* line 222, ../sass/_mixins.scss */
 .undergraduate-gray-button span {
   color: #8d5715;
   font-family: "open_sansbold";
@@ -1090,7 +1091,7 @@ h6 {
   position: absolute;
   left: -310px;
   top: -7px;
-  height: 300px;
+  height: 400px;
 }
 
 /*  banner section */

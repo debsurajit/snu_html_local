@@ -1,0 +1,18 @@
+@import 'main_import';
+
+/*Midle Content*/
+
+.team-block {
+  @include team-structure;
+
+    img {
+      -webkit-transition: all 0.4s ease-in;
+      transition: all 0.4s ease-in;
+      &:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+    }
+  }

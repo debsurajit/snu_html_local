@@ -1094,79 +1094,57 @@ h6 {
   height: 400px;
 }
 
-/* line 4, ../sass/faculty-details.scss */
-.faculty-description h1 {
-  padding-bottom: 0;
+/*Midle Content*/
+/* line 236, ../sass/_mixins.scss */
+.team-block ul {
+  list-style: none;
+  padding: 0;
 }
-/* line 9, ../sass/faculty-details.scss */
-.faculty-description .work_experience td {
-  padding: 0 0 10px 10px;
-  position: relative;
+/* line 239, ../sass/_mixins.scss */
+.team-block ul li {
+  list-style: none;
+  font-size: 0.75rem;
+  margin-bottom: 25px;
+  line-height: 16px;
+  font-family: "gotham_mediumregular";
 }
-/* line 12, ../sass/faculty-details.scss */
-.faculty-description .work_experience td:first-child {
-  font-size: 1rem;
-  line-height: 18px;
-  border-left: 2px solid #666;
-}
-@media screen and (min-width: 768px) {
-  /* line 12, ../sass/faculty-details.scss */
-  .faculty-description .work_experience td:first-child {
-    font-size: 0.875rem;
+@media screen and (max-width: 1200px) {
+  /* line 246, ../sass/_mixins.scss */
+  .team-block ul li img {
+    max-width: 100%;
+    padding: 0 5px;
   }
 }
-@media screen and (min-width: 992px) {
-  /* line 12, ../sass/faculty-details.scss */
-  .faculty-description .work_experience td:first-child {
-    font-size: 0.75rem;
+@media screen and (max-width: 768px) {
+  /* line 239, ../sass/_mixins.scss */
+  .team-block ul li {
+    text-align: center;
   }
 }
-/* line 23, ../sass/faculty-details.scss */
-.faculty-description .work_experience td:first-child:after {
-  content: "\f111";
-  font-family: "FontAwesome";
-  top: 10px;
-  left: -6px;
-  position: absolute;
-}
-/* line 31, ../sass/faculty-details.scss */
-.faculty-description .work_experience td span {
-  font-weight: bold;
-}
-
-/* right side image section */
-/* line 41, ../sass/faculty-details.scss */
-.faculty-image {
-  position: relative;
-}
-/* line 43, ../sass/faculty-details.scss */
-.faculty-image p {
-  padding: 10px 0;
-}
-/* line 45, ../sass/faculty-details.scss */
-.faculty-image p span {
-  width: 100%;
-  float: left;
-  color: #8d5715;
-  font-weight: bold;
-}
-/* line 52, ../sass/faculty-details.scss */
-.faculty-image p a {
+/* line 254, ../sass/_mixins.scss */
+.team-block ul li h3 {
+  font-size: 0.875rem;
   color: #000000;
+  padding: 10px 0 0;
+  line-height: 16px;
+  font-family: "gotham_mediumregular";
 }
-/* line 54, ../sass/faculty-details.scss */
-.faculty-image p a:hover {
-  color: #666666;
+/* line 261, ../sass/_mixins.scss */
+.team-block ul li a {
+  color: #000000;
+  text-decoration: underline;
 }
-/* line 60, ../sass/faculty-details.scss */
-.faculty-image .faculty-right-gray-bg {
-  background: #f0f0f0;
-  width: 500px;
-  height: 700px;
-  position: absolute;
-  right: -330px;
-  top: 100px;
-  z-index: -1;
+/* line 8, ../sass/people-faculty.scss */
+.team-block img {
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+/* line 11, ../sass/people-faculty.scss */
+.team-block img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
-/*# sourceMappingURL=faculty-details.css.map */
+/*# sourceMappingURL=people-faculty.css.map */

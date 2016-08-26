@@ -53,6 +53,8 @@
     background: $white-color;
     box-shadow: 12px 1px 50px 8px rgba(0, 0, 0, 0.05);
     ul {
+
+        
         list-style: none;
         li {
             list-style: none;
@@ -67,9 +69,11 @@
                 font-family: $font-family-crimson-roman;
                 font-size: $font-size;
                 margin-left: 20px;
-                @media screen and (max-width: $sm) {
-                    font-size: $font-size-l;
-                }
+
+                
+            @media screen and (max-width:$sm) {
+                font-size: $font-size-l;
+            }
                 &:hover {
                     color: $department-base-color;
                     cursor: pointer;
@@ -81,7 +85,8 @@
                         padding-left: 20px;
                         line-height: 12px;
                     }
-                }
+                }              
+              
             }
             .active {
                 color: $department-base-color;
@@ -95,6 +100,7 @@
                     line-height: 12px;
                 }
             }
+
             ul {
                 width: 100%;
                 padding-left: 20px;
@@ -111,6 +117,7 @@
                     }
                 }
             }
+
         }
     }
 }
@@ -216,7 +223,46 @@
         color: $department-base-color;
         font-family: $font-family-open-sans-bold;
     }
-    @media screen and (max-width:$axs) {
-        margin-bottom: 30px;
-    }
+
+    
+    @media screen and (max-width:$axs){
+                margin-bottom: 30px;
+            }
+}
+
+/*Team Structure*/
+
+@mixin team-structure {
+  ul {
+        list-style: none;
+        padding: 0;
+        li {
+            list-style: none;
+            font-size: $font-size-s;
+            margin-bottom: 25px;
+            line-height: 16px;
+            font-family: $font-family-medium;
+            @media screen and (max-width: $lg) {
+                img {
+                    max-width: 100%;
+                    padding: 0 5px;
+                }
+            }
+            @media screen and (max-width:$sm) {
+                text-align: center;
+            }
+            h3 {
+                font-size: $font-size-m;
+                color: $black-color;
+                padding: 10px 0 0;
+                line-height: 16px;
+                font-family: $font-family-medium;
+            }
+            a {
+                color: $black-color;
+                text-decoration: underline;
+            }
+        }
+
+}
 }

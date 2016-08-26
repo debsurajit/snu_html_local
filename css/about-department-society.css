@@ -153,6 +153,7 @@
 /* Department section  */
 /*Left Menu bottom*/
 /* undergraduate body button */
+/*Team Structure*/
 @media screen and (max-width: 768px) {
   /* line 3, ../sass/_common.scss */
   html {
@@ -851,7 +852,7 @@ h6 {
     font-size: 1rem;
   }
 }
-/* line 187, ../sass/_mixins.scss */
+/* line 194, ../sass/_mixins.scss */
 .undergraduate-brown-button span {
   color: #ffffff;
   font-family: "open_sansbold";
@@ -890,7 +891,7 @@ h6 {
     font-size: 1rem;
   }
 }
-/* line 215, ../sass/_mixins.scss */
+/* line 222, ../sass/_mixins.scss */
 .undergraduate-gray-button span {
   color: #8d5715;
   font-family: "open_sansbold";
@@ -1114,7 +1115,7 @@ img {
 }
 
 /*Left Panel*/
-/* line 24, ../sass/about-department-society.scss */
+/* line 23, ../sass/about-department-society.scss */
 .left-menu {
   background: #ffffff;
   box-shadow: 12px 1px 50px 8px rgba(0, 0, 0, 0.05);
@@ -1123,15 +1124,15 @@ img {
 .left-menu ul {
   list-style: none;
 }
-/* line 57, ../sass/_mixins.scss */
+/* line 59, ../sass/_mixins.scss */
 .left-menu ul li {
   list-style: none;
 }
-/* line 59, ../sass/_mixins.scss */
+/* line 61, ../sass/_mixins.scss */
 .left-menu ul li:last-child {
   border: none;
 }
-/* line 62, ../sass/_mixins.scss */
+/* line 64, ../sass/_mixins.scss */
 .left-menu ul li a {
   color: #000000;
   padding: 20px 0;
@@ -1142,18 +1143,18 @@ img {
   margin-left: 20px;
 }
 @media screen and (max-width: 768px) {
-  /* line 62, ../sass/_mixins.scss */
+  /* line 64, ../sass/_mixins.scss */
   .left-menu ul li a {
     font-size: 1.125rem;
   }
 }
-/* line 73, ../sass/_mixins.scss */
+/* line 77, ../sass/_mixins.scss */
 .left-menu ul li a:hover {
   color: #8d5715;
   cursor: pointer;
   font-family: "crimson_textbold";
 }
-/* line 77, ../sass/_mixins.scss */
+/* line 81, ../sass/_mixins.scss */
 .left-menu ul li a:hover:after {
   font-family: FontAwesome;
   content: "\f105";
@@ -1161,13 +1162,13 @@ img {
   padding-left: 20px;
   line-height: 12px;
 }
-/* line 86, ../sass/_mixins.scss */
+/* line 91, ../sass/_mixins.scss */
 .left-menu ul li .active {
   color: #8d5715;
   cursor: pointer;
   font-family: "crimson_textbold";
 }
-/* line 90, ../sass/_mixins.scss */
+/* line 95, ../sass/_mixins.scss */
 .left-menu ul li .active:after {
   font-family: FontAwesome;
   content: "\f105";
@@ -1175,34 +1176,34 @@ img {
   padding-left: 20px;
   line-height: 12px;
 }
-/* line 98, ../sass/_mixins.scss */
+/* line 104, ../sass/_mixins.scss */
 .left-menu ul li ul {
   width: 100%;
   padding-left: 20px;
   background: #f8f8f8;
 }
-/* line 103, ../sass/_mixins.scss */
+/* line 109, ../sass/_mixins.scss */
 .left-menu ul li ul li a {
   border-bottom: #ffffff 2px solid;
 }
-/* line 108, ../sass/_mixins.scss */
+/* line 114, ../sass/_mixins.scss */
 .left-menu ul li ul li:last-child a {
   border-bottom: none;
 }
 
-/* line 28, ../sass/about-department-society.scss */
+/* line 27, ../sass/about-department-society.scss */
 ul.leftmenu-bottom {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 141, ../sass/_mixins.scss */
+/* line 148, ../sass/_mixins.scss */
 ul.leftmenu-bottom li {
   list-style: none;
   padding: 0;
   margin-top: 15px;
 }
-/* line 145, ../sass/_mixins.scss */
+/* line 152, ../sass/_mixins.scss */
 ul.leftmenu-bottom li a {
   display: block;
   padding: 20px;
@@ -1213,47 +1214,47 @@ ul.leftmenu-bottom li a {
   font-size: 1rem;
   font-weight: bold;
 }
-/* line 154, ../sass/_mixins.scss */
+/* line 161, ../sass/_mixins.scss */
 ul.leftmenu-bottom li a:hover {
   background: #8d5715;
   color: #ffffff;
 }
 
-/* line 32, ../sass/about-department-society.scss */
+/* line 31, ../sass/about-department-society.scss */
 .breadcrumb {
   background: none;
   margin-top: 10px;
   font-size: 0.75rem;
 }
-/* line 123, ../sass/_mixins.scss */
+/* line 130, ../sass/_mixins.scss */
 .breadcrumb span {
   color: #8d5715;
 }
 @media screen and (max-width: 992px) {
-  /* line 32, ../sass/about-department-society.scss */
+  /* line 31, ../sass/about-department-society.scss */
   .breadcrumb {
     font-size: 0.875rem;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 32, ../sass/about-department-society.scss */
+  /* line 31, ../sass/about-department-society.scss */
   .breadcrumb {
     font-size: 1.063rem;
   }
 }
 
 /*Right Panel*/
-/* line 39, ../sass/about-department-society.scss */
+/* line 37, ../sass/about-department-society.scss */
 .right-panel {
   padding-top: 93px;
 }
 @media screen and (max-width: 768px) {
-  /* line 39, ../sass/about-department-society.scss */
+  /* line 37, ../sass/about-department-society.scss */
   .right-panel {
     padding-top: 20px;
   }
 }
-/* line 44, ../sass/about-department-society.scss */
+/* line 42, ../sass/about-department-society.scss */
 .right-panel .events {
   background: #f0f0f0;
   padding: 12px;
@@ -1262,22 +1263,22 @@ ul.leftmenu-bottom li a:hover {
   line-height: 18px;
 }
 @media screen and (max-width: 768px) {
-  /* line 44, ../sass/about-department-society.scss */
+  /* line 42, ../sass/about-department-society.scss */
   .right-panel .events {
     font-size: 1.063rem;
   }
 }
-/* line 53, ../sass/about-department-society.scss */
+/* line 51, ../sass/about-department-society.scss */
 .right-panel .events .date {
   color: #8d5715;
   font-weight: bold;
   padding-bottom: 5px;
 }
-/* line 59, ../sass/about-department-society.scss */
+/* line 57, ../sass/about-department-society.scss */
 .right-panel .upcoming {
   position: relative;
 }
-/* line 61, ../sass/about-department-society.scss */
+/* line 59, ../sass/about-department-society.scss */
 .right-panel .upcoming:after {
   content: '';
   position: absolute;
@@ -1286,7 +1287,7 @@ ul.leftmenu-bottom li a:hover {
   width: 65%;
   border-top: #8d5715 4px solid;
 }
-/* line 69, ../sass/about-department-society.scss */
+/* line 67, ../sass/about-department-society.scss */
 .right-panel .upcoming h4 {
   font-size: 1.125rem;
   color: #8d5715;
@@ -1294,12 +1295,12 @@ ul.leftmenu-bottom li a:hover {
 }
 
 /*Midle Content*/
-/* line 81, ../sass/about-department-society.scss */
+/* line 236, ../sass/_mixins.scss */
 .team-block ul {
   list-style: none;
   padding: 0;
 }
-/* line 84, ../sass/about-department-society.scss */
+/* line 239, ../sass/_mixins.scss */
 .team-block ul li {
   list-style: none;
   font-size: 0.75rem;
@@ -1308,19 +1309,19 @@ ul.leftmenu-bottom li a:hover {
   font-family: "gotham_mediumregular";
 }
 @media screen and (max-width: 1200px) {
-  /* line 91, ../sass/about-department-society.scss */
+  /* line 246, ../sass/_mixins.scss */
   .team-block ul li img {
     max-width: 100%;
     padding: 0 5px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 84, ../sass/about-department-society.scss */
+  /* line 239, ../sass/_mixins.scss */
   .team-block ul li {
     text-align: center;
   }
 }
-/* line 99, ../sass/about-department-society.scss */
+/* line 254, ../sass/_mixins.scss */
 .team-block ul li h3 {
   font-size: 0.875rem;
   color: #000000;
@@ -1328,9 +1329,10 @@ ul.leftmenu-bottom li a:hover {
   line-height: 16px;
   font-family: "gotham_mediumregular";
 }
-/* line 106, ../sass/about-department-society.scss */
+/* line 261, ../sass/_mixins.scss */
 .team-block ul li a {
   color: #000000;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=about-department-society.css.map */

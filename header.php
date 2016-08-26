@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/contact-us.css">
     <link rel="stylesheet" href="css/areas-of-research.css">
     <link rel="stylesheet" href="css/facilities.css">
+    <link rel="stylesheet" href="css/people-faculty.css">
     <link rel="stylesheet" href="css/faculty-details.css">
 
 
@@ -202,10 +203,9 @@
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">People</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li><a href="#">Separated link</a></li>
+                                        <li><a href="people_faculty.php">Faculty</a></li>
+                                        <li><a href="people_staff.php">Staff</a></li>
+                                        <li><a href="people_researchers.php">Researchers</a></li>
                                         
                                     </ul>
                                 </li>

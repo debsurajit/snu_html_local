@@ -153,6 +153,7 @@
 /* Department section  */
 /*Left Menu bottom*/
 /* undergraduate body button */
+/*Team Structure*/
 @media screen and (max-width: 768px) {
   /* line 3, ../sass/_common.scss */
   html {
@@ -851,7 +852,7 @@ h6 {
     font-size: 1rem;
   }
 }
-/* line 181, ../sass/_mixins.scss */
+/* line 194, ../sass/_mixins.scss */
 .undergraduate-brown-button span {
   color: #ffffff;
   font-family: "open_sansbold";
@@ -890,7 +891,7 @@ h6 {
     font-size: 1rem;
   }
 }
-/* line 209, ../sass/_mixins.scss */
+/* line 222, ../sass/_mixins.scss */
 .undergraduate-gray-button span {
   color: #8d5715;
   font-family: "open_sansbold";
@@ -1090,7 +1091,7 @@ h6 {
   position: absolute;
   left: -310px;
   top: -7px;
-  height: 300px;
+  height: 400px;
 }
 
 /*Banner*/
@@ -1119,15 +1120,15 @@ h6 {
 .left-menu ul {
   list-style: none;
 }
-/* line 57, ../sass/_mixins.scss */
+/* line 59, ../sass/_mixins.scss */
 .left-menu ul li {
   list-style: none;
 }
-/* line 59, ../sass/_mixins.scss */
+/* line 61, ../sass/_mixins.scss */
 .left-menu ul li:last-child {
   border: none;
 }
-/* line 62, ../sass/_mixins.scss */
+/* line 64, ../sass/_mixins.scss */
 .left-menu ul li a {
   color: #000000;
   padding: 20px 0;
@@ -1138,18 +1139,18 @@ h6 {
   margin-left: 20px;
 }
 @media screen and (max-width: 768px) {
-  /* line 62, ../sass/_mixins.scss */
+  /* line 64, ../sass/_mixins.scss */
   .left-menu ul li a {
     font-size: 1.125rem;
   }
 }
-/* line 73, ../sass/_mixins.scss */
+/* line 77, ../sass/_mixins.scss */
 .left-menu ul li a:hover {
   color: #8d5715;
   cursor: pointer;
   font-family: "crimson_textbold";
 }
-/* line 77, ../sass/_mixins.scss */
+/* line 81, ../sass/_mixins.scss */
 .left-menu ul li a:hover:after {
   font-family: FontAwesome;
   content: "\f105";
@@ -1157,13 +1158,13 @@ h6 {
   padding-left: 20px;
   line-height: 12px;
 }
-/* line 86, ../sass/_mixins.scss */
+/* line 91, ../sass/_mixins.scss */
 .left-menu ul li .active {
   color: #8d5715;
   cursor: pointer;
   font-family: "crimson_textbold";
 }
-/* line 90, ../sass/_mixins.scss */
+/* line 95, ../sass/_mixins.scss */
 .left-menu ul li .active:after {
   font-family: FontAwesome;
   content: "\f105";
@@ -1171,15 +1172,19 @@ h6 {
   padding-left: 20px;
   line-height: 12px;
 }
-/* line 98, ../sass/_mixins.scss */
+/* line 104, ../sass/_mixins.scss */
 .left-menu ul li ul {
   width: 100%;
   padding-left: 20px;
   background: #f8f8f8;
 }
-/* line 103, ../sass/_mixins.scss */
+/* line 109, ../sass/_mixins.scss */
 .left-menu ul li ul li a {
   border-bottom: #ffffff 2px solid;
+}
+/* line 114, ../sass/_mixins.scss */
+.left-menu ul li ul li:last-child a {
+  border-bottom: none;
 }
 
 /* line 17, ../sass/about-department.scss */
@@ -1188,7 +1193,7 @@ h6 {
   margin-top: 10px;
   font-size: 0.75rem;
 }
-/* line 117, ../sass/_mixins.scss */
+/* line 130, ../sass/_mixins.scss */
 .breadcrumb span {
   color: #8d5715;
 }
@@ -1206,37 +1211,37 @@ h6 {
 }
 
 /*Middle Content Panel*/
-/* line 25, ../sass/about-department.scss */
+/* line 23, ../sass/about-department.scss */
 .middle-content a {
   color: #8d5715;
   text-decoration: underline;
 }
-/* line 28, ../sass/about-department.scss */
+/* line 26, ../sass/about-department.scss */
 .middle-content a:hover {
   text-decoration: none;
 }
 
 /*Right Panel*/
-/* line 37, ../sass/about-department.scss */
+/* line 34, ../sass/about-department.scss */
 .right-panel {
   padding-top: 93px;
 }
 @media screen and (max-width: 768px) {
-  /* line 37, ../sass/about-department.scss */
+  /* line 34, ../sass/about-department.scss */
   .right-panel {
     padding-top: 20px;
   }
 }
-/* line 42, ../sass/about-department.scss */
+/* line 39, ../sass/about-department.scss */
 .right-panel h4 {
   font-size: 0.875rem;
   padding-top: 6px;
 }
-/* line 45, ../sass/about-department.scss */
+/* line 42, ../sass/about-department.scss */
 .right-panel h4 span {
   font-size: 0.75rem;
 }
-/* line 49, ../sass/about-department.scss */
+/* line 46, ../sass/about-department.scss */
 .right-panel .testimonial {
   color: #d58320;
   font-style: italic;
