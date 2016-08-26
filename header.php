@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
       
     
-    <link rel="stylesheet" href="css/economices.css">
+    <link rel="stylesheet" href="css/engineering.css">
      <link rel="stylesheet" href="css/about-department.css">
     <link rel="stylesheet" href="css/humanities-home.css">
     <link rel="stylesheet" href="css/about-department-society.css">
@@ -15,11 +15,14 @@
     <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="css/work-with-us.css">
     <link rel="stylesheet" href="css/contact-us.css">
+    <link rel="stylesheet" href="css/areas-of-research.css">
+    <link rel="stylesheet" href="css/facilities.css">
 
 
    </head>
 <body>
 <header class="main-header">
+  
     <div class="top_menu">
         <div class="container">
             <div class="row">
@@ -189,11 +192,8 @@
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li><a href="#">Separated link</a></li>
-                                        
+                                        <li><a href="areas_of_research.php">Areas of Research</a></li>
+                                        <li><a href="facilities.php">Facilities</a></li>                                        
                                     </ul>
                                 </li>
                                 
@@ -213,10 +213,9 @@
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li><a href="#">Separated link</a></li>
+                                      <li><a href="resource_lasc.php">LASC</a></li>
+                                      <li><a href="ug_advising.php">UG Advising</a></li>
+                                      <li><a href="career_counselling.php">Career Counselling</a></li>
                                         
                                     </ul>
                                 </li>

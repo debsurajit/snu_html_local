@@ -1,0 +1,46 @@
+@import 'main_import';
+
+/*Content*/
+
+/*Research Table*/
+.research-table {
+  margin:60px 0 50px;
+  
+  tr {
+    &:nth-child(odd){
+      background: $light-gray-button-color;
+    }
+  }
+  td {
+    padding: 15px;
+    font-size: $font-size-s;
+    color: $department-text-gray;
+    
+    &:first-child {
+      font-size: $font-size-m;
+      color: $black-color;
+      font-weight: 600;
+      width: 45%;
+    }
+    
+    &:last-child {
+      font-size: $font-size-s;
+      color: $department-base-color;
+      font-weight: 600;
+      text-decoration: underline;
+      position: relative;
+      padding-left:30px;
+     
+      &:after {
+        content: '';
+        position: absolute;
+        top: 16%;
+        left: 0;
+        height: 68%;
+        border-left:$gray-bg-color 2px solid;
+      }
+      
+    }
+    
+  }
+}

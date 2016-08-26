@@ -1,115 +1,111 @@
 @import 'main_import';
 
 .margin-top {
-  margin-top: 250px;
+    margin-top: 250px;
 }
+
 img {
-  max-width: 100%;
-}
-/*Banner*/
-.slider {
-  margin-top: 40px; 
-  
-  img {
     max-width: 100%;
-  }
 }
+
+
+/*Banner*/
+
+.slider {
+    margin-top: 40px;
+    img {
+        max-width: 100%;
+    }
+}
+
 
 /*Left Panel*/
+
 .left-menu {
-  @include left-menu-structure;
+    @include left-menu-structure;
 }
 
-  
 ul.leftmenu-bottom {
-  @include leftmenu;
+    @include leftmenu;
 }
-
 
 .breadcrumb {
-  @include breadcrumb;
+    @include breadcrumb;
 }
 
 
 /*Right Panel*/
+
 .right-panel {
-  padding-top:93px;
-  
-  @media screen and (max-width: $sm) {
-    padding-top: 20px;
-  }
-  
-  .events {
-    background:$widgets-background;
-    padding: 12px;
-    margin-bottom: 50px;
-    font-size: $font-size-s;
-    line-height: 18px;
+    padding-top: 93px;
     @media screen and (max-width: $sm) {
-    font-size: $font-size-sm;
-  }
-    .date {
-      color:  $department-base-color;
-      font-weight: bold;
-      padding-bottom: 5px;
+        padding-top: 20px;
     }
-  }
-  
-  .upcoming {
-   position: relative;
-  
-    &:after {
-      content: '';
-      position: absolute;
-      top: 0px;
-      left: 0;
-      width: 65%;
-      border-top:  $department-base-color 4px solid;
+    .events {
+        background: $widgets-background;
+        padding: 12px;
+        margin-bottom: 50px;
+        font-size: $font-size-s;
+        line-height: 18px;
+        @media screen and (max-width: $sm) {
+            font-size: $font-size-sm;
+        }
+        .date {
+            color: $department-base-color;
+            font-weight: bold;
+            padding-bottom: 5px;
+        }
     }
-  
-    h4 {
-      font-size: $font-size-l;
-      color:$department-base-color;
-      font-weight: normal;
+    .upcoming {
+        position: relative;
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0px;
+            left: 0;
+            width: 65%;
+            border-top: $department-base-color 4px solid;
+        }
+        h4 {
+            font-size: $font-size-l;
+            color: $department-base-color;
+            font-weight: normal;
+        }
     }
-  }
 }
+
 
 /*Midle Content*/
 
 .team-block {
-  ul{
-    list-style: none;
-    padding: 0;
-
-    li {
-      list-style: none;
-      font-size: $font-size-s;
-      margin-bottom: 25px;
-      line-height: 16px;
-      font-family: $font-family-medium;
-      
-      @media screen and (max-width:$lg){
-        img {
-          max-width: 100%;
-          padding: 0 5px;
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            list-style: none;
+            font-size: $font-size-s;
+            margin-bottom: 25px;
+            line-height: 16px;
+            font-family: $font-family-medium;
+            @media screen and (max-width: $lg) {
+                img {
+                    max-width: 100%;
+                    padding: 0 5px;
+                }
+            }
+            @media screen and (max-width:$sm) {
+                text-align: center;
+            }
+            h3 {
+                font-size: $font-size-m;
+                color: $black-color;
+                padding: 10px 0 0;
+                line-height: 16px;
+                font-family: $font-family-medium;
+            }
+            a {
+                color: $black-color;
+            }
         }
-      }
-      @media screen and (max-width:$sm){
-        text-align: center;
-      }
-      
-      h3 {
-        font-size: $font-size-m;
-        color: $black-color;
-        padding: 10px 0 0;
-        line-height: 16px;
-        font-family: $font-family-medium;
-      }
-      a {
-        color: $black-color;
-      }
     }
-  }
 }
-

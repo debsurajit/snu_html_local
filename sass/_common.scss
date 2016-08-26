@@ -652,3 +652,17 @@ h6 {
         }
     }
 }
+
+/*Top Margin for Fixed-header*/
+
+.margin-top {
+  margin-top: 250px;
+}
+
+/*First Paragraph of Content*/
+
+.crimsone-text {
+  font-family: $font-family-crimson-roman;
+  font-size: $font-size;
+  margin-bottom: 25px;
+}

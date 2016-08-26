@@ -1079,24 +1079,499 @@ h6 {
   margin-bottom: 25px;
 }
 
-/* line 4, ../sass/contact-us.scss */
-.contact-person {
-  margin-bottom: 40px;
-  overflow: hidden;
+/*  banner section */
+/* line 5, ../sass/engineering.scss */
+.banner-section {
+  margin: 0 auto;
+  max-width: 1440px;
+  position: relative;
+  height: 720px;
+  margin-top: 335px;
 }
-/* line 7, ../sass/contact-us.scss */
-.contact-person table {
-  margin-top: 10px;
+@media screen and (max-width: 992px) {
+  /* line 5, ../sass/engineering.scss */
+  .banner-section {
+    height: auto;
+  }
 }
-/* line 9, ../sass/contact-us.scss */
-.contact-person table a {
-  text-decoration: none;
+/* line 8, ../sass/engineering.scss */
+.banner-section .banner-img {
+  height: 700px;
+  overflow-y: hidden;
+  border-left: 20px solid #ffffff;
+}
+/* line 12, ../sass/engineering.scss */
+.banner-section .banner-img img {
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 992px) {
+  /* line 8, ../sass/engineering.scss */
+  .banner-section .banner-img {
+    height: auto;
+  }
+}
+/* line 20, ../sass/engineering.scss */
+.banner-section .banner-overlap-div {
+  background: #f8f8f8;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  z-index: 1;
+}
+@media screen and (min-width: 768px) {
+  /* line 20, ../sass/engineering.scss */
+  .banner-section .banner-overlap-div {
+    width: 370px;
+    height: 300px;
+    bottom: -20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 20, ../sass/engineering.scss */
+  .banner-section .banner-overlap-div {
+    width: 500px;
+    height: 250px;
+    bottom: 0;
+  }
+}
+/* line 40, ../sass/engineering.scss */
+.banner-section .banner-overlap-div a {
+  color: #8d5715;
+  text-decoration: underline;
+}
+/* line 44, ../sass/engineering.scss */
+.banner-section .banner-overlap-div h1 {
+  padding: 0;
+}
+/* line 47, ../sass/engineering.scss */
+.banner-section .banner-overlap-div h3 {
+  padding: 0 0 20px 0;
+  color: #c3c3c3;
+  font-family: "crimson_textroman";
+}
+/* line 52, ../sass/engineering.scss */
+.banner-section .banner-overlap-div p {
+  font-size: 0.875rem;
+  line-height: 30px;
   color: #000000;
 }
-
-/* line 16, ../sass/contact-us.scss */
-.map {
-  margin-bottom: 20px;
+/* line 58, ../sass/engineering.scss */
+.banner-section .date-section {
+  background: #8d5715;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  /* line 58, ../sass/engineering.scss */
+  .banner-section .date-section {
+    position: absolute;
+    padding: 25px 25px 25px 348px;
+    bottom: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 58, ../sass/engineering.scss */
+  .banner-section .date-section {
+    bottom: 20px;
+    padding: 25px 25px 25px 500px;
+  }
+}
+/* line 72, ../sass/engineering.scss */
+.banner-section .date-section .date-icon {
+  padding: 10px 25px 10px 30px;
+  border-right: 1px solid #ffffff;
+  width: 30px;
+  box-sizing: content-box;
+  float: left;
+}
+/* line 78, ../sass/engineering.scss */
+.banner-section .date-section .date-icon i {
+  color: #ffffff;
+  font-size: 2rem;
+}
+/* line 83, ../sass/engineering.scss */
+.banner-section .date-section .event-date {
+  width: 190px;
+  float: left;
+  font-size: 1rem;
+  color: #ffffff;
+  font-family: "source_sans_prolight";
+  line-height: 18px;
+  padding: 10px 0 10px 35px;
+}
+/* line 91, ../sass/engineering.scss */
+.banner-section .date-section .event-date .date {
+  font-size: 0.875rem;
+  line-height: 18px;
+  width: 45px;
+  float: left;
+}
+/* line 96, ../sass/engineering.scss */
+.banner-section .date-section .event-date .date span {
+  font-size: 1.625rem;
+  font-family: "source_sans_proregular";
+  width: 100%;
+  float: left;
 }
 
-/*# sourceMappingURL=contact-us.css.map */
+/* body css start  */
+/* line 110, ../sass/engineering.scss */
+section {
+  padding: 70px 0;
+}
+
+/* line 114, ../sass/engineering.scss */
+.block-1-left {
+  width: 50%;
+  float: left;
+  padding-right: 15px;
+}
+@media screen and (max-width: 992px) {
+  /* line 114, ../sass/engineering.scss */
+  .block-1-left {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 114, ../sass/engineering.scss */
+  .block-1-left {
+    width: 50%;
+    padding-right: 15px;
+  }
+}
+@media screen and (max-width: 635px) {
+  /* line 114, ../sass/engineering.scss */
+  .block-1-left {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+/* line 130, ../sass/engineering.scss */
+.block-1-left .ime-text {
+  margin-bottom: 30px;
+  position: relative;
+}
+/* line 133, ../sass/engineering.scss */
+.block-1-left .ime-text img {
+  width: 100%;
+}
+
+/* line 139, ../sass/engineering.scss */
+.block-1-right {
+  width: 50%;
+  float: left;
+  padding-left: 15px;
+}
+@media screen and (max-width: 992px) {
+  /* line 139, ../sass/engineering.scss */
+  .block-1-right {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 139, ../sass/engineering.scss */
+  .block-1-right {
+    width: 50%;
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width: 635px) {
+  /* line 139, ../sass/engineering.scss */
+  .block-1-right {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+/* line 155, ../sass/engineering.scss */
+.block-1-right .ime-text {
+  margin-bottom: 30px;
+  position: relative;
+  width: 50%;
+  float: left;
+}
+/* line 160, ../sass/engineering.scss */
+.block-1-right .ime-text:first-child {
+  border-right: 10px solid #ffffff;
+}
+/* line 163, ../sass/engineering.scss */
+.block-1-right .ime-text:nth-child(2) {
+  border-left: 10px solid #ffffff;
+}
+/* line 166, ../sass/engineering.scss */
+.block-1-right .ime-text img {
+  width: 100%;
+}
+/* line 170, ../sass/engineering.scss */
+.block-1-right h1 {
+  font-family: "open_sanslight";
+  color: #8d5715;
+  font-size: 2.25rem;
+}
+/* line 175, ../sass/engineering.scss */
+.block-1-right p {
+  font-size: 0.875rem;
+  color: #656565;
+}
+
+/* line 182, ../sass/engineering.scss */
+.ime-text .overlap-div {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+/* line 189, ../sass/engineering.scss */
+.ime-text .overlap-div div {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  text-align: center;
+}
+/* line 195, ../sass/engineering.scss */
+.ime-text .overlap-div div h2 {
+  display: table-cell;
+  vertical-align: middle;
+  color: #ffffff;
+  font-family: "open_sanssemibold";
+  font-size: 1.375rem;
+  line-height: 24px;
+}
+
+/* line 208, ../sass/engineering.scss */
+.message-section .message-section-inner {
+  padding: 20px;
+  border: 3px solid #8d5715;
+  border-right: none;
+  border-bottom: none;
+}
+/* line 213, ../sass/engineering.scss */
+.message-section .message-section-inner h3 {
+  font-family: "source_sans_probold";
+  color: #8d5715;
+  padding: 0 0 30px 0;
+}
+/* line 218, ../sass/engineering.scss */
+.message-section .message-section-inner p {
+  font-size: 1.063rem;
+  color: #000000;
+}
+/* line 222, ../sass/engineering.scss */
+.message-section .message-section-inner button {
+  width: 100%;
+  font-size: 1.188rem;
+  background: #f8f8f8;
+  font-family: "open_sanssemibold";
+  border: 1px solid #dfdfdf;
+  padding: 15px;
+  color: #656565;
+}
+
+/* middle body css start  */
+/* line 237, ../sass/engineering.scss */
+.middle-body {
+  background: #8d5715;
+  padding: 0 0 30px 0;
+  margin-top: 20px;
+}
+/* line 241, ../sass/engineering.scss */
+.middle-body img {
+  width: 100%;
+}
+/* line 244, ../sass/engineering.scss */
+.middle-body p {
+  color: #ffffff;
+  padding-top: 20px;
+  font-size: 1rem;
+  text-align: center;
+}
+/* line 250, ../sass/engineering.scss */
+.middle-body .f-details {
+  position: relative;
+}
+@media screen and (max-width: 992px) {
+  /* line 250, ../sass/engineering.scss */
+  .middle-body .f-details {
+    margin-bottom: 70px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 250, ../sass/engineering.scss */
+  .middle-body .f-details {
+    width: 100%;
+  }
+}
+/* line 258, ../sass/engineering.scss */
+.middle-body .f-details .name {
+  position: absolute;
+  width: 100%;
+  top: -54px;
+  left: 0;
+  padding: 0 15px;
+  font-family: "open_sanslight";
+  font-size: 1.188rem;
+}
+@media screen and (max-width: 992px) {
+  /* line 258, ../sass/engineering.scss */
+  .middle-body .f-details .name {
+    top: -55px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 258, ../sass/engineering.scss */
+  .middle-body .f-details .name {
+    top: -51px;
+  }
+}
+/* line 272, ../sass/engineering.scss */
+.middle-body .f-details .name div {
+  background: #747474;
+  padding: 15px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0 0 26px rgba(0, 0, 0, 0.2);
+}
+
+/* lower body start  */
+/* line 286, ../sass/engineering.scss */
+.lower-body {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+/* line 290, ../sass/engineering.scss */
+.lower-body .events {
+  background: #f8f8f8;
+  padding: 30px 15px;
+  display: table;
+  padding-right: 0;
+  border-right: 15px solid #ffffff;
+}
+@media screen and (max-width: 768px) {
+  /* line 290, ../sass/engineering.scss */
+  .lower-body .events {
+    margin-bottom: 30px;
+    border-right: none;
+  }
+}
+@media screen and (max-width: 635px) {
+  /* line 290, ../sass/engineering.scss */
+  .lower-body .events {
+    width: 100%;
+  }
+}
+/* line 303, ../sass/engineering.scss */
+.lower-body .events .event-big-img {
+  padding-left: 0;
+}
+/* line 305, ../sass/engineering.scss */
+.lower-body .events .event-big-img img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* line 309, ../sass/engineering.scss */
+.lower-body .events .event-big-img p {
+  font-size: 0.875rem;
+}
+/* line 313, ../sass/engineering.scss */
+.lower-body .events .event-content {
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+/* line 317, ../sass/engineering.scss */
+.lower-body .events .event-content h5 {
+  font-family: "open_sanssemibold";
+  color: #8d5715;
+  margin: 0;
+  font-size: 1.125rem;
+}
+/* line 324, ../sass/engineering.scss */
+.lower-body .events .read-more {
+  background: #8d5715;
+  border: none;
+  font-size: 1.125rem;
+  color: #ffffff;
+  padding: 20px;
+  width: 250px;
+  font-family: "open_sansregular";
+}
+@media screen and (max-width: 635px) {
+  /* line 290, ../sass/engineering.scss */
+  .lower-body .events {
+    width: 100%;
+  }
+}
+/* line 330, ../sass/engineering.scss */
+.lower-body .events .event-big-img {
+  padding-left: 0;
+}
+/* line 332, ../sass/engineering.scss */
+.lower-body .events .event-big-img img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* line 336, ../sass/engineering.scss */
+.lower-body .events .event-big-img p {
+  font-size: 0.875rem;
+}
+/* line 340, ../sass/engineering.scss */
+.lower-body .events .event-content {
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+/* line 344, ../sass/engineering.scss */
+.lower-body .events .event-content h5 {
+  font-family: "open_sanssemibold";
+  color: #8d5715;
+  margin: 0;
+  font-size: 1.125rem;
+}
+/* line 351, ../sass/engineering.scss */
+.lower-body .events .read-more {
+  background: #8d5715;
+  border: none;
+  font-size: 1.125rem;
+  color: #ffffff;
+  padding: 20px;
+  width: 250px;
+}
+/* line 360, ../sass/engineering.scss */
+.lower-body .gray-bg {
+  background: #f8f8f8;
+  position: absolute;
+  width: 374px;
+  top: 0;
+  left: -374px;
+  height: 100%;
+  display: table-cell;
+}
+@media screen and (max-width: 635px) {
+  /* line 360, ../sass/engineering.scss */
+  .lower-body .gray-bg {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 635px) {
+  /* line 372, ../sass/engineering.scss */
+  .lower-body .lower-body-right {
+    width: 100%;
+  }
+  /* line 375, ../sass/engineering.scss */
+  .lower-body .lower-body-right img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=engineering.css.map */

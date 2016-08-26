@@ -139,6 +139,7 @@
 /*19px*/
 /*20px*/
 /*22px*/
+/*15px*/
 /*14px*/
 /*12px*/
 /*11px*/
@@ -887,12 +888,6 @@ h6 {
   color: #8d5715;
   font-family: "open_sansbold";
 }
-@media screen and (max-width: 635px) {
-  /* line 520, ../sass/_common.scss */
-  .undergraduate-gray-button {
-    margin-bottom: 30px;
-  }
-}
 
 /* Right Side Academic calender section */
 /* line 528, ../sass/_common.scss */
@@ -903,7 +898,7 @@ h6 {
   color: #8d5715;
 }
 /* line 536, ../sass/_common.scss */
-.academic-calender .button-1 {
+.academic-calender button:nth-child(2) {
   background: none;
   border: 2px solid #8d5715;
   width: 100%;
@@ -915,32 +910,32 @@ h6 {
 }
 @media screen and (min-width: 635px) {
   /* line 536, ../sass/_common.scss */
-  .academic-calender .button-1 {
+  .academic-calender button:nth-child(2) {
     font-size: 1.375em;
     font-family: "open_sansbold";
   }
 }
 @media screen and (min-width: 768px) {
   /* line 536, ../sass/_common.scss */
-  .academic-calender .button-1 {
+  .academic-calender button:nth-child(2) {
     font-size: 1.125rem;
     font-family: "open_sansbold";
   }
 }
 @media screen and (min-width: 992px) {
   /* line 536, ../sass/_common.scss */
-  .academic-calender .button-1 {
+  .academic-calender button:nth-child(2) {
     font-size: 0.875rem;
   }
 }
 @media screen and (min-width: 1200px) {
   /* line 536, ../sass/_common.scss */
-  .academic-calender .button-1 {
+  .academic-calender button:nth-child(2) {
     font-size: 1rem;
   }
 }
-/* line 562, ../sass/_common.scss */
-.academic-calender .button-2 {
+/* line 561, ../sass/_common.scss */
+.academic-calender button:nth-child(3) {
   background: url(../images/button-bg.jpg) no-repeat 0 -1px #8d5715;
   border: none;
   width: 100%;
@@ -950,525 +945,77 @@ h6 {
   color: #ffffff;
 }
 @media screen and (min-width: 635px) {
-  /* line 562, ../sass/_common.scss */
-  .academic-calender .button-2 {
+  /* line 561, ../sass/_common.scss */
+  .academic-calender button:nth-child(3) {
     font-size: 1.375em;
     font-family: "open_sansbold";
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 562, ../sass/_common.scss */
-  .academic-calender .button-2 {
+  /* line 561, ../sass/_common.scss */
+  .academic-calender button:nth-child(3) {
     font-size: 1.125rem;
     font-family: "open_sansbold";
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 562, ../sass/_common.scss */
-  .academic-calender .button-2 {
+  /* line 561, ../sass/_common.scss */
+  .academic-calender button:nth-child(3) {
     font-size: 0.875rem;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 562, ../sass/_common.scss */
-  .academic-calender .button-2 {
+  /* line 561, ../sass/_common.scss */
+  .academic-calender button:nth-child(3) {
     font-size: 1rem;
   }
 }
 
-/*  banner section */
-/* line 5, ../sass/economices.scss */
-.banner-section {
-  margin: 0 auto;
-  max-width: 1440px;
-  position: relative;
-  height: 720px;
-  margin-top: 335px;
-}
-@media screen and (max-width: 992px) {
-  /* line 5, ../sass/economices.scss */
-  .banner-section {
-    height: auto;
-  }
-}
-/* line 8, ../sass/economices.scss */
-.banner-section .banner-img {
-  height: 700px;
-  overflow-y: hidden;
-  border-left: 20px solid #ffffff;
-}
-/* line 12, ../sass/economices.scss */
-.banner-section .banner-img img {
-  width: 100%;
-  height: auto;
-}
-@media screen and (max-width: 992px) {
-  /* line 8, ../sass/economices.scss */
-  .banner-section .banner-img {
-    height: auto;
-  }
-}
-/* line 20, ../sass/economices.scss */
-.banner-section .banner-overlap-div {
-  background: #f8f8f8;
-  position: absolute;
-  width: 100%;
-  height: auto;
-  bottom: 0;
-  left: 0;
-  box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  z-index: 1;
-}
-@media screen and (min-width: 768px) {
-  /* line 20, ../sass/economices.scss */
-  .banner-section .banner-overlap-div {
-    width: 370px;
-    height: 300px;
-    bottom: -20px;
-  }
-}
-@media screen and (min-width: 992px) {
-  /* line 20, ../sass/economices.scss */
-  .banner-section .banner-overlap-div {
-    width: 500px;
-    height: 250px;
-    bottom: 0;
-  }
-}
-/* line 40, ../sass/economices.scss */
-.banner-section .banner-overlap-div a {
-  color: #8d5715;
-  text-decoration: underline;
-}
-/* line 44, ../sass/economices.scss */
-.banner-section .banner-overlap-div h1 {
-  padding: 0;
-}
-/* line 47, ../sass/economices.scss */
-.banner-section .banner-overlap-div h3 {
-  padding: 0 0 20px 0;
-  color: #c3c3c3;
+/*Content*/
+/* line 4, ../sass/areas-of-research.scss */
+.crimsone-text {
   font-family: "crimson_textroman";
-}
-/* line 52, ../sass/economices.scss */
-.banner-section .banner-overlap-div p {
-  font-size: 0.875rem;
-  line-height: 30px;
-  color: #000000;
-}
-/* line 58, ../sass/economices.scss */
-.banner-section .date-section {
-  background: #8d5715;
-  position: absolute;
-  right: 0;
-  width: 100%;
-}
-@media screen and (min-width: 768px) {
-  /* line 58, ../sass/economices.scss */
-  .banner-section .date-section {
-    position: absolute;
-    padding: 25px 25px 25px 348px;
-    bottom: 0;
-  }
-}
-@media screen and (min-width: 992px) {
-  /* line 58, ../sass/economices.scss */
-  .banner-section .date-section {
-    bottom: 20px;
-    padding: 25px 25px 25px 500px;
-  }
-}
-/* line 72, ../sass/economices.scss */
-.banner-section .date-section .date-icon {
-  padding: 10px 25px 10px 30px;
-  border-right: 1px solid #ffffff;
-  width: 30px;
-  box-sizing: content-box;
-  float: left;
-}
-/* line 78, ../sass/economices.scss */
-.banner-section .date-section .date-icon i {
-  color: #ffffff;
-  font-size: 2rem;
-}
-/* line 83, ../sass/economices.scss */
-.banner-section .date-section .event-date {
-  width: 190px;
-  float: left;
   font-size: 1rem;
-  color: #ffffff;
-  font-family: "source_sans_prolight";
-  line-height: 18px;
-  padding: 10px 0 10px 35px;
-}
-/* line 91, ../sass/economices.scss */
-.banner-section .date-section .event-date .date {
-  font-size: 0.875rem;
-  line-height: 18px;
-  width: 45px;
-  float: left;
-}
-/* line 96, ../sass/economices.scss */
-.banner-section .date-section .event-date .date span {
-  font-size: 1.625rem;
-  font-family: "source_sans_proregular";
-  width: 100%;
-  float: left;
+  margin-bottom: 25px;
 }
 
-/* body css start  */
-/* line 110, ../sass/economices.scss */
-section {
-  padding: 70px 0;
+/*Research Table*/
+/* line 11, ../sass/areas-of-research.scss */
+.research-table {
+  margin: 60px 0 50px;
 }
-
-/* line 114, ../sass/economices.scss */
-.block-1-left {
-  width: 50%;
-  float: left;
-  padding-right: 15px;
+/* line 15, ../sass/areas-of-research.scss */
+.research-table tr:nth-child(odd) {
+  background: #f8f8f8;
 }
-@media screen and (max-width: 992px) {
-  /* line 114, ../sass/economices.scss */
-  .block-1-left {
-    width: 100%;
-    padding-right: 0;
-  }
-}
-@media screen and (max-width: 768px) {
-  /* line 114, ../sass/economices.scss */
-  .block-1-left {
-    width: 50%;
-    padding-right: 15px;
-  }
-}
-@media screen and (max-width: 635px) {
-  /* line 114, ../sass/economices.scss */
-  .block-1-left {
-    width: 100%;
-    padding-right: 0;
-  }
-}
-/* line 130, ../sass/economices.scss */
-.block-1-left .ime-text {
-  margin-bottom: 30px;
-  position: relative;
-}
-/* line 133, ../sass/economices.scss */
-.block-1-left .ime-text img {
-  width: 100%;
-}
-
-/* line 139, ../sass/economices.scss */
-.block-1-right {
-  width: 50%;
-  float: left;
-  padding-left: 15px;
-}
-@media screen and (max-width: 992px) {
-  /* line 139, ../sass/economices.scss */
-  .block-1-right {
-    width: 100%;
-    padding-left: 0;
-  }
-}
-@media screen and (max-width: 768px) {
-  /* line 139, ../sass/economices.scss */
-  .block-1-right {
-    width: 50%;
-    padding-left: 15px;
-  }
-}
-@media screen and (max-width: 635px) {
-  /* line 139, ../sass/economices.scss */
-  .block-1-right {
-    width: 100%;
-    padding-left: 0;
-  }
-}
-/* line 155, ../sass/economices.scss */
-.block-1-right .ime-text {
-  margin-bottom: 30px;
-  position: relative;
-  width: 50%;
-  float: left;
-}
-/* line 160, ../sass/economices.scss */
-.block-1-right .ime-text:first-child {
-  border-right: 10px solid #ffffff;
-}
-/* line 163, ../sass/economices.scss */
-.block-1-right .ime-text:nth-child(2) {
-  border-left: 10px solid #ffffff;
-}
-/* line 166, ../sass/economices.scss */
-.block-1-right .ime-text img {
-  width: 100%;
-}
-/* line 170, ../sass/economices.scss */
-.block-1-right h1 {
-  font-family: "open_sanslight";
-  color: #8d5715;
-  font-size: 2.25rem;
-}
-/* line 175, ../sass/economices.scss */
-.block-1-right p {
-  font-size: 0.875rem;
+/* line 19, ../sass/areas-of-research.scss */
+.research-table td {
+  padding: 15px;
+  font-size: 0.75rem;
   color: #656565;
 }
-
-/* line 182, ../sass/economices.scss */
-.ime-text .overlap-div {
-  background: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
-/* line 189, ../sass/economices.scss */
-.ime-text .overlap-div div {
-  display: table;
-  width: 100%;
-  height: 100%;
-  padding: 12px;
-  text-align: center;
-}
-/* line 195, ../sass/economices.scss */
-.ime-text .overlap-div div h2 {
-  display: table-cell;
-  vertical-align: middle;
-  color: #ffffff;
-  font-family: "open_sanssemibold";
-  font-size: 1.375rem;
-  line-height: 24px;
-}
-
-/* line 208, ../sass/economices.scss */
-.message-section .message-section-inner {
-  padding: 20px;
-  border: 3px solid #8d5715;
-  border-right: none;
-  border-bottom: none;
-}
-/* line 213, ../sass/economices.scss */
-.message-section .message-section-inner h3 {
-  font-family: "source_sans_probold";
-  color: #8d5715;
-  padding: 0 0 30px 0;
-}
-/* line 218, ../sass/economices.scss */
-.message-section .message-section-inner p {
-  font-size: 1.063rem;
+/* line 24, ../sass/areas-of-research.scss */
+.research-table td:first-child {
+  font-size: 0.875rem;
   color: #000000;
+  font-weight: 600;
+  width: 45%;
 }
-/* line 222, ../sass/economices.scss */
-.message-section .message-section-inner button {
-  width: 100%;
-  font-size: 1.188rem;
-  background: #f8f8f8;
-  font-family: "open_sanssemibold";
-  border: 1px solid #dfdfdf;
-  padding: 15px;
-  color: #656565;
-}
-
-/* middle body css start  */
-/* line 237, ../sass/economices.scss */
-.middle-body {
-  background: #8d5715;
-  padding: 0 0 30px 0;
-  margin-top: 20px;
-}
-/* line 241, ../sass/economices.scss */
-.middle-body img {
-  width: 100%;
-}
-/* line 244, ../sass/economices.scss */
-.middle-body p {
-  color: #ffffff;
-  padding-top: 20px;
-  font-size: 1rem;
-  text-align: center;
-}
-/* line 250, ../sass/economices.scss */
-.middle-body .f-details {
+/* line 31, ../sass/areas-of-research.scss */
+.research-table td:last-child {
+  font-size: 0.75rem;
+  color: #8d5715;
+  font-weight: 600;
+  text-decoration: underline;
   position: relative;
+  padding-left: 30px;
 }
-@media screen and (max-width: 992px) {
-  /* line 250, ../sass/economices.scss */
-  .middle-body .f-details {
-    margin-bottom: 70px;
-  }
-}
-@media screen and (max-width: 480px) {
-  /* line 250, ../sass/economices.scss */
-  .middle-body .f-details {
-    width: 100%;
-  }
-}
-/* line 258, ../sass/economices.scss */
-.middle-body .f-details .name {
+/* line 39, ../sass/areas-of-research.scss */
+.research-table td:last-child:after {
+  content: '';
   position: absolute;
-  width: 100%;
-  top: -54px;
+  top: 16%;
   left: 0;
-  padding: 0 15px;
-  font-family: "open_sanslight";
-  font-size: 1.188rem;
+  height: 68%;
+  border-left: #ededed 2px solid;
 }
-@media screen and (max-width: 992px) {
-  /* line 258, ../sass/economices.scss */
-  .middle-body .f-details .name {
-    top: -55px;
-  }
-}
-@media screen and (max-width: 768px) {
-  /* line 258, ../sass/economices.scss */
-  .middle-body .f-details .name {
-    top: -51px;
-  }
-}
-/* line 272, ../sass/economices.scss */
-.middle-body .f-details .name div {
-  background: #747474;
-  padding: 15px;
-  text-align: center;
-  color: #ffffff;
-  box-shadow: 0 0 26px rgba(0, 0, 0, 0.2);
-}
-
-/* lower body start  */
-/* line 286, ../sass/economices.scss */
-.lower-body {
-  position: relative;
-  max-width: 1920px;
-  margin: 0 auto;
-}
-/* line 291, ../sass/economices.scss */
-.lower-body .events {
-  background: #f8f8f8;
-  padding: 30px 15px;
-  display: table;
-  padding-right: 0;
-  border-right: 15px solid #ffffff;
-}
-@media screen and (max-width: 768px) {
-  /* line 291, ../sass/economices.scss */
-  .lower-body .events {
-    margin-bottom: 30px;
-    border-right: none;
-  }
-}
-@media screen and (max-width: 635px) {
-  /* line 291, ../sass/economices.scss */
-  .lower-body .events {
-    width: 100%;
-  }
-}
-/* line 304, ../sass/economices.scss */
-.lower-body .events .event-big-img {
-  padding-left: 0;
-}
-/* line 306, ../sass/economices.scss */
-.lower-body .events .event-big-img img {
-  width: 100%;
-  margin-bottom: 15px;
-}
-/* line 310, ../sass/economices.scss */
-.lower-body .events .event-big-img p {
-  font-size: 0.875rem;
-}
-/* line 314, ../sass/economices.scss */
-.lower-body .events .event-content {
-  font-size: 0.75rem;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-/* line 318, ../sass/economices.scss */
-.lower-body .events .event-content h5 {
-  font-family: "open_sanssemibold";
-  color: #8d5715;
-  margin: 0;
-  font-size: 1.125rem;
-}
-/* line 325, ../sass/economices.scss */
-.lower-body .events .read-more {
-  background: #8d5715;
-  border: none;
-  font-size: 1.125rem;
-  color: #ffffff;
-  padding: 20px;
-  width: 250px;
-  font-family: "open_sansregular";
-}
-@media screen and (max-width: 635px) {
-  /* line 291, ../sass/economices.scss */
-  .lower-body .events {
-    width: 100%;
-  }
-}
-/* line 332, ../sass/economices.scss */
-.lower-body .events .event-big-img {
-  padding-left: 0;
-}
-/* line 334, ../sass/economices.scss */
-.lower-body .events .event-big-img img {
-  width: 100%;
-  margin-bottom: 15px;
-}
-/* line 338, ../sass/economices.scss */
-.lower-body .events .event-big-img p {
-  font-size: 0.875rem;
-}
-/* line 342, ../sass/economices.scss */
-.lower-body .events .event-content {
-  font-size: 0.75rem;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-/* line 346, ../sass/economices.scss */
-.lower-body .events .event-content h5 {
-  font-family: "open_sanssemibold";
-  color: #8d5715;
-  margin: 0;
-  font-size: 1.125rem;
-}
-/* line 353, ../sass/economices.scss */
-.lower-body .events .read-more {
-  background: #8d5715;
-  border: none;
-  font-size: 1.125rem;
-  color: #ffffff;
-  padding: 20px;
-  width: 250px;
-}
-/* line 362, ../sass/economices.scss */
-.lower-body .gray-bg {
-  background: #f8f8f8;
-  position: absolute;
-  width: 374px;
-  top: 0;
-  left: -374px;
-  height: 100%;
-  display: table-cell;
-}
-@media screen and (max-width: 635px) {
-  /* line 362, ../sass/economices.scss */
-  .lower-body .gray-bg {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 635px) {
-  /* line 374, ../sass/economices.scss */
-  .lower-body .lower-body-right {
-    width: 100%;
-  }
-  /* line 377, ../sass/economices.scss */
-  .lower-body .lower-body-right img {
-    width: 100%;
-  }
-}
-
-/*# sourceMappingURL=economices.css.map */
