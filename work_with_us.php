@@ -2,7 +2,7 @@
 
   <!-- Content Start -->
   <div class="container margin-top">
-
+      <div class="top-fix-color-bg-wrapper"><div class="top-fix-color-bg">&nbsp;</div></div>
     <div class="breadcrumb col-md-offset-3">About / <span>Work with Us</span></div>
 
     <div class="row">

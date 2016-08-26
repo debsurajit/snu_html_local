@@ -851,7 +851,7 @@ h6 {
     font-size: 1rem;
   }
 }
-/* line 181, ../sass/_mixins.scss */
+/* line 187, ../sass/_mixins.scss */
 .undergraduate-brown-button span {
   color: #ffffff;
   font-family: "open_sansbold";
@@ -890,7 +890,7 @@ h6 {
     font-size: 1rem;
   }
 }
-/* line 209, ../sass/_mixins.scss */
+/* line 215, ../sass/_mixins.scss */
 .undergraduate-gray-button span {
   color: #8d5715;
   font-family: "open_sansbold";
@@ -1090,691 +1090,80 @@ h6 {
   position: absolute;
   left: -310px;
   top: -7px;
-  height: 300px;
+  height: 400px;
 }
 
-/*  banner section */
-/* line 6, ../sass/humanities-home.scss */
-.humanity-banner-section .banner-img {
-  max-width: 1920px;
-  margin: 0 auto;
-  height: 430px;
-  margin-top: 243px;
+/* line 4, ../sass/faculty-details.scss */
+.faculty-description h1 {
+  padding-bottom: 0;
+}
+/* line 9, ../sass/faculty-details.scss */
+.faculty-description .work_experience td {
+  padding: 0 0 10px 10px;
   position: relative;
 }
-@media screen and (max-width: 768px) {
-  /* line 6, ../sass/humanities-home.scss */
-  .humanity-banner-section .banner-img {
-    height: 450px;
-  }
-}
-@media screen and (max-width: 480px) {
-  /* line 6, ../sass/humanities-home.scss */
-  .humanity-banner-section .banner-img {
-    height: 700px;
-  }
-}
-/* line 18, ../sass/humanities-home.scss */
-.humanity-banner-section .banner-img img {
-  width: 1920px;
-  height: 430px;
-  position: absolute;
-}
-@media screen and (max-width: 768px) {
-  /* line 18, ../sass/humanities-home.scss */
-  .humanity-banner-section .banner-img img {
-    height: 450px;
-  }
-}
-@media screen and (max-width: 480px) {
-  /* line 18, ../sass/humanities-home.scss */
-  .humanity-banner-section .banner-img img {
-    height: 700px;
-  }
-}
-/* line 30, ../sass/humanities-home.scss */
-.humanity-banner-section .banner-content {
-  padding: 100px 15px;
-}
-@media screen and (max-width: 768px) {
-  /* line 30, ../sass/humanities-home.scss */
-  .humanity-banner-section .banner-content {
-    padding: 60px 15px;
-  }
-}
-@media screen and (max-width: 635px) {
-  /* line 30, ../sass/humanities-home.scss */
-  .humanity-banner-section .banner-content {
-    padding: 48px 15px;
-  }
-}
-@media screen and (max-width: 480px) {
-  /* line 30, ../sass/humanities-home.scss */
-  .humanity-banner-section .banner-content {
-    padding: 0 15px;
-  }
-  /* line 40, ../sass/humanities-home.scss */
-  .humanity-banner-section .banner-content .full-width {
-    width: 50%;
-  }
-}
-/* line 44, ../sass/humanities-home.scss */
-.humanity-banner-section .banner-content .left-content {
-  color: #ffffff;
-}
-/* line 46, ../sass/humanities-home.scss */
-.humanity-banner-section .banner-content .left-content h1 {
-  font-size: 2.25rem;
-  color: #ffffff;
-}
-/* line 50, ../sass/humanities-home.scss */
-.humanity-banner-section .banner-content .left-content p {
-  font-size: 1.063rem;
-  font-family: "open_sanslight";
-}
-/* line 55, ../sass/humanities-home.scss */
-.humanity-banner-section .banner-content .right-content {
-  color: #ffffff;
-  font-family: "open_sanslight";
-  font-size: 0.688rem;
-  text-align: center;
+/* line 12, ../sass/faculty-details.scss */
+.faculty-description .work_experience td:first-child {
+  font-size: 1rem;
   line-height: 18px;
+  border-left: 2px solid #666;
 }
-@media screen and (max-width: 768px) {
-  /* line 55, ../sass/humanities-home.scss */
-  .humanity-banner-section .banner-content .right-content {
+@media screen and (min-width: 768px) {
+  /* line 12, ../sass/faculty-details.scss */
+  .faculty-description .work_experience td:first-child {
     font-size: 0.875rem;
   }
 }
-/* line 64, ../sass/humanities-home.scss */
-.humanity-banner-section .banner-content .right-content img {
-  width: 100%;
-  height: auto;
-  position: relative;
-}
-/* line 69, ../sass/humanities-home.scss */
-.humanity-banner-section .banner-content .right-content span {
-  font-family: "open_sanssemibold";
-  width: 100%;
-  font-size: 0.875rem;
-  float: left;
-  padding-top: 10px;
-}
-@media screen and (max-width: 768px) {
-  /* line 69, ../sass/humanities-home.scss */
-  .humanity-banner-section .banner-content .right-content span {
-    font-size: 1rem;
+@media screen and (min-width: 992px) {
+  /* line 12, ../sass/faculty-details.scss */
+  .faculty-description .work_experience td:first-child {
+    font-size: 0.75rem;
   }
+}
+/* line 23, ../sass/faculty-details.scss */
+.faculty-description .work_experience td:first-child:after {
+  content: "\f111";
+  font-family: "FontAwesome";
+  top: 10px;
+  left: -6px;
+  position: absolute;
+}
+/* line 31, ../sass/faculty-details.scss */
+.faculty-description .work_experience td span {
+  font-weight: bold;
 }
 
-/* event section css */
-/* line 86, ../sass/humanities-home.scss */
-.humanity-event-section {
+/* right side image section */
+/* line 41, ../sass/faculty-details.scss */
+.faculty-image {
   position: relative;
-  padding-bottom: 100px;
 }
-/* line 89, ../sass/humanities-home.scss */
-.humanity-event-section .humanity-event-section-bg {
-  background: #eee5dc;
-  height: 220px;
-  position: absolute;
-  z-index: -1;
-  width: 100%;
+/* line 43, ../sass/faculty-details.scss */
+.faculty-image p {
+  padding: 10px 0;
 }
-@media screen and (max-width: 635px) {
-  /* line 96, ../sass/humanities-home.scss */
-  .humanity-event-section .research-update {
-    width: 100%;
-  }
-}
-/* line 101, ../sass/humanities-home.scss */
-.humanity-event-section .research-update h5 {
-  font-family: "open_sansbold";
-  color: #c3c3c3;
-  font-size: 1.125rem;
-  text-transform: uppercase;
-  padding: 0 15px 10px;
-  color: #656565;
-  text-align: center;
-  padding: 45px 0 15px;
-}
-@media screen and (min-width: 768px) {
-  /* line 101, ../sass/humanities-home.scss */
-  .humanity-event-section .research-update h5 {
-    font-size: 1rem;
-  }
-}
-@media screen and (min-width: 992px) {
-  /* line 101, ../sass/humanities-home.scss */
-  .humanity-event-section .research-update h5 {
-    font-size: 0.875rem;
-  }
-}
-/* line 107, ../sass/humanities-home.scss */
-.humanity-event-section .research-update .slide {
-  box-shadow: 0 0 35px 15px rgba(0, 0, 0, 0.1);
-}
-/* line 110, ../sass/humanities-home.scss */
-.humanity-event-section .research-update .slide .carousel-inner {
-  height: 246px;
-}
-@media screen and (max-width: 635px) {
-  /* line 110, ../sass/humanities-home.scss */
-  .humanity-event-section .research-update .slide .carousel-inner {
-    height: auto;
-  }
-}
-/* line 115, ../sass/humanities-home.scss */
-.humanity-event-section .research-update .slide .carousel-inner img {
-  width: 629px;
-  max-width: 629px;
-  height: 246px;
-}
-@media screen and (max-width: 635px) {
-  /* line 115, ../sass/humanities-home.scss */
-  .humanity-event-section .research-update .slide .carousel-inner img {
-    height: auto;
-  }
-}
-/* line 124, ../sass/humanities-home.scss */
-.humanity-event-section .research-update .slide .carousel-indicators {
-  top: 0;
-  right: 0;
-  left: inherit;
-  margin: 5px;
-  width: auto;
-}
-/* line 130, ../sass/humanities-home.scss */
-.humanity-event-section .research-update .slide .carousel-indicators li {
-  width: 8px;
-  height: 8px;
-  margin: 0;
-}
-/* line 136, ../sass/humanities-home.scss */
-.humanity-event-section .research-update .slide .carousel-caption {
-  font-family: "open_sanssemibold";
-  font-size: 1rem;
-  text-shadow: none;
-  text-align: left;
-  left: 15px;
-  bottom: 15px;
-  right: inherit;
-  padding: 0;
-  width: 210px;
-}
-/* line 146, ../sass/humanities-home.scss */
-.humanity-event-section .research-update .slide .carousel-caption span {
-  font-family: "open_sanssemibold";
-  font-size: 0.75rem;
+/* line 45, ../sass/faculty-details.scss */
+.faculty-image p span {
   width: 100%;
   float: left;
-}
-@media screen and (max-width: 635px) {
-  /* line 155, ../sass/humanities-home.scss */
-  .humanity-event-section .upcoming-events {
-    width: 100%;
-  }
-}
-/* line 159, ../sass/humanities-home.scss */
-.humanity-event-section .upcoming-events h5 {
-  font-family: "open_sansbold";
-  color: #c3c3c3;
-  font-size: 1.125rem;
-  text-transform: uppercase;
-  padding: 0 15px 10px;
-  color: #656565;
-  text-align: center;
-  padding: 45px 0 15px;
-}
-@media screen and (min-width: 768px) {
-  /* line 159, ../sass/humanities-home.scss */
-  .humanity-event-section .upcoming-events h5 {
-    font-size: 1rem;
-  }
-}
-@media screen and (min-width: 992px) {
-  /* line 159, ../sass/humanities-home.scss */
-  .humanity-event-section .upcoming-events h5 {
-    font-size: 0.875rem;
-  }
-}
-/* line 165, ../sass/humanities-home.scss */
-.humanity-event-section .upcoming-events .upcoming-events-block {
-  box-shadow: 0 0 35px 15px rgba(0, 0, 0, 0.1);
-  background: #f0f0f0;
-  padding: 20px;
-  margin-bottom: 20px;
-  border: 1px solid #bdbdbd;
-}
-@media screen and (max-width: 768px) {
-  /* line 165, ../sass/humanities-home.scss */
-  .humanity-event-section .upcoming-events .upcoming-events-block {
-    padding: 15px;
-  }
-}
-/* line 174, ../sass/humanities-home.scss */
-.humanity-event-section .upcoming-events .upcoming-events-block .date {
-  width: 50px;
-  float: left;
-  font-size: 0.875rem;
-  font-family: "open_sansbold";
-  line-height: 18px;
-}
-@media screen and (max-width: 992px) {
-  /* line 174, ../sass/humanities-home.scss */
-  .humanity-event-section .upcoming-events .upcoming-events-block .date {
-    width: 45px;
-  }
-}
-@media screen and (max-width: 768px) {
-  /* line 174, ../sass/humanities-home.scss */
-  .humanity-event-section .upcoming-events .upcoming-events-block .date {
-    width: 30px;
-  }
-}
-/* line 188, ../sass/humanities-home.scss */
-.humanity-event-section .upcoming-events .upcoming-events-block span {
-  width: 100%;
-  float: left;
-  font-size: 1.375rem;
-  font-family: "open_sanslight";
-}
-/* line 195, ../sass/humanities-home.scss */
-.humanity-event-section .upcoming-events .event-content {
-  font-size: 0.75rem;
-  color: #656565;
-  line-height: 26px;
-}
-/* line 199, ../sass/humanities-home.scss */
-.humanity-event-section .upcoming-events .event-content h5 {
   color: #8d5715;
-  font-family: "open_sanssemibold";
-  text-transform: capitalize;
-  font-size: 0.875rem;
-  padding: 0;
-  text-align: left;
-  margin: 0;
+  font-weight: bold;
 }
-@media screen and (max-width: 992px) {
-  /* line 199, ../sass/humanities-home.scss */
-  .humanity-event-section .upcoming-events .event-content h5 {
-    font-size: 1rem;
-  }
-}
-@media screen and (max-width: 768px) {
-  /* line 199, ../sass/humanities-home.scss */
-  .humanity-event-section .upcoming-events .event-content h5 {
-    padding-top: 4px;
-  }
-}
-@media screen and (max-width: 992px) {
-  /* line 216, ../sass/humanities-home.scss */
-  .humanity-event-section .upcoming-events .event-content P {
-    font-size: 0.875rem;
-  }
-}
-@media screen and (max-width: 768px) {
-  /* line 216, ../sass/humanities-home.scss */
-  .humanity-event-section .upcoming-events .event-content P {
-    line-height: 27px;
-  }
-}
-
-/*  humanitices-program-section  */
-/* line 233, ../sass/humanities-home.scss */
-.humanitices-program-section {
-  background: #000000;
-  min-height: 400px;
-  position: relative;
-  margin-bottom: 50px;
-}
-/* line 239, ../sass/humanities-home.scss */
-.humanitices-program-section .max-width {
-  background: #000000;
-  min-height: 400px;
-  width: auto;
-  margin: 0 auto;
-  position: relative;
-  max-width: auto;
-  color: red;
-}
-@media screen and (min-width: 1920px) {
-  /* line 239, ../sass/humanities-home.scss */
-  .humanitices-program-section .max-width {
-    width: 1920px;
-    margin: 0 auto;
-    max-width: 1920px;
-  }
-}
-/* line 252, ../sass/humanities-home.scss */
-.humanitices-program-section .max-width .white-bg {
-  background: #ffffff;
-  width: 380px;
-  min-height: 400px;
-  float: left;
-  position: absolute;
-  left: 0;
-}
-@media screen and (min-width: 768px) {
-  /* line 252, ../sass/humanities-home.scss */
-  .humanitices-program-section .max-width .white-bg {
-    width: 150px;
-  }
-}
-@media screen and (min-width: 992px) {
-  /* line 252, ../sass/humanities-home.scss */
-  .humanitices-program-section .max-width .white-bg {
-    width: 250px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  /* line 252, ../sass/humanities-home.scss */
-  .humanitices-program-section .max-width .white-bg {
-    width: 380px;
-  }
-}
-@media screen and (min-width: 1920px) {
-  /* line 252, ../sass/humanities-home.scss */
-  .humanitices-program-section .max-width .white-bg {
-    width: 650px;
-  }
-}
-@media screen and (max-width: 768px) {
-  /* line 252, ../sass/humanities-home.scss */
-  .humanitices-program-section .max-width .white-bg {
-    display: none;
-  }
-}
-/* line 275, ../sass/humanities-home.scss */
-.humanitices-program-section .max-width .white-bg .widget-bg {
-  background: #eee5dc;
-  height: 580px;
-  position: absolute;
-  width: 200px;
-  top: 30px;
-}
-@media screen and (max-width: 992px) {
-  /* line 275, ../sass/humanities-home.scss */
-  .humanitices-program-section .max-width .white-bg .widget-bg {
-    width: 50px;
-  }
-}
-@media screen and (max-width: 768px) {
-  /* line 275, ../sass/humanities-home.scss */
-  .humanitices-program-section .max-width .white-bg .widget-bg {
-    display: none;
-  }
-}
-/* line 293, ../sass/humanities-home.scss */
-.humanitices-program-section .program-title h5 {
-  font-family: "open_sansbold";
-  color: #c3c3c3;
-  font-size: 1.125rem;
-  text-transform: uppercase;
-  padding: 0 15px 10px;
-  padding: 0;
-  margin: 25px 0;
-  padding: 0 10px;
-}
-@media screen and (min-width: 768px) {
-  /* line 293, ../sass/humanities-home.scss */
-  .humanitices-program-section .program-title h5 {
-    font-size: 1rem;
-  }
-}
-@media screen and (min-width: 992px) {
-  /* line 293, ../sass/humanities-home.scss */
-  .humanitices-program-section .program-title h5 {
-    font-size: 0.875rem;
-  }
-}
-/* line 303, ../sass/humanities-home.scss */
-.humanitices-program-section .body-cotation-text {
-  font-family: "crimson_textitalic";
-  color: #ffffff;
-  font-size: 1.063rem;
-  line-height: 30px;
-  padding: 50px 0 50px 100px;
-}
-@media screen and (max-width: 992px) {
-  /* line 303, ../sass/humanities-home.scss */
-  .humanitices-program-section .body-cotation-text {
-    padding-left: 30px;
-  }
-}
-@media screen and (max-width: 992px) {
-  /* line 303, ../sass/humanities-home.scss */
-  .humanitices-program-section .body-cotation-text {
-    padding-bottom: 0;
-  }
-}
-/* line 316, ../sass/humanities-home.scss */
-.humanitices-program-section .body-cotation-text p:nth-child(2) {
-  font-family: "open_sanslight";
-  font-size: 0.75rem;
-  line-height: 18px;
-}
-/* line 317, ../sass/humanities-home.scss */
-.humanitices-program-section .body-cotation-text p:nth-child(2) span {
-  width: 100%;
-  float: left;
-  font-family: "open_sanssemibold";
-  color: #8d5715;
-  font-size: 1rem;
-}
-/* line 331, ../sass/humanities-home.scss */
-.humanitices-program-section .humanities-programs-button {
-  padding-top: 70px;
-}
-/* line 333, ../sass/humanities-home.scss */
-.humanitices-program-section .humanities-programs-button button {
-  background: #656565;
-  border: none;
-  font-size: 1.125rem;
-  color: #ffffff;
-  padding: 20px;
-  width: 100%;
-  font-family: "open_sansregular";
-  text-align: left;
-  float: right;
-  margin-bottom: 15px;
-}
-@media screen and (max-width: 768px) {
-  /* line 333, ../sass/humanities-home.scss */
-  .humanitices-program-section .humanities-programs-button button {
-    width: 250px;
-  }
-  /* line 340, ../sass/humanities-home.scss */
-  .humanitices-program-section .humanities-programs-button button:first-child {
-    float: left;
-  }
-}
-@media screen and (max-width: 635px) {
-  /* line 333, ../sass/humanities-home.scss */
-  .humanitices-program-section .humanities-programs-button button {
-    width: 100%;
-  }
-  /* line 347, ../sass/humanities-home.scss */
-  .humanitices-program-section .humanities-programs-button button:first-child {
-    float: left;
-  }
-}
-
-/* research area section */
-/* line 359, ../sass/humanities-home.scss */
-.research-area {
-  padding-bottom: 30px;
-}
-/* line 362, ../sass/humanities-home.scss */
-.research-area .event-area-img .overlap-area {
-  margin-bottom: 30px;
-  display: table;
-}
-/* line 365, ../sass/humanities-home.scss */
-.research-area .event-area-img .overlap-area img {
-  width: 100%;
-}
-/* line 368, ../sass/humanities-home.scss */
-.research-area .event-area-img .overlap-area .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: table-cell;
-  padding: 0 15px;
-  width: 100%;
-  height: 100%;
-  vertical-align: middle;
-}
-/* line 377, ../sass/humanities-home.scss */
-.research-area .event-area-img .overlap-area .overlay div {
-  background: rgba(0, 0, 0, 0.3);
-  width: 100%;
-  display: table;
-  height: 100%;
-  text-align: center;
-}
-/* line 383, ../sass/humanities-home.scss */
-.research-area .event-area-img .overlap-area .overlay div h4 {
-  display: table-cell;
-  height: 100%;
-  vertical-align: middle;
-  color: #ffffff;
-  font-family: "open_sansregular";
-}
-/* line 394, ../sass/humanities-home.scss */
-.research-area .event-area-content {
-  padding-top: 0;
-}
-@media screen and (min-width: 1200px) {
-  /* line 394, ../sass/humanities-home.scss */
-  .research-area .event-area-content {
-    padding-top: 125px;
-  }
-}
-/* line 399, ../sass/humanities-home.scss */
-.research-area .event-area-content h5 {
-  font-family: "open_sansbold";
-  color: #c3c3c3;
-  font-size: 1.125rem;
-  text-transform: uppercase;
-  padding: 0 15px 10px;
-  padding: 0;
-}
-@media screen and (min-width: 768px) {
-  /* line 399, ../sass/humanities-home.scss */
-  .research-area .event-area-content h5 {
-    font-size: 1rem;
-  }
-}
-@media screen and (min-width: 992px) {
-  /* line 399, ../sass/humanities-home.scss */
-  .research-area .event-area-content h5 {
-    font-size: 0.875rem;
-  }
-}
-/* line 403, ../sass/humanities-home.scss */
-.research-area .event-area-content h1 {
-  padding-top: 0;
-}
-/* line 406, ../sass/humanities-home.scss */
-.research-area .event-area-content p {
-  font-size: 1rem;
-}
-/* line 408, ../sass/humanities-home.scss */
-.research-area .event-area-content p a {
-  font-family: "open_sansbold";
-  color: #8d5715;
-  text-decoration: underline;
-  font-size: 1rem;
-}
-
-/* news secton */
-/* line 421, ../sass/humanities-home.scss */
-.news-section {
-  background: #f0f0f0;
-  padding: 20px 0 10px;
-  margin-bottom: 30px;
-}
-/* line 425, ../sass/humanities-home.scss */
-.news-section h5 {
-  font-family: "open_sansbold";
-  color: #c3c3c3;
-  font-size: 1.125rem;
-  text-transform: uppercase;
-  padding: 0 15px 10px;
-}
-@media screen and (min-width: 768px) {
-  /* line 425, ../sass/humanities-home.scss */
-  .news-section h5 {
-    font-size: 1rem;
-  }
-}
-@media screen and (min-width: 992px) {
-  /* line 425, ../sass/humanities-home.scss */
-  .news-section h5 {
-    font-size: 0.875rem;
-  }
-}
-/* line 430, ../sass/humanities-home.scss */
-.news-section .thumbnail {
-  background: none;
-  padding: 0;
-  border: none;
-}
-/* line 434, ../sass/humanities-home.scss */
-.news-section .thumbnail img {
-  width: 100%;
-  box-shadow: 0 0 35px 8px rgba(0, 0, 0, 0.1);
-}
-/* line 439, ../sass/humanities-home.scss */
-.news-section .thumbnail .caption {
-  padding: 10px 0 0;
+/* line 52, ../sass/faculty-details.scss */
+.faculty-image p a {
   color: #000000;
 }
-/* line 442, ../sass/humanities-home.scss */
-.news-section .thumbnail .caption h3 {
-  padding: 0 0 10px 0;
-  line-height: 24px;
-  min-height: 60px;
+/* line 54, ../sass/faculty-details.scss */
+.faculty-image p a:hover {
+  color: #666666;
 }
-/* line 447, ../sass/humanities-home.scss */
-.news-section .thumbnail .caption p {
-  margin: 0;
+/* line 60, ../sass/faculty-details.scss */
+.faculty-image .faculty-right-gray-bg {
+  background: #f0f0f0;
+  width: 500px;
+  height: 700px;
+  position: absolute;
+  right: -330px;
+  top: 100px;
+  z-index: -1;
 }
-/* line 450, ../sass/humanities-home.scss */
-.news-section .thumbnail .caption span {
-  font-family: "open_sanssemibold";
-  font-size: 0.75rem;
-  color: #656565;
-}
-/* line 457, ../sass/humanities-home.scss */
-.news-section .new-content {
-  color: #656565;
-  font-size: 0.75rem;
-  font-family: "open_sansbold";
-}
-/* line 461, ../sass/humanities-home.scss */
-.news-section .new-content h4 {
-  font-family: "open_sanssemibold";
-  color: #8d5715;
-  margin: 0 0 20px;
-  font-size: 1.125rem;
-}
-/* line 467, ../sass/humanities-home.scss */
-.news-section .new-content .read-more {
-  background: #8d5715;
-  border: none;
-  font-size: 1.125rem;
-  color: #ffffff;
-  padding: 20px;
-  width: 250px;
-  font-family: "open_sansregular";
-}
-@media screen and (max-width: 480px) {
-  /* line 472, ../sass/humanities-home.scss */
-  .news-section .full-width {
-    width: 100%;
-  }
-}
-
-/*# sourceMappingURL=humanities-home.css.map */
