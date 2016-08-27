@@ -25,7 +25,7 @@
               <h3>Summary</h3>
               <p class="animated fadeIn slower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam fringilla eros, eget fermentum massa bibendum sit amet. Sed pulvinar elementum lorem, ut mollis felis laoreet ut. In sollicitudin leo cursus tortor luctus pharetra. Maecenas ornare feugiat magna eget efficitur. Vivamus sit amet ultricies sapien, id laoreet nibh. Aenean facilisis tortor vel justo pharetra vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
           </div>
-          <div class="animatedParent">    
+          <div id="EQ" class="animatedParent">    
                 <h3 class="animated bounceInUp slower">Educational Qualifications</h3>
           
                 <table class="animated bounceInUp slower">
@@ -49,7 +49,7 @@
             
           </div>  
             
-            <div class="animatedParent">    
+            <div id="WE" class="animatedParent">    
                 <h3 class="animated bounceInUp slower">Work Experience</h3>
           
                 <table class="animated bounceInUp slower work_experience">
@@ -82,13 +82,13 @@
           </div> 
             
          
-           <div class="animatedParent">      
+           <div id="TI" class="animatedParent">      
                   <h3 class="animated bounceInUp slower">Teaching Interests</h3>
 
                   <p class="animated bounceInUp slower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam fringilla eros, eget fermentum massa bibendum sit amet. Sed pulvinar elementum lorem, ut mollis felis laoreet ut. In sollicitudin leo cursus tortor luctus pharetra. Maecenas ornare feugiat magna eget efficitur. Vivamus sit amet ultricies sapien, id laoreet nibh. Aenean facilisis tortor vel justo pharetra vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
             </div>
             
-            <div class="animatedParent">      
+            <div id="PS" class="animatedParent">      
                   <h3 class="animated bounceInUp slower">Publication (Select)</h3>
 
                   <p class="animated bounceInUp slower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam fringilla eros, eget fermentum massa bibendum sit amet. Sed pulvinar elementum lorem, ut mollis felis laoreet ut. In sollicitudin leo cursus tortor luctus pharetra. Maecenas ornare feugiat magna eget efficitur.</p>
@@ -100,7 +100,7 @@
                 <p class="animated bounceInUp slower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam fringilla eros, eget fermentum massa bibendum sit amet. Sed pulvinar elementum lorem, ut mollis felis laoreet ut. In sollicitudin leo cursus tortor luctus pharetra. Maecenas ornare feugiat magna eget efficitur.</p>
             </div>
          
-           <div class="animatedParent">      
+           <div id="CS" class="animatedParent">      
                   <h3 class="animated bounceInUp slower">Conferences (Select)</h3>
 
                   <p class="animated bounceInUp slower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam fringilla eros, eget fermentum massa bibendum sit amet. Sed pulvinar elementum lorem, ut mollis felis laoreet ut. In sollicitudin leo cursus tortor luctus pharetra. Maecenas ornare feugiat magna eget efficitur.</p>
@@ -129,4 +129,41 @@
     <!-- Content End -->
   </div>
 
-  <?php include 'footer.php';?>
+</body>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    $(document).click(function () {
+      $(".search-area").slideUp("slow");
+
+    });
+    $(".search ul li:last-child a").click(function (e) {
+      e.stopPropagation();
+      $(".search-area").slideDown("slow");
+
+    });
+    $('.search-area').click(function (e) {
+      e.stopPropagation();
+    });
+
+  });
+</script>
+
+<script>
+jQuery('a[href^="#"]').click(function(e) {
+ 
+    jQuery('html,body').animate({ scrollTop: jQuery(this.hash).offset().top -250}, 1000);
+ 
+    return false;
+ 
+    e.preventDefault();
+ 
+});
+
+</script>
+<script src="js/custom.js"></script>
+
+</html>

@@ -24,6 +24,9 @@ body {
     }
 }
 
+footer{
+    padding-top: 50px;
+}
 a {
     color: $base-blue-color;
     &:hover {
@@ -78,6 +81,23 @@ h6 {
     margin: 0;
 }
 
+@media screen and (max-width:$xs){
+    .col-exe-12{
+        width: 100%;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+    }
+}
+
+.padding-top-20{
+    padding-top: 20px;
+}
+.padding-top-30{
+    padding-top: 30px;
+}
 
 /*   top header css  */
 
@@ -507,21 +527,15 @@ h6 {
     }
 }
 
-/* inner body bottom padding */
 
- @media screen and (min-width: $sm) {
-    .middle-content {
-        padding-bottom: 50px;
-    }
-}
 
 /* Undergraduate body button */
 
-.undergraduate-brown-button {
+a.undergraduate-brown-button {
     @include undergraduate-brown-button;
 }
 
-.undergraduate-gray-button {
+a.undergraduate-gray-button {
     @include undergraduate-gray-button;
 }
 
@@ -604,7 +618,7 @@ h6 {
     }/* calender slider css end */
     
     
-    .button-1 {
+    .button-with-white-bg {
         background: none;
         border: 2px solid $department-base-color;
         width: 100%;
@@ -613,6 +627,7 @@ h6 {
         font-size: $font-size-xxl;
         color: $department-base-color;
         margin: 20px 0;
+        display: block;
         @media screen and (min-width: $axs) {
             font-size: $font-size-xxl;
             font-family: $font-family-open-sans-bold;
@@ -664,9 +679,15 @@ h6 {
 
 .crimsone-text {
   font-family: $font-family-crimson-roman;
-  font-size: $font-size;
+  font-size: $font-size-ll;
   margin-bottom: 25px;
+    @media screen and (min-width:$sm) {
+            font-size: $font-size;
+        }
 }
+
+
+/* inner page to fix bg color */
 
 .top-fix-color-bg-wrapper{
         position: relative;
@@ -677,5 +698,35 @@ h6 {
         left: -310px;
         top: -7px;
         height: 400px;
+        z-index: -1;
     }
+}
+
+
+/* fixed faq button */
+
+.button-faq{
+    background: none;
+        border: 2px solid $department-base-color;
+        
+        padding: 5px;
+        font-family: $font-family-open-sans-bold;
+        font-size: $font-size;
+        color: $department-base-color;
+    position: absolute;
+    right: -40px;
+    top: 460px;
+    width: 120px;
+    text-align: center;
+    transform: rotate(90deg);
+    @include transition(0.5s);
+    &:hover{
+        background: $department-base-color;
+        color: $white-color;
+    }
+}
+
+.button-apply{
+     @extend .button-faq;
+    top: 600px;
 }
