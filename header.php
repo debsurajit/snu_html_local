@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/facilities.css">
     <link rel="stylesheet" href="css/people-faculty.css">
     <link rel="stylesheet" href="css/faculty-details.css">
+    <link rel="stylesheet" href="css/faq.css">
 
 
    </head>
