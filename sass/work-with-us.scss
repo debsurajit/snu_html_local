@@ -37,3 +37,28 @@
         margin: 0;
     }
 }
+
+.work-with-gray-bg{
+    position: relative;
+       .faculty-right-gray-bg{
+        background: $widgets-background;
+        width: 2000px;
+        height: 450px;
+        position: absolute;
+        left: 975px;
+        top: 70px;
+        z-index: -3;
+           @media screen and (max-width:$lg){
+               left: 810px;
+           }
+           
+           @media screen and (max-width:$md){
+               left: 610px;
+           }
+        }
+    .faculty-left-gray-bg{
+        @extend .faculty-right-gray-bg;
+        left: inherit;
+        right: 1448px;
+    }
+}

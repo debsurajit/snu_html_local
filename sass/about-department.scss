@@ -4,7 +4,16 @@
 
 .banner {
     @include banner-max-width;
-    margin-top: 280px;
+    margin-top: 250px;
+    padding-top: 30px;
+    
+    .top-fix-color-bg{
+        height: 867px;
+        left: -157px;
+        @media screen and (max-width:$md){
+               left: -260px;
+           }
+    }
 }
 
 
@@ -31,8 +40,9 @@
 
 /*Right Panel*/
 
-.right-panel {
+.department-right-section {
     padding-top: 93px;
+    
     @media screen and (max-width: $sm) {
         padding-top: 20px;
     }
@@ -47,5 +57,28 @@
         color: $department-highlight-color;
         font-style: italic;
         font-size: $font-size-s;
+    }
+    
+     .faculty-right-gray-bg{
+        background: $widgets-background;
+        width: 2000px;
+        height: 450px;
+        position: absolute;
+        left: 190px;
+        top: 70px;
+        z-index: -1;
+         
+          @media screen and (max-width:$lg){
+               left: 140px;
+           }
+           
+           @media screen and (max-width:$md){
+               left: 120px;
+           }
+        }
+    .faculty-left-gray-bg{
+        @extend .faculty-right-gray-bg;
+        left: inherit;
+        right: 1448px;
     }
 }

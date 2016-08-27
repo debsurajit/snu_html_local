@@ -65,7 +65,7 @@ ul.leftmenu-bottom {
             border-top: $department-base-color 4px solid;
         }
         h4 {
-            font-size: $font-size-l;
+            font-size: $font-size-xl;
             color: $department-base-color;
             font-weight: normal;
         }
@@ -78,3 +78,4 @@ ul.leftmenu-bottom {
 .team-block {
   @include team-structure;
 }
+

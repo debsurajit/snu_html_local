@@ -4,7 +4,7 @@
   <!-- Banner Start -->
   <div class="banner">
     <img src="images/department-banner.jpg" alt="">
-      <div class="top-fix-color-bg">&nbsp;</div>
+     <div class="top-fix-color-bg">&nbsp;</div>
   </div>
   <!-- Banner End -->
 
@@ -39,7 +39,7 @@
         <!-- Middle Panel End -->
 
         <!-- Right Panel Start -->
-        <div class="col-sm-4 right-panel">
+        <div class="col-sm-4 right-panel department-right-section">
           <div class="animatedParent">
             <div class="animated bounceInRight slower">
               <img src="images/right-img.jpg" alt=" ">
@@ -49,7 +49,8 @@
         <span>Head of the Department</span></h4>
           <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis nulla. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu.</p>
 
-
+            <div class="faculty-right-gray-bg">&nbsp;</div>
+            <div class="faculty-left-gray-bg">&nbsp;</div>
         </div>
         <!-- Right Panel End -->
       </div>
@@ -64,13 +65,14 @@
           </div>
 
         </div>
-        <div class="col-sm-4 right-panel">
+        <div class="col-sm-4 right-panel department-right-section">
           <div class="animatedParent">
             <div class="animated bounceInRight slower">
               <img src="images/iao-logo.jpg" alt=" ">
               <img src="images/bac-logo.jpg" alt=" ">
             </div>
           </div>
+            
         </div>
       </div>
     </div>

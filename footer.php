@@ -1,4 +1,4 @@
-
+<footer>&nbsp;</footer>
 
 
 </body>
@@ -23,6 +23,8 @@
 
   });
 </script>
+
+
 <script src="js/custom.js"></script>
 
 </html>

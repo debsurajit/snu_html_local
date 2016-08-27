@@ -38,5 +38,5 @@
 
     </div>
 </div>
-<button class="button-1">Undergraduate Handbook</button>
+<a href="" class="button-with-white-bg">Undergraduate Handbook</a>
 <button class="button-2">Library</button>

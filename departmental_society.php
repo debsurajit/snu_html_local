@@ -54,31 +54,31 @@
                 <div class="team-block">
                   <h3 class="title">Meet the Team</h3>
                   <ul class="row">
-                    <li class="col-lg-4 col-md-6 col-sm-4 col-xs-6">
+                    <li class="col-lg-4 col-md-6 col-xs-6">
                       <img src="images/team1.jpg" alt="">
                       <h3>Nellie Holland</h3> Secretary
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
 
-                    <li class="col-lg-4 col-md-6  col-sm-4 col-xs-6">
+                    <li class="col-lg-4 col-md-6 col-xs-6">
                       <img src="images/team2.jpg" alt="">
                       <h3>Nellie Holland</h3> Secretary
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
 
-                    <li class="col-lg-4 col-md-6  col-sm-4 col-xs-6">
+                    <li class="col-lg-4 col-md-6 col-xs-6">
                       <img src="images/team3.jpg" alt="">
                       <h3>Nellie Holland</h3> Secretary
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
 
-                    <li class="col-lg-4 col-md-6 col-sm-4 col-xs-6">
+                    <li class="col-lg-4 col-md-6 col-xs-6">
                       <img src="images/team4.jpg" alt="">
                       <h3>Nellie Holland</h3> Secretary
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
 
-                    <li class="col-lg-4 col-md-6 col-sm-4 col-xs-6">
+                    <li class="col-lg-4 col-md-6 col-xs-6">
                       <img src="images/team5.jpg" alt="">
                       <h3>Nellie Holland</h3> Secretary
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>

@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-
+    <a href="academics_faq.php" class="button-faq">FAQ</a>
   <!-- Content Start -->
   <div class="container margin-top">
       <div class="top-fix-color-bg-wrapper"><div class="top-fix-color-bg">&nbsp;</div></div>
@@ -25,9 +25,9 @@
               <p class="animated fadeIn slower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam fringilla eros, eget fermentum massa bibendum sit amet. Sed pulvinar elementum lorem, ut mollis felis laoreet ut. In sollicitudin leo cursus tortor luctus pharetra. Maecenas ornare feugiat magna eget efficitur. Vivamus sit amet ultricies sapien, id laoreet nibh. Aenean facilisis tortor vel justo pharetra vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
           </div>
          
-          <div class="button-section animatedParent">
-                <button class="undergraduate-brown-button animated bounceInLeft slower"><span>B.Tech in</span> Electronics & Electronics Engineering</button>
-                <button class="undergraduate-gray-button pull-right animated bounceInRight slower"><span>B.Tech in</span> Electronics Engineering</button>
+          <div class="button-section animatedParent clearfix">
+                <a href="" class="undergraduate-brown-button pull-left animated bounceInLeft slower"><span>B.Tech in</span> Electronics & Electronics Engineering</a>
+                <a href="" class="undergraduate-gray-button pull-right animated bounceInRight slower"><span>B.Tech in</span> Electronics Engineering</a>
             </div>
     
         </div>
