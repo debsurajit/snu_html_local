@@ -15,7 +15,6 @@
     font-family: $font-family-open-sans;
 }
 
-
 @mixin small-heading {
     font-family: $font-family-open-sans-bold;
     color: $department-light-gray;
@@ -54,8 +53,6 @@
     background: $white-color;
     box-shadow: 12px 1px 50px 8px rgba(0, 0, 0, 0.05);
     ul {
-
-        
         list-style: none;
         li {
             list-style: none;
@@ -70,11 +67,9 @@
                 font-family: $font-family-crimson-roman;
                 font-size: $font-size;
                 margin-left: 20px;
-
-                
-            @media screen and (max-width:$sm) {
-                font-size: $font-size-l;
-            }
+                @media screen and (max-width: $sm) {
+                    font-size: $font-size-l;
+                }
                 &:hover {
                     color: $department-base-color;
                     cursor: pointer;
@@ -86,8 +81,7 @@
                         padding-left: 20px;
                         line-height: 12px;
                     }
-                }              
-              
+                }
             }
             .active {
                 color: $department-base-color;
@@ -101,7 +95,6 @@
                     line-height: 12px;
                 }
             }
-
             ul {
                 width: 100%;
                 padding-left: 20px;
@@ -110,19 +103,16 @@
                     a {
                         border-bottom: $white-color 2px solid;
                     }
-                    
-                    &:last-child{
-                       a {
-                        border-bottom: none;
-                    } 
+                    &:last-child {
+                        a {
+                            border-bottom: none;
+                        }
                     }
                 }
             }
-
         }
     }
 }
-
 
 @mixin breadcrumb {
     background: none;
@@ -163,7 +153,6 @@
                 background: $department-base-color;
                 color: $white-color;
             }
-            
             @media screen and (min-width: $sm) {
                 font-size: $font-size;
             }
@@ -232,17 +221,16 @@
         color: $department-base-color;
         font-family: $font-family-open-sans-bold;
     }
-
-    
-    @media screen and (max-width:$axs){
-                margin-bottom: 30px;
-            }
+    @media screen and (max-width:$axs) {
+        margin-bottom: 30px;
+    }
 }
+
 
 /*Team Structure*/
 
 @mixin team-structure {
-  ul {
+    ul {
         list-style: none;
         padding: 0;
         li {
@@ -251,60 +239,69 @@
             margin-bottom: 25px;
             line-height: 16px;
             font-family: $font-family-medium;
+                        
             @media screen and (max-width: $lg) {
                 img {
                     max-width: 100%;
                     padding: 0 5px;
                 }
+                
+            }
+            @media screen and (max-width: $md) {
+                font-size: $font-size-m;
             }
             @media screen and (max-width:$sm) {
                 text-align: center;
             }
+            
             h3 {
-                font-size: $font-size-m;
+                font-size: $font-size-sm;
                 color: $black-color;
                 padding: 10px 0 0;
                 line-height: 16px;
                 font-family: $font-family-medium;
+              
+                @media screen and (min-width: $sm) {
+                    font-size: $font-size-m;
+                }
             }
             a {
                 color: $black-color;
                 text-decoration: underline;
             }
         }
+    }
+}
 
-}
-}
 
 /*  gray-widgets*/
 
-@mixin gray-widgets{
+@mixin gray-widgets {
     background: $widgets-background;
     padding: 20px;
     position: relative;
     margin-bottom: 20px;
     text-transform: uppercase;
     font-family: $font-family-open-sans-bold;
-    font-size:$font-size;
-     @media screen and (min-width:$sm) {
-            font-size: $font-size-s;
-        }
-    &:before{
+    font-size: $font-size;
+    @media screen and (min-width: $sm) {
+        font-size: $font-size-s;
+    }
+    &:before {
         content: '';
         width: 60%;
         height: 4px;
         background: $department-base-color;
         position: absolute;
-        top:0;
+        top: 0;
         left: 0;
     }
-    
-    .widgets-title{
+    .widgets-title {
         color: $department-base-color;
         font-size: $font-h3;
-         font-family: $font-family-open-sans;
+        font-family: $font-family-open-sans;
         padding-bottom: 5px;
-          @media screen and (min-width:$sm) {
+        @media screen and (min-width: $sm) {
             font-size: $font-size-ll;
         }
     }

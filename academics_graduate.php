@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-    <a href="#" class="button-faq">FAQ</a>
+    <a href="academics_faq.php" class="button-faq">FAQ</a>
   <!-- Content Start -->
   <div class="container margin-top">
        <div class="top-fix-color-bg-wrapper"><div class="top-fix-color-bg">&nbsp;</div></div>
@@ -30,8 +30,8 @@
                 <p class="animated fadeIn slower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam fringilla eros, eget fermentum massa bibendum sit amet. Sed pulvinar elementum lorem, ut mollis felis laoreet ut. In sollicitudin leo cursus tortor luctus pharetra. Maecenas ornare feugiat magna eget efficitur. Vivamus sit amet ultricies sapien, id laoreet nibh. Aenean facilisis tortor vel justo pharetra vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
           </div>  
           <div class="button-section animatedParent clearfix">
-                <a href="" class="undergraduate-brown-button pull-left animated bounceInLeft slower"><span>Major in</span> Electronics & Electronics Engineering</a>
-                <a href="" class="undergraduate-gray-button pull-right animated bounceInRight slower"><span>Minor in</span> Electronics & Electronics Engineering</a>
+                <a href="academics_graduate-master.php" class="undergraduate-brown-button pull-left animated bounceInLeft slower"><span>Master in</span> Electronics & Electronics Engineering</a>
+                <a href="" class="undergraduate-gray-button pull-right animated bounceInRight slower"><span>Master in</span> Electronics & Electronics Engineering</a>
             </div>
            <div class="animatedParent">      
                   <h3 class="animated fadeIn slower">Doctoral</h3>
@@ -39,8 +39,8 @@
                   <p class="animated fadeIn slower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam fringilla eros, eget fermentum massa bibendum sit amet. Sed pulvinar elementum lorem, ut mollis felis laoreet ut. In sollicitudin leo cursus tortor luctus pharetra. Maecenas ornare feugiat magna eget efficitur. Vivamus sit amet ultricies sapien, id laoreet nibh. Aenean facilisis tortor vel justo pharetra vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
             </div>
           <div class="button-section animatedParent clearfix">
-                    <a href="" class="undergraduate-brown-button pull-left animated bounceInLeft slower"><span>Major in</span> Electronics Engineering</a>
-                    <a href="" class="undergraduate-gray-button pull-right animated bounceInRight slower"><span>Minor in</span> Electronics Engineering</a>
+                    <a href="" class="undergraduate-brown-button pull-left animated bounceInLeft slower"><span>Doctoral in</span>  Electronics & Electronics Engineering</a>
+                    <a href="" class="undergraduate-gray-button pull-right animated bounceInRight slower"><span>Doctoral in</span>  Electronics & Electronics Engineering</a>
             </div>
            
             

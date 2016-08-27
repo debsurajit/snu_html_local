@@ -691,7 +691,10 @@ a.undergraduate-gray-button {
 
 .top-fix-color-bg-wrapper{
         position: relative;
-        .top-fix-color-bg{
+        
+}
+
+.top-fix-color-bg{
         background: $department-background;
         width: 350px;
         position: absolute;
@@ -700,7 +703,6 @@ a.undergraduate-gray-button {
         height: 400px;
         z-index: -1;
     }
-}
 
 
 /* fixed faq button */

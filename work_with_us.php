@@ -103,12 +103,19 @@
 
 
 
-
         <!-- Right Panel End -->
 
 
       </div>
+        <div class="work-with-gray-bg">
+
+            <div class="faculty-right-gray-bg">&nbsp;</div>
+            <div class="faculty-left-gray-bg">&nbsp;</div>
+        </div>
+        
     </div>
+      
+
     <!-- Content End -->
   </div>
 

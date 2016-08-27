@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-    <a href="#" class="button-faq">FAQ</a>
+    <a href="academics_faq.php" class="button-faq">FAQ</a>
 <a href="#" class="button-apply">Apply Now</a>
   <!-- Content Start -->
   <div class="container margin-top">

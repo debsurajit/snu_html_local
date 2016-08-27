@@ -12,12 +12,21 @@
   background: $light-gray-button-color;
   
   a {
-    color: $black-color;
+    
     text-decoration: none;
-    font-size: $font-size-m;
+    font-size: $font-size-l;
     display: block;
     padding: 15px;
+      font-family: $font-family-open-sans-bold;
+      @media screen and (min-width:$sm){
+          font-size: $font-size-m;
+      }
   }
+    
+    .collapsed{
+        color:$black-color;
+        font-family: $font-family-open-sans;
+    }
 }
   
   .panel-collapse{
@@ -47,7 +56,7 @@
   
   &:hover {
     background: $department-highlight-color;
-    transition: background-color 0.8s ease;
+    @include transition(0.5s);
   }
 }
 
