@@ -874,7 +874,7 @@ a.undergraduate-brown-button {
     font-size: 1rem;
   }
 }
-/* line 190, ../sass/_mixins.scss */
+/* line 192, ../sass/_mixins.scss */
 a.undergraduate-brown-button span {
   color: #ffffff;
   font-family: "open_sansbold";
@@ -915,7 +915,7 @@ a.undergraduate-gray-button {
     font-size: 1rem;
   }
 }
-/* line 220, ../sass/_mixins.scss */
+/* line 222, ../sass/_mixins.scss */
 a.undergraduate-gray-button span {
   color: #8d5715;
   font-family: "open_sansbold";
@@ -1268,8 +1268,9 @@ a.undergraduate-gray-button span {
   background: none;
   margin-top: 10px;
   font-size: 0.75rem;
+  padding: 0;
 }
-/* line 121, ../sass/_mixins.scss */
+/* line 123, ../sass/_mixins.scss */
 .breadcrumb span {
   color: #8d5715;
 }

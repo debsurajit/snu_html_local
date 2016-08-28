@@ -1,3 +1,72 @@
 @import 'main_import';
 
+.faculty-list {
+  h2 {
+    font-size: $font-h4;
+    font-weight: 300;
+    margin-top: 28px;
+    font-family: $font-family-crimson-roman;
+  }
+  li{
+    margin-bottom: 20px;
+    font-size: $font-size-s;
+    line-height: 16px;
+    
+    span {
+      font-weight: 600;
+    }
+  }
+}
+.nav-tabs {
+  a {
+    text-decoration: none;
+  }
+}
 
+.undergraduate-inner-page-tab {   
+  .undergraduate-inner-page-accordion {
+     padding-top: 20px;
+  }
+}
+.tabdata {
+.breadcrumb {
+  margin-bottom: 0;
+  margin-top: 0;
+  color: $main-menu-border-color;
+  font-size: $font-size-m;
+  }
+}
+
+.filter {
+  margin: 20px 0;
+}
+
+.pagination {
+  ul {
+    float: left;
+    
+    li {
+      float: left;
+      margin-right: 16px;
+      width: 24px;
+      
+      a {
+        background: $light-gray-button-color;
+        color: $black-color;
+        text-decoration: none;
+        display: block;
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+        font-size: $font-size-s;
+        font-weight: 600;
+        
+        &:hover {
+          background: $department-base-color;
+          color: $white-color;
+        }
+      }
+    }
+  }
+}

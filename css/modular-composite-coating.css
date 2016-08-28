@@ -874,7 +874,7 @@ a.undergraduate-brown-button {
     font-size: 1rem;
   }
 }
-/* line 190, ../sass/_mixins.scss */
+/* line 192, ../sass/_mixins.scss */
 a.undergraduate-brown-button span {
   color: #ffffff;
   font-family: "open_sansbold";
@@ -915,7 +915,7 @@ a.undergraduate-gray-button {
     font-size: 1rem;
   }
 }
-/* line 220, ../sass/_mixins.scss */
+/* line 222, ../sass/_mixins.scss */
 a.undergraduate-gray-button span {
   color: #8d5715;
   font-family: "open_sansbold";
@@ -1156,6 +1156,76 @@ a.undergraduate-gray-button span {
 /* line 731, ../sass/_common.scss */
 .button-apply {
   top: 600px;
+}
+
+/* line 4, ../sass/modular-composite-coating.scss */
+.faculty-list h2 {
+  font-size: 1.375rem;
+  font-weight: 300;
+  margin-top: 28px;
+  font-family: "crimson_textroman";
+}
+/* line 10, ../sass/modular-composite-coating.scss */
+.faculty-list li {
+  margin-bottom: 20px;
+  font-size: 0.75rem;
+  line-height: 16px;
+}
+/* line 15, ../sass/modular-composite-coating.scss */
+.faculty-list li span {
+  font-weight: 600;
+}
+
+/* line 21, ../sass/modular-composite-coating.scss */
+.nav-tabs a {
+  text-decoration: none;
+}
+
+/* line 27, ../sass/modular-composite-coating.scss */
+.undergraduate-inner-page-tab .undergraduate-inner-page-accordion {
+  padding-top: 20px;
+}
+
+/* line 32, ../sass/modular-composite-coating.scss */
+.tabdata .breadcrumb {
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #e7e7e7;
+  font-size: 0.875rem;
+}
+
+/* line 40, ../sass/modular-composite-coating.scss */
+.filter {
+  margin: 20px 0;
+}
+
+/* line 45, ../sass/modular-composite-coating.scss */
+.pagination ul {
+  float: left;
+}
+/* line 48, ../sass/modular-composite-coating.scss */
+.pagination ul li {
+  float: left;
+  margin-right: 16px;
+  width: 24px;
+}
+/* line 53, ../sass/modular-composite-coating.scss */
+.pagination ul li a {
+  background: #f8f8f8;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+/* line 65, ../sass/modular-composite-coating.scss */
+.pagination ul li a:hover {
+  background: #8d5715;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=modular-composite-coating.css.map */

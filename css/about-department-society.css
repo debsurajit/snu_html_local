@@ -874,7 +874,7 @@ a.undergraduate-brown-button {
     font-size: 1rem;
   }
 }
-/* line 190, ../sass/_mixins.scss */
+/* line 192, ../sass/_mixins.scss */
 a.undergraduate-brown-button span {
   color: #ffffff;
   font-family: "open_sansbold";
@@ -915,7 +915,7 @@ a.undergraduate-gray-button {
     font-size: 1rem;
   }
 }
-/* line 220, ../sass/_mixins.scss */
+/* line 222, ../sass/_mixins.scss */
 a.undergraduate-gray-button span {
   color: #8d5715;
   font-family: "open_sansbold";
@@ -1261,13 +1261,13 @@ ul.leftmenu-bottom {
   padding: 0;
   margin: 0;
 }
-/* line 139, ../sass/_mixins.scss */
+/* line 141, ../sass/_mixins.scss */
 ul.leftmenu-bottom li {
   list-style: none;
   padding: 0;
   margin-top: 15px;
 }
-/* line 143, ../sass/_mixins.scss */
+/* line 145, ../sass/_mixins.scss */
 ul.leftmenu-bottom li a {
   display: block;
   padding: 20px;
@@ -1278,13 +1278,13 @@ ul.leftmenu-bottom li a {
   font-size: 1.25rem;
   font-weight: bold;
 }
-/* line 152, ../sass/_mixins.scss */
+/* line 154, ../sass/_mixins.scss */
 ul.leftmenu-bottom li a:hover {
   background: #8d5715;
   color: #ffffff;
 }
 @media screen and (min-width: 768px) {
-  /* line 143, ../sass/_mixins.scss */
+  /* line 145, ../sass/_mixins.scss */
   ul.leftmenu-bottom li a {
     font-size: 1rem;
   }
@@ -1295,8 +1295,9 @@ ul.leftmenu-bottom li a:hover {
   background: none;
   margin-top: 10px;
   font-size: 0.75rem;
+  padding: 0;
 }
-/* line 121, ../sass/_mixins.scss */
+/* line 123, ../sass/_mixins.scss */
 .breadcrumb span {
   color: #8d5715;
 }
@@ -1365,12 +1366,12 @@ ul.leftmenu-bottom li a:hover {
 }
 
 /*Midle Content*/
-/* line 233, ../sass/_mixins.scss */
+/* line 235, ../sass/_mixins.scss */
 .team-block ul {
   list-style: none;
   padding: 0;
 }
-/* line 236, ../sass/_mixins.scss */
+/* line 238, ../sass/_mixins.scss */
 .team-block ul li {
   list-style: none;
   font-size: 0.75rem;
@@ -1379,25 +1380,25 @@ ul.leftmenu-bottom li a:hover {
   font-family: "gotham_mediumregular";
 }
 @media screen and (max-width: 1200px) {
-  /* line 244, ../sass/_mixins.scss */
+  /* line 246, ../sass/_mixins.scss */
   .team-block ul li img {
     max-width: 100%;
     padding: 0 5px;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 236, ../sass/_mixins.scss */
+  /* line 238, ../sass/_mixins.scss */
   .team-block ul li {
     font-size: 0.875rem;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 236, ../sass/_mixins.scss */
+  /* line 238, ../sass/_mixins.scss */
   .team-block ul li {
     text-align: center;
   }
 }
-/* line 257, ../sass/_mixins.scss */
+/* line 259, ../sass/_mixins.scss */
 .team-block ul li h3 {
   font-size: 1.063rem;
   color: #000000;
@@ -1406,12 +1407,12 @@ ul.leftmenu-bottom li a:hover {
   font-family: "gotham_mediumregular";
 }
 @media screen and (min-width: 768px) {
-  /* line 257, ../sass/_mixins.scss */
+  /* line 259, ../sass/_mixins.scss */
   .team-block ul li h3 {
     font-size: 0.875rem;
   }
 }
-/* line 268, ../sass/_mixins.scss */
+/* line 270, ../sass/_mixins.scss */
 .team-block ul li a {
   color: #000000;
   text-decoration: underline;
