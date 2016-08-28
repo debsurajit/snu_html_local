@@ -1158,264 +1158,74 @@ a.undergraduate-gray-button span {
   top: 600px;
 }
 
-/* line 3, ../sass/about-department-society.scss */
-.margin-top {
-  margin-top: 250px;
-}
-
-/* line 7, ../sass/about-department-society.scss */
-img {
-  max-width: 100%;
-}
-
-/*Banner*/
-/* line 14, ../sass/about-department-society.scss */
-.slider {
-  margin-top: 40px;
-}
-/* line 16, ../sass/about-department-society.scss */
-.slider img {
-  max-width: 100%;
-}
-
-/*Left Panel*/
-/* line 23, ../sass/about-department-society.scss */
-.left-menu {
-  background: #ffffff;
-  box-shadow: 12px 1px 50px 8px rgba(0, 0, 0, 0.05);
-}
-/* line 55, ../sass/_mixins.scss */
-.left-menu ul {
-  list-style: none;
-}
-/* line 57, ../sass/_mixins.scss */
-.left-menu ul li {
-  list-style: none;
-}
-/* line 59, ../sass/_mixins.scss */
-.left-menu ul li:last-child {
-  border: none;
-}
-/* line 62, ../sass/_mixins.scss */
-.left-menu ul li a {
-  color: #000000;
-  padding: 20px 0;
-  display: block;
-  border-bottom: #f0f0f0 1px solid;
+/* line 4, ../sass/modular-composite-coating.scss */
+.faculty-list h2 {
+  font-size: 1.375rem;
+  font-weight: 300;
+  margin-top: 28px;
   font-family: "crimson_textroman";
-  font-size: 1rem;
-  margin-left: 20px;
 }
-@media screen and (max-width: 768px) {
-  /* line 62, ../sass/_mixins.scss */
-  .left-menu ul li a {
-    font-size: 1.125rem;
-  }
+/* line 10, ../sass/modular-composite-coating.scss */
+.faculty-list li {
+  margin-bottom: 20px;
+  font-size: 0.75rem;
+  line-height: 16px;
 }
-/* line 73, ../sass/_mixins.scss */
-.left-menu ul li a:hover {
-  color: #8d5715;
-  cursor: pointer;
-  font-family: "crimson_textbold";
-}
-/* line 77, ../sass/_mixins.scss */
-.left-menu ul li a:hover:after {
-  font-family: FontAwesome;
-  content: "\f105";
-  display: inline-block;
-  padding-left: 20px;
-  line-height: 12px;
-}
-/* line 86, ../sass/_mixins.scss */
-.left-menu ul li .active {
-  color: #8d5715;
-  cursor: pointer;
-  font-family: "crimson_textbold";
-}
-/* line 90, ../sass/_mixins.scss */
-.left-menu ul li .active:after {
-  font-family: FontAwesome;
-  content: "\f105";
-  display: inline-block;
-  padding-left: 20px;
-  line-height: 12px;
-}
-/* line 98, ../sass/_mixins.scss */
-.left-menu ul li ul {
-  width: 100%;
-  padding-left: 20px;
-  background: #f8f8f8;
-}
-/* line 103, ../sass/_mixins.scss */
-.left-menu ul li ul li a {
-  border-bottom: #ffffff 2px solid;
-}
-/* line 107, ../sass/_mixins.scss */
-.left-menu ul li ul li:last-child a {
-  border-bottom: none;
+/* line 15, ../sass/modular-composite-coating.scss */
+.faculty-list li span {
+  font-weight: 600;
 }
 
-/* line 27, ../sass/about-department-society.scss */
-ul.leftmenu-bottom {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-/* line 141, ../sass/_mixins.scss */
-ul.leftmenu-bottom li {
-  list-style: none;
-  padding: 0;
-  margin-top: 15px;
-}
-/* line 145, ../sass/_mixins.scss */
-ul.leftmenu-bottom li a {
-  display: block;
-  padding: 20px;
-  text-align: center;
-  border: #8d5715 2px solid;
-  color: #8d5715;
+/* line 21, ../sass/modular-composite-coating.scss */
+.nav-tabs a {
   text-decoration: none;
-  font-size: 1.25rem;
-  font-weight: bold;
 }
-/* line 154, ../sass/_mixins.scss */
-ul.leftmenu-bottom li a:hover {
+
+/* line 27, ../sass/modular-composite-coating.scss */
+.undergraduate-inner-page-tab .undergraduate-inner-page-accordion {
+  padding-top: 20px;
+}
+
+/* line 32, ../sass/modular-composite-coating.scss */
+.tabdata .breadcrumb {
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #e7e7e7;
+  font-size: 0.875rem;
+}
+
+/* line 40, ../sass/modular-composite-coating.scss */
+.filter {
+  margin: 20px 0;
+}
+
+/* line 45, ../sass/modular-composite-coating.scss */
+.pagination ul {
+  float: left;
+}
+/* line 48, ../sass/modular-composite-coating.scss */
+.pagination ul li {
+  float: left;
+  margin-right: 16px;
+  width: 24px;
+}
+/* line 53, ../sass/modular-composite-coating.scss */
+.pagination ul li a {
+  background: #f8f8f8;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+/* line 65, ../sass/modular-composite-coating.scss */
+.pagination ul li a:hover {
   background: #8d5715;
   color: #ffffff;
 }
-@media screen and (min-width: 768px) {
-  /* line 145, ../sass/_mixins.scss */
-  ul.leftmenu-bottom li a {
-    font-size: 1rem;
-  }
-}
 
-/* line 31, ../sass/about-department-society.scss */
-.breadcrumb {
-  background: none;
-  margin-top: 10px;
-  font-size: 0.75rem;
-  padding: 0;
-}
-/* line 123, ../sass/_mixins.scss */
-.breadcrumb span {
-  color: #8d5715;
-}
-@media screen and (max-width: 992px) {
-  /* line 31, ../sass/about-department-society.scss */
-  .breadcrumb {
-    font-size: 0.875rem;
-  }
-}
-@media screen and (max-width: 768px) {
-  /* line 31, ../sass/about-department-society.scss */
-  .breadcrumb {
-    font-size: 1.063rem;
-  }
-}
-
-/*Right Panel*/
-/* line 37, ../sass/about-department-society.scss */
-.right-panel {
-  padding-top: 93px;
-}
-@media screen and (max-width: 768px) {
-  /* line 37, ../sass/about-department-society.scss */
-  .right-panel {
-    padding-top: 20px;
-  }
-}
-/* line 42, ../sass/about-department-society.scss */
-.right-panel .events {
-  background: #f0f0f0;
-  padding: 12px;
-  margin-bottom: 50px;
-  font-size: 0.75rem;
-  line-height: 18px;
-}
-@media screen and (max-width: 768px) {
-  /* line 42, ../sass/about-department-society.scss */
-  .right-panel .events {
-    font-size: 1.063rem;
-  }
-}
-/* line 51, ../sass/about-department-society.scss */
-.right-panel .events .date {
-  color: #8d5715;
-  font-weight: bold;
-  padding-bottom: 5px;
-}
-/* line 57, ../sass/about-department-society.scss */
-.right-panel .upcoming {
-  position: relative;
-}
-/* line 59, ../sass/about-department-society.scss */
-.right-panel .upcoming:after {
-  content: '';
-  position: absolute;
-  top: 0px;
-  left: 0;
-  width: 65%;
-  border-top: #8d5715 4px solid;
-}
-/* line 67, ../sass/about-department-society.scss */
-.right-panel .upcoming h4 {
-  font-size: 1.25rem;
-  color: #8d5715;
-  font-weight: normal;
-}
-
-/*Midle Content*/
-/* line 235, ../sass/_mixins.scss */
-.team-block ul {
-  list-style: none;
-  padding: 0;
-}
-/* line 238, ../sass/_mixins.scss */
-.team-block ul li {
-  list-style: none;
-  font-size: 0.75rem;
-  margin-bottom: 25px;
-  line-height: 16px;
-  font-family: "gotham_mediumregular";
-}
-@media screen and (max-width: 1200px) {
-  /* line 246, ../sass/_mixins.scss */
-  .team-block ul li img {
-    max-width: 100%;
-    padding: 0 5px;
-  }
-}
-@media screen and (max-width: 992px) {
-  /* line 238, ../sass/_mixins.scss */
-  .team-block ul li {
-    font-size: 0.875rem;
-  }
-}
-@media screen and (max-width: 768px) {
-  /* line 238, ../sass/_mixins.scss */
-  .team-block ul li {
-    text-align: center;
-  }
-}
-/* line 259, ../sass/_mixins.scss */
-.team-block ul li h3 {
-  font-size: 1.063rem;
-  color: #000000;
-  padding: 10px 0 0;
-  line-height: 16px;
-  font-family: "gotham_mediumregular";
-}
-@media screen and (min-width: 768px) {
-  /* line 259, ../sass/_mixins.scss */
-  .team-block ul li h3 {
-    font-size: 0.875rem;
-  }
-}
-/* line 270, ../sass/_mixins.scss */
-.team-block ul li a {
-  color: #000000;
-  text-decoration: underline;
-}
-
-/*# sourceMappingURL=about-department-society.css.map */
+/*# sourceMappingURL=modular-composite-coating.css.map */
