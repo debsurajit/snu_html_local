@@ -268,19 +268,24 @@ h6 {
     float: left;
   }
 }
-/* line 94, ../sass/_common.scss */
+/* line 95, ../sass/_common.scss */
+.padding-top-20 {
+  padding-top: 20px;
+}
+
+/* line 98, ../sass/_common.scss */
 .padding-top-30 {
   padding-top: 30px;
 }
 
 /*   top header css  */
-/* line 100, ../sass/_common.scss */
+/* line 104, ../sass/_common.scss */
 .fixed-header {
   position: fixed;
   width: 100%;
 }
 
-/* line 105, ../sass/_common.scss */
+/* line 109, ../sass/_common.scss */
 .main-header {
   background: #ffffff;
   position: fixed;
@@ -290,11 +295,11 @@ h6 {
   z-index: 4;
 }
 
-/* line 114, ../sass/_common.scss */
+/* line 118, ../sass/_common.scss */
 .top_menu {
   background: #8d5715;
 }
-/* line 116, ../sass/_common.scss */
+/* line 120, ../sass/_common.scss */
 .top_menu .navbar-default {
   background: none;
   border: none;
@@ -302,15 +307,15 @@ h6 {
   min-height: auto;
   position: inherit;
 }
-/* line 122, ../sass/_common.scss */
+/* line 126, ../sass/_common.scss */
 .top_menu .navbar-default .navbar-collapse {
   border: none;
 }
-/* line 125, ../sass/_common.scss */
+/* line 129, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav {
   margin: 0;
 }
-/* line 128, ../sass/_common.scss */
+/* line 132, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li a {
   font-size: 0.875rem;
   color: #ffffff;
@@ -318,23 +323,23 @@ h6 {
   padding: 8px 15px 8px 0;
 }
 @media screen and (max-width: 768px) {
-  /* line 128, ../sass/_common.scss */
+  /* line 132, ../sass/_common.scss */
   .top_menu .navbar-default ul.navbar-nav li a {
     font-size: 1.25rem;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 128, ../sass/_common.scss */
+  /* line 132, ../sass/_common.scss */
   .top_menu .navbar-default ul.navbar-nav li a {
     font-size: 1.188rem;
     padding: 8px 0;
   }
 }
-/* line 142, ../sass/_common.scss */
+/* line 146, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown {
   position: inherit;
 }
-/* line 144, ../sass/_common.scss */
+/* line 148, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu {
   background: #7a490c;
   position: absolute;
@@ -345,27 +350,27 @@ h6 {
   border: none;
   padding: 30px 0;
 }
-/* line 155, ../sass/_common.scss */
+/* line 159, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu li a:hover {
   background: #633b0a;
 }
-/* line 161, ../sass/_common.scss */
+/* line 165, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu .top-drop-down-menu div {
   min-height: 200px;
 }
 @media screen and (max-width: 480px) {
-  /* line 161, ../sass/_common.scss */
+  /* line 165, ../sass/_common.scss */
   .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu .top-drop-down-menu div {
     width: 100%;
     margin-bottom: 30px;
     min-height: auto;
   }
 }
-/* line 168, ../sass/_common.scss */
+/* line 172, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu .top-drop-down-menu div:first-child {
   padding-left: 0;
 }
-/* line 171, ../sass/_common.scss */
+/* line 175, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu .top-drop-down-menu div h6 {
   font-family: "open_sansbold";
   font-size: 0.75rem;
@@ -373,67 +378,67 @@ h6 {
   margin-bottom: 15px;
   text-transform: uppercase;
 }
-/* line 179, ../sass/_common.scss */
+/* line 183, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu .top-drop-down-menu ul {
   padding-left: 25px;
 }
-/* line 181, ../sass/_common.scss */
+/* line 185, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu .top-drop-down-menu ul li {
   list-style-type: none;
 }
-/* line 183, ../sass/_common.scss */
+/* line 187, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu .top-drop-down-menu ul li a {
   color: #b79d7c;
   font-size: 1rem;
   line-height: 30px;
 }
-/* line 187, ../sass/_common.scss */
+/* line 191, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.dropdown ul.dropdown-menu .top-drop-down-menu ul li a:hover {
   background: none;
   color: #ffffff;
 }
-/* line 198, ../sass/_common.scss */
+/* line 202, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-nav li.open a {
   background: none;
   color: #ffffff;
 }
 @media screen and (min-width: 768px) {
-  /* line 204, ../sass/_common.scss */
+  /* line 208, ../sass/_common.scss */
   .top_menu .navbar-default ul.navbar-right {
     width: auto;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 204, ../sass/_common.scss */
+  /* line 208, ../sass/_common.scss */
   .top_menu .navbar-default ul.navbar-right {
     width: auto;
   }
 }
-/* line 212, ../sass/_common.scss */
+/* line 216, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-right li a {
   padding: 8px 21px;
   font-size: 0.688rem;
   font-family: "open_sansbold";
 }
 @media screen and (min-width: 992px) {
-  /* line 212, ../sass/_common.scss */
+  /* line 216, ../sass/_common.scss */
   .top_menu .navbar-default ul.navbar-right li a {
     padding: 8px 11px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 212, ../sass/_common.scss */
+  /* line 216, ../sass/_common.scss */
   .top_menu .navbar-default ul.navbar-right li a {
     padding: 8px 15px;
   }
 }
-/* line 222, ../sass/_common.scss */
+/* line 226, ../sass/_common.scss */
 .top_menu .navbar-default ul.navbar-right li a:last-child {
   padding-right: 0;
 }
 
 /* Slide drop Down  */
-/* line 234, ../sass/_common.scss */
+/* line 238, ../sass/_common.scss */
 .top_menu .dropdown .dropdown-menu {
   transition: 0.7s;
   -webkit-transition: 0.7s;
@@ -444,65 +449,65 @@ h6 {
   opacity: 0;
 }
 
-/* line 242, ../sass/_common.scss */
+/* line 246, ../sass/_common.scss */
 .top_menu .dropdown.open .dropdown-menu {
   max-height: 350px;
   opacity: 1;
 }
 @media screen and (max-width: 992px) {
-  /* line 242, ../sass/_common.scss */
+  /* line 246, ../sass/_common.scss */
   .top_menu .dropdown.open .dropdown-menu {
     overflow-y: scroll;
   }
 }
 
 /* logo section  */
-/* line 253, ../sass/_common.scss */
+/* line 257, ../sass/_common.scss */
 .logo {
   width: auto;
   padding-right: 0;
 }
 @media screen and (max-width: 768px) {
-  /* line 253, ../sass/_common.scss */
+  /* line 257, ../sass/_common.scss */
   .logo {
     width: 37%;
     text-align: center;
   }
 }
 @media screen and (max-width: 635px) {
-  /* line 253, ../sass/_common.scss */
+  /* line 257, ../sass/_common.scss */
   .logo {
     width: 50%;
     text-align: center;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 253, ../sass/_common.scss */
+  /* line 257, ../sass/_common.scss */
   .logo {
     width: 100%;
     text-align: center;
     padding-right: 15px;
   }
 }
-/* line 269, ../sass/_common.scss */
+/* line 273, ../sass/_common.scss */
 .logo img {
   width: auto;
   padding: 25px 0;
 }
 @media screen and (max-width: 1200px) {
-  /* line 269, ../sass/_common.scss */
+  /* line 273, ../sass/_common.scss */
   .logo img {
     width: auto;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 269, ../sass/_common.scss */
+  /* line 273, ../sass/_common.scss */
   .logo img {
     width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 269, ../sass/_common.scss */
+  /* line 273, ../sass/_common.scss */
   .logo img {
     width: auto;
     margin: 0 auto;
@@ -510,7 +515,7 @@ h6 {
   }
 }
 
-/* line 286, ../sass/_common.scss */
+/* line 290, ../sass/_common.scss */
 .dept-name {
   font-family: "open_sanssemibold";
   color: #8d5715;
@@ -519,23 +524,23 @@ h6 {
   margin: 25px 0;
   border-left: 1px solid #000000;
 }
-/* line 293, ../sass/_common.scss */
+/* line 297, ../sass/_common.scss */
 .dept-name span {
   color: #000000;
   font-family: "open_sanslight";
 }
-/* line 296, ../sass/_common.scss */
+/* line 300, ../sass/_common.scss */
 .dept-name span:nth-child(2) {
   font-family: "crimson_textitalic";
 }
 @media screen and (max-width: 635px) {
-  /* line 286, ../sass/_common.scss */
+  /* line 290, ../sass/_common.scss */
   .dept-name {
     width: 200px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 286, ../sass/_common.scss */
+  /* line 290, ../sass/_common.scss */
   .dept-name {
     width: 100%;
     padding: 0 15px 20px 15px;
@@ -544,44 +549,44 @@ h6 {
   }
 }
 
-/* line 311, ../sass/_common.scss */
+/* line 315, ../sass/_common.scss */
 .search {
   padding: 25px 15px;
   float: right;
 }
 @media screen and (max-width: 635px) {
-  /* line 311, ../sass/_common.scss */
+  /* line 315, ../sass/_common.scss */
   .search {
     width: 100%;
     padding: 0;
   }
 }
-/* line 319, ../sass/_common.scss */
+/* line 323, ../sass/_common.scss */
 .search ul li {
   line-height: 78px;
   display: inline-block;
 }
 @media screen and (max-width: 635px) {
-  /* line 319, ../sass/_common.scss */
+  /* line 323, ../sass/_common.scss */
   .search ul li {
     line-height: 18px;
   }
 }
-/* line 325, ../sass/_common.scss */
+/* line 329, ../sass/_common.scss */
 .search ul li:last-child {
   margin-left: 50px;
 }
 @media screen and (max-width: 768px) {
-  /* line 325, ../sass/_common.scss */
+  /* line 329, ../sass/_common.scss */
   .search ul li:last-child {
     margin-left: 25px;
   }
 }
-/* line 330, ../sass/_common.scss */
+/* line 334, ../sass/_common.scss */
 .search ul li:last-child a {
   border-left: 2px solid #c3c3c3;
 }
-/* line 334, ../sass/_common.scss */
+/* line 338, ../sass/_common.scss */
 .search ul li a {
   font-family: "gotham_mediumregular";
   color: #c3c3c3;
@@ -589,7 +594,7 @@ h6 {
   font-size: 0.875rem;
 }
 
-/* line 344, ../sass/_common.scss */
+/* line 348, ../sass/_common.scss */
 .search-area {
   background: #7a490c;
   padding: 40px 0;
@@ -599,7 +604,7 @@ h6 {
   left: 0;
   display: none;
 }
-/* line 352, ../sass/_common.scss */
+/* line 356, ../sass/_common.scss */
 .search-area input {
   width: 100%;
   background: none;
@@ -610,62 +615,62 @@ h6 {
   margin-bottom: 15px;
 }
 @media screen and (min-width: 635px) {
-  /* line 352, ../sass/_common.scss */
+  /* line 356, ../sass/_common.scss */
   .search-area input {
     width: 44%;
     margin-bottom: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 352, ../sass/_common.scss */
+  /* line 356, ../sass/_common.scss */
   .search-area input {
     width: 49%;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 352, ../sass/_common.scss */
+  /* line 356, ../sass/_common.scss */
   .search-area input {
     width: 58%;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 352, ../sass/_common.scss */
+  /* line 356, ../sass/_common.scss */
   .search-area input {
     width: 65%;
   }
 }
-/* line 373, ../sass/_common.scss */
+/* line 377, ../sass/_common.scss */
 .search-area input:focus {
   outline: inherit;
 }
-/* line 376, ../sass/_common.scss */
+/* line 380, ../sass/_common.scss */
 .search-area input::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   font-family: "source_sans_prolight";
   font-size: 2rem;
   color: #d4cccc;
 }
-/* line 382, ../sass/_common.scss */
+/* line 386, ../sass/_common.scss */
 .search-area input::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "source_sans_prolight";
   font-size: 2rem;
   color: #d4cccc;
 }
-/* line 388, ../sass/_common.scss */
+/* line 392, ../sass/_common.scss */
 .search-area input:-ms-input-placeholder {
   /* IE 10+ */
   font-family: "source_sans_prolight";
   font-size: 2rem;
   color: #d4cccc;
 }
-/* line 395, ../sass/_common.scss */
+/* line 399, ../sass/_common.scss */
 .search-area span {
   font-size: 0.75rem;
   color: #ffffff;
   font-family: "open_sanslight";
 }
-/* line 400, ../sass/_common.scss */
+/* line 404, ../sass/_common.scss */
 .search-area button {
   background: #8d5715;
   border: 1px solid #8d5715;
@@ -674,74 +679,74 @@ h6 {
   padding: 5px 35px;
   margin-left: 15px;
 }
-/* line 407, ../sass/_common.scss */
+/* line 411, ../sass/_common.scss */
 .search-area button:last-child {
   background: none;
   margin-left: 5px;
 }
-/* line 411, ../sass/_common.scss */
+/* line 415, ../sass/_common.scss */
 .search-area button:focus {
   outline: inherit;
 }
 
 /* department main menu  */
-/* line 420, ../sass/_common.scss */
+/* line 424, ../sass/_common.scss */
 .department-main-menu {
   border: 1px solid #e7e7e7;
   border-right: none;
   border-left: none;
 }
-/* line 424, ../sass/_common.scss */
+/* line 428, ../sass/_common.scss */
 .department-main-menu .navbar-default {
   background: none;
   border: none;
   margin: 0;
 }
 @media screen and (max-width: 768px) {
-  /* line 428, ../sass/_common.scss */
+  /* line 432, ../sass/_common.scss */
   .department-main-menu .navbar-default .navbar-collapse {
     height: 300px;
     overflow-y: scroll;
   }
 }
-/* line 434, ../sass/_common.scss */
+/* line 438, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav {
   text-align: center;
   width: 100%;
 }
 @media screen and (max-width: 768px) {
-  /* line 434, ../sass/_common.scss */
+  /* line 438, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav {
     text-align: left;
   }
 }
-/* line 440, ../sass/_common.scss */
+/* line 444, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li {
   display: inline-block;
   float: unset;
   padding: 0 31px;
 }
 @media screen and (max-width: 1200px) {
-  /* line 440, ../sass/_common.scss */
+  /* line 444, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li {
     padding: 0 15px;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 440, ../sass/_common.scss */
+  /* line 444, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li {
     padding: 0;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 440, ../sass/_common.scss */
+  /* line 444, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li {
     float: left;
     width: 100%;
     padding: 0;
   }
 }
-/* line 455, ../sass/_common.scss */
+/* line 459, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li a {
   font-size: 1rem;
   color: #000000;
@@ -749,47 +754,47 @@ h6 {
   padding: 10px 25px;
 }
 @media screen and (max-width: 768px) {
-  /* line 455, ../sass/_common.scss */
+  /* line 459, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li a {
     padding: 10px 20px;
     line-height: 20px;
     border-bottom: #e7e7e7 1px solid;
   }
 }
-/* line 466, ../sass/_common.scss */
+/* line 470, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li .dropdown-menu {
   left: 31px;
 }
 @media screen and (max-width: 1200px) {
-  /* line 466, ../sass/_common.scss */
+  /* line 470, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li .dropdown-menu {
     left: 15px;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 466, ../sass/_common.scss */
+  /* line 470, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li .dropdown-menu {
     left: 0;
   }
 }
-/* line 476, ../sass/_common.scss */
+/* line 480, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li:last-child .dropdown-menu {
   right: 31px;
   left: inherit;
 }
 @media screen and (max-width: 1200px) {
-  /* line 476, ../sass/_common.scss */
+  /* line 480, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li:last-child .dropdown-menu {
     right: 15px;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 476, ../sass/_common.scss */
+  /* line 480, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li:last-child .dropdown-menu {
     right: 0;
   }
 }
-/* line 489, ../sass/_common.scss */
+/* line 493, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li.open a {
   color: #8d5715;
   font-family: "open_sansbold";
@@ -799,33 +804,33 @@ h6 {
   border-bottom: 1px solid #ffffff;
 }
 @media screen and (max-width: 768px) {
-  /* line 489, ../sass/_common.scss */
+  /* line 493, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li.open a {
     border: none;
   }
 }
-/* line 500, ../sass/_common.scss */
+/* line 504, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu {
   border: 1px solid #8d5715;
 }
 @media screen and (max-width: 768px) {
-  /* line 500, ../sass/_common.scss */
+  /* line 504, ../sass/_common.scss */
   .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu {
     padding-left: 20px;
     border: none;
   }
 }
-/* line 506, ../sass/_common.scss */
+/* line 510, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu li {
   width: 100%;
   border-top: 1px solid #e7e7e7;
   padding: 0 50px 0 20px;
 }
-/* line 510, ../sass/_common.scss */
+/* line 514, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu li:first-child {
   border-top: none;
 }
-/* line 513, ../sass/_common.scss */
+/* line 517, ../sass/_common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu li a {
   color: #000000;
   font-family: "source_sans_proregular";
@@ -834,7 +839,7 @@ h6 {
 }
 
 /* Undergraduate body button */
-/* line 530, ../sass/_common.scss */
+/* line 534, ../sass/_common.scss */
 a.undergraduate-brown-button {
   background: #8d5715;
   border: none;
@@ -849,33 +854,33 @@ a.undergraduate-brown-button {
   text-decoration: none;
 }
 @media screen and (min-width: 635px) {
-  /* line 530, ../sass/_common.scss */
+  /* line 534, ../sass/_common.scss */
   a.undergraduate-brown-button {
     width: 47%;
     font-size: 1.188rem;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 530, ../sass/_common.scss */
+  /* line 534, ../sass/_common.scss */
   a.undergraduate-brown-button {
     width: 100%;
     font-size: 1.125rem;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 530, ../sass/_common.scss */
+  /* line 534, ../sass/_common.scss */
   a.undergraduate-brown-button {
     width: 47%;
     font-size: 1rem;
   }
 }
-/* line 197, ../sass/_mixins.scss */
+/* line 192, ../sass/_mixins.scss */
 a.undergraduate-brown-button span {
   color: #ffffff;
   font-family: "open_sansbold";
 }
 
-/* line 534, ../sass/_common.scss */
+/* line 538, ../sass/_common.scss */
 a.undergraduate-gray-button {
   background: #f0f0f0;
   border: none;
@@ -890,63 +895,63 @@ a.undergraduate-gray-button {
   text-decoration: none;
 }
 @media screen and (min-width: 635px) {
-  /* line 534, ../sass/_common.scss */
+  /* line 538, ../sass/_common.scss */
   a.undergraduate-gray-button {
     width: 47%;
     font-size: 1.188rem;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 534, ../sass/_common.scss */
+  /* line 538, ../sass/_common.scss */
   a.undergraduate-gray-button {
     width: 100%;
     font-size: 1.125rem;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 534, ../sass/_common.scss */
+  /* line 538, ../sass/_common.scss */
   a.undergraduate-gray-button {
     width: 47%;
     font-size: 1rem;
   }
 }
-/* line 227, ../sass/_mixins.scss */
+/* line 222, ../sass/_mixins.scss */
 a.undergraduate-gray-button span {
   color: #8d5715;
   font-family: "open_sansbold";
 }
 @media screen and (max-width: 635px) {
-  /* line 534, ../sass/_common.scss */
+  /* line 538, ../sass/_common.scss */
   a.undergraduate-gray-button {
     margin-bottom: 30px;
   }
 }
 
 /* Right Side Academic calender section */
-/* line 541, ../sass/_common.scss */
+/* line 545, ../sass/_common.scss */
 .academic-calender {
   /* calender slider css end */
 }
-/* line 542, ../sass/_common.scss */
+/* line 546, ../sass/_common.scss */
 .academic-calender h5 {
   font-family: "open_sansregular";
   padding: 0 0 10px 0;
   margin: 0;
   color: #8d5715;
 }
-/* line 548, ../sass/_common.scss */
+/* line 552, ../sass/_common.scss */
 .academic-calender .calender-slider {
   border: 2px solid #8d5715;
   padding: 10px 0;
   position: relative;
 }
-/* line 552, ../sass/_common.scss */
+/* line 556, ../sass/_common.scss */
 .academic-calender .calender-slider .carousel {
   position: inherit;
   border-bottom: 2px solid #8d5715;
   padding: 0 10px;
 }
-/* line 556, ../sass/_common.scss */
+/* line 560, ../sass/_common.scss */
 .academic-calender .calender-slider .carousel .carousel-indicators {
   top: -23px;
   left: 0;
@@ -954,19 +959,19 @@ a.undergraduate-gray-button span {
   width: 100%;
   margin: 0;
 }
-/* line 562, ../sass/_common.scss */
+/* line 566, ../sass/_common.scss */
 .academic-calender .calender-slider .carousel .carousel-indicators li {
   border: 2px solid #8d5715;
   margin: 0;
   background: #ffffff;
 }
-/* line 567, ../sass/_common.scss */
+/* line 571, ../sass/_common.scss */
 .academic-calender .calender-slider .carousel .carousel-indicators li.active {
   width: 10px;
   height: 10px;
   background: #8d5715;
 }
-/* line 574, ../sass/_common.scss */
+/* line 578, ../sass/_common.scss */
 .academic-calender .calender-slider .carousel .carousel-caption {
   position: relative;
   right: 0;
@@ -982,12 +987,12 @@ a.undergraduate-gray-button span {
   line-height: 18px;
 }
 @media screen and (max-width: 768px) {
-  /* line 574, ../sass/_common.scss */
+  /* line 578, ../sass/_common.scss */
   .academic-calender .calender-slider .carousel .carousel-caption {
     font-size: 1.063rem;
   }
 }
-/* line 591, ../sass/_common.scss */
+/* line 595, ../sass/_common.scss */
 .academic-calender .calender-slider .carousel .carousel-caption span {
   width: 100%;
   float: left;
@@ -997,12 +1002,12 @@ a.undergraduate-gray-button span {
   margin-bottom: 3px;
 }
 @media screen and (max-width: 768px) {
-  /* line 591, ../sass/_common.scss */
+  /* line 595, ../sass/_common.scss */
   .academic-calender .calender-slider .carousel .carousel-caption span {
     font-size: 1.063rem;
   }
 }
-/* line 605, ../sass/_common.scss */
+/* line 609, ../sass/_common.scss */
 .academic-calender .calender-slider:after {
   content: '';
   width: 100%;
@@ -1011,7 +1016,7 @@ a.undergraduate-gray-button span {
   position: absolute;
   bottom: 4px;
 }
-/* line 617, ../sass/_common.scss */
+/* line 621, ../sass/_common.scss */
 .academic-calender .button-with-white-bg {
   background: none;
   border: 2px solid #8d5715;
@@ -1024,32 +1029,32 @@ a.undergraduate-gray-button span {
   display: block;
 }
 @media screen and (min-width: 635px) {
-  /* line 617, ../sass/_common.scss */
+  /* line 621, ../sass/_common.scss */
   .academic-calender .button-with-white-bg {
     font-size: 1.375em;
     font-family: "open_sansbold";
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 617, ../sass/_common.scss */
+  /* line 621, ../sass/_common.scss */
   .academic-calender .button-with-white-bg {
     font-size: 1.125rem;
     font-family: "open_sansbold";
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 617, ../sass/_common.scss */
+  /* line 621, ../sass/_common.scss */
   .academic-calender .button-with-white-bg {
     font-size: 0.875rem;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 617, ../sass/_common.scss */
+  /* line 621, ../sass/_common.scss */
   .academic-calender .button-with-white-bg {
     font-size: 1rem;
   }
 }
-/* line 642, ../sass/_common.scss */
+/* line 646, ../sass/_common.scss */
 .academic-calender .button-2 {
   background: url(../images/button-bg.jpg) no-repeat 0 -1px #8d5715;
   border: none;
@@ -1060,59 +1065,60 @@ a.undergraduate-gray-button span {
   color: #ffffff;
 }
 @media screen and (min-width: 635px) {
-  /* line 642, ../sass/_common.scss */
+  /* line 646, ../sass/_common.scss */
   .academic-calender .button-2 {
     font-size: 1.375em;
     font-family: "open_sansbold";
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 642, ../sass/_common.scss */
+  /* line 646, ../sass/_common.scss */
   .academic-calender .button-2 {
     font-size: 1.125rem;
     font-family: "open_sansbold";
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 642, ../sass/_common.scss */
+  /* line 646, ../sass/_common.scss */
   .academic-calender .button-2 {
     font-size: 0.875rem;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 642, ../sass/_common.scss */
+  /* line 646, ../sass/_common.scss */
   .academic-calender .button-2 {
     font-size: 1rem;
   }
 }
 
 /*Top Margin for Fixed-header*/
-/* line 669, ../sass/_common.scss */
+/* line 673, ../sass/_common.scss */
 .margin-top {
   margin-top: 250px;
 }
 
 /*First Paragraph of Content*/
-/* line 676, ../sass/_common.scss */
+/* line 680, ../sass/_common.scss */
 .crimsone-text {
   font-family: "crimson_textroman";
   font-size: 1.188rem;
   margin-bottom: 25px;
 }
 @media screen and (min-width: 768px) {
-  /* line 676, ../sass/_common.scss */
+  /* line 680, ../sass/_common.scss */
   .crimsone-text {
     font-size: 1rem;
   }
 }
 
 /* inner page to fix bg color */
-/* line 688, ../sass/_common.scss */
+/* line 692, ../sass/_common.scss */
 .top-fix-color-bg-wrapper {
   position: relative;
 }
-/* line 690, ../sass/_common.scss */
-.top-fix-color-bg-wrapper .top-fix-color-bg {
+
+/* line 697, ../sass/_common.scss */
+.top-fix-color-bg {
   background: #eee5dc;
   width: 350px;
   position: absolute;
@@ -1123,7 +1129,7 @@ a.undergraduate-gray-button span {
 }
 
 /* fixed faq button */
-/* line 704, ../sass/_common.scss */
+/* line 710, ../sass/_common.scss */
 .button-faq, .button-apply {
   background: none;
   border: 2px solid #8d5715;
@@ -1141,13 +1147,13 @@ a.undergraduate-gray-button span {
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
 }
-/* line 719, ../sass/_common.scss */
+/* line 725, ../sass/_common.scss */
 .button-faq:hover, .button-apply:hover {
   background: #8d5715;
   color: #ffffff;
 }
 
-/* line 725, ../sass/_common.scss */
+/* line 731, ../sass/_common.scss */
 .button-apply {
   top: 600px;
 }
@@ -1646,5 +1652,3 @@ section {
     width: 100%;
   }
 }
-
-/*# sourceMappingURL=engineering.css.map */
