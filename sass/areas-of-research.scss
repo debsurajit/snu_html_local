@@ -21,6 +21,13 @@
       color: $black-color;
       font-weight: 600;
       width: 45%;
+        a{
+             color: $black-color;
+            text-decoration: none;
+            &:hover{
+                color: lighten($black-color, 30%);
+            }
+        }
     }
     
     &:last-child {

@@ -1184,31 +1184,4 @@ a.undergraduate-gray-button span {
   top: 600px;
 }
 
-/* line 3, ../sass/facilities.scss */
-ul, li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* line 9, ../sass/facilities.scss */
-.facilities {
-  margin-top: 30px;
-}
-/* line 12, ../sass/facilities.scss */
-.facilities .text-block {
-  background: #ffffff;
-  margin: 0 auto;
-  border: #f4f4f4 1px solid;
-  -webkit-box-shadow: 5px 5px 10px 0px #f4f4f4;
-  -moz-box-shadow: 5px 5px 10px 0px #f4f4f4;
-  box-shadow: 5px 5px 10px 0px #f4f4f4;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 0.75rem;
-}
-
-/*# sourceMappingURL=facilities.css.map */
+/*# sourceMappingURL=common.css.map */

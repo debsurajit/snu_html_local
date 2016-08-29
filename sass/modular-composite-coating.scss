@@ -9,9 +9,14 @@
   }
   li{
     margin-bottom: 20px;
-    font-size: $font-size-s;
+    font-size: $font-size;
     line-height: 16px;
-    
+    @media screen and (min-width: $sm) {
+        font-size: $font-size-m;
+      }
+    @media screen and (min-width: $md) {
+        font-size: $font-size-s;
+      }
     span {
       font-weight: 600;
     }

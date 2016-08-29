@@ -177,6 +177,8 @@
     font-family: $font-family-open-sans-light;
     text-align: center;
     text-decoration: none;
+    display: flex;
+    align-items: center;
     @media screen and (min-width: $axs) {
         width: 47%;
         font-size: $font-size-ll;
@@ -188,6 +190,9 @@
     @media screen and (min-width:$md) {
         width: 47%;
         font-size: $font-size;
+    }
+    dd{
+        width: 100%;
     }
     span {
         color: $white-color;
@@ -207,6 +212,8 @@
     min-height: 78px;
     text-align: center;
     text-decoration: none;
+    display: flex;
+    align-items: center;
     @media screen and (min-width: $axs) {
         width: 47%;
         font-size: $font-size-ll;
@@ -218,6 +225,9 @@
     @media screen and (min-width:$md) {
         width: 47%;
         font-size: $font-size;
+    }
+    dd{
+        width: 100%;
     }
     span {
         color: $department-base-color;
