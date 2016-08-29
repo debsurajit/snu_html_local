@@ -254,6 +254,12 @@ h6 {
 
 /* logo section  */
 
+
+.logo-section{
+    @media screen and (max-width: $axs) {
+        margin-bottom: 15px;
+    }
+}
 .logo {
     width: auto;
     padding-right: 0;
@@ -408,6 +414,9 @@ h6 {
         color: $white-color;
         padding: 5px 35px;
         margin-left: 15px;
+        @media screen and (max-width: $sm) {
+            padding: 5px 15px;
+        }
         &:last-child {
             background: none;
             margin-left: 5px;
@@ -465,6 +474,7 @@ h6 {
                         padding: 10px 20px;
                         line-height: 20px;
                         border-bottom: $main-menu-border-color 1px solid;
+                        font-size: $font-size-l;
                     }
                 }
                 .dropdown-menu {

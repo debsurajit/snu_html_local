@@ -866,6 +866,8 @@ a.undergraduate-brown-button {
   font-family: "open_sanslight";
   text-align: center;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 @media screen and (min-width: 635px) {
   /* line 544, ../sass/common.scss */
@@ -888,7 +890,11 @@ a.undergraduate-brown-button {
     font-size: 1rem;
   }
 }
-/* line 192, ../sass/_mixins.scss */
+/* line 194, ../sass/_mixins.scss */
+a.undergraduate-brown-button dd {
+  width: 100%;
+}
+/* line 197, ../sass/_mixins.scss */
 a.undergraduate-brown-button span {
   color: #ffffff;
   font-family: "open_sansbold";
@@ -907,6 +913,8 @@ a.undergraduate-gray-button {
   min-height: 78px;
   text-align: center;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 @media screen and (min-width: 635px) {
   /* line 548, ../sass/common.scss */
@@ -929,7 +937,11 @@ a.undergraduate-gray-button {
     font-size: 1rem;
   }
 }
-/* line 222, ../sass/_mixins.scss */
+/* line 229, ../sass/_mixins.scss */
+a.undergraduate-gray-button dd {
+  width: 100%;
+}
+/* line 232, ../sass/_mixins.scss */
 a.undergraduate-gray-button span {
   color: #8d5715;
   font-family: "open_sansbold";
@@ -1170,69 +1182,4 @@ a.undergraduate-gray-button span {
 /* line 741, ../sass/common.scss */
 .button-apply {
   top: 600px;
-}
-
-/*Midle Content*/
-/* line 235, ../sass/_mixins.scss */
-.team-block ul {
-  list-style: none;
-  padding: 0;
-}
-/* line 238, ../sass/_mixins.scss */
-.team-block ul li {
-  list-style: none;
-  font-size: 0.75rem;
-  margin-bottom: 25px;
-  line-height: 16px;
-  font-family: "gotham_mediumregular";
-}
-@media screen and (max-width: 1200px) {
-  /* line 246, ../sass/_mixins.scss */
-  .team-block ul li img {
-    max-width: 100%;
-    padding: 0 5px;
-  }
-}
-@media screen and (max-width: 992px) {
-  /* line 238, ../sass/_mixins.scss */
-  .team-block ul li {
-    font-size: 0.875rem;
-  }
-}
-@media screen and (max-width: 768px) {
-  /* line 238, ../sass/_mixins.scss */
-  .team-block ul li {
-    text-align: center;
-  }
-}
-/* line 259, ../sass/_mixins.scss */
-.team-block ul li h3 {
-  font-size: 1.063rem;
-  color: #000000;
-  padding: 10px 0 0;
-  line-height: 16px;
-  font-family: "gotham_mediumregular";
-}
-@media screen and (min-width: 768px) {
-  /* line 259, ../sass/_mixins.scss */
-  .team-block ul li h3 {
-    font-size: 0.875rem;
-  }
-}
-/* line 270, ../sass/_mixins.scss */
-.team-block ul li a {
-  color: #000000;
-  text-decoration: underline;
-}
-/* line 8, ../sass/people-faculty.scss */
-.team-block img {
-  -webkit-transition: all 0.4s ease-in;
-  transition: all 0.4s ease-in;
-}
-/* line 11, ../sass/people-faculty.scss */
-.team-block img:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  cursor: pointer;
 }

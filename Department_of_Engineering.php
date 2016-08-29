@@ -6,7 +6,7 @@
         
     </div>
     
-    <div class="date-section">
+    <div class="date-section clearfix">
         <div class="text-right date-icon">
             <i class="fa fa-calendar" aria-hidden="true"></i>
         </div>

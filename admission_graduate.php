@@ -26,10 +26,10 @@
           </div>
           
           <div class="button-section animatedParent clearfix">
-                <a href="" class="undergraduate-brown-button pull-left animated bounceInLeft slower"><span>Masters in</span> Electronics & Electronics Engineering</a>
-                <a href="" class="undergraduate-gray-button pull-right animated bounceInRight slower"><span>Masters in</span> Electronics Engineering</a>
-              <a href="" class="undergraduate-brown-button pull-left animated bounceInLeft slower"><span>Doctoral in</span> Electronics Engineering</a>
-                <a href="" class="undergraduate-gray-button pull-right animated bounceInRight slower"><span>Doctoral in</span> Electronics & Electronics Engineering</a>
+                <a href="" class="undergraduate-brown-button pull-left animated bounceInLeft slower"><dd><span>Masters in</span> Electronics & Electronics Engineering</dd></a>
+                <a href="" class="undergraduate-gray-button pull-right animated bounceInRight slower"><dd><span>Masters in</span> Electronics Engineering</dd></a>
+              <a href="" class="undergraduate-brown-button pull-left animated bounceInLeft slower"><dd><span>Doctoral in</span> Electronics Engineering</dd></a>
+                <a href="" class="undergraduate-gray-button pull-right animated bounceInRight slower"><dd><span>Doctoral in</span> Electronics & Electronics Engineering</dd></a>
             </div>
            
         </div>

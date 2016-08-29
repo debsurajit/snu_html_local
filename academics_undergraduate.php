@@ -30,8 +30,8 @@
                 <p class="animated fadeIn slower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam fringilla eros, eget fermentum massa bibendum sit amet. Sed pulvinar elementum lorem, ut mollis felis laoreet ut. In sollicitudin leo cursus tortor luctus pharetra. Maecenas ornare feugiat magna eget efficitur. Vivamus sit amet ultricies sapien, id laoreet nibh. Aenean facilisis tortor vel justo pharetra vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
           </div>  
           <div class="button-section animatedParent clearfix">
-                <a href="academics_undergraduate-major.php" class="undergraduate-brown-button pull-left animated bounceInLeft slower clearfix"><span>Major in</span> Electronics & Electronics Engineering</a>
-                <a href="academics_undergraduate-minor.php" class="undergraduate-gray-button pull-right animated bounceInRight slower"><span>Minor in</span> Electronics & Electronics Engineering</a>
+                <a href="academics_undergraduate-major.php" class="undergraduate-brown-button pull-left animated bounceInLeft slower clearfix"><dd><span>Major in</span> Electronics & Electronics Engineering</dd></a>
+                <a href="academics_undergraduate-minor.php" class="undergraduate-gray-button pull-right animated bounceInRight slower"><dd><span>Minor in</span> Electronics & Electronics Engineering</dd></a>
             </div>
            <div class="animatedParent">      
                   <h3 class="animated fadeIn slower">Electrical & Electronics Engineering</h3>
@@ -39,8 +39,8 @@
                   <p class="animated fadeIn slower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam fringilla eros, eget fermentum massa bibendum sit amet. Sed pulvinar elementum lorem, ut mollis felis laoreet ut. In sollicitudin leo cursus tortor luctus pharetra. Maecenas ornare feugiat magna eget efficitur. Vivamus sit amet ultricies sapien, id laoreet nibh. Aenean facilisis tortor vel justo pharetra vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
             </div>
           <div class="button-section animatedParent clearfix">
-                    <a href="" class="undergraduate-brown-button pull-left animated bounceInLeft slower"><span>Major in</span> Electronics Engineering</a>
-                    <a href="" class="btn undergraduate-gray-button pull-right animated bounceInRight slower"><span>Minor in</span> Electronics Engineering</a>
+                    <a href="" class="undergraduate-brown-button pull-left animated bounceInLeft slower"><dd><span>Major in</span> Electronics Engineering</dd></a>
+                    <a href="" class="btn undergraduate-gray-button pull-right animated bounceInRight slower"><dd><span>Minor in</span> Electronics Engineering</dd></a>
             </div>
            
             

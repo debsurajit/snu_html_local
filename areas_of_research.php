@@ -29,7 +29,7 @@
             <div class="animated bounceInUp slower">
           <table border="0" width="100%" align="left" class="research-table">
             <tr>
-              <td align="left" valign="middle">Areas of Research 1</td>
+              <td align="left" valign="middle"><a href="research-modular-composite-coating.php">Areas of Research 1</a></td>
               <td align="left" valign="middle">Tagged Departments 1 <br>Departments 2 Departments 3<br/> Departments 4</td>
               <td align="left" valign="middle">Faculty Name 1<br/>Adam Stone<br/> Ernest Owens</td>
             </tr>

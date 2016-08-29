@@ -15,11 +15,13 @@
         }
         @media screen and (max-width:$md) {
             height: auto;
+            overflow: auto;
+            border-left: none;
         }
     }
     .banner-overlap-div {
         background: $light-gray-button-color;
-        position: absolute;
+        position: relative;
         width: 100%;
         height: auto;
         bottom: 0;
@@ -29,8 +31,9 @@
         z-index: 1;
         @media screen and (min-width: $sm) {
             width: 370px;
-            height: 300px;
+            height: 335px;
             bottom: -20px;
+            position: absolute;
         }
         @media screen and (min-width: $md) {
             width: 500px;
@@ -50,20 +53,21 @@
             font-family: $font-family-crimson-roman;
         }
         p {
-            font-size: $font-size-m;
+            
             line-height: 30px;
             color: $black-color;
         }
     }
     .date-section {
         background: $department-base-color;
-        position: absolute;
+        position: relative;
         right: 0;
         width: 100%;
         @media screen and (min-width: $sm) {
             position: absolute;
             padding: 25px 25px 25px 348px;
             bottom: 0;
+            position: absolute;
         }
         @media screen and (min-width:$md) {
             bottom: 20px;
@@ -88,6 +92,10 @@
             font-family: $font-family-prolight;
             line-height: 18px;
             padding: 10px 0 10px 35px;
+            @media screen and (max-width: $axs) {
+               width: 175px; 
+                font-size: $font-size-ll;
+            }
             .date {
                 font-size: $font-size-m;
                 line-height: 18px;
@@ -98,6 +106,18 @@
                     font-family: $font-family;
                     width: 100%;
                     float: left;
+                }
+            }
+            
+            @media screen and (max-width: $axs) {
+                &:nth-child(3),&:nth-child(4){
+                    padding-left: 25px;
+                }
+            }
+            
+            @media screen and (max-width: $xs) {
+                &:nth-child(3),&:nth-child(4){
+                    display: none;  
                 }
             }
         }
@@ -173,7 +193,7 @@ section {
         font-size: $font-lg;
     }
     p {
-        font-size: $font-size-m;
+        
         color: $department-text-gray;
     }
 }
@@ -311,9 +331,12 @@ section {
             }
         }
         .event-content {
-            font-size: $font-size-s;
+            font-size: $font-size-l;
             font-weight: bold;
             margin-bottom: 15px;
+            @media screen and (min-width:$sm) {
+                font-size: $font-size-s;
+            }
             h5 {
                 font-family: $font-family-open-sans-semibold;
                 color: $department-base-color;
@@ -324,9 +347,7 @@ section {
         .read-more {
             @include read-more-button;
         }
-        @media screen and (max-width:$axs) {
-            width: 100%;
-        }
+       
         .event-big-img {
             padding-left: 0;
             img {
@@ -334,7 +355,10 @@ section {
                 margin-bottom: 15px;
             }
             p {
+                font-size: $font-size-sm;
+                @media screen and (min-width:$sm) {
                 font-size: $font-size-m;
+            }
             }
         }
         .event-content {
