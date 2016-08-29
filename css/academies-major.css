@@ -866,6 +866,8 @@ a.undergraduate-brown-button {
   font-family: "open_sanslight";
   text-align: center;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 @media screen and (min-width: 635px) {
   /* line 544, ../sass/common.scss */
@@ -888,7 +890,11 @@ a.undergraduate-brown-button {
     font-size: 1rem;
   }
 }
-/* line 192, ../sass/_mixins.scss */
+/* line 194, ../sass/_mixins.scss */
+a.undergraduate-brown-button dd {
+  width: 100%;
+}
+/* line 197, ../sass/_mixins.scss */
 a.undergraduate-brown-button span {
   color: #ffffff;
   font-family: "open_sansbold";
@@ -907,6 +913,8 @@ a.undergraduate-gray-button {
   min-height: 78px;
   text-align: center;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 @media screen and (min-width: 635px) {
   /* line 548, ../sass/common.scss */
@@ -929,7 +937,11 @@ a.undergraduate-gray-button {
     font-size: 1rem;
   }
 }
-/* line 222, ../sass/_mixins.scss */
+/* line 229, ../sass/_mixins.scss */
+a.undergraduate-gray-button dd {
+  width: 100%;
+}
+/* line 232, ../sass/_mixins.scss */
 a.undergraduate-gray-button span {
   color: #8d5715;
   font-family: "open_sansbold";
@@ -1368,7 +1380,7 @@ a.undergraduate-gray-button span {
     font-size: 0.75rem;
   }
 }
-/* line 292, ../sass/_mixins.scss */
+/* line 302, ../sass/_mixins.scss */
 .major-page-right-section .gray-widgets:before, .major-page-right-section .left-gray-widgets:before {
   content: '';
   width: 60%;
@@ -1378,7 +1390,7 @@ a.undergraduate-gray-button span {
   top: 0;
   left: 0;
 }
-/* line 301, ../sass/_mixins.scss */
+/* line 311, ../sass/_mixins.scss */
 .major-page-right-section .gray-widgets .widgets-title, .major-page-right-section .left-gray-widgets .widgets-title {
   color: #8d5715;
   font-size: 1.5rem;
@@ -1386,7 +1398,7 @@ a.undergraduate-gray-button span {
   padding-bottom: 5px;
 }
 @media screen and (min-width: 768px) {
-  /* line 301, ../sass/_mixins.scss */
+  /* line 311, ../sass/_mixins.scss */
   .major-page-right-section .gray-widgets .widgets-title, .major-page-right-section .left-gray-widgets .widgets-title {
     font-size: 1.188rem;
   }
@@ -1406,3 +1418,5 @@ a.undergraduate-gray-button span {
 .major-page-right-section .left-gray-widgets {
   font-family: "open_sansregular";
 }
+
+/*# sourceMappingURL=academies-major.css.map */
