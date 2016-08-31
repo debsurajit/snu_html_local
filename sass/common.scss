@@ -163,34 +163,48 @@ h6 {
                     }
                     .top-drop-down-menu {
                         div {
-                            min-height: 200px;
-                            @media screen and (max-width: $xs) {
+                            min-height: auto;
+                            @media screen and (max-width: $sm) {
                                 width: 100%;
                                 margin-bottom: 30px;
                                 min-height: auto;
                             }
-                            &:first-child {
-                                padding-left: 0;
-                            }
+                            
                             h6 {
                                 font-family: $font-family-open-sans-bold;
                                 font-size: $font-size-s;
                                 color: $top-drop-down-menu-color;
                                 margin-bottom: 15px;
                                 text-transform: uppercase;
+                                
+                                @media screen and (max-width: $sm) {
+                                    font-size: $font-size;
+                                }
                             }
                         }
                         ul {
                             padding-left: 25px;
+                             @media screen and (max-width: $sm) {
+                                 display:none;
+                            }
                             li {
                                 list-style-type: none;
                                 a {
                                     color: $top-drop-down-menu-color;
-                                    font-size: $font-size;
+                                    font-size: $font-size-m;
                                     line-height: 30px;
                                     &:hover {
                                         background: none;
                                         color: $white-color;
+                                    }
+                                    
+                                    @media screen and (max-width:$md){
+                                        display: block;
+                                        line-height: 18px;  
+                                    }
+                                    
+                                    @media screen and (max-width: $sm) {
+                                        font-size: $font-size-sm;
                                     }
                                 }
                             }
@@ -244,7 +258,7 @@ h6 {
 }
 
 .top_menu .dropdown.open .dropdown-menu {
-    max-height: 350px;
+    max-height: 320px;
     opacity: 1;
     @media screen and (max-width: $md) {
         overflow-y: scroll;
@@ -324,6 +338,9 @@ h6 {
     @media screen and (max-width: $axs) {
         width: 100%;
         padding: 0;
+        position: absolute;
+        top: 6px;
+        right: 15px;
     }
     ul {
         li {
@@ -331,6 +348,12 @@ h6 {
             display: inline-block;
             @media screen and (max-width: $axs) {
                 line-height: 18px;
+            }
+            
+            &:first-child{
+               @media screen and (max-width: $axs) {
+                    display: none;
+                } 
             }
             &:last-child {
                 margin-left: 50px;
@@ -359,6 +382,9 @@ h6 {
     top: 36px;
     left: 0;
     display: none;
+    @media screen and (max-width: $axs) {
+      padding: 32px 0;  
+    }
     input {
         width: 100%;
         background: none;

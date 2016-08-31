@@ -1,19 +1,21 @@
 <?php include 'header.php';?>
 
   <!-- Content Start -->
-  <div class="container margin-top">
-      <div class="top-fix-color-bg-wrapper"><div class="top-fix-color-bg">&nbsp;</div></div>
+  <div class="container margin-top offset-top">
+      <div class="top-fix-color-bg-wrapper animatedParent"><div class="top-fix-color-bg animated bounceInLeft slower">&nbsp;</div></div>
     <div class="breadcrumb col-md-offset-3">About / <span>Orion - The Civil Society</span></div>
 
     <div class="row">
 
       <!-- Left Panel Start -->
       <div class="col-sm-3">
-        <?php include 'include/about-side-menu.php';?>
-          <ul class="leftmenu-bottom">
-            <li><a href="#">Interested in us?</a></li>
-            <li><a href="#">Check out our Blog</a></li>
-          </ul>
+          <div class="left-menu-wrapper">
+                <?php include 'include/about-side-menu.php';?>
+                  <ul class="leftmenu-bottom">
+                    <li><a href="#">Interested in us?</a></li>
+                    <li><a href="#">Check out our Blog</a></li>
+                  </ul>
+              </div>
       </div>
       <!-- Left Panel End -->
 

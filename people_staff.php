@@ -1,12 +1,14 @@
 <?php include 'header.php';?>
   <!-- Content Start -->
   <div class="container margin-top">
-
+      <div class="top-fix-color-bg-wrapper animatedParent"><div class="top-fix-color-bg animated bounceInLeft slower">&nbsp;</div></div>
     <div class="breadcrumb col-md-offset-3">Research / <span>Staff</span></div>
 
     <!-- Left Panel Start -->
     <div class="col-sm-3">
-      <?php include 'include/people-side-menu.php';?>
+        <div class="left-menu-wrapper">
+                <?php include 'include/people-side-menu.php';?>
+        </div>
     </div>
     <!-- Left Panel End -->
 

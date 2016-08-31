@@ -2,21 +2,23 @@
 
 
   <!-- Banner Start -->
-  <div class="banner">
-    <img src="images/department-banner.jpg" alt="">
-     <div class="top-fix-color-bg">&nbsp;</div>
+  <div class="banner animatedParent">
+    <div class="banner-wrapper"><img src="images/department-banner.jpg" alt=""></div>  
+     <div class="top-fix-color-bg animated bounceInLeft slower">&nbsp;</div>
   </div>
   <!-- Banner End -->
 
 
   <!-- Content Start -->
-  <div class="container">
+  <div class="container offset-top">
      
     <div class="breadcrumb col-md-offset-3">About / <span>The Department</span></div>
 
     <!-- Left Panel Start -->
     <div class="col-sm-3">
-      <?php include 'include/about-side-menu.php';?>
+      <div class="left-menu-wrapper">
+          <?php include 'include/about-side-menu.php';?>
+        </div>
     </div>
     <!-- Left Panel End -->
 
@@ -41,16 +43,20 @@
         <!-- Right Panel Start -->
         <div class="col-sm-4 right-panel department-right-section">
           <div class="animatedParent">
-            <div class="animated bounceInRight slower">
+            <div class="animated bounceInUp slower">
               <img src="images/right-img.jpg" alt=" ">
-            </div>
-          </div>
+           
           <h4>Dr. Jaydeep Chaterjee<br/>
         <span>Head of the Department</span></h4>
           <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu mattis nulla. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. In nec justo arcu.</p>
-
-            <div class="faculty-right-gray-bg">&nbsp;</div>
-            <div class="faculty-left-gray-bg">&nbsp;</div>
+                 </div>
+          </div>
+            <div class="animatedParent">
+                <div class="faculty-right-gray-bg animated bounceInRight slow">
+                   &nbsp;
+                </div>
+                <div class="faculty-left-gray-bg">&nbsp;</div>
+            </div>    
         </div>
         <!-- Right Panel End -->
       </div>
