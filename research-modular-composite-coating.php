@@ -2,17 +2,19 @@
 
   <!-- Content Start -->
   <div class="container margin-top">
-      <div class="top-fix-color-bg-wrapper"><div class="top-fix-color-bg">&nbsp;</div></div>
+      <div class="top-fix-color-bg-wrapper animatedParent"><div class="top-fix-color-bg animated bounceInLeft slower">&nbsp;</div></div>
     <div class="breadcrumb col-md-offset-3">Research / Area of Research / <span>Modular Composite Coating</span></div>
 
     <div class="row">
 
       <!-- Left Panel Start -->
       <div class="col-sm-3">
-        <?php include 'include/research-side-menu.php';?>
-          <ul class="leftmenu-bottom">
-            <li><a href="#">Research Compliances</a></li>
-          </ul>
+          <div class="left-menu-wrapper">
+                <?php include 'include/research-side-menu.php';?>
+                  <ul class="leftmenu-bottom">
+                    <li><a href="#">Research Compliances</a></li>
+                  </ul>
+          </div>
       </div>
       <!-- Left Panel End -->
 

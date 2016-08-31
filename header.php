@@ -46,7 +46,7 @@
                       <ul class="dropdown-menu">
                         <li>
                             <div class="container top-drop-down-menu">
-                                <div class="col-xs-6 col-md-3">
+                                <div class="col-sm-3">
                                     <h6>School of engineering</h6>
                                     <ul class="" >
                                         <li><a href="#">Civil Engineering</a></li>
@@ -56,7 +56,7 @@
                                         <li><a href="#">Computer Science Engineering</a></li>
                                     </ul>
                                 </div>
-                                <div class="col-xs-6 col-md-3">
+                                <div class="col-sm-3">
                                       <h6>School of engineering</h6>
                                     <ul class="" >
                                         <li><a href="#">Physics</a></li>
@@ -66,7 +66,7 @@
                                         
                                     </ul>
                                 </div>
-                                <div class="col-xs-6 col-md-3">
+                                <div class="col-sm-3">
                                       <h6>School of engineering</h6>
                                     <ul class="" >
                                         <li><a href="#">English</a></li>
@@ -78,8 +78,8 @@
                                         <li><a href="#">Art Design & Performing Arts</a></li>
                                     </ul>
                                 </div>
-                                <div class="col-xs-6 col-md-3">
-                                      <h6>School of engineering</h6>
+                                <div class="col-sm-3">
+                                      <h6 class="click-show">School of engineering</h6>
                                     <ul class="" >
                                         <li><a href="#">Civil Engineering</a></li>
                                         <li><a href="#">Chemical Engineering</a></li>

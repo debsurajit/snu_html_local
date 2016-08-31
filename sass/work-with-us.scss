@@ -2,7 +2,7 @@
 .filter {
     padding: 15px;
     border: $black-color 1px solid;
-    margin: 30px 0;
+    margin: 30px 0 ;
     line-height: 14px;
     span {
         display: block;
@@ -54,6 +54,25 @@
            
            @media screen and (max-width:$md){
                left: 610px;
+           }
+           
+           .work-with-us-bg-text{
+               font-size: 75px;
+               font-family: $font-family-open-sans-light;
+               color: $light-gray-button-color;
+                line-height: 108px;
+                position: absolute;
+                left: -230px;
+               
+               @media screen and (min-width:$sm){
+                      top: 142px;
+                   }
+               @media screen and (min-width:$lg){
+                       top: 118px;
+                   }
+               span{
+                   margin-left: 155px;
+               }
            }
         }
     .faculty-left-gray-bg{

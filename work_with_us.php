@@ -2,14 +2,16 @@
 
   <!-- Content Start -->
   <div class="container margin-top">
-      <div class="top-fix-color-bg-wrapper"><div class="top-fix-color-bg">&nbsp;</div></div>
+      <div class="top-fix-color-bg-wrapper animatedParent"><div class="top-fix-color-bg animated bounceInLeft slower">&nbsp;</div></div>
     <div class="breadcrumb col-md-offset-3">About / <span>Work with Us</span></div>
 
     <div class="row">
 
       <!-- Left Panel Start -->
       <div class="col-sm-3">
-        <?php include 'include/about-side-menu.php';?>
+          <div class="left-menu-wrapper">
+                <?php include 'include/about-side-menu.php';?>
+          </div>
       </div>
       <!-- Left Panel End -->
 
@@ -107,9 +109,15 @@
 
 
       </div>
-        <div class="work-with-gray-bg">
+        <div class="work-with-gray-bg animatedParent">
 
-            <div class="faculty-right-gray-bg">&nbsp;</div>
+            <div class="faculty-right-gray-bg animated bounceInRight slower">
+                 <div class="work-with-us-bg-text">
+                        Get Inspired.<br/>
+                        <span>Explore.</span><br/>
+                        <span>Education.</span>
+                    </div>
+            </div>
             <div class="faculty-left-gray-bg">&nbsp;</div>
         </div>
         
