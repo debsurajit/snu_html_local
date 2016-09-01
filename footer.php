@@ -24,6 +24,7 @@
   });
 </script>
 
+<!-- fixed side menu js below  --->
 <script type="text/javascript">
     
 if($(window).width() >= 768){
@@ -97,7 +98,37 @@ var offsetPixels = $( ".offset-top" ).offset().top - 240;
     
 }
 </script>
+<!-- fixed side menu js end  --->
 
+
+<!-- top slide menu below  --->
+<script>
+    $(document).ready(function(){
+        $(".top-slide").click(function(){
+            $(".top-slide-menu").slideToggle();
+           if ($(".top-slide-menu ul").hasClass('flipOutY')) {
+               $(".top-slide-menu ul").removeClass('flipOutY')
+           }
+            
+            if ($(".top-slide-menu ul").hasClass('flipInY')) {
+               $(".top-slide-menu ul").removeClass('flipInY')
+           }
+        });
+        $('*[id^="click-"]').on('click', function(){
+           var row_no = $(this).attr('id').split('-')[1]; 
+           $(".clickul-" + row_no).removeClass("flipOutY");
+           $(".clickul-" + row_no).addClass("flipInY");        
+        });
+        $('*[class^="backlink-"]').on('click',function(){
+            var row_no2 = $(this).attr('class').split('-')[1];
+            $(".clickul-" + row_no2).removeClass("flipInY");
+            $(".clickul-" + row_no2).addClass("flipOutY");
+        });
+             
+        
+    });
+</script>
+<!-- top slide menu end  --->
 
 
 <script src="js/custom.js"></script>

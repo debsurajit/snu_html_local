@@ -1,7 +1,7 @@
 <?php include 'header.php';?>
     <a href="academics_faq.php" class="button-faq">FAQ</a>
   <!-- Content Start -->
-  <div class="container margin-top">
+  <div class="container margin-top offset-tops">
        <div class="top-fix-color-bg-wrapper animatedParent"><div class="top-fix-color-bg animated bounceInLeft slower">&nbsp;</div></div>
     <div class="breadcrumb col-md-offset-3">Academics / <span>Graduate</span></div>
 
@@ -10,7 +10,7 @@
     <!-- Left Panel Start -->
     <div class="col-sm-3">
         <div class="left-menu-wrapper">
-      <?php include 'include/academics-side-menu.php';?>
+            <?php include 'include/academics-side-menu.php';?>
         </div>
     </div>
     <!-- Left Panel End -->
