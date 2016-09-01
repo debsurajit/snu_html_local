@@ -27,6 +27,59 @@
 
    </head>
 <body>
+    <div class="top-slide-menu" style="display:none">
+                        <li>
+                            <div class="container top-drop-down-menu">
+                                <div class="col-sm-3">
+                                    <h6 id="click-1">School of engineering</h6>
+                                    <ul class="clickul-1 animated" >
+                                        <li class="visible-xs"><a href="#" class="backlink-1">Back</a></li>
+                                        <li><a href="#">Civil Engineering</a></li>
+                                        <li><a href="#">Chemical Engineering</a></li>
+                                        <li><a href="#">Electrical Engineering</a></li>
+                                        <li><a href="#">Mechanical Engineering</a></li>
+                                        <li><a href="#">Computer Science Engineering</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-3">
+                                      <h6 id="click-2">School of engineering</h6>
+                                    <ul class="clickul-2 animated" >
+                                        <li class="visible-xs"><a href="#" class="backlink-2">Back</a></li>
+                                        <li><a href="#">Physics</a></li>
+                                        <li><a href="#">Chemistry</a></li>
+                                        <li><a href="#">Life Science</a></li>
+                                        <li><a href="#">Mathamatics</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="col-sm-3">
+                                      <h6 id="click-3">School of engineering</h6>
+                                    <ul class="clickul-3 animated" >
+                                        <li class="visible-xs"><a href="#" class="backlink-3">Back</a></li>
+                                        <li><a href="#">English</a></li>
+                                        <li><a href="#">Economics</a></li>
+                                        <li><a href="#">Education</a></li>
+                                        <li><a href="#">Communication</a></li>
+                                        <li><a href="#">History</a></li>
+                                        <li><a href="#">Sociology</a></li>
+                                        <li><a href="#">Art Design & Performing Arts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-3">
+                                      <h6 id="click-4">School of engineering</h6>
+                                    <ul class="clickul-4 animated" >
+                                        <li class="visible-xs"><a href="#" class="backlink-4">Back</a></li>
+                                        <li><a href="#">Civil Engineering</a></li>
+                                        <li><a href="#">Chemical Engineering</a></li>
+                                        <li><a href="#">Electrical Engineering</a></li>
+                                        <li><a href="#">Mechanical Engineering</a></li>
+                                        <li><a href="#">Computer Science Engineering</a></li>
+                                    </ul>
+                                </div>
+                            </div>  
+                        </li>
+                        
+                      </div>
 <header class="main-header">
   
     <div class="top_menu">
@@ -42,56 +95,8 @@
                   <ul class="nav navbar-nav">
                     
                     <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">School of Engineering <span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li>
-                            <div class="container top-drop-down-menu">
-                                <div class="col-sm-3">
-                                    <h6>School of engineering</h6>
-                                    <ul class="" >
-                                        <li><a href="#">Civil Engineering</a></li>
-                                        <li><a href="#">Chemical Engineering</a></li>
-                                        <li><a href="#">Electrical Engineering</a></li>
-                                        <li><a href="#">Mechanical Engineering</a></li>
-                                        <li><a href="#">Computer Science Engineering</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-3">
-                                      <h6>School of engineering</h6>
-                                    <ul class="" >
-                                        <li><a href="#">Physics</a></li>
-                                        <li><a href="#">Chemistry</a></li>
-                                        <li><a href="#">Life Science</a></li>
-                                        <li><a href="#">Mathamatics</a></li>
-                                        
-                                    </ul>
-                                </div>
-                                <div class="col-sm-3">
-                                      <h6>School of engineering</h6>
-                                    <ul class="" >
-                                        <li><a href="#">English</a></li>
-                                        <li><a href="#">Economics</a></li>
-                                        <li><a href="#">Education</a></li>
-                                        <li><a href="#">Communication</a></li>
-                                        <li><a href="#">History</a></li>
-                                        <li><a href="#">Sociology</a></li>
-                                        <li><a href="#">Art Design & Performing Arts</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-3">
-                                      <h6 class="click-show">School of engineering</h6>
-                                    <ul class="" >
-                                        <li><a href="#">Civil Engineering</a></li>
-                                        <li><a href="#">Chemical Engineering</a></li>
-                                        <li><a href="#">Electrical Engineering</a></li>
-                                        <li><a href="#">Mechanical Engineering</a></li>
-                                        <li><a href="#">Computer Science Engineering</a></li>
-                                    </ul>
-                                </div>
-                            </div>  
-                        </li>
-                        
-                      </ul>
+                      <a href="#" class="dropdown-toggle top-slide" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">School of Engineering <span class="caret"></span></a>
+                      
                     </li>
                   </ul>
                
