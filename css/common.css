@@ -1295,8 +1295,19 @@ a.undergraduate-gray-button span {
   z-index: -1;
 }
 
+/* line 848, ../sass/common.scss */
+.top-fix-color-bg-right {
+  background: #eee5dc;
+  width: 350px;
+  position: absolute;
+  right: -310px;
+  top: -7px;
+  height: 400px;
+  z-index: -1;
+}
+
 /* fixed faq button */
-/* line 851, ../sass/common.scss */
+/* line 861, ../sass/common.scss */
 .button-faq, .button-apply {
   background: none;
   border: 2px solid #8d5715;
@@ -1314,13 +1325,13 @@ a.undergraduate-gray-button span {
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
 }
-/* line 866, ../sass/common.scss */
+/* line 876, ../sass/common.scss */
 .button-faq:hover, .button-apply:hover {
   background: #8d5715;
   color: #ffffff;
 }
 
-/* line 872, ../sass/common.scss */
+/* line 882, ../sass/common.scss */
 .button-apply {
   top: 600px;
 }

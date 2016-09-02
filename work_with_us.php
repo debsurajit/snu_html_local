@@ -1,8 +1,21 @@
 <?php include 'header.php';?>
 
+ <div class="work-with-gray-bg animatedParent">
+
+            <div class="faculty-right-gray-bg animated bounceInRight slower">
+                 <div class="work-with-us-bg-text">
+                        Get Inspired.<br/>
+                        <span>Explore.</span><br/>
+                        <span>Education.</span>
+                    </div>
+            </div>
+            <div class="faculty-left-gray-bg">&nbsp;</div>
+        </div>
   <!-- Content Start -->
   <div class="container margin-top offset-top">
       <div class="top-fix-color-bg-wrapper animatedParent"><div class="top-fix-color-bg animated bounceInLeft slower">&nbsp;</div></div>
+      
+      
     <div class="breadcrumb col-md-offset-3">About / <span>Work with Us</span></div>
 
     <div class="row">
@@ -109,17 +122,7 @@
 
 
       </div>
-        <!--<div class="work-with-gray-bg animatedParent">
-
-            <div class="faculty-right-gray-bg animated bounceInRight slower">
-                 <div class="work-with-us-bg-text">
-                        Get Inspired.<br/>
-                        <span>Explore.</span><br/>
-                        <span>Education.</span>
-                    </div>
-            </div>
-            <div class="faculty-left-gray-bg">&nbsp;</div>
-        </div>-->
+      
         
     </div>
       

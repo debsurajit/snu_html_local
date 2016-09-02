@@ -30,6 +30,9 @@
 }
 
 .bottm-block {
+    div{
+        margin-bottom: 20px;
+    }
     h2 {
         font-family: $font-family-crimson-roman;
         font-size: $font-h4;
@@ -42,18 +45,25 @@
     position: relative;
        .faculty-right-gray-bg{
         background: $widgets-background;
-        width: 2000px;
+        width: 500px;
         height: 450px;
         position: absolute;
         left: 975px;
-        top: 70px;
+        top: 124px;
         z-index: -3;
            @media screen and (max-width:$lg){
-               left: 810px;
+               left: inherit;
+               width: 300px;
+               right: 0;
            }
            
            @media screen and (max-width:$md){
-               left: 610px;
+               width: 300px;
+               right: 0;
+           }
+           
+            @media screen and (max-width:$sm){
+               display: none;
            }
            
            .work-with-us-bg-text{

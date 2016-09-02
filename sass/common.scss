@@ -845,6 +845,16 @@ a.undergraduate-gray-button {
         z-index: -1;
     }
 
+.top-fix-color-bg-right{
+        background: $department-background;
+        width: 350px;
+        position: absolute;
+        right: -310px;
+        top: -7px;
+        height: 400px;
+        z-index: -1;
+    }
+
 
 /* fixed faq button */
 
