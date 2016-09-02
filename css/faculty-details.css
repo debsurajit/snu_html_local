@@ -222,12 +222,33 @@
 /* line 60, ../sass/faculty-details.scss */
 .faculty-image .faculty-right-gray-bg {
   background: #f0f0f0;
-  width: 500px;
-  height: 700px;
+  width: 400px;
+  height: 450px;
   position: absolute;
-  right: -330px;
-  top: 100px;
-  z-index: -1;
+  right: -250px;
+  top: 124px;
+  z-index: -3;
+}
+@media screen and (max-width: 1200px) {
+  /* line 60, ../sass/faculty-details.scss */
+  .faculty-image .faculty-right-gray-bg {
+    left: inherit;
+    width: 173px;
+    right: -42px;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 60, ../sass/faculty-details.scss */
+  .faculty-image .faculty-right-gray-bg {
+    width: 111px;
+    right: -24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 60, ../sass/faculty-details.scss */
+  .faculty-image .faculty-right-gray-bg {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=faculty-details.css.map */

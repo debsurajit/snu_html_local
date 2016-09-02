@@ -60,19 +60,25 @@
     
      .faculty-right-gray-bg{
         background: $widgets-background;
-        width: 2000px;
+        width: 400px;
         height: 450px;
         position: absolute;
-        left: 190px;
-        top: 70px;
-        z-index: -1;
-         
-          @media screen and (max-width:$lg){
-               left: 140px;
+        right: -250px;
+        top: 124px;
+        z-index: -3;
+           @media screen and (max-width:$lg){
+               left: inherit;
+               width: 173px;
+               right: -42px;
            }
            
            @media screen and (max-width:$md){
-               left: 120px;
+               width: 111px;
+               right: -24px;
+           }
+           
+            @media screen and (max-width:$sm){
+               display: none;
            }
         }
     .faculty-left-gray-bg{

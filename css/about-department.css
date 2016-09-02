@@ -328,26 +328,35 @@
 /* line 61, ../sass/about-department.scss */
 .department-right-section .faculty-right-gray-bg, .department-right-section .faculty-left-gray-bg {
   background: #f0f0f0;
-  width: 2000px;
+  width: 400px;
   height: 450px;
   position: absolute;
-  left: 190px;
-  top: 70px;
-  z-index: -1;
+  right: -250px;
+  top: 124px;
+  z-index: -3;
 }
 @media screen and (max-width: 1200px) {
   /* line 61, ../sass/about-department.scss */
   .department-right-section .faculty-right-gray-bg, .department-right-section .faculty-left-gray-bg {
-    left: 140px;
+    left: inherit;
+    width: 173px;
+    right: -42px;
   }
 }
 @media screen and (max-width: 992px) {
   /* line 61, ../sass/about-department.scss */
   .department-right-section .faculty-right-gray-bg, .department-right-section .faculty-left-gray-bg {
-    left: 120px;
+    width: 111px;
+    right: -24px;
   }
 }
-/* line 78, ../sass/about-department.scss */
+@media screen and (max-width: 767px) {
+  /* line 61, ../sass/about-department.scss */
+  .department-right-section .faculty-right-gray-bg, .department-right-section .faculty-left-gray-bg {
+    display: none;
+  }
+}
+/* line 84, ../sass/about-department.scss */
 .department-right-section .faculty-left-gray-bg {
   left: inherit;
   right: 1448px;

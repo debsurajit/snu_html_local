@@ -55,7 +55,7 @@
                 <div class="faculty-right-gray-bg animated bounceInRight slow">
                    &nbsp;
                 </div>
-                <!--<div class="faculty-left-gray-bg">&nbsp;</div>-->
+                <div class="faculty-left-gray-bg">&nbsp;</div>
             </div>    
         </div>
         <!-- Right Panel End -->

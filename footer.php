@@ -130,7 +130,6 @@ var offsetPixels = $( ".offset-top" ).offset().top - 240;
 </script>
 <!-- top slide menu end  --->
 
-
 <script src="js/custom.js"></script>
 
 </html>
