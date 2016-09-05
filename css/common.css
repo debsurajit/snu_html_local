@@ -963,6 +963,7 @@ h6 {
 .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu {
   border: 1px solid #8d5715;
   top: 99%;
+  border-radius: 0;
 }
 @media screen and (max-width: 767px) {
   /* line 649, ../sass/common.scss */
@@ -971,26 +972,31 @@ h6 {
     border: none;
   }
 }
-/* line 656, ../sass/common.scss */
+/* line 657, ../sass/common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu li {
   width: 100%;
   border-top: 1px solid #e7e7e7;
   padding: 0 50px 0 20px;
 }
-/* line 660, ../sass/common.scss */
+/* line 661, ../sass/common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu li:first-child {
   border-top: none;
 }
-/* line 663, ../sass/common.scss */
+/* line 664, ../sass/common.scss */
 .department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu li a {
   color: #000000;
   font-family: "source_sans_proregular";
   border: none;
   padding: 10px 0;
 }
+/* line 669, ../sass/common.scss */
+.department-main-menu .navbar-default ul.navbar-nav li.open .dropdown-menu li a:before {
+  content: inherit;
+  opacity: 0;
+}
 
 /* Undergraduate body button */
-/* line 680, ../sass/common.scss */
+/* line 685, ../sass/common.scss */
 a.undergraduate-brown-button {
   background: #8d5715;
   border: none;
@@ -1007,21 +1013,21 @@ a.undergraduate-brown-button {
   align-items: center;
 }
 @media screen and (min-width: 635px) {
-  /* line 680, ../sass/common.scss */
+  /* line 685, ../sass/common.scss */
   a.undergraduate-brown-button {
     width: 47%;
     font-size: 1.188rem;
   }
 }
 @media screen and (min-width: 767px) {
-  /* line 680, ../sass/common.scss */
+  /* line 685, ../sass/common.scss */
   a.undergraduate-brown-button {
     width: 100%;
     font-size: 1.125rem;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 680, ../sass/common.scss */
+  /* line 685, ../sass/common.scss */
   a.undergraduate-brown-button {
     width: 47%;
     font-size: 1rem;
@@ -1037,7 +1043,7 @@ a.undergraduate-brown-button span {
   font-family: "open_sansbold";
 }
 
-/* line 684, ../sass/common.scss */
+/* line 689, ../sass/common.scss */
 a.undergraduate-gray-button {
   background: #f0f0f0;
   border: none;
@@ -1054,21 +1060,21 @@ a.undergraduate-gray-button {
   align-items: center;
 }
 @media screen and (min-width: 635px) {
-  /* line 684, ../sass/common.scss */
+  /* line 689, ../sass/common.scss */
   a.undergraduate-gray-button {
     width: 47%;
     font-size: 1.188rem;
   }
 }
 @media screen and (min-width: 767px) {
-  /* line 684, ../sass/common.scss */
+  /* line 689, ../sass/common.scss */
   a.undergraduate-gray-button {
     width: 100%;
     font-size: 1.125rem;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 684, ../sass/common.scss */
+  /* line 689, ../sass/common.scss */
   a.undergraduate-gray-button {
     width: 47%;
     font-size: 1rem;
@@ -1084,37 +1090,37 @@ a.undergraduate-gray-button span {
   font-family: "open_sansbold";
 }
 @media screen and (max-width: 635px) {
-  /* line 684, ../sass/common.scss */
+  /* line 689, ../sass/common.scss */
   a.undergraduate-gray-button {
     margin-bottom: 30px;
   }
 }
 
 /* Right Side Academic calender section */
-/* line 691, ../sass/common.scss */
+/* line 696, ../sass/common.scss */
 .academic-calender {
   /* calender slider css end */
 }
-/* line 692, ../sass/common.scss */
+/* line 697, ../sass/common.scss */
 .academic-calender h5 {
   font-family: "open_sansregular";
   padding: 0 0 10px 0;
   margin: 0;
   color: #8d5715;
 }
-/* line 698, ../sass/common.scss */
+/* line 703, ../sass/common.scss */
 .academic-calender .calender-slider {
   border: 2px solid #8d5715;
   padding: 10px 0;
   position: relative;
 }
-/* line 702, ../sass/common.scss */
+/* line 707, ../sass/common.scss */
 .academic-calender .calender-slider .carousel {
   position: inherit;
   border-bottom: 2px solid #8d5715;
   padding: 0 10px;
 }
-/* line 706, ../sass/common.scss */
+/* line 711, ../sass/common.scss */
 .academic-calender .calender-slider .carousel .carousel-indicators {
   top: -23px;
   left: 0;
@@ -1122,19 +1128,19 @@ a.undergraduate-gray-button span {
   width: 100%;
   margin: 0;
 }
-/* line 712, ../sass/common.scss */
+/* line 717, ../sass/common.scss */
 .academic-calender .calender-slider .carousel .carousel-indicators li {
   border: 2px solid #8d5715;
   margin: 0;
   background: #ffffff;
 }
-/* line 717, ../sass/common.scss */
+/* line 722, ../sass/common.scss */
 .academic-calender .calender-slider .carousel .carousel-indicators li.active {
   width: 10px;
   height: 10px;
   background: #8d5715;
 }
-/* line 724, ../sass/common.scss */
+/* line 729, ../sass/common.scss */
 .academic-calender .calender-slider .carousel .carousel-caption {
   position: relative;
   right: 0;
@@ -1150,12 +1156,12 @@ a.undergraduate-gray-button span {
   line-height: 18px;
 }
 @media screen and (max-width: 767px) {
-  /* line 724, ../sass/common.scss */
+  /* line 729, ../sass/common.scss */
   .academic-calender .calender-slider .carousel .carousel-caption {
     font-size: 1.063rem;
   }
 }
-/* line 741, ../sass/common.scss */
+/* line 746, ../sass/common.scss */
 .academic-calender .calender-slider .carousel .carousel-caption span {
   width: 100%;
   float: left;
@@ -1165,12 +1171,12 @@ a.undergraduate-gray-button span {
   margin-bottom: 3px;
 }
 @media screen and (max-width: 767px) {
-  /* line 741, ../sass/common.scss */
+  /* line 746, ../sass/common.scss */
   .academic-calender .calender-slider .carousel .carousel-caption span {
     font-size: 1.063rem;
   }
 }
-/* line 755, ../sass/common.scss */
+/* line 760, ../sass/common.scss */
 .academic-calender .calender-slider:after {
   content: '';
   width: 100%;
@@ -1179,7 +1185,7 @@ a.undergraduate-gray-button span {
   position: absolute;
   bottom: 4px;
 }
-/* line 767, ../sass/common.scss */
+/* line 772, ../sass/common.scss */
 .academic-calender .button-with-white-bg {
   background: none;
   border: 2px solid #8d5715;
@@ -1192,32 +1198,32 @@ a.undergraduate-gray-button span {
   display: block;
 }
 @media screen and (min-width: 635px) {
-  /* line 767, ../sass/common.scss */
+  /* line 772, ../sass/common.scss */
   .academic-calender .button-with-white-bg {
     font-size: 1.375em;
     font-family: "open_sansbold";
   }
 }
 @media screen and (min-width: 767px) {
-  /* line 767, ../sass/common.scss */
+  /* line 772, ../sass/common.scss */
   .academic-calender .button-with-white-bg {
     font-size: 1.125rem;
     font-family: "open_sansbold";
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 767, ../sass/common.scss */
+  /* line 772, ../sass/common.scss */
   .academic-calender .button-with-white-bg {
     font-size: 0.875rem;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 767, ../sass/common.scss */
+  /* line 772, ../sass/common.scss */
   .academic-calender .button-with-white-bg {
     font-size: 1rem;
   }
 }
-/* line 792, ../sass/common.scss */
+/* line 797, ../sass/common.scss */
 .academic-calender .button-2 {
   background: url(../images/button-bg.jpg) no-repeat 0 -1px #8d5715;
   border: none;
@@ -1228,82 +1234,82 @@ a.undergraduate-gray-button span {
   color: #ffffff;
 }
 @media screen and (min-width: 635px) {
-  /* line 792, ../sass/common.scss */
+  /* line 797, ../sass/common.scss */
   .academic-calender .button-2 {
     font-size: 1.375em;
     font-family: "open_sansbold";
   }
 }
 @media screen and (min-width: 767px) {
-  /* line 792, ../sass/common.scss */
+  /* line 797, ../sass/common.scss */
   .academic-calender .button-2 {
     font-size: 1.125rem;
     font-family: "open_sansbold";
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 792, ../sass/common.scss */
+  /* line 797, ../sass/common.scss */
   .academic-calender .button-2 {
     font-size: 0.875rem;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 792, ../sass/common.scss */
+  /* line 797, ../sass/common.scss */
   .academic-calender .button-2 {
     font-size: 1rem;
   }
 }
 
 /*Top Margin for Fixed-header*/
-/* line 819, ../sass/common.scss */
+/* line 824, ../sass/common.scss */
 .margin-top {
-  margin-top: 250px;
+  margin-top: 243px;
 }
 
 /*First Paragraph of Content*/
-/* line 826, ../sass/common.scss */
+/* line 831, ../sass/common.scss */
 .crimsone-text {
   font-family: "crimson_textroman";
   font-size: 1.188rem;
   margin-bottom: 25px;
 }
 @media screen and (min-width: 767px) {
-  /* line 826, ../sass/common.scss */
+  /* line 831, ../sass/common.scss */
   .crimsone-text {
     font-size: 1rem;
   }
 }
 
 /* inner page to fix bg color */
-/* line 838, ../sass/common.scss */
+/* line 843, ../sass/common.scss */
 .top-fix-color-bg-wrapper {
   position: relative;
 }
 
-/* line 843, ../sass/common.scss */
+/* line 848, ../sass/common.scss */
 .top-fix-color-bg {
   background: #eee5dc;
   width: 350px;
   position: absolute;
   left: -310px;
-  top: -7px;
+  top: 0;
   height: 400px;
   z-index: -1;
 }
 
-/* line 853, ../sass/common.scss */
+/* line 858, ../sass/common.scss */
 .top-fix-color-bg-right {
   background: #eee5dc;
   width: 350px;
   position: absolute;
   right: -310px;
-  top: -7px;
+  top: 0;
   height: 400px;
   z-index: -1;
 }
 
 /* fixed faq button */
-/* line 866, ../sass/common.scss */
+/* line 871, ../sass/common.scss */
 .button-faq, .button-apply {
   background: none;
   border: 2px solid #8d5715;
@@ -1321,13 +1327,13 @@ a.undergraduate-gray-button span {
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
 }
-/* line 881, ../sass/common.scss */
+/* line 886, ../sass/common.scss */
 .button-faq:hover, .button-apply:hover {
   background: #8d5715;
   color: #ffffff;
 }
 
-/* line 887, ../sass/common.scss */
+/* line 892, ../sass/common.scss */
 .button-apply {
   top: 600px;
 }

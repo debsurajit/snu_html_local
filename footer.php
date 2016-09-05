@@ -129,19 +129,25 @@ var offsetPixels = $( ".offset-top" ).offset().top - 240;
     });
 </script>
 <!-- top slide menu end  --->
-<!--<script>
-    var lastScrollTop = 0;
-$(window).scroll(function (event) {
-    var st = $(this).scrollTop();
-    if (st > lastScrollTop) {
-        $('.top-fix-color-bg').animate({top: '+=10'}, 10);
-    } else {
-        $('.top-fix-color-bg').animate({top: '-=10'}, 10);
-    }
-    lastScrollTop = st;
+<script>
+var container = document.getElementById('body');
+var windowHeight = window.innerHeight;
+var windowWidth = window.innerWidth;
+var scrollArea = 950 - windowHeight;
+var square1 = document.getElementsByClassName('top-fix-color-bg-wrapper')[0];
+var square2 = document.getElementsByClassName('work-with-gray-bg')[0];
+  
+
+// update position of square 1 and square 2 when scroll event fires.
+window.addEventListener('scroll', function() {
+  var scrollTop = window.pageYOffset || window.scrollTop;
+  var scrollPercent = scrollTop/scrollArea || 0;
+  
+  square1.style.top = scrollPercent*window.innerWidth*0.5 + 'px';
+  square2.style.bottom = scrollPercent*window.innerWidth*0.5 + 'px';
 });
 
-</script> -->
+</script> 
 <script src="js/custom.js"></script>
 
 </html>
