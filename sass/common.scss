@@ -649,6 +649,7 @@ h6 {
                 .dropdown-menu {
                     border: 1px solid $menu-hover-color;
                     top:99%;
+                    border-radius: 0;
                     @media screen and (max-width: $sm) {
                         padding-left: 20px;
                         border: none;
@@ -665,6 +666,10 @@ h6 {
                             font-family: $font-family;
                             border: none;
                             padding: 10px 0;
+                            &:before{
+                                content: inherit;
+                                opacity: 0;
+                            }
                         }
                     }
                 }
@@ -817,7 +822,7 @@ a.undergraduate-gray-button {
 /*Top Margin for Fixed-header*/
 
 .margin-top {
-  margin-top: 250px;
+  margin-top: 243px;
     
 }
 
@@ -845,7 +850,7 @@ a.undergraduate-gray-button {
         width: 350px;
         position: absolute;
         left: -310px;
-        top: -7px;
+        top: 0;
         height: 400px;
         z-index: -1;
     }
@@ -855,7 +860,7 @@ a.undergraduate-gray-button {
         width: 350px;
         position: absolute;
         right: -310px;
-        top: -7px;
+        top: 0;
         height: 400px;
         z-index: -1;
     }
@@ -888,3 +893,5 @@ a.undergraduate-gray-button {
      @extend .button-faq;
     top: 600px;
 }
+
+
