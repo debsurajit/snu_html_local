@@ -40,31 +40,31 @@
                     </li>
 
                     <li class="col-lg-3 col-md-6 col-xs-6 col-exe-12">
-                      <img src="images/faculty2.jpg" alt="">
+                        <a href="#"><img src="images/faculty2.jpg" alt=""></a>
                       <h3>Nellie Holland</h3> Secretary <br/> Office: C321 Ext: 389
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
 
                     <li class="col-lg-3 col-md-6 col-xs-6 col-exe-12">
-                      <img src="images/faculty3.jpg" alt="">
+                        <a href="#"><img src="images/faculty3.jpg" alt=""></a>
                       <h3>Nellie Holland</h3> Secretary <br/> Office: C321 Ext: 389
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
 
                     <li class="col-lg-3 col-md-6 col-xs-6 col-exe-12">
-                      <img src="images/faculty4.jpg" alt="">
+                        <a href="#"><img src="images/faculty4.jpg" alt=""></a>
                       <h3>Nellie Holland</h3> Secretary <br/> Office: C321 Ext: 389
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
 
                     <li class="col-lg-3 col-md-6 col-xs-6 col-exe-12">
-                      <img src="images/faculty5.jpg" alt="">
+                        <a href="#"><img src="images/faculty5.jpg" alt=""></a>
                       <h3>Nellie Holland</h3> Secretary <br/> Office: C321 Ext: 389
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
                     
                     <li class="col-lg-3 col-md-6 col-xs-6 col-exe-12">
-                      <img src="images/faculty6.jpg" alt="">
+                        <a href="#"><img src="images/faculty6.jpg" alt=""></a>
                       <h3>Nellie Holland</h3> Secretary <br/> Office: C321 Ext: 389
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
@@ -82,7 +82,7 @@
                   <h3 class="title">Core Faculty</h3>
                   <ul class="row">
                     <li class="col-lg-3 col-md-6 col-xs-6 col-exe-12">
-                      <img src="images/faculty7.jpg" alt="">
+                        <a href="#"><img src="images/faculty7.jpg" alt=""></a>
                       <h3>Nellie Holland</h3> Secretary <br/> Office: C321 Ext: 389
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>

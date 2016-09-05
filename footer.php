@@ -106,30 +106,42 @@ var offsetPixels = $( ".offset-top" ).offset().top - 240;
     $(document).ready(function(){
         $(".top-slide").click(function(){
             $(".top-slide-menu").slideToggle();
-           if ($(".top-slide-menu ul").hasClass('flipOutY')) {
-               $(".top-slide-menu ul").removeClass('flipOutY')
+           if ($(".top-slide-menu ul").hasClass('fadeOut')) {
+               $(".top-slide-menu ul").removeClass('fadeOut')
            }
             
-            if ($(".top-slide-menu ul").hasClass('flipInY')) {
-               $(".top-slide-menu ul").removeClass('flipInY')
+            if ($(".top-slide-menu ul").hasClass('fadeIn')) {
+               $(".top-slide-menu ul").removeClass('fadeIn')
            }
         });
         $('*[id^="click-"]').on('click', function(){
            var row_no = $(this).attr('id').split('-')[1]; 
-           $(".clickul-" + row_no).removeClass("flipOutY");
-           $(".clickul-" + row_no).addClass("flipInY");        
+           $(".clickul-" + row_no).removeClass("fadeOut");
+           $(".clickul-" + row_no).addClass("fadeIn");        
         });
         $('*[class^="backlink-"]').on('click',function(){
             var row_no2 = $(this).attr('class').split('-')[1];
-            $(".clickul-" + row_no2).removeClass("flipInY");
-            $(".clickul-" + row_no2).addClass("flipOutY");
+            $(".clickul-" + row_no2).removeClass("fadeIn");
+            $(".clickul-" + row_no2).addClass("fadeOut");
         });
              
         
     });
 </script>
 <!-- top slide menu end  --->
+<!--<script>
+    var lastScrollTop = 0;
+$(window).scroll(function (event) {
+    var st = $(this).scrollTop();
+    if (st > lastScrollTop) {
+        $('.top-fix-color-bg').animate({top: '+=10'}, 10);
+    } else {
+        $('.top-fix-color-bg').animate({top: '-=10'}, 10);
+    }
+    lastScrollTop = st;
+});
 
+</script> -->
 <script src="js/custom.js"></script>
 
 </html>

@@ -184,4 +184,62 @@
     
 </section>  
 
-<?php include 'footer.php';?>
+<footer>&nbsp;</footer>
+
+
+</body>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    $(document).click(function () {
+      $(".search-area").slideUp("slow");
+
+    });
+    $(".search ul li:last-child a").click(function (e) {
+      e.stopPropagation();
+      $(".search-area").slideToggle("slow");
+
+    });
+    $('.search-area').click(function (e) {
+      e.stopPropagation();
+    });
+
+  });
+</script>
+
+
+<!-- top slide menu below  --->
+<script>
+    $(document).ready(function(){
+        $(".top-slide").click(function(){
+            $(".top-slide-menu").slideToggle();
+           if ($(".top-slide-menu ul").hasClass('fadeOut')) {
+               $(".top-slide-menu ul").removeClass('fadeOut')
+           }
+            
+            if ($(".top-slide-menu ul").hasClass('fadeIn')) {
+               $(".top-slide-menu ul").removeClass('fadeIn')
+           }
+        });
+        $('*[id^="click-"]').on('click', function(){
+           var row_no = $(this).attr('id').split('-')[1]; 
+           $(".clickul-" + row_no).removeClass("fadeOut");
+           $(".clickul-" + row_no).addClass("fadeIn");        
+        });
+        $('*[class^="backlink-"]').on('click',function(){
+            var row_no2 = $(this).attr('class').split('-')[1];
+            $(".clickul-" + row_no2).removeClass("fadeIn");
+            $(".clickul-" + row_no2).addClass("fadeOut");
+        });
+             
+        
+    });
+</script>
+<!-- top slide menu end  --->
+
+<script src="js/custom.js"></script>
+
+</html>
