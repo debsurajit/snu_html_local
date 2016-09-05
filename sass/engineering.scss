@@ -9,6 +9,7 @@
         height: 700px;
         overflow-y: hidden;
         border-left: 20px solid $white-color;
+        border-bottom: 20px solid $white-color;
         img {
             width: 100%;
             height: auto;
@@ -16,7 +17,7 @@
         @media screen and (max-width:$md) {
             height: auto;
             overflow: auto;
-            border-left: none;
+            border: none;
         }
     }
     .banner-overlap-div {

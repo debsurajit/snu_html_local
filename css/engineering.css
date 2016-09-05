@@ -172,15 +172,16 @@
 /* line 50, ../sass/_mixins.scss */
 .banner-section .banner-wrapper {
   overflow-y: hidden;
-  height: 720px;
+  height: auto;
 }
 /* line 8, ../sass/engineering.scss */
 .banner-section .banner-img {
   height: 700px;
   overflow-y: hidden;
   border-left: 20px solid #ffffff;
+  border-bottom: 20px solid #ffffff;
 }
-/* line 12, ../sass/engineering.scss */
+/* line 13, ../sass/engineering.scss */
 .banner-section .banner-img img {
   width: 100%;
   height: auto;
@@ -190,10 +191,10 @@
   .banner-section .banner-img {
     height: auto;
     overflow: auto;
-    border-left: none;
+    border: none;
   }
 }
-/* line 22, ../sass/engineering.scss */
+/* line 23, ../sass/engineering.scss */
 .banner-section .banner-overlap-div {
   background: #f8f8f8;
   position: relative;
@@ -206,7 +207,7 @@
   z-index: 1;
 }
 @media screen and (min-width: 767px) {
-  /* line 22, ../sass/engineering.scss */
+  /* line 23, ../sass/engineering.scss */
   .banner-section .banner-overlap-div {
     width: 370px;
     height: 335px;
@@ -215,34 +216,34 @@
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 22, ../sass/engineering.scss */
+  /* line 23, ../sass/engineering.scss */
   .banner-section .banner-overlap-div {
     width: 500px;
     height: 250px;
     bottom: 0;
   }
 }
-/* line 43, ../sass/engineering.scss */
+/* line 44, ../sass/engineering.scss */
 .banner-section .banner-overlap-div a {
   color: #8d5715;
   text-decoration: underline;
 }
-/* line 47, ../sass/engineering.scss */
+/* line 48, ../sass/engineering.scss */
 .banner-section .banner-overlap-div h1 {
   padding: 0;
 }
-/* line 50, ../sass/engineering.scss */
+/* line 51, ../sass/engineering.scss */
 .banner-section .banner-overlap-div h3 {
   padding: 0 0 20px 0;
   color: #c3c3c3;
   font-family: "crimson_textroman";
 }
-/* line 55, ../sass/engineering.scss */
+/* line 56, ../sass/engineering.scss */
 .banner-section .banner-overlap-div p {
   line-height: 30px;
   color: #000000;
 }
-/* line 61, ../sass/engineering.scss */
+/* line 62, ../sass/engineering.scss */
 .banner-section .date-section {
   background: #8d5715;
   position: relative;
@@ -250,7 +251,7 @@
   width: 100%;
 }
 @media screen and (min-width: 767px) {
-  /* line 61, ../sass/engineering.scss */
+  /* line 62, ../sass/engineering.scss */
   .banner-section .date-section {
     position: absolute;
     padding: 25px 25px 25px 348px;
@@ -259,13 +260,13 @@
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 61, ../sass/engineering.scss */
+  /* line 62, ../sass/engineering.scss */
   .banner-section .date-section {
     bottom: 20px;
     padding: 25px 25px 25px 500px;
   }
 }
-/* line 76, ../sass/engineering.scss */
+/* line 77, ../sass/engineering.scss */
 .banner-section .date-section .date-icon {
   padding: 10px 25px 10px 30px;
   border-right: 1px solid #ffffff;
@@ -273,12 +274,12 @@
   box-sizing: content-box;
   float: left;
 }
-/* line 82, ../sass/engineering.scss */
+/* line 83, ../sass/engineering.scss */
 .banner-section .date-section .date-icon i {
   color: #ffffff;
   font-size: 2rem;
 }
-/* line 87, ../sass/engineering.scss */
+/* line 88, ../sass/engineering.scss */
 .banner-section .date-section .event-date {
   width: 190px;
   float: left;
@@ -289,20 +290,20 @@
   padding: 10px 0 10px 35px;
 }
 @media screen and (max-width: 635px) {
-  /* line 87, ../sass/engineering.scss */
+  /* line 88, ../sass/engineering.scss */
   .banner-section .date-section .event-date {
     width: 175px;
     font-size: 1.188rem;
   }
 }
-/* line 99, ../sass/engineering.scss */
+/* line 100, ../sass/engineering.scss */
 .banner-section .date-section .event-date .date {
   font-size: 0.875rem;
   line-height: 18px;
   width: 45px;
   float: left;
 }
-/* line 104, ../sass/engineering.scss */
+/* line 105, ../sass/engineering.scss */
 .banner-section .date-section .event-date .date span {
   font-size: 1.625rem;
   font-family: "source_sans_proregular";
@@ -310,119 +311,119 @@
   float: left;
 }
 @media screen and (max-width: 635px) {
-  /* line 113, ../sass/engineering.scss */
+  /* line 114, ../sass/engineering.scss */
   .banner-section .date-section .event-date:nth-child(3), .banner-section .date-section .event-date:nth-child(4) {
     padding-left: 25px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 119, ../sass/engineering.scss */
+  /* line 120, ../sass/engineering.scss */
   .banner-section .date-section .event-date:nth-child(3), .banner-section .date-section .event-date:nth-child(4) {
     display: none;
   }
 }
 
 /* body css start  */
-/* line 130, ../sass/engineering.scss */
+/* line 131, ../sass/engineering.scss */
 section {
   padding: 70px 0;
 }
 
-/* line 134, ../sass/engineering.scss */
+/* line 135, ../sass/engineering.scss */
 .block-1-left {
   width: 50%;
   float: left;
   padding-right: 15px;
 }
 @media screen and (max-width: 992px) {
-  /* line 134, ../sass/engineering.scss */
+  /* line 135, ../sass/engineering.scss */
   .block-1-left {
     width: 100%;
     padding-right: 0;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 134, ../sass/engineering.scss */
+  /* line 135, ../sass/engineering.scss */
   .block-1-left {
     width: 50%;
     padding-right: 15px;
   }
 }
 @media screen and (max-width: 635px) {
-  /* line 134, ../sass/engineering.scss */
+  /* line 135, ../sass/engineering.scss */
   .block-1-left {
     width: 100%;
     padding-right: 0;
   }
 }
-/* line 150, ../sass/engineering.scss */
+/* line 151, ../sass/engineering.scss */
 .block-1-left .ime-text {
   margin-bottom: 30px;
   position: relative;
 }
-/* line 153, ../sass/engineering.scss */
+/* line 154, ../sass/engineering.scss */
 .block-1-left .ime-text img {
   width: 100%;
 }
 
-/* line 159, ../sass/engineering.scss */
+/* line 160, ../sass/engineering.scss */
 .block-1-right {
   width: 50%;
   float: left;
   padding-left: 15px;
 }
 @media screen and (max-width: 992px) {
-  /* line 159, ../sass/engineering.scss */
+  /* line 160, ../sass/engineering.scss */
   .block-1-right {
     width: 100%;
     padding-left: 0;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 159, ../sass/engineering.scss */
+  /* line 160, ../sass/engineering.scss */
   .block-1-right {
     width: 50%;
     padding-left: 15px;
   }
 }
 @media screen and (max-width: 635px) {
-  /* line 159, ../sass/engineering.scss */
+  /* line 160, ../sass/engineering.scss */
   .block-1-right {
     width: 100%;
     padding-left: 0;
   }
 }
-/* line 175, ../sass/engineering.scss */
+/* line 176, ../sass/engineering.scss */
 .block-1-right .ime-text {
   margin-bottom: 30px;
   position: relative;
   width: 50%;
   float: left;
 }
-/* line 180, ../sass/engineering.scss */
+/* line 181, ../sass/engineering.scss */
 .block-1-right .ime-text:first-child {
   border-right: 10px solid #ffffff;
 }
-/* line 183, ../sass/engineering.scss */
+/* line 184, ../sass/engineering.scss */
 .block-1-right .ime-text:nth-child(2) {
   border-left: 10px solid #ffffff;
 }
-/* line 186, ../sass/engineering.scss */
+/* line 187, ../sass/engineering.scss */
 .block-1-right .ime-text img {
   width: 100%;
 }
-/* line 190, ../sass/engineering.scss */
+/* line 191, ../sass/engineering.scss */
 .block-1-right h1 {
   font-family: "open_sanslight";
   color: #8d5715;
   font-size: 2.25rem;
 }
-/* line 195, ../sass/engineering.scss */
+/* line 196, ../sass/engineering.scss */
 .block-1-right p {
   color: #656565;
 }
 
-/* line 202, ../sass/engineering.scss */
+/* line 203, ../sass/engineering.scss */
 .ime-text .overlap-div {
   background: rgba(0, 0, 0, 0.4);
   position: absolute;
@@ -431,7 +432,7 @@ section {
   top: 0;
   left: 0;
 }
-/* line 209, ../sass/engineering.scss */
+/* line 210, ../sass/engineering.scss */
 .ime-text .overlap-div div {
   display: table;
   width: 100%;
@@ -439,7 +440,7 @@ section {
   padding: 12px;
   text-align: center;
 }
-/* line 215, ../sass/engineering.scss */
+/* line 216, ../sass/engineering.scss */
 .ime-text .overlap-div div h2 {
   display: table-cell;
   vertical-align: middle;
@@ -449,25 +450,25 @@ section {
   line-height: 24px;
 }
 
-/* line 228, ../sass/engineering.scss */
+/* line 229, ../sass/engineering.scss */
 .message-section .message-section-inner {
   padding: 20px;
   border: 3px solid #8d5715;
   border-right: none;
   border-bottom: none;
 }
-/* line 233, ../sass/engineering.scss */
+/* line 234, ../sass/engineering.scss */
 .message-section .message-section-inner h3 {
   font-family: "source_sans_probold";
   color: #8d5715;
   padding: 0 0 30px 0;
 }
-/* line 238, ../sass/engineering.scss */
+/* line 239, ../sass/engineering.scss */
 .message-section .message-section-inner p {
   font-size: 1.063rem;
   color: #000000;
 }
-/* line 242, ../sass/engineering.scss */
+/* line 243, ../sass/engineering.scss */
 .message-section .message-section-inner button {
   width: 100%;
   font-size: 1.188rem;
@@ -479,40 +480,40 @@ section {
 }
 
 /* middle body css start  */
-/* line 257, ../sass/engineering.scss */
+/* line 258, ../sass/engineering.scss */
 .middle-body {
   background: #8d5715;
   padding: 0 0 30px 0;
   margin-top: 20px;
 }
-/* line 261, ../sass/engineering.scss */
+/* line 262, ../sass/engineering.scss */
 .middle-body img {
   width: 100%;
 }
-/* line 264, ../sass/engineering.scss */
+/* line 265, ../sass/engineering.scss */
 .middle-body p {
   color: #ffffff;
   padding-top: 20px;
   font-size: 1rem;
   text-align: center;
 }
-/* line 270, ../sass/engineering.scss */
+/* line 271, ../sass/engineering.scss */
 .middle-body .f-details {
   position: relative;
 }
 @media screen and (max-width: 992px) {
-  /* line 270, ../sass/engineering.scss */
+  /* line 271, ../sass/engineering.scss */
   .middle-body .f-details {
     margin-bottom: 70px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 270, ../sass/engineering.scss */
+  /* line 271, ../sass/engineering.scss */
   .middle-body .f-details {
     width: 100%;
   }
 }
-/* line 278, ../sass/engineering.scss */
+/* line 279, ../sass/engineering.scss */
 .middle-body .f-details .name {
   position: absolute;
   width: 100%;
@@ -523,18 +524,18 @@ section {
   font-size: 1.188rem;
 }
 @media screen and (max-width: 992px) {
-  /* line 278, ../sass/engineering.scss */
+  /* line 279, ../sass/engineering.scss */
   .middle-body .f-details .name {
     top: -55px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 278, ../sass/engineering.scss */
+  /* line 279, ../sass/engineering.scss */
   .middle-body .f-details .name {
     top: -51px;
   }
 }
-/* line 292, ../sass/engineering.scss */
+/* line 293, ../sass/engineering.scss */
 .middle-body .f-details .name div {
   background: #747474;
   padding: 15px;
@@ -544,13 +545,13 @@ section {
 }
 
 /* lower body start  */
-/* line 306, ../sass/engineering.scss */
+/* line 307, ../sass/engineering.scss */
 .lower-body {
   position: relative;
   max-width: 1920px;
   margin: 0 auto;
 }
-/* line 310, ../sass/engineering.scss */
+/* line 311, ../sass/engineering.scss */
 .lower-body .events {
   background: #f8f8f8;
   padding: 30px 15px;
@@ -559,51 +560,51 @@ section {
   border-right: 15px solid #ffffff;
 }
 @media screen and (max-width: 767px) {
-  /* line 310, ../sass/engineering.scss */
+  /* line 311, ../sass/engineering.scss */
   .lower-body .events {
     margin-bottom: 30px;
     border-right: none;
   }
 }
 @media screen and (max-width: 635px) {
-  /* line 310, ../sass/engineering.scss */
+  /* line 311, ../sass/engineering.scss */
   .lower-body .events {
     width: 100%;
   }
 }
-/* line 323, ../sass/engineering.scss */
+/* line 324, ../sass/engineering.scss */
 .lower-body .events .event-big-img {
   padding-left: 0;
 }
-/* line 325, ../sass/engineering.scss */
+/* line 326, ../sass/engineering.scss */
 .lower-body .events .event-big-img img {
   width: 100%;
   margin-bottom: 15px;
 }
-/* line 329, ../sass/engineering.scss */
+/* line 330, ../sass/engineering.scss */
 .lower-body .events .event-big-img p {
   font-size: 0.875rem;
 }
-/* line 333, ../sass/engineering.scss */
+/* line 334, ../sass/engineering.scss */
 .lower-body .events .event-content {
   font-size: 1.125rem;
   font-weight: bold;
   margin-bottom: 15px;
 }
 @media screen and (min-width: 767px) {
-  /* line 333, ../sass/engineering.scss */
+  /* line 334, ../sass/engineering.scss */
   .lower-body .events .event-content {
     font-size: 0.75rem;
   }
 }
-/* line 340, ../sass/engineering.scss */
+/* line 341, ../sass/engineering.scss */
 .lower-body .events .event-content h5 {
   font-family: "open_sanssemibold";
   color: #8d5715;
   margin: 0;
   font-size: 1.125rem;
 }
-/* line 347, ../sass/engineering.scss */
+/* line 348, ../sass/engineering.scss */
 .lower-body .events .read-more {
   background: #8d5715;
   border: none;
@@ -613,39 +614,39 @@ section {
   width: 250px;
   font-family: "open_sansregular";
 }
-/* line 351, ../sass/engineering.scss */
+/* line 352, ../sass/engineering.scss */
 .lower-body .events .event-big-img {
   padding-left: 0;
 }
-/* line 353, ../sass/engineering.scss */
+/* line 354, ../sass/engineering.scss */
 .lower-body .events .event-big-img img {
   width: 100%;
   margin-bottom: 15px;
 }
-/* line 357, ../sass/engineering.scss */
+/* line 358, ../sass/engineering.scss */
 .lower-body .events .event-big-img p {
   font-size: 1.063rem;
 }
 @media screen and (min-width: 767px) {
-  /* line 357, ../sass/engineering.scss */
+  /* line 358, ../sass/engineering.scss */
   .lower-body .events .event-big-img p {
     font-size: 0.875rem;
   }
 }
-/* line 364, ../sass/engineering.scss */
+/* line 365, ../sass/engineering.scss */
 .lower-body .events .event-content {
   font-size: 0.75rem;
   font-weight: bold;
   margin-bottom: 15px;
 }
-/* line 368, ../sass/engineering.scss */
+/* line 369, ../sass/engineering.scss */
 .lower-body .events .event-content h5 {
   font-family: "open_sanssemibold";
   color: #8d5715;
   margin: 0;
   font-size: 1.125rem;
 }
-/* line 375, ../sass/engineering.scss */
+/* line 376, ../sass/engineering.scss */
 .lower-body .events .read-more {
   background: #8d5715;
   border: none;
@@ -654,7 +655,7 @@ section {
   padding: 20px;
   width: 250px;
 }
-/* line 384, ../sass/engineering.scss */
+/* line 385, ../sass/engineering.scss */
 .lower-body .gray-bg {
   background: #f8f8f8;
   position: absolute;
@@ -665,17 +666,17 @@ section {
   display: table-cell;
 }
 @media screen and (max-width: 635px) {
-  /* line 384, ../sass/engineering.scss */
+  /* line 385, ../sass/engineering.scss */
   .lower-body .gray-bg {
     width: 100%;
   }
 }
 @media screen and (max-width: 635px) {
-  /* line 396, ../sass/engineering.scss */
+  /* line 397, ../sass/engineering.scss */
   .lower-body .lower-body-right {
     width: 100%;
   }
-  /* line 399, ../sass/engineering.scss */
+  /* line 400, ../sass/engineering.scss */
   .lower-body .lower-body-right img {
     width: 100%;
   }
