@@ -206,6 +206,8 @@
 .team-block ul li a {
   color: #000000;
   text-decoration: underline;
+  display: block;
+  overflow: hidden;
 }
 /* line 8, ../sass/people-faculty.scss */
 .team-block img {

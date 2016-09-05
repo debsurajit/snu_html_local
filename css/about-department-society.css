@@ -413,6 +413,8 @@ ul.leftmenu-bottom li a:hover {
 .team-block ul li a {
   color: #000000;
   text-decoration: underline;
+  display: block;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=about-department-society.css.map */
