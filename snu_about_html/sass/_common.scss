@@ -1,0 +1,378 @@
+@import 'variables';
+@import 'mixins';
+html {
+    @media screen and (max-width: $sm) {
+        font-size: 12px;
+    }
+    @media screen and (min-width:$sm) {
+        font-size: 14px;
+    }
+    @media screen and (min-width:$md) {
+        font-size: 16px;
+    }
+}
+
+body {
+    font-size:$font-size-m;
+    color:$color;
+    background: $white-color;
+    font-family: $font-family-medium;
+    overflow-x: hidden;
+    line-height: 28px;
+    @media screen and (max-width: $sm) {
+        font-size: $font-size-sm;
+    }
+}
+
+footer{
+    padding-top: 50px;
+}
+a {
+    color: $base-blue-color;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+h1 {
+    font-size: $font-h1;
+    line-height: 32px;
+    color: $button-color-2;
+    font-family: $font-family-crimson-roman;
+    font-weight: normal;
+    padding: 30px 0;
+    margin: 0;
+}
+
+h2 {
+    font-size: $font-h2;
+    color: $department-base-color;
+    font-family: $font-family-bold;
+    font-weight: normal;
+    margin: 0 0 30px 0;
+    line-height: 32px;
+}
+
+h3 {
+    font-size: $font-h3;
+    line-height: 32px;
+    color: $department-base-color;
+    font-family: $font-family-crimson-roman;
+    font-weight: normal;
+    padding: 50px 0 25px;
+    margin: 0;
+}
+
+h4 {
+    font-family: $font-family-medium;
+    font-size: $font-h4;
+}
+
+h5 {
+    font-family: $font-family-probold;
+    font-size: $font-h5;
+    color: $dark-gray;
+}
+
+h6 {
+    font-family: $font-family-medium;
+    font-size: $font-h6;
+    color: $black-color;
+    margin: 0;
+}
+
+@media screen and (max-width:$xs){
+    .col-exe-12{
+        width: 100%;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+    }
+}
+
+.padding-top-20{
+    padding-top: 20px;
+}
+.padding-top-30{
+    padding-top: 30px;
+}
+
+/*   top header css  */
+
+.fixed-header {
+    position: fixed;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    margin: 0 auto;
+    border-radius: 0;
+    background: $white-color;
+    padding: 0 15px;
+    max-width: 1440px;
+    position: fixed;
+    width: 100%;
+    z-index: 4; 
+       
+    @media screen and (min-width: $sm) {
+        padding: 0;
+    }
+    .navbar-header {
+        width: 25%;
+        @media screen and (max-width: $md) {
+            width: 100%;
+            padding: 0 20px;
+        }
+    }
+    .navbar-collapse {
+        padding: 0 15px;
+        @media screen and (min-width: $sm) {
+            padding: 0;
+        }
+        @media screen and (max-width: $md) {
+            margin-left: 0;
+            width: 100%;
+        }
+        @media screen and (min-width: $sm) and (max-width: $md) {
+            margin-top: 93px;
+            border-top: 1px solid #e7e7e7;
+        }
+        nav {
+            @media screen and (max-width: $md) {
+                float: left;
+                ul {
+                    text-align: left;
+                    padding: 0 20px;
+                }
+            }
+        }
+    }
+    @media screen and (min-width: $sm) and (max-width: $md) {
+        .collapse {
+            display: none !important;
+            &.in {
+                display: block !important;
+            }
+        }
+    }
+    .logo {
+        margin: 0;
+        width: 75%;
+        img {
+            width: 100%;
+        }
+        @media screen and (min-width:$xs) {
+            width: auto;
+            padding: 10px 0;
+        }
+        @media screen and (max-width:$xs) {
+            padding: 5px 0;
+        }
+    }
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (max-width:$sm) {
+    .slicknav_menu {
+        display: none;
+    }
+}
+
+.navbar-default {
+    .navbar-header {
+        @media screen and (min-width: $md) {
+            width: 28%;
+        }
+        @media screen and (min-width: $lg) {
+            width: auto;
+            margin-top: 0;
+        }
+    }
+    .navbar-toggle {
+        margin-right: 0;
+        margin-top: 34px;
+        @media screen and (max-width: $xs) {
+            margin-top: 4%;
+        }
+        @media screen and (min-width: $sm) and (max-width: $md) {
+            display: block;
+        }
+    }
+    .navbar-nav {
+        padding: 0 0 2%;
+        margin: 0;
+        width: 100%;
+        @media screen and (min-width: $sm) {
+            float: right;
+        }
+        @media screen and (min-width:$md) {
+            padding: 50px 5px 0px;
+            width: 72%;
+            padding-left: 10px;
+            float: right;
+        }
+        li.leaf {
+            display: inline-block;
+            @media screen and (max-width: $md) {
+                width: 100%;
+            }
+            &:nth-child(4) {
+                padding-right: 2%;
+                @media screen and (max-width: 1015px) {
+                    padding-right: 0;
+                }
+            }
+            &:nth-child(5) {
+                padding-left: 2%;
+                @media screen and (max-width: 1015px) {
+                    padding-left: 0;
+                }
+            }
+            a {
+                color: $top-menu-color;
+                font-family: $font-family-medium;
+                background: none;
+                font-size: $font-size-s;
+                line-height: $font-size-s;
+                padding: 9px;
+                text-transform: uppercase;
+                font-weight: bold;
+                @media screen and (min-width: $md) {
+                    padding: 10px 7px;
+                }
+                @media screen and (min-width:$lg) {
+                    padding: 10px 13px;
+                }
+                &:hover {
+                    background: $main-menu-bg;
+                }
+            }
+        }
+    }
+}
+
+.main-container {
+    position: relative;
+}
+
+section.snu-main-navigation {
+    float: left;
+    width: 100%;
+  position: fixed;
+  top: 93px;
+  z-index: 4;
+    .tb-megamenu {
+        background:$research-text-bg-color;
+        @media screen and (max-width: $md) {
+            display: none;
+        }
+        li {
+            a {
+                padding: 20px 40px;
+                @media screen and (min-width: $md) {
+                    padding: 15px 25px;
+                }
+                @media screen and (min-width: $lg) {
+                    padding: 20px 40px;
+                }
+            }
+        }
+        ul.nav {
+            text-align: center;
+            li {
+                display: block;
+                float: none;
+                &:hover {
+                    background: $menu-hover-bg;
+                }
+                @media screen and (min-width: $md) {
+                    display: inline-block;
+                    float: none;
+                }
+                a {
+                    background: $top-menu-color;
+                    color: $white-color;
+                    font-family: $font-family-medium;
+                    border: none;
+                    text-align: left;
+                    span.caret {
+                        border-top-color: #000;
+                        border-bottom-color: #000;
+                    }
+                    @media screen and (min-width:$md) {
+                        background: none;
+                        color: $dark-gray;
+                    }
+                    &:hover,
+                    &:active,
+                    &:focus {
+                        background: $menu-hover-bg;
+                        color: $dark-gray;
+                    }
+                }
+                .tb-megamenu-submenu {
+                    border: none;
+                    box-shadow: none !important;
+                    border-bottom: 3px solid $black-color;
+                    width: 250px;
+                    .mega-inner {
+                        background: rgb(189, 207, 229);
+                        padding: 0;
+                    }
+                    ul {
+                        li {
+                            width: 100%;
+                            padding: 10px 5px;
+                            &:hover {
+                                background: $main-menu-bg;
+                            }
+                            a {
+                                background: none;
+                                color: $dark-gray;
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+  .btn {
+    display: none;
+  }
+}
+
+section.snu-main-navigation {
+    .tb-megamenu {
+        .nav-collapse {
+            ul.nav {
+                li.dropdown > a {
+                    color: $dark-gray;
+                    background: none;
+                    &:hover {
+                        background: $menu-hover-bg;
+                        color: $dark-gray;
+                    }
+                }
+                li.dropdown.open>a {
+                    background: $menu-hover-bg;
+                    color: $dark-gray;
+                    &:hover {
+                        background: $menu-hover-bg;
+                        color: $dark-gray;
+                    }
+                }
+            }
+        }
+    }
+}
+

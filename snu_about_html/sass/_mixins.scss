@@ -1,0 +1,77 @@
+@import 'variables';
+@mixin transition($transition) {
+    transition: $transition;
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+}
+
+@mixin read-more-button {
+    background: $department-base-color;
+    border: none;
+    font-size: $font-size-l;
+    color: $white-color;
+    padding: 20px;
+    width: 250px;
+    font-family: $font-family-open-sans;
+}
+
+@mixin small-heading {
+    font-family: $font-family-open-sans-bold;
+    color: $department-light-gray;
+    font-size: $font-size-l;
+    text-transform: uppercase;
+    padding: 0 15px 10px;
+    @media screen and (min-width: $sm) {
+        font-size: $font-size;
+    }
+    @media screen and (min-width: $md) {
+        font-size: $font-size-m;
+    }
+}
+
+@mixin humanities-gray-button {
+    background: $department-text-gray;
+    border: none;
+    font-size: $font-size-l;
+    color: $white-color;
+    padding: 20px;
+    width: 100%;
+    font-family: $font-family-open-sans;
+}
+
+@mixin banner-max-width {
+    margin: 0 auto;
+    max-width: 1440px;
+    position: relative;
+    height: 720px;
+    @media screen and (max-width: $md) {
+        height: auto;
+    }
+}
+
+
+@mixin breadcrumb {
+    background: none;
+    margin-top: 10px;
+    font-size: $font-size-s;
+    padding: 0;
+  
+    span {
+        color: $department-base-color;
+    }
+    @media screen and (max-width:$md) {
+        font-size: $font-size-m;
+    }
+    @media screen and (max-width:$sm) {
+        font-size: $font-size-sm;
+    }
+}
+
+
+
+
+
+
+
+
+
