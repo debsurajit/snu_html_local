@@ -4,7 +4,7 @@
 
 .banner {
     @include banner-max-width;
-    margin-top: 250px;
+    margin-top: 243px;
     padding-top: 30px;
     
     .top-fix-color-bg{
@@ -58,27 +58,53 @@
         font-size: $font-size-s;
     }
     
-     .faculty-right-gray-bg{
+  
+}
+
+
+ .department.work-with-gray-bg{
+    position: relative;
+       .faculty-right-gray-bg{
         background: $widgets-background;
-        width: 400px;
+        width: 253px;
         height: 450px;
         position: absolute;
-        right: -250px;
-        top: 124px;
+        left: 1096px;
+        top: 175px;
         z-index: -3;
+        
            @media screen and (max-width:$lg){
                left: inherit;
-               width: 173px;
-               right: -42px;
+               width: 300px;
+               right: 0;
            }
            
            @media screen and (max-width:$md){
-               width: 111px;
-               right: -24px;
+               width: 300px;
+               right: 0;
            }
            
             @media screen and (max-width:$sm){
                display: none;
+           }
+           
+           .work-with-us-bg-text{
+               font-size: 75px;
+               font-family: $font-family-open-sans-light;
+               color: $light-gray-button-color;
+                line-height: 108px;
+                position: absolute;
+                left: -230px;
+               
+               @media screen and (min-width:$sm){
+                      top: 142px;
+                   }
+               @media screen and (min-width:$lg){
+                       top: 118px;
+                   }
+               span{
+                   margin-left: 155px;
+               }
            }
         }
     .faculty-left-gray-bg{
