@@ -134,8 +134,9 @@ var container = document.getElementById('body');
 var windowHeight = window.innerHeight;
 var windowWidth = window.innerWidth;
 var scrollArea = 950 - windowHeight;
-var square1 = document.getElementsByClassName('top-fix-color-bg-wrapper')[0];
+var square1 = document.getElementsByClassName('top-fix-color-bg')[0];
 var square2 = document.getElementsByClassName('work-with-gray-bg')[0];
+
   
 
 // update position of square 1 and square 2 when scroll event fires.
@@ -145,6 +146,7 @@ window.addEventListener('scroll', function() {
   
   square1.style.top = scrollPercent*window.innerWidth*0.5 + 'px';
   square2.style.bottom = scrollPercent*window.innerWidth*0.5 + 'px';
+  
 });
 
 </script> 

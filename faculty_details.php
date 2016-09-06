@@ -1,6 +1,15 @@
 <?php include 'header.php';?>
 
-  <!-- Content Start -->
+<!-- right side gray bg --->
+     <div class="department work-with-gray-bg animatedParent">
+
+            <div class="faculty-right-gray-bg animated bounceInRight slower">
+                 &nbsp;
+            </div>
+            <div class="faculty-left-gray-bg">&nbsp;</div>
+        </div>
+<!-- right side gray bg end --->  
+<!-- Content Start -->
   <div class="container margin-top offset-top">
       <div class="top-fix-color-bg-wrapper animatedParent"><div class="top-fix-color-bg animated bounceInLeft slower">&nbsp;</div></div>
     <div class="breadcrumb col-md-offset-3">Academics / Faculty / <span>Jaideep Chatterjee</span></div>
@@ -239,6 +248,30 @@ var offsetPixels = $( ".offset-top" ).offset().top - 240;
     
 }
 </script>
+
+<!-- top slide menu end  --->
+<script>
+var container = document.getElementById('body');
+var windowHeight = window.innerHeight;
+var windowWidth = window.innerWidth;
+var scrollArea = 950 - windowHeight;
+var square1 = document.getElementsByClassName('top-fix-color-bg')[0];
+var square2 = document.getElementsByClassName('work-with-gray-bg')[0];
+
+  
+
+// update position of square 1 and square 2 when scroll event fires.
+window.addEventListener('scroll', function() {
+  var scrollTop = window.pageYOffset || window.scrollTop;
+  var scrollPercent = scrollTop/scrollArea || 0;
+  
+  square1.style.top = scrollPercent*window.innerWidth*0.5 + 'px';
+  square2.style.bottom = scrollPercent*window.innerWidth*0.2 + 'px';
+  
+});
+
+</script>
+
 <script src="js/custom.js"></script>
 
 </html>

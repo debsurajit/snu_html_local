@@ -10,4 +10,3 @@ C214A, Block C
 +0120-381900 / Ext. 900    
 </p>
 
-<div class="faculty-right-gray-bg">&nbsp;</div>
