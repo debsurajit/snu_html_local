@@ -151,146 +151,231 @@
 /*20px*/
 /*17px*/
 /* Department section  */
-/* line 3, ../sass/about.scss */
+/* line 3, ../sass/chancellor.scss */
 img {
   max-width: 100%;
-  height: auto;
 }
 
-/* line 7, ../sass/about.scss */
+/* line 6, ../sass/chancellor.scss */
 .fixed-pad {
-  padding-top: 215px;
+  padding-top: 160px;
 }
 @media screen and (max-width: 992px) {
-  /* line 7, ../sass/about.scss */
+  /* line 6, ../sass/chancellor.scss */
   .fixed-pad {
-    padding-top: 125px;
+    padding-top: 89px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 7, ../sass/about.scss */
+  /* line 6, ../sass/chancellor.scss */
   .fixed-pad {
     padding-top: 54px;
   }
 }
 
-/* line 17, ../sass/about.scss */
-.banner {
-  margin: 0 auto 23px;
-}
-@media screen and (max-width: 635px) {
-  /* line 17, ../sass/about.scss */
-  .banner {
-    margin: 0 auto 5px;
-  }
-}
-/* line 23, ../sass/about.scss */
-.banner img {
-  max-width: 100%;
-  height: auto;
-}
-
-/*Body Content*/
-/* line 31, ../sass/about.scss */
+/* line 16, ../sass/chancellor.scss */
 .breadcrumb {
   background: transparent;
   font-size: 0.75rem;
 }
 @media screen and (max-width: 635px) {
-  /* line 31, ../sass/about.scss */
+  /* line 16, ../sass/chancellor.scss */
   .breadcrumb {
     margin-bottom: 0;
     padding: 8px 15px 0;
   }
 }
 
-/*Left Panel*/
-/* line 42, ../sass/about.scss */
-.left-panel {
-  padding-right: 70px;
-}
+/*Top Content*/
 @media screen and (max-width: 768px) {
-  /* line 44, ../sass/about.scss */
-  .left-panel h1 {
-    padding: 15px 0;
-  }
-}
-@media screen and (max-width: 992px) {
-  /* line 42, ../sass/about.scss */
-  .left-panel {
-    padding-right: 0;
-  }
-}
-
-/*Right Panel*/
-/* line 59, ../sass/about.scss */
-.right-panel {
-  padding-top: 95px;
-}
-@media screen and (max-width: 768px) {
-  /* line 59, ../sass/about.scss */
-  .right-panel {
-    padding-top: 0;
-  }
-}
-/* line 66, ../sass/about.scss */
-.right-panel .video {
-  color: #0058A6;
-}
-/* line 68, ../sass/about.scss */
-.right-panel .video img {
-  margin-bottom: 10px;
-}
-@media screen and (max-width: 768px) {
-  /* line 66, ../sass/about.scss */
-  .right-panel .video {
+  /* line 29, ../sass/chancellor.scss */
+  .top-content .col-sm-5 {
     text-align: center;
   }
 }
-/* line 80, ../sass/about.scss */
-.right-panel .blue-block {
-  margin-top: 15px;
+
+/* line 36, ../sass/chancellor.scss */
+.more-link {
+  display: block;
+  border: #0058A6 1px solid;
+  color: #0058A6;
+  padding: 8px 0;
+  text-align: center;
+  width: 150px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+}
+/* line 45, ../sass/chancellor.scss */
+.more-link:hover {
   background: #0058A6;
   color: #ffffff;
-  padding: 25px;
-  font-size: 1.25rem;
-  font-family: "gotham_lightregular";
-  line-height: 40px;
 }
 
-/* line 91, ../sass/about.scss */
-.groups {
-  background: url("../images/group-img.jpg") no-repeat top center;
-  min-height: 253px;
-  padding-top: 65px;
-  margin-top: 30px;
-  margin-bottom: 50px;
+/* line 51, ../sass/chancellor.scss */
+.img-text {
+  padding-top: 25px;
+  line-height: 22px;
 }
-@media screen and (max-width: 768px) {
-  /* line 91, ../sass/about.scss */
-  .groups {
-    background-size: cover;
-  }
+/* line 55, ../sass/chancellor.scss */
+.img-text span {
+  color: #0058A6;
 }
-/* line 102, ../sass/about.scss */
-.groups p {
-  margin-bottom: 70px;
-  text-align: center;
-  color: #FAFAFA;
-  font-family: "gotham_lightregular";
-  font-size: 1.25rem;
+/* line 58, ../sass/chancellor.scss */
+.img-text a {
+  color: #747474;
 }
-/* line 110, ../sass/about.scss */
-.groups img {
-  -webkit-box-shadow: 0px 5px 20px 1px #c4c4c4;
-  -moz-box-shadow: 0px 5px 20px 1px #c4c4c4;
-  box-shadow: 0px 5px 20px 1px #c4c4c4;
+
+/*Middle*/
+/* line 64, ../sass/chancellor.scss */
+.middle-panel {
+  margin-top: 150px;
 }
-@media screen and (max-width: 768px) {
-  /* line 110, ../sass/about.scss */
-  .groups img {
-    margin: 0 auto 20px;
+@media screen and (max-width: 992px) {
+  /* line 64, ../sass/chancellor.scss */
+  .middle-panel {
+    margin-top: 50px;
   }
 }
 
-/*# sourceMappingURL=about.css.map */
+/*Left Panel*/
+/* line 76, ../sass/chancellor.scss */
+.left-panel p:nth-child(3) {
+  background: #f8f8f8;
+  padding: 10px 0;
+  position: relative;
+}
+@media screen and (max-width: 480px) {
+  /* line 76, ../sass/chancellor.scss */
+  .left-panel p:nth-child(3) {
+    background: none;
+  }
+}
+/* line 88, ../sass/chancellor.scss */
+.left-panel .grey-bg {
+  position: absolute;
+  left: -299px;
+  top: 0;
+  width: 300px;
+  height: 104px;
+  background: #f8f8f8;
+  z-index: 1;
+}
+@media screen and (max-width: 1200px) {
+  /* line 88, ../sass/chancellor.scss */
+  .left-panel .grey-bg {
+    height: 132px;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 88, ../sass/chancellor.scss */
+  .left-panel .grey-bg {
+    height: 187px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 88, ../sass/chancellor.scss */
+  .left-panel .grey-bg {
+    height: 103px;
+  }
+}
+@media screen and (max-width: 635px) {
+  /* line 88, ../sass/chancellor.scss */
+  .left-panel .grey-bg {
+    height: 132px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 88, ../sass/chancellor.scss */
+  .left-panel .grey-bg {
+    display: none;
+  }
+}
+
+/* line 120, ../sass/chancellor.scss */
+h2 {
+  font-size: 1.25rem;
+  line-height: 32px;
+  color: #0058A6;
+  font-family: "crimson_textroman";
+  font-weight: normal;
+}
+
+/* line 128, ../sass/chancellor.scss */
+h3 {
+  font-size: 1rem;
+  line-height: 32px;
+  color: #0058A6;
+  font-family: "gotham_mediumregular";
+  font-weight: normal;
+  padding: 10px 0 0;
+  text-transform: uppercase;
+}
+
+/*Right Panel*/
+/* line 139, ../sass/chancellor.scss */
+.right-panel {
+  padding-left: 100px;
+}
+@media screen and (max-width: 768px) {
+  /* line 139, ../sass/chancellor.scss */
+  .right-panel {
+    padding-left: 15px;
+  }
+}
+
+/* line 145, ../sass/chancellor.scss */
+.details {
+  border: #ededed 1px solid;
+  padding: 20px 15px;
+  margin-bottom: 10px;
+}
+/* line 150, ../sass/chancellor.scss */
+.details a {
+  color: #747474;
+}
+
+/*Previous Chancellor*/
+/* line 156, ../sass/chancellor.scss */
+.prev-chancellor {
+  background: #000000;
+  margin-top: 120px;
+  padding: 40px 0;
+  color: #c4c4c4;
+  font-size: 0.75rem;
+}
+@media screen and (max-width: 768px) {
+  /* line 165, ../sass/chancellor.scss */
+  .prev-chancellor img {
+    margin: 0 auto;
+  }
+}
+/* line 170, ../sass/chancellor.scss */
+.prev-chancellor h2 {
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: "gotham_mediumregular";
+  padding-left: 15px;
+}
+@media screen and (max-width: 768px) {
+  /* line 177, ../sass/chancellor.scss */
+  .prev-chancellor .col-sm-4 {
+    text-align: center;
+  }
+}
+/* line 182, ../sass/chancellor.scss */
+.prev-chancellor .prev-text {
+  margin-top: 7%;
+}
+/* line 185, ../sass/chancellor.scss */
+.prev-chancellor .img-text {
+  padding-top: 10px;
+}
+/* line 188, ../sass/chancellor.scss */
+.prev-chancellor .img-text span {
+  color: #ffffff;
+  nt-size: 1rem;
+}
+
+/*# sourceMappingURL=chancellor.css.map */

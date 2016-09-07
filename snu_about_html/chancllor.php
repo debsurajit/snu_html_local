@@ -6,9 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-
-
-  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/chancellor.css">
 
 </head>
 
@@ -475,65 +474,90 @@
 
 </section>
   <!-- Main Menu End -->
-  
- <!-- Banner Sart -->
-  <div class="container-fluid fixed-pad">
-    <div class="row">
-      <section class="banner">
-        <img src="images/founder.jpg" alt="" />
-    </section>
-    </div>
-  </div>
-  <!-- Banner End -->
+
   
   <!-- Body Sart -->
-  <section class="container">
+  
+  <section class="container-fluid fixed-pad content-wrapper">
    
-      
+      <div class="container top-content">
       <div class="breadcrumb">
         Home / About /
       </div>
+        <h1>Chancellor</h1>
+        <div class="col-sm-5">
+        <img src="images/chancellor.jpg" alt="">
+          <p class="img-text">
+            <span>Dr. S N Balakrishnan</span><br/>
+        Chancellor<br/>
+        <a href="mailto:sn.balakrishnan@snu.edu.in">sn.balakrishnan@snu.edu.in</a>
+          </p>
+        </div>
+        
+        <div class="col-sm-7">
+        <p>Shiv to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p> <p>Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero.</p>
+        <a href="#" class="more-link">Read more > </a>
+        </div>
+        
+        
+    </div>
+      
+    <div class="container middle-panel">
       
       <!-- Left Panel Sart -->
-      <div class="col-sm-8 left-panel content-wrapper">
-        <h1>Founder</h1>
+      <div class="col-md-8 col-sm-6 col-xs-12 left-panel">
         
-        <p>Shiv to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-
-        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-        
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+        <h2>Message from chancellor</h2>
+        <p>Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero.</p>
+        <p>Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero.<span class="grey-bg"></span></p>
+        <p>Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero.</p>
+        <img src="images/signature.jpg" alt="" >
       </div>
       <!-- Left Panel End -->
       
       <!-- Right Panel Sart -->
-      <div class="col-sm-4 right-panel">
-        <div class="video">
-          <img src="images/founder-video.jpg" alt="">
-          <p>SNU - Innovation in Higher Education</p>
+      <div class="col-md-4 col-sm-6 col-xs-12 right-panel">
+        
+        <h3>Office details</h3>
+        <div class="details">
+        Rupa Goswami<br/>
+          Executive Assistant<br/>
+          Vice Chancellor<br/>
+          Location: C321H<br/>
+          Phone: 0120 3819100 Ext: 841<br/>
+          eMail: <a href="mailto:rupa.goswami@snu.edu.in">rupa.goswami@snu.edu.in</a>
         </div>
         
-        <div class="blue-block">A vision that started the Shiv Nadar foundation in 1994 with the beleive that trasformational education has the power to create lasting effects on the lives and future of individuals.</div>
+        <h3>Request an Appointment</h3>
+        <div class="details">If you would like to request a 15mins slot on one of these date please email <a href="mailto:rupa.goswami@snu.edu.in">rupa.goswami@snu.edu.in</a></div>
+        
       </div>
       <!-- Right Panel End -->
-      
-  
+    </div>
+    
   </section>
   <!-- Body End -->
   
-  <!-- Group of invitives Sart -->
-  <div class="container-fluid">
-    <div class="groups row">
-    <div class="container">      
-        <p>Group of invitives transforming the <br/>way how the world perfoms</p>
-        <div class="col-sm-3 col-xs-6"><img src="images/hcl-logo.jpg" alt="" ></div>
-        <div class="col-sm-3 col-xs-6"><img src="images/snf-logo.jpg" alt="" ></div>
-        <div class="col-sm-3 col-xs-6"><img src="images/sns-logo.jpg" alt="" ></div>
-        <div class="col-sm-3 col-xs-6"><img src="images/vidya-logo.jpg" alt="" ></div>
+ <!-- Bottom Body Start -->
+  <section class="container-fluid prev-chancellor">
+    <div class="container">
+      <h2>Previous Chancelor</h2>
+      <div class="col-sm-4">
+      <img src="images/prev-chancellor.jpg" alt="">
+      <p class="img-text">
+        <span>Dr T S R Shubramaniam</span><br/>
+        Founding Chancellor<br/>
+        2011 - 2013
+      </p>
       </div>
+      
+      <div class="col-sm-8 prev-text">
+      <p>Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero.</p>
+      <p>Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero.</p>
     </div>
-  </div>
-  <!-- Group of invitives End -->
+    </div>
+  </section>
+  <!-- Bottom Body End -->
   
 </body>
 
