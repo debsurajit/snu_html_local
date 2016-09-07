@@ -1,0 +1,193 @@
+@import 'main_import';
+
+img {
+  max-width: 100%;
+}
+.fixed-pad {
+  padding-top: 160px;
+  
+  @media screen and (max-width: $md){
+    padding-top:89px;
+  }
+  @media screen and (max-width: $xs){
+    padding-top:54px;
+  }
+}
+.breadcrumb {
+  background: transparent;
+  font-size: $font-size-s;
+  
+  @media screen and (max-width: $axs){
+    margin-bottom: 0;
+    padding: 8px 15px 0;
+  }
+} 
+
+/*Top Content*/
+
+.top-content {
+  .col-sm-5{
+    @media screen and (max-width: $sm){
+      text-align: center;
+    }
+}
+}
+
+.more-link {
+  display: block;
+  border: $button-color-2 1px solid;
+  color: $button-color-2;
+  padding: 8px 0;
+  text-align: center;
+  width: 150px;
+  @include transition(0.5s);
+  
+  &:hover {
+    background: $button-color-2;
+    color: $white-color;
+    
+  }
+}
+.img-text {
+  padding-top: 25px;
+  line-height: 22px;
+  
+  span {
+    color:  $button-color-2;
+  }
+  a {
+    color: $light-gray;
+  }
+}
+
+/*Middle*/
+.middle-panel {
+  margin-top: 150px;
+  
+  @media screen and (max-width: $md){
+    margin-top: 50px;
+  }
+}
+
+/*Left Panel*/
+.left-panel {
+  
+  p {
+    &:nth-child(3) {
+      background: $light-gray-button-color;
+      padding: 10px 0;
+      position: relative;
+      
+      @media screen and (max-width: $xs){
+      background: none;
+        
+    }
+    }
+  }
+  
+  .grey-bg {
+    position: absolute;
+    left: -299px;
+    top: 0;
+    width: 300px;
+    height: 104px;
+    background:$light-gray-button-color;
+    z-index: 1;
+    
+    @media screen and (max-width: $lg){
+
+      height: 132px;
+    }
+    @media screen and (max-width: $md){
+
+      height: 187px;
+    }
+    @media screen and (max-width: $sm){
+
+      height: 103px;
+    }
+    @media screen and (max-width: $axs){
+      height: 132px;
+    }
+    
+    @media screen and (max-width: $xs){
+      display: none;
+    }
+  }
+  
+}
+
+h2 {
+    font-size:$font-size-xl;
+    line-height: 32px;
+    color:$button-color-2;
+    font-family: $font-family-crimson-roman;
+    font-weight: normal;
+}
+
+h3 {
+    font-size:$font-size;
+    line-height: 32px;
+    color:$button-color-2;
+    font-family: $font-family-medium;
+    font-weight: normal;
+    padding: 10px 0 0;
+    text-transform: uppercase;
+}
+
+/*Right Panel*/
+.right-panel {
+  padding-left: 100px;
+  @media screen and (max-width: $sm) {
+    padding-left: 15px;
+  }
+}
+.details {
+  border: $gray-bg-color 1px solid;
+  padding: 20px 15px;
+  margin-bottom: 10px;
+  
+  a {
+    color: $light-gray;
+  }
+}
+
+/*Previous Chancellor*/
+.prev-chancellor {
+  background: $black-color;
+  margin-top: 120px;
+  padding: 40px 0;
+  color: $rightsidebar-navigation-bg;
+  font-size: $font-size-s;
+  
+  
+  @media screen and (max-width: $sm) {
+    img {
+      margin: 0 auto;
+    }
+  }
+  
+  h2 {
+    color: $white-color;
+    font-size:$font-size;
+    text-transform: uppercase;
+    font-family: $font-family-medium;
+    padding-left: 15px;
+  }
+  .col-sm-4 {
+    @media screen and (max-width: $sm){
+      text-align: center;
+    }
+  }
+  .prev-text {
+    margin-top: 7%;
+  }
+  .img-text {
+    padding-top: 10px;
+    
+    span {
+      color: $white-color;
+      nt-size: $font-size;
+    }
+  }
+}

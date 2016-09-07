@@ -1,0 +1,647 @@
+@font-face {
+  font-family: 'source_sans_prolight';
+  src: url("../fonts/source-sans-pro/sourcesanspro-light-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_proregular';
+  src: url("../fonts/source-sans-pro/sourcesanspro-regular-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_problack';
+  src: url("../fonts/source-sans-pro/sourcesanspro-black-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_probold';
+  src: url("../fonts/source-sans-pro/sourcesanspro-bold-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_prosemibold';
+  src: url("../fonts/source-sans-pro/sourcesanspro-semibold-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*@font-face {
+    font-family: 'gotham_bookregular';
+    src: url('../fonts/gotham/gotham-book-webfont.woff2') format('woff2'),
+         url('../fonts/gotham/gotham-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}*/
+@font-face {
+  font-family: 'gotham_mediumregular';
+  src: url("../fonts/gotham/gotham-medium1-webfont.woff2") format("woff2"), url("../fonts/gotham/gotham-medium1-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gotham_boldregular';
+  src: url("../fonts/gotham/gotham-bold1-webfont.woff2") format("woff2"), url("../fonts/gotham/gotham-bold1-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gotham_lightregular';
+  src: url("../fonts/gotham/gotham-light1-webfont.woff2") format("woff2"), url("../fonts/gotham/gotham-light1-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gothambookregular';
+  src: url("../fonts/gotham/gothambook_regular-webfont.woff2") format("woff2"), url("../fonts/gotham/gothambook_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'loraregular';
+  src: url("../fonts/lora/lora-regular-webfont.woff2") format("woff2"), url("../fonts/lora/lora-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'timesbold';
+  src: url("../fonts/times-bold-webfont.woff2") format("woff2"), url("times-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'timesbold_italic';
+  src: url("../fonts/times-bolditalic-webfont.woff2") format("woff2"), url("times-bolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'timesitalic';
+  src: url("../fonts/times-italic-webfont.woff2") format("woff2"), url("times-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'timesregular';
+  src: url("../fonts/times-roman-webfont.woff2") format("woff2"), url("times-roman-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*Font for Department*/
+@font-face {
+  font-family: 'crimson_textbold';
+  src: url("../fonts/crimson-bold/crimsontext-bold-webfont.woff2") format("woff2"), url("../fonts/crimson-bold/crimsontext-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'crimson_textitalic';
+  src: url("../fonts/crimson-italic/crimsontext-italic-webfont.woff2") format("woff2"), url("../fonts/crimson-italic/crimsontext-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'crimson_textroman';
+  src: url("../fonts/crimson-regular/crimsontext-regular-webfont.woff2") format("woff2"), url("../fonts/crimson-regular/crimsontext-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sansbold';
+  src: url("../fonts/open_sans/opensans-bold-webfont.woff2") format("woff2"), url("../fonts/open_sans/opensans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sanslight';
+  src: url("../fonts/open_sans/opensans-light-webfont.woff2") format("woff2"), url("../fonts/open_sans/opensans-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("../fonts/open_sans/opensans-regular-webfont.woff2") format("woff2"), url("../fonts/open_sans/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url("../fonts/open_sans/opensans-semibold-webfont.woff2") format("woff2"), url("../fonts/open_sans/opensans-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*Fonts for Department*/
+/*16px*/
+/*17px*/
+/*18px*/
+/*19px*/
+/*20px*/
+/*22px*/
+/*15px*/
+/*14px*/
+/*12px*/
+/*11px*/
+/*36px*/
+/*32px*/
+/*26px*/
+/*24px*/
+/*22px*/
+/*20px*/
+/*17px*/
+/* Department section  */
+@media screen and (max-width: 768px) {
+  /* line 3, ../sass/common.scss */
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 3, ../sass/common.scss */
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 3, ../sass/common.scss */
+  html {
+    font-size: 16px;
+  }
+}
+
+/* line 15, ../sass/common.scss */
+body {
+  font-size: 0.875rem;
+  color: #747474;
+  background: #ffffff;
+  font-family: "gotham_mediumregular";
+  overflow-x: hidden;
+  line-height: 28px;
+}
+@media screen and (max-width: 768px) {
+  /* line 15, ../sass/common.scss */
+  body {
+    font-size: 1.063rem;
+  }
+}
+
+/* line 27, ../sass/common.scss */
+footer {
+  padding-top: 50px;
+}
+
+/* line 30, ../sass/common.scss */
+a {
+  color: #20456c;
+}
+/* line 32, ../sass/common.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 37, ../sass/common.scss */
+h1 {
+  font-size: 2rem;
+  line-height: 32px;
+  color: #0058A6;
+  font-family: "crimson_textroman";
+  font-weight: normal;
+  padding: 30px 0;
+  margin: 0;
+}
+
+/* line 47, ../sass/common.scss */
+h2 {
+  font-size: 1.625rem;
+  color: #8d5715;
+  font-family: "gotham_boldregular";
+  font-weight: normal;
+  margin: 0 0 30px 0;
+  line-height: 32px;
+}
+
+/* line 56, ../sass/common.scss */
+h3 {
+  font-size: 1.5rem;
+  line-height: 32px;
+  color: #8d5715;
+  font-family: "crimson_textroman";
+  font-weight: normal;
+  padding: 50px 0 25px;
+  margin: 0;
+}
+
+/* line 66, ../sass/common.scss */
+h4 {
+  font-family: "gotham_mediumregular";
+  font-size: 1.375rem;
+}
+
+/* line 71, ../sass/common.scss */
+h5 {
+  font-family: "source_sans_probold";
+  font-size: 1.25rem;
+  color: #3A3A3A;
+}
+
+/* line 77, ../sass/common.scss */
+h6 {
+  font-family: "gotham_mediumregular";
+  font-size: 1.063rem;
+  color: #000000;
+  margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 85, ../sass/common.scss */
+  .col-exe-12 {
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+  }
+}
+/* line 95, ../sass/common.scss */
+.padding-top-20 {
+  padding-top: 20px;
+}
+
+/* line 98, ../sass/common.scss */
+.padding-top-30 {
+  padding-top: 30px;
+}
+
+/*   top header css  */
+/* line 104, ../sass/common.scss */
+.fixed-header {
+  position: fixed;
+  width: 100%;
+}
+
+/* line 109, ../sass/common.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 114, ../sass/common.scss */
+#navbar {
+  margin: 0 auto;
+  border-radius: 0;
+  background: #ffffff;
+  padding: 0 15px;
+  max-width: 1440px;
+  position: fixed;
+  width: 100%;
+  z-index: 4;
+}
+@media screen and (min-width: 768px) {
+  /* line 114, ../sass/common.scss */
+  #navbar {
+    padding: 0;
+  }
+}
+/* line 127, ../sass/common.scss */
+#navbar .navbar-header {
+  width: 25%;
+}
+@media screen and (max-width: 992px) {
+  /* line 127, ../sass/common.scss */
+  #navbar .navbar-header {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+/* line 134, ../sass/common.scss */
+#navbar .navbar-collapse {
+  padding: 0 15px;
+}
+@media screen and (min-width: 768px) {
+  /* line 134, ../sass/common.scss */
+  #navbar .navbar-collapse {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 134, ../sass/common.scss */
+  #navbar .navbar-collapse {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* line 134, ../sass/common.scss */
+  #navbar .navbar-collapse {
+    margin-top: 93px;
+    border-top: 1px solid #e7e7e7;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 147, ../sass/common.scss */
+  #navbar .navbar-collapse nav {
+    float: left;
+  }
+  /* line 150, ../sass/common.scss */
+  #navbar .navbar-collapse nav ul {
+    text-align: left;
+    padding: 0 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* line 158, ../sass/common.scss */
+  #navbar .collapse {
+    display: none !important;
+  }
+  /* line 160, ../sass/common.scss */
+  #navbar .collapse.in {
+    display: block !important;
+  }
+}
+/* line 165, ../sass/common.scss */
+#navbar .logo {
+  margin: 0;
+  width: 75%;
+}
+/* line 168, ../sass/common.scss */
+#navbar .logo img {
+  width: 100%;
+}
+@media screen and (min-width: 480px) {
+  /* line 165, ../sass/common.scss */
+  #navbar .logo {
+    width: auto;
+    padding: 10px 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 165, ../sass/common.scss */
+  #navbar .logo {
+    padding: 5px 0;
+  }
+}
+/* line 179, ../sass/common.scss */
+#navbar .navbar-brand {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 185, ../sass/common.scss */
+  .slicknav_menu {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 191, ../sass/common.scss */
+  .navbar-default .navbar-header {
+    width: 28%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 191, ../sass/common.scss */
+  .navbar-default .navbar-header {
+    width: auto;
+    margin-top: 0;
+  }
+}
+/* line 200, ../sass/common.scss */
+.navbar-default .navbar-toggle {
+  margin-right: 0;
+  margin-top: 34px;
+}
+@media screen and (max-width: 480px) {
+  /* line 200, ../sass/common.scss */
+  .navbar-default .navbar-toggle {
+    margin-top: 4%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* line 200, ../sass/common.scss */
+  .navbar-default .navbar-toggle {
+    display: block;
+  }
+}
+/* line 210, ../sass/common.scss */
+.navbar-default .navbar-nav {
+  padding: 0 0 2%;
+  margin: 0;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  /* line 210, ../sass/common.scss */
+  .navbar-default .navbar-nav {
+    float: right;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 210, ../sass/common.scss */
+  .navbar-default .navbar-nav {
+    padding: 50px 5px 0px;
+    width: 72%;
+    padding-left: 10px;
+    float: right;
+  }
+}
+/* line 223, ../sass/common.scss */
+.navbar-default .navbar-nav li.leaf {
+  display: inline-block;
+}
+@media screen and (max-width: 992px) {
+  /* line 223, ../sass/common.scss */
+  .navbar-default .navbar-nav li.leaf {
+    width: 100%;
+  }
+}
+/* line 228, ../sass/common.scss */
+.navbar-default .navbar-nav li.leaf:nth-child(4) {
+  padding-right: 2%;
+}
+@media screen and (max-width: 1015px) {
+  /* line 228, ../sass/common.scss */
+  .navbar-default .navbar-nav li.leaf:nth-child(4) {
+    padding-right: 0;
+  }
+}
+/* line 234, ../sass/common.scss */
+.navbar-default .navbar-nav li.leaf:nth-child(5) {
+  padding-left: 2%;
+}
+@media screen and (max-width: 1015px) {
+  /* line 234, ../sass/common.scss */
+  .navbar-default .navbar-nav li.leaf:nth-child(5) {
+    padding-left: 0;
+  }
+}
+/* line 240, ../sass/common.scss */
+.navbar-default .navbar-nav li.leaf a {
+  color: #005197;
+  font-family: "gotham_mediumregular";
+  background: none;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  padding: 9px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+@media screen and (min-width: 992px) {
+  /* line 240, ../sass/common.scss */
+  .navbar-default .navbar-nav li.leaf a {
+    padding: 10px 7px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 240, ../sass/common.scss */
+  .navbar-default .navbar-nav li.leaf a {
+    padding: 10px 13px;
+  }
+}
+/* line 255, ../sass/common.scss */
+.navbar-default .navbar-nav li.leaf a:hover {
+  background: #bfd6ea;
+}
+
+/* line 263, ../sass/common.scss */
+.main-container {
+  position: relative;
+}
+
+/* line 268, ../sass/common.scss */
+.content-wrapper p {
+  margin-bottom: 30px;
+}
+
+/* line 273, ../sass/common.scss */
+section.snu-main-navigation {
+  float: left;
+  width: 100%;
+  position: fixed;
+  top: 93px;
+  z-index: 4;
+}
+/* line 279, ../sass/common.scss */
+section.snu-main-navigation .tb-megamenu {
+  background: #f8f8f8;
+}
+@media screen and (max-width: 992px) {
+  /* line 279, ../sass/common.scss */
+  section.snu-main-navigation .tb-megamenu {
+    display: none;
+  }
+}
+/* line 285, ../sass/common.scss */
+section.snu-main-navigation .tb-megamenu li a {
+  padding: 20px 40px;
+}
+@media screen and (min-width: 992px) {
+  /* line 285, ../sass/common.scss */
+  section.snu-main-navigation .tb-megamenu li a {
+    padding: 15px 25px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 285, ../sass/common.scss */
+  section.snu-main-navigation .tb-megamenu li a {
+    padding: 20px 40px;
+  }
+}
+/* line 295, ../sass/common.scss */
+section.snu-main-navigation .tb-megamenu ul.nav {
+  text-align: center;
+}
+/* line 297, ../sass/common.scss */
+section.snu-main-navigation .tb-megamenu ul.nav li {
+  display: block;
+  float: none;
+}
+/* line 300, ../sass/common.scss */
+section.snu-main-navigation .tb-megamenu ul.nav li:hover {
+  background: rgba(114, 165, 209, 0.3);
+}
+@media screen and (min-width: 992px) {
+  /* line 297, ../sass/common.scss */
+  section.snu-main-navigation .tb-megamenu ul.nav li {
+    display: inline-block;
+    float: none;
+  }
+}
+/* line 307, ../sass/common.scss */
+section.snu-main-navigation .tb-megamenu ul.nav li a {
+  background: #005197;
+  color: #ffffff;
+  font-family: "gotham_mediumregular";
+  border: none;
+  text-align: left;
+}
+/* line 313, ../sass/common.scss */
+section.snu-main-navigation .tb-megamenu ul.nav li a span.caret {
+  border-top-color: #000;
+  border-bottom-color: #000;
+}
+@media screen and (min-width: 992px) {
+  /* line 307, ../sass/common.scss */
+  section.snu-main-navigation .tb-megamenu ul.nav li a {
+    background: none;
+    color: #3A3A3A;
+  }
+}
+/* line 321, ../sass/common.scss */
+section.snu-main-navigation .tb-megamenu ul.nav li a:hover, section.snu-main-navigation .tb-megamenu ul.nav li a:active, section.snu-main-navigation .tb-megamenu ul.nav li a:focus {
+  background: rgba(114, 165, 209, 0.3);
+  color: #3A3A3A;
+}
+/* line 328, ../sass/common.scss */
+section.snu-main-navigation .tb-megamenu ul.nav li .tb-megamenu-submenu {
+  border: none;
+  box-shadow: none !important;
+  border-bottom: 3px solid #000000;
+  width: 250px;
+}
+/* line 333, ../sass/common.scss */
+section.snu-main-navigation .tb-megamenu ul.nav li .tb-megamenu-submenu .mega-inner {
+  background: #bdcfe5;
+  padding: 0;
+}
+/* line 338, ../sass/common.scss */
+section.snu-main-navigation .tb-megamenu ul.nav li .tb-megamenu-submenu ul li {
+  width: 100%;
+  padding: 10px 5px;
+}
+/* line 341, ../sass/common.scss */
+section.snu-main-navigation .tb-megamenu ul.nav li .tb-megamenu-submenu ul li:hover {
+  background: #bfd6ea;
+}
+/* line 344, ../sass/common.scss */
+section.snu-main-navigation .tb-megamenu ul.nav li .tb-megamenu-submenu ul li a {
+  background: none;
+  color: #3A3A3A;
+  padding: 0;
+}
+/* line 355, ../sass/common.scss */
+section.snu-main-navigation .btn {
+  display: none;
+}
+
+/* line 364, ../sass/common.scss */
+section.snu-main-navigation .tb-megamenu .nav-collapse ul.nav li.dropdown > a {
+  color: #3A3A3A;
+  background: none;
+}
+/* line 367, ../sass/common.scss */
+section.snu-main-navigation .tb-megamenu .nav-collapse ul.nav li.dropdown > a:hover {
+  background: rgba(114, 165, 209, 0.3);
+  color: #3A3A3A;
+}
+/* line 372, ../sass/common.scss */
+section.snu-main-navigation .tb-megamenu .nav-collapse ul.nav li.dropdown.open > a {
+  background: rgba(114, 165, 209, 0.3);
+  color: #3A3A3A;
+}
+/* line 375, ../sass/common.scss */
+section.snu-main-navigation .tb-megamenu .nav-collapse ul.nav li.dropdown.open > a:hover {
+  background: rgba(114, 165, 209, 0.3);
+  color: #3A3A3A;
+}
+
+/*# sourceMappingURL=common.css.map */
