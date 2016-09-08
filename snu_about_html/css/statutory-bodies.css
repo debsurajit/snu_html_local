@@ -143,6 +143,7 @@
 /*14px*/
 /*12px*/
 /*11px*/
+/*10px*/
 /*36px*/
 /*32px*/
 /*26px*/
@@ -151,201 +152,220 @@
 /*20px*/
 /*17px*/
 /* Department section  */
-/* line 3, ../sass/chancellor.scss */
-img {
-  max-width: 100%;
+/* line 3, ../sass/statutory-bodies.scss */
+.blue-block {
+  background: #0058A6;
+  color: #f5f5f5;
+  margin-top: 70px;
+  padding: 25px;
+  margin-left: 30px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 50px;
 }
-
-/*Top Content*/
-@media screen and (max-width: 768px) {
-  /* line 10, ../sass/chancellor.scss */
-  .top-content .col-sm-5 {
-    text-align: center;
+@media screen and (max-width: 992px) {
+  /* line 3, ../sass/statutory-bodies.scss */
+  .blue-block {
+    margin-left: 15px;
   }
 }
-
-/* line 17, ../sass/chancellor.scss */
-.more-link {
-  display: block;
-  border: #0058A6 1px solid;
-  color: #0058A6;
-  padding: 8px 0;
-  text-align: center;
-  width: 150px;
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
+@media screen and (max-width: 768px) {
+  /* line 3, ../sass/statutory-bodies.scss */
+  .blue-block {
+    margin-bottom: 20px;
+  }
 }
-/* line 26, ../sass/chancellor.scss */
-.more-link:hover {
-  background: #0058A6;
+/* line 21, ../sass/statutory-bodies.scss */
+.blue-block h2 {
+  font-size: 2rem;
+  line-height: 32px;
+  color: #ffffff;
+  font-family: "crimson_textroman";
+  font-weight: normal;
+}
+/* line 29, ../sass/statutory-bodies.scss */
+.blue-block ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 34, ../sass/statutory-bodies.scss */
+.blue-block ul li {
+  list-style: none;
+  padding: 7px 0;
+  margin: 0 28px 0 0;
+  border-bottom: #f5f5f5 1px solid;
+  width: 44.5%;
+  float: left;
+}
+@media screen and (max-width: 992px) {
+  /* line 34, ../sass/statutory-bodies.scss */
+  .blue-block ul li {
+    float: none;
+    width: 100%;
+  }
+}
+/* line 49, ../sass/statutory-bodies.scss */
+.blue-block ul li a {
+  color: #f5f5f5;
+}
+/* line 52, ../sass/statutory-bodies.scss */
+.blue-block ul li a sup {
+  font-size: 0.625rem;
+}
+/* line 55, ../sass/statutory-bodies.scss */
+.blue-block ul li a:hover {
   color: #ffffff;
 }
-
-/* line 32, ../sass/chancellor.scss */
-.img-text {
-  padding-top: 25px;
-  line-height: 22px;
-}
-/* line 36, ../sass/chancellor.scss */
-.img-text span {
-  color: #0058A6;
-}
-/* line 39, ../sass/chancellor.scss */
-.img-text a {
-  color: #747474;
+/* line 62, ../sass/statutory-bodies.scss */
+.blue-block .lock {
+  background: url(../images/lock-icon.jpg) no-repeat 224px 15px;
 }
 
-/*Middle*/
-/* line 45, ../sass/chancellor.scss */
-.middle-panel {
-  margin-top: 150px;
-}
-@media screen and (max-width: 992px) {
-  /* line 45, ../sass/chancellor.scss */
-  .middle-panel {
-    margin-top: 50px;
-  }
-}
-
-/*Left Panel*/
-/* line 57, ../sass/chancellor.scss */
-.left-panel p:nth-child(3) {
-  background: #f8f8f8;
-  padding: 10px 0;
-  position: relative;
-}
-@media screen and (max-width: 480px) {
-  /* line 57, ../sass/chancellor.scss */
-  .left-panel p:nth-child(3) {
-    background: none;
-  }
-}
-/* line 69, ../sass/chancellor.scss */
-.left-panel .grey-bg {
+/* line 70, ../sass/statutory-bodies.scss */
+.blue-ext {
+  background: #0058A6;
   position: absolute;
-  left: -299px;
+  right: -199px;
   top: 0;
-  width: 300px;
-  height: 104px;
-  background: #f8f8f8;
-  z-index: 1;
+  width: 200px;
+  height: 383px;
+  z-index: 4;
 }
 @media screen and (max-width: 1200px) {
-  /* line 69, ../sass/chancellor.scss */
-  .left-panel .grey-bg {
-    height: 132px;
+  /* line 70, ../sass/statutory-bodies.scss */
+  .blue-ext {
+    height: 609px;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 69, ../sass/chancellor.scss */
-  .left-panel .grey-bg {
-    height: 187px;
+  /* line 70, ../sass/statutory-bodies.scss */
+  .blue-ext {
+    height: 497px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 69, ../sass/chancellor.scss */
-  .left-panel .grey-bg {
-    height: 103px;
-  }
-}
-@media screen and (max-width: 635px) {
-  /* line 69, ../sass/chancellor.scss */
-  .left-panel .grey-bg {
-    height: 132px;
-  }
-}
-@media screen and (max-width: 480px) {
-  /* line 69, ../sass/chancellor.scss */
-  .left-panel .grey-bg {
+  /* line 70, ../sass/statutory-bodies.scss */
+  .blue-ext {
     display: none;
   }
 }
 
-/* line 101, ../sass/chancellor.scss */
-h2 {
-  font-size: 1.25rem;
-  line-height: 32px;
-  color: #0058A6;
-  font-family: "crimson_textroman";
-  font-weight: normal;
+/* below tab and accordion section  */
+/* line 94, ../sass/statutory-bodies.scss */
+.statutory-page-tab {
+  margin-bottom: 20px;
 }
-
-/* line 109, ../sass/chancellor.scss */
-h3 {
-  font-size: 1rem;
-  line-height: 32px;
-  color: #0058A6;
-  font-family: "gotham_mediumregular";
-  font-weight: normal;
-  padding: 10px 0 0;
-  text-transform: uppercase;
-}
-
-/*Right Panel*/
-/* line 120, ../sass/chancellor.scss */
-.right-panel {
-  padding-left: 100px;
-}
-@media screen and (max-width: 768px) {
-  /* line 120, ../sass/chancellor.scss */
-  .right-panel {
-    padding-left: 15px;
+@media screen and (max-width: 635px) {
+  /* line 94, ../sass/statutory-bodies.scss */
+  .statutory-page-tab {
+    overflow-x: scroll;
   }
 }
-
-/* line 126, ../sass/chancellor.scss */
-.details {
-  border: #ededed 1px solid;
-  padding: 20px 15px;
-  margin-bottom: 10px;
+/* line 102, ../sass/statutory-bodies.scss */
+.statutory-page-tab .nav-tabs li a {
+  color: #c3c3c3;
 }
-/* line 131, ../sass/chancellor.scss */
-.details a {
-  color: #747474;
+/* line 108, ../sass/statutory-bodies.scss */
+.statutory-page-tab .nav-tabs li.active a {
+  color: #0058A6;
+  border: none;
+  border-bottom: 2px solid #0058A6;
+  padding: 10px 30px;
 }
-
-/*Previous Chancellor*/
-/* line 137, ../sass/chancellor.scss */
-.prev-chancellor {
-  background: #000000;
-  margin-top: 120px;
-  padding: 40px 0;
-  color: #c4c4c4;
+/* line 116, ../sass/statutory-bodies.scss */
+.statutory-page-tab .statutory-accordion {
+  padding-top: 25px;
+}
+@media screen and (max-width: 480px) {
+  /* line 116, ../sass/statutory-bodies.scss */
+  .statutory-page-tab .statutory-accordion {
+    width: 480px;
+  }
+}
+/* line 121, ../sass/statutory-bodies.scss */
+.statutory-page-tab .statutory-accordion .panel-default {
+  border: none;
+  box-shadow: none;
+}
+/* line 124, ../sass/statutory-bodies.scss */
+.statutory-page-tab .statutory-accordion .panel-default .panel-heading {
+  padding: 0;
+  background: #f8f8f8;
+}
+/* line 128, ../sass/statutory-bodies.scss */
+.statutory-page-tab .statutory-accordion .panel-default .panel-heading .panel-title a {
+  display: block;
+  padding: 10px 20px;
+  font-family: "open_sanssemibold";
+  font-size: 0.75rem;
+  color: #656565;
+}
+@media screen and (max-width: 768px) {
+  /* line 128, ../sass/statutory-bodies.scss */
+  .statutory-page-tab .statutory-accordion .panel-default .panel-heading .panel-title a {
+    font-size: 1.063rem;
+  }
+}
+/* line 138, ../sass/statutory-bodies.scss */
+.statutory-page-tab .statutory-accordion .panel-default .panel-heading .panel-title a span {
+  color: #000000;
+  font-family: "open_sansregular";
+  padding-left: 50px;
+  font-size: 0.875rem;
+}
+@media screen and (max-width: 768px) {
+  /* line 138, ../sass/statutory-bodies.scss */
+  .statutory-page-tab .statutory-accordion .panel-default .panel-heading .panel-title a span {
+    font-size: 1.063rem;
+    padding-left: 20px;
+  }
+}
+/* line 147, ../sass/statutory-bodies.scss */
+.statutory-page-tab .statutory-accordion .panel-default .panel-heading .panel-title a span:nth-child(3) {
+  font-family: "open_sanssemibold";
+  float: right;
+  color: #656565;
+  margin-right: 100px;
+  text-transform: uppercase;
   font-size: 0.75rem;
 }
 @media screen and (max-width: 768px) {
-  /* line 146, ../sass/chancellor.scss */
-  .prev-chancellor img {
-    margin: 0 auto;
+  /* line 147, ../sass/statutory-bodies.scss */
+  .statutory-page-tab .statutory-accordion .panel-default .panel-heading .panel-title a span:nth-child(3) {
+    font-size: 1.063rem;
+    margin-right: 30px;
   }
 }
-/* line 151, ../sass/chancellor.scss */
-.prev-chancellor h2 {
-  color: #ffffff;
-  font-size: 1rem;
-  text-transform: uppercase;
-  font-family: "gotham_mediumregular";
-  padding-left: 15px;
+/* line 160, ../sass/statutory-bodies.scss */
+.statutory-page-tab .statutory-accordion .panel-default .panel-heading .panel-title a i {
+  float: right;
+  font-size: 1.375em;
 }
 @media screen and (max-width: 768px) {
-  /* line 158, ../sass/chancellor.scss */
-  .prev-chancellor .col-sm-4 {
-    text-align: center;
+  /* line 160, ../sass/statutory-bodies.scss */
+  .statutory-page-tab .statutory-accordion .panel-default .panel-heading .panel-title a i {
+    font-size: 1.375em;
   }
 }
-/* line 163, ../sass/chancellor.scss */
-.prev-chancellor .prev-text {
-  margin-top: 7%;
+/* line 167, ../sass/statutory-bodies.scss */
+.statutory-page-tab .statutory-accordion .panel-default .panel-heading .panel-title a:hover, .statutory-page-tab .statutory-accordion .panel-default .panel-heading .panel-title a:focus {
+  text-decoration: none;
 }
-/* line 166, ../sass/chancellor.scss */
-.prev-chancellor .img-text {
-  padding-top: 10px;
+/* line 176, ../sass/statutory-bodies.scss */
+.statutory-page-tab .statutory-accordion .panel-body .details {
+  padding-bottom: 20px;
 }
-/* line 169, ../sass/chancellor.scss */
-.prev-chancellor .img-text span {
-  color: #ffffff;
-  nt-size: 1rem;
+/* line 178, ../sass/statutory-bodies.scss */
+.statutory-page-tab .statutory-accordion .panel-body .details a {
+  color: #8d5715;
+  text-decoration: underline;
+}
+/* line 184, ../sass/statutory-bodies.scss */
+.statutory-page-tab .statutory-accordion .panel-body p a {
+  color: #8d5715;
+  text-decoration: underline;
+  font-family: "open_sanssemibold";
 }
 
-/*# sourceMappingURL=chancellor.css.map */
+/*# sourceMappingURL=statutory-bodies.css.map */

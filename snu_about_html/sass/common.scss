@@ -14,9 +14,9 @@ html {
 
 body {
     font-size:$font-size-m;
-    color:$color;
+    color:$dark-gray;
     background: $white-color;
-    font-family: $font-family-medium;
+    font-family: $font-family-open-sans;
     overflow-x: hidden;
     line-height: 28px;
     @media screen and (max-width: $sm) {
@@ -382,3 +382,26 @@ section.snu-main-navigation {
     }
 }
 
+/*Top Gapping*/
+
+.fixed-pad {
+  padding-top: 160px;
+  
+  @media screen and (max-width: $md){
+    padding-top: 125px;
+  }
+  @media screen and (max-width: $xs){
+    padding-top:54px;
+  }
+}
+
+/*Breadcrumb*/
+.breadcrumb {
+  background: transparent;
+  font-size: $font-size-s;
+  
+  @media screen and (max-width: $axs){
+    margin-bottom: 0;
+    padding: 8px 15px 0;
+  }
+} 

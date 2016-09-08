@@ -1,0 +1,192 @@
+@import 'main_import';
+
+.blue-block {
+  background: $button-color-2;
+  color: $inner-page-main-menu-bg;
+  margin-top: 70px;
+  padding: 25px;
+  margin-left: 30px;
+  position: relative;
+  z-index: 2; 
+  margin-bottom: 50px;
+  
+  @media screen and (max-width: $md) {
+     margin-left: 15px;
+  }
+  
+  @media screen and (max-width: $sm) {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    line-height: 32px;
+    color: $white-color;
+    font-family: "crimson_textroman";
+    font-weight: normal;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      list-style: none;
+      padding:7px 0;
+      margin: 0 28px 0 0;
+      border-bottom: $inner-page-main-menu-bg 1px solid;
+      width: 44.5%;
+      float: left;
+      
+      
+      
+      @media screen and (max-width: $md) {
+        float: none;
+        width: 100%;
+      }
+      
+      a {
+        color: $inner-page-main-menu-bg;
+        
+        sup {
+        font-size:$font-size-xss;
+      }
+        &:hover {
+          color: $white-color;
+        } 
+      }
+    }
+  }
+  
+  .lock {
+        background: url(../images/lock-icon.jpg) no-repeat 224px 15px;
+      }
+  
+    
+
+  
+}
+.blue-ext {
+    background: $button-color-2;
+    position: absolute;
+    right: -199px;
+    top: 0;
+    width: 200px;
+    height: 383px;
+    z-index: 4;
+  
+  @media screen and (max-width: $lg){
+    height:609px;
+  }
+  
+  @media screen and (max-width: $md){
+    height:497px;
+  }
+  
+  @media screen and (max-width: $sm){
+    display: none;
+  }
+  
+  }
+/* below tab and accordion section  */
+
+.statutory-page-tab {
+  margin-bottom: 20px;
+  
+    @media screen and (max-width: $axs) {
+        overflow-x: scroll;
+    }
+    .nav-tabs {
+        li {
+            a {
+                
+                color: $department-light-gray;
+            }
+        }
+        li.active {
+            a {
+                color: $button-color-2;
+                border: none;
+                border-bottom: 2px solid $button-color-2;
+                padding: 10px 30px;
+            }
+        }
+    }
+    .statutory-accordion {
+        padding-top: 25px;
+        @media screen and (max-width: $xs) {
+            width: 480px;
+        }
+        .panel-default {
+            border: none;
+            box-shadow: none;
+            .panel-heading {
+                padding: 0;
+                background: $light-gray-button-color;
+                .panel-title {
+                    a {
+                        display: block;
+                        padding: 10px 20px;
+                        ;
+                        font-family: $font-family-open-sans-semibold;
+                        font-size: $font-size-s;
+                        color: $department-text-gray;
+                        @media screen and (max-width: $sm) {
+                            font-size: $font-size-sm;
+                        }
+                        span {
+                            color: $black-color;
+                            font-family: $font-family-open-sans;
+                            padding-left: 50px;
+                            font-size: $font-size-m;
+                            @media screen and (max-width: $sm) {
+                                font-size: $font-size-sm;
+                                padding-left: 20px;
+                            }
+                            &:nth-child(3) {
+                                font-family: $font-family-open-sans-semibold;
+                                float: right;
+                                color: $department-text-gray;
+                                margin-right: 100px;
+                                text-transform: uppercase;
+                                font-size: $font-size-s;
+                                @media screen and (max-width: $sm) {
+                                    font-size: $font-size-sm;
+                                    margin-right: 30px;
+                                }
+                            }
+                        }
+                        i {
+                            float: right;
+                            font-size: $font-size-xxl;
+                            @media screen and (max-width: $sm) {
+                                font-size: $font-size-xxl;
+                            }
+                        }
+                        &:hover,
+                        &:focus {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+        .panel-body {
+            .details {
+                padding-bottom: 20px;
+                a {
+                    color: $department-base-color;
+                    text-decoration: underline;
+                }
+            }
+            p {
+                a {
+                    color: $department-base-color;
+                    text-decoration: underline;
+                    font-family: $font-family-open-sans-semibold;
+                }
+            }
+        }
+    }
+}

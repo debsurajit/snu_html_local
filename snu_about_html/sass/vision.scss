@@ -1,0 +1,25 @@
+@import 'main_import';
+
+
+/*Content*/
+
+.vision-content {
+  text-align: center;
+  font-family: $font-family-crimson-roman;
+  font-size: $font-size-l;
+  color: $dark-gray;
+  line-height:40px;
+  
+  img {
+    margin-top: 40px;
+  }
+  
+  h1 {
+    font-size: $font-lg;
+    margin-top: 85px;
+    
+    @media screen and (max-width: $axs) {
+      margin-top: 35px;
+    }
+  }
+}

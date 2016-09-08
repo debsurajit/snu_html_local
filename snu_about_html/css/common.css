@@ -143,6 +143,7 @@
 /*14px*/
 /*12px*/
 /*11px*/
+/*10px*/
 /*36px*/
 /*32px*/
 /*26px*/
@@ -173,9 +174,9 @@
 /* line 15, ../sass/common.scss */
 body {
   font-size: 0.875rem;
-  color: #747474;
+  color: #3A3A3A;
   background: #ffffff;
-  font-family: "gotham_mediumregular";
+  font-family: "open_sansregular";
   overflow-x: hidden;
   line-height: 28px;
 }
@@ -642,6 +643,38 @@ section.snu-main-navigation .tb-megamenu .nav-collapse ul.nav li.dropdown.open >
 section.snu-main-navigation .tb-megamenu .nav-collapse ul.nav li.dropdown.open > a:hover {
   background: rgba(114, 165, 209, 0.3);
   color: #3A3A3A;
+}
+
+/*Top Gapping*/
+/* line 387, ../sass/common.scss */
+.fixed-pad {
+  padding-top: 160px;
+}
+@media screen and (max-width: 992px) {
+  /* line 387, ../sass/common.scss */
+  .fixed-pad {
+    padding-top: 125px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 387, ../sass/common.scss */
+  .fixed-pad {
+    padding-top: 54px;
+  }
+}
+
+/*Breadcrumb*/
+/* line 399, ../sass/common.scss */
+.breadcrumb {
+  background: transparent;
+  font-size: 0.75rem;
+}
+@media screen and (max-width: 635px) {
+  /* line 399, ../sass/common.scss */
+  .breadcrumb {
+    margin-bottom: 0;
+    padding: 8px 15px 0;
+  }
 }
 
 /*# sourceMappingURL=common.css.map */
