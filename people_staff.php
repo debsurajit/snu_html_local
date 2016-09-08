@@ -7,7 +7,7 @@
     <!-- Left Panel Start -->
     <div class="col-sm-3">
         <div class="left-menu-wrapper">
-                <?php include 'include/people-side-menu2.php';?>
+                <?php include 'include/people-side-menu1.php';?>
         </div>
     </div>
     <!-- Left Panel End -->

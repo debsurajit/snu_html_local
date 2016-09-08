@@ -31,8 +31,8 @@
                 <p class="animated fadeIn slower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam fringilla eros, eget fermentum massa bibendum sit amet. Sed pulvinar elementum lorem, ut mollis felis laoreet ut. In sollicitudin leo cursus tortor luctus pharetra. Maecenas ornare feugiat magna eget efficitur. Vivamus sit amet ultricies sapien, id laoreet nibh. Aenean facilisis tortor vel justo pharetra vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
           </div>  
           <div class="button-section animatedParent clearfix">
-                <a href="academics_graduate-master.php" class="undergraduate-brown-button pull-left animated bounceInLeft slower"><dd><span>Master in</span> Electronics & Electronics Engineering</dd></a>
-                <a href="" class="undergraduate-gray-button pull-right animated bounceInRight slower"><dd><span>Master in</span> Electronics & Electronics Engineering</dd></a>
+                <a href="academics_graduate-master.php" class="undergraduate-brown-button pull-left animated bounceInUp slower"><dd><span>Master in</span> Electronics & Electronics Engineering</dd></a>
+                <a href="" class="undergraduate-gray-button pull-right animated bounceInUp slower"><dd><span>Master in</span> Electronics & Electronics Engineering</dd></a>
             </div>
            <div class="animatedParent">      
                   <h3 class="animated fadeIn slower">Doctoral</h3>
@@ -40,8 +40,8 @@
                   <p class="animated fadeIn slower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam fringilla eros, eget fermentum massa bibendum sit amet. Sed pulvinar elementum lorem, ut mollis felis laoreet ut. In sollicitudin leo cursus tortor luctus pharetra. Maecenas ornare feugiat magna eget efficitur. Vivamus sit amet ultricies sapien, id laoreet nibh. Aenean facilisis tortor vel justo pharetra vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
             </div>
           <div class="button-section animatedParent clearfix">
-                    <a href="" class="undergraduate-brown-button pull-left animated bounceInLeft slower"><dd><span>Doctoral in</span>  Electronics & Electronics Engineering</dd></a>
-                    <a href="" class="undergraduate-gray-button pull-right animated bounceInRight slower"><dd><span>Doctoral in</span>  Electronics & Electronics Engineering</dd></a>
+                    <a href="" class="undergraduate-brown-button pull-left animated bounceInUp slower"><dd><span>Doctoral in</span>  Electronics & Electronics Engineering</dd></a>
+                    <a href="" class="undergraduate-gray-button pull-right animated bounceInUp slower"><dd><span>Doctoral in</span>  Electronics & Electronics Engineering</dd></a>
             </div>
            
             

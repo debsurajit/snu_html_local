@@ -215,6 +215,13 @@
   top: 124px;
   z-index: -3;
 }
+@media screen and (min-width: 1600px) {
+  /* line 46, ../sass/work-with-us.scss */
+  .work-with-gray-bg .faculty-right-gray-bg, .work-with-gray-bg .faculty-left-gray-bg {
+    left: 1220px;
+    width: 700px;
+  }
+}
 @media screen and (max-width: 1200px) {
   /* line 46, ../sass/work-with-us.scss */
   .work-with-gray-bg .faculty-right-gray-bg, .work-with-gray-bg .faculty-left-gray-bg {
@@ -236,7 +243,7 @@
     display: none;
   }
 }
-/* line 69, ../sass/work-with-us.scss */
+/* line 73, ../sass/work-with-us.scss */
 .work-with-gray-bg .faculty-right-gray-bg .work-with-us-bg-text, .work-with-gray-bg .faculty-left-gray-bg .work-with-us-bg-text {
   font-size: 75px;
   font-family: "open_sanslight";
@@ -246,25 +253,39 @@
   left: -230px;
 }
 @media screen and (min-width: 767px) {
-  /* line 69, ../sass/work-with-us.scss */
+  /* line 73, ../sass/work-with-us.scss */
   .work-with-gray-bg .faculty-right-gray-bg .work-with-us-bg-text, .work-with-gray-bg .faculty-left-gray-bg .work-with-us-bg-text {
     top: 142px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 69, ../sass/work-with-us.scss */
+  /* line 73, ../sass/work-with-us.scss */
   .work-with-gray-bg .faculty-right-gray-bg .work-with-us-bg-text, .work-with-gray-bg .faculty-left-gray-bg .work-with-us-bg-text {
     top: 118px;
   }
 }
-/* line 83, ../sass/work-with-us.scss */
+/* line 87, ../sass/work-with-us.scss */
 .work-with-gray-bg .faculty-right-gray-bg .work-with-us-bg-text span, .work-with-gray-bg .faculty-left-gray-bg .work-with-us-bg-text span {
   margin-left: 155px;
 }
-/* line 88, ../sass/work-with-us.scss */
+/* line 92, ../sass/work-with-us.scss */
 .work-with-gray-bg .faculty-left-gray-bg {
   left: inherit;
   right: 1448px;
+}
+@media screen and (min-width: 1600px) {
+  /* line 92, ../sass/work-with-us.scss */
+  .work-with-gray-bg .faculty-left-gray-bg {
+    left: -800px;
+    right: inherit;
+  }
+}
+@media screen and (min-width: 1900px) {
+  /* line 92, ../sass/work-with-us.scss */
+  .work-with-gray-bg .faculty-left-gray-bg {
+    left: -620px;
+    right: inherit;
+  }
 }
 
 /*# sourceMappingURL=work-with-us.css.map */

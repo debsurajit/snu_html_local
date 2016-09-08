@@ -94,7 +94,7 @@
 
 
           <div class="animatedParent">
-            <div class="animated bounceInLeft slower">
+            <div class="animated bounceInUp slower">
               <div class="row bottm-block">
                 <div class="col-lg-4 col-md-4 col-sm-6  col-xs-6">
                   <img src="images/with-us1.jpg" alt="">

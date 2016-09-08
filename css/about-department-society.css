@@ -156,27 +156,22 @@
 /*Team Structure*/
 /*  gray-widgets*/
 /* line 3, ../sass/about-department-society.scss */
-.margin-top {
-  margin-top: 243px;
-}
-
-/* line 7, ../sass/about-department-society.scss */
 img {
   max-width: 100%;
 }
 
 /*Banner*/
-/* line 14, ../sass/about-department-society.scss */
+/* line 10, ../sass/about-department-society.scss */
 .slider {
   margin-top: 40px;
 }
-/* line 16, ../sass/about-department-society.scss */
+/* line 12, ../sass/about-department-society.scss */
 .slider img {
   max-width: 100%;
 }
 
 /*Left Panel*/
-/* line 23, ../sass/about-department-society.scss */
+/* line 19, ../sass/about-department-society.scss */
 .left-menu {
   background: #ffffff;
   box-shadow: 12px 1px 50px 8px rgba(0, 0, 0, 0.05);
@@ -252,7 +247,7 @@ img {
   border-bottom: none;
 }
 
-/* line 27, ../sass/about-department-society.scss */
+/* line 23, ../sass/about-department-society.scss */
 ul.leftmenu-bottom {
   list-style: none;
   padding: 0;
@@ -287,7 +282,7 @@ ul.leftmenu-bottom li a:hover {
   }
 }
 
-/* line 31, ../sass/about-department-society.scss */
+/* line 27, ../sass/about-department-society.scss */
 .breadcrumb {
   background: none;
   margin-top: 10px;
@@ -299,30 +294,30 @@ ul.leftmenu-bottom li a:hover {
   color: #8d5715;
 }
 @media screen and (max-width: 992px) {
-  /* line 31, ../sass/about-department-society.scss */
+  /* line 27, ../sass/about-department-society.scss */
   .breadcrumb {
     font-size: 0.875rem;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 31, ../sass/about-department-society.scss */
+  /* line 27, ../sass/about-department-society.scss */
   .breadcrumb {
     font-size: 1.063rem;
   }
 }
 
 /*Right Panel*/
-/* line 37, ../sass/about-department-society.scss */
+/* line 33, ../sass/about-department-society.scss */
 .right-panel {
   padding-top: 93px;
 }
 @media screen and (max-width: 767px) {
-  /* line 37, ../sass/about-department-society.scss */
+  /* line 33, ../sass/about-department-society.scss */
   .right-panel {
     padding-top: 20px;
   }
 }
-/* line 42, ../sass/about-department-society.scss */
+/* line 38, ../sass/about-department-society.scss */
 .right-panel .events {
   background: #f0f0f0;
   padding: 12px;
@@ -331,22 +326,22 @@ ul.leftmenu-bottom li a:hover {
   line-height: 18px;
 }
 @media screen and (max-width: 767px) {
-  /* line 42, ../sass/about-department-society.scss */
+  /* line 38, ../sass/about-department-society.scss */
   .right-panel .events {
     font-size: 1.063rem;
   }
 }
-/* line 51, ../sass/about-department-society.scss */
+/* line 47, ../sass/about-department-society.scss */
 .right-panel .events .date {
   color: #8d5715;
   font-weight: bold;
   padding-bottom: 5px;
 }
-/* line 57, ../sass/about-department-society.scss */
+/* line 53, ../sass/about-department-society.scss */
 .right-panel .upcoming {
   position: relative;
 }
-/* line 59, ../sass/about-department-society.scss */
+/* line 55, ../sass/about-department-society.scss */
 .right-panel .upcoming:after {
   content: '';
   position: absolute;
@@ -355,7 +350,7 @@ ul.leftmenu-bottom li a:hover {
   width: 65%;
   border-top: #8d5715 4px solid;
 }
-/* line 67, ../sass/about-department-society.scss */
+/* line 63, ../sass/about-department-society.scss */
 .right-panel .upcoming h4 {
   font-size: 1.25rem;
   color: #8d5715;

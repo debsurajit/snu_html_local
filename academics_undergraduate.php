@@ -41,7 +41,7 @@
             </div>
           <div class="button-section animatedParent clearfix">
                     <a href="" class="undergraduate-brown-button pull-left animated bounceInUp slow"><dd><span>Major in</span> Electronics Engineering</dd></a>
-                    <a href="" class="btn undergraduate-gray-button pull-right animated bounceInUp slow"><dd><span>Minor in</span> Electronics Engineering</dd></a>
+                    <a href="" class="undergraduate-gray-button pull-right animated bounceInUp slow"><dd><span>Minor in</span> Electronics Engineering</dd></a>
             </div>
            
             

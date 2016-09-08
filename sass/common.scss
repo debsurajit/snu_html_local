@@ -133,7 +133,7 @@ h6 {
                     font-size: $font-size-m;
                     color: $white-color;
                     font-family: $font-family-open-sans;
-                    padding: 8px 15px 8px 0;
+                    padding: 6px 15px 6px 0;
                     @media screen and (max-width: $sm) {
                         font-size: $font-size-xl;
                     }
@@ -167,10 +167,10 @@ h6 {
                     font-size: $font-size-xs;
                     font-family: $font-family-open-sans-bold;
                     @media screen and (min-width: $md) {
-                        padding: 8px 11px;
+                        padding: 6px 11px;
                     }
                     @media screen and (min-width:$lg) {
-                        padding: 8px 15px;
+                        padding: 6px 15px;
                     }
                     &:last-child {
                         padding-right: 0;
@@ -203,6 +203,15 @@ h6 {
             }
         }
         .top-drop-down-menu {
+            
+            .active{
+                color: $white-color;
+                font-family: $font-family-open-sans;
+            }
+            
+            h6.active{
+                text-decoration: underline;
+            }
             .col-sm-3{
                     @media screen and (max-width: $sm) {
                         position: inherit;
@@ -451,7 +460,7 @@ h6 {
             }
             
             &:first-child{
-               @media screen and (max-width: $axs) {
+               @media screen and (max-width: 1920px) {
                     display: none;
                 } 
             }
@@ -469,6 +478,13 @@ h6 {
                 color: $department-light-gray;
                 padding: 0 5px;
                 font-size: $font-size-m;
+            }
+        }
+        
+        li.infoshow{
+            display: inline-block;
+            @media screen and (max-width: $md) {
+                display: none;
             }
         }
     }
@@ -650,6 +666,8 @@ h6 {
                     border: 1px solid $menu-hover-color;
                     top:99%;
                     border-radius: 0;
+                    -webkit-box-shadow: 0 6px 10px rgba(0,0,0,.175);
+                    box-shadow: 0 6px 10px rgba(0,0,0,.175);
                     @media screen and (max-width: $sm) {
                         padding-left: 20px;
                         border: none;
@@ -822,7 +840,7 @@ a.undergraduate-gray-button {
 /*Top Margin for Fixed-header*/
 
 .margin-top {
-  margin-top: 243px;
+  margin-top: 239px;
     
 }
 
@@ -877,7 +895,7 @@ a.undergraduate-gray-button {
         font-size: $font-size;
         color: $department-base-color;
     position: absolute;
-    right: -40px;
+    right: -43px;
     top: 460px;
     width: 120px;
     text-align: center;
@@ -892,6 +910,10 @@ a.undergraduate-gray-button {
 .button-apply{
      @extend .button-faq;
     top: 600px;
+}
+
+.bghide{
+    overflow-y: hidden;
 }
 
 
