@@ -3,25 +3,6 @@
 img {
   max-width: 100%;
 }
-.fixed-pad {
-  padding-top: 160px;
-  
-  @media screen and (max-width: $md){
-    padding-top:89px;
-  }
-  @media screen and (max-width: $xs){
-    padding-top:54px;
-  }
-}
-.breadcrumb {
-  background: transparent;
-  font-size: $font-size-s;
-  
-  @media screen and (max-width: $axs){
-    margin-bottom: 0;
-    padding: 8px 15px 0;
-  }
-} 
 
 /*Top Content*/
 
