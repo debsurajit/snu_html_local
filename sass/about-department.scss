@@ -4,7 +4,7 @@
 
 .banner {
     @include banner-max-width;
-    margin-top: 243px;
+    margin-top: 239px;
     padding-top: 30px;
     
     .top-fix-color-bg{
@@ -72,7 +72,15 @@
         left: 1096px;
         top: 175px;
         z-index: -3;
-        
+          @media screen and (min-width:1600px){
+               left: 1220px;
+               width: 700px;
+           }
+           
+           @media screen and (min-width:1900px){
+               left: 1380px;
+               width: 700px;
+           }
            @media screen and (max-width:$lg){
                left: inherit;
                width: 300px;
@@ -111,5 +119,16 @@
         @extend .faculty-right-gray-bg;
         left: inherit;
         right: 1448px;
+        
+        @media screen and (min-width:1600px){
+               left: -720px;
+              
+            right: inherit;
+           }
+           
+           @media screen and (min-width:1900px){
+               left: -620px;
+              right: inherit;
+           }
     }
 }

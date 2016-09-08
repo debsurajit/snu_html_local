@@ -229,6 +229,13 @@
   top: 124px;
   z-index: -3;
 }
+@media screen and (min-width: 1600px) {
+  /* line 60, ../sass/faculty-details.scss */
+  .faculty-image .faculty-right-gray-bg {
+    left: 1220px;
+    width: 700px;
+  }
+}
 @media screen and (max-width: 1200px) {
   /* line 60, ../sass/faculty-details.scss */
   .faculty-image .faculty-right-gray-bg {

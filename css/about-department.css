@@ -161,7 +161,7 @@
   margin: 0 auto;
   max-width: 1440px;
   position: relative;
-  margin-top: 243px;
+  margin-top: 239px;
   padding-top: 30px;
 }
 @media screen and (max-width: 992px) {
@@ -340,6 +340,20 @@
   top: 175px;
   z-index: -3;
 }
+@media screen and (min-width: 1600px) {
+  /* line 67, ../sass/about-department.scss */
+  .department.work-with-gray-bg .faculty-right-gray-bg, .department.work-with-gray-bg .faculty-left-gray-bg {
+    left: 1220px;
+    width: 700px;
+  }
+}
+@media screen and (min-width: 1900px) {
+  /* line 67, ../sass/about-department.scss */
+  .department.work-with-gray-bg .faculty-right-gray-bg, .department.work-with-gray-bg .faculty-left-gray-bg {
+    left: 1380px;
+    width: 700px;
+  }
+}
 @media screen and (max-width: 1200px) {
   /* line 67, ../sass/about-department.scss */
   .department.work-with-gray-bg .faculty-right-gray-bg, .department.work-with-gray-bg .faculty-left-gray-bg {
@@ -361,7 +375,7 @@
     display: none;
   }
 }
-/* line 91, ../sass/about-department.scss */
+/* line 99, ../sass/about-department.scss */
 .department.work-with-gray-bg .faculty-right-gray-bg .work-with-us-bg-text, .department.work-with-gray-bg .faculty-left-gray-bg .work-with-us-bg-text {
   font-size: 75px;
   font-family: "open_sanslight";
@@ -371,25 +385,39 @@
   left: -230px;
 }
 @media screen and (min-width: 767px) {
-  /* line 91, ../sass/about-department.scss */
+  /* line 99, ../sass/about-department.scss */
   .department.work-with-gray-bg .faculty-right-gray-bg .work-with-us-bg-text, .department.work-with-gray-bg .faculty-left-gray-bg .work-with-us-bg-text {
     top: 142px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 91, ../sass/about-department.scss */
+  /* line 99, ../sass/about-department.scss */
   .department.work-with-gray-bg .faculty-right-gray-bg .work-with-us-bg-text, .department.work-with-gray-bg .faculty-left-gray-bg .work-with-us-bg-text {
     top: 118px;
   }
 }
-/* line 105, ../sass/about-department.scss */
+/* line 113, ../sass/about-department.scss */
 .department.work-with-gray-bg .faculty-right-gray-bg .work-with-us-bg-text span, .department.work-with-gray-bg .faculty-left-gray-bg .work-with-us-bg-text span {
   margin-left: 155px;
 }
-/* line 110, ../sass/about-department.scss */
+/* line 118, ../sass/about-department.scss */
 .department.work-with-gray-bg .faculty-left-gray-bg {
   left: inherit;
   right: 1448px;
+}
+@media screen and (min-width: 1600px) {
+  /* line 118, ../sass/about-department.scss */
+  .department.work-with-gray-bg .faculty-left-gray-bg {
+    left: -720px;
+    right: inherit;
+  }
+}
+@media screen and (min-width: 1900px) {
+  /* line 118, ../sass/about-department.scss */
+  .department.work-with-gray-bg .faculty-left-gray-bg {
+    left: -620px;
+    right: inherit;
+  }
 }
 
 /*# sourceMappingURL=about-department.css.map */
