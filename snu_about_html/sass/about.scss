@@ -40,6 +40,9 @@ img {
 /*Left Panel*/
 
 .left-panel {
+  p {
+    margin-bottom: 30px;
+  }
   
   h1 {
     @media screen and (max-width: $sm){

@@ -210,8 +210,12 @@ img {
 .left-panel {
   padding-right: 70px;
 }
+/* line 43, ../sass/about.scss */
+.left-panel p {
+  margin-bottom: 30px;
+}
 @media screen and (max-width: 768px) {
-  /* line 44, ../sass/about.scss */
+  /* line 47, ../sass/about.scss */
   .left-panel h1 {
     padding: 15px 0;
   }
@@ -224,31 +228,31 @@ img {
 }
 
 /*Right Panel*/
-/* line 59, ../sass/about.scss */
+/* line 62, ../sass/about.scss */
 .right-panel {
   padding-top: 95px;
 }
 @media screen and (max-width: 768px) {
-  /* line 59, ../sass/about.scss */
+  /* line 62, ../sass/about.scss */
   .right-panel {
     padding-top: 0;
   }
 }
-/* line 66, ../sass/about.scss */
+/* line 69, ../sass/about.scss */
 .right-panel .video {
   color: #0058A6;
 }
-/* line 68, ../sass/about.scss */
+/* line 71, ../sass/about.scss */
 .right-panel .video img {
   margin-bottom: 10px;
 }
 @media screen and (max-width: 768px) {
-  /* line 66, ../sass/about.scss */
+  /* line 69, ../sass/about.scss */
   .right-panel .video {
     text-align: center;
   }
 }
-/* line 80, ../sass/about.scss */
+/* line 83, ../sass/about.scss */
 .right-panel .blue-block {
   margin-top: 15px;
   background: #0058A6;
@@ -259,7 +263,7 @@ img {
   line-height: 40px;
 }
 
-/* line 91, ../sass/about.scss */
+/* line 94, ../sass/about.scss */
 .groups {
   background: url("../images/group-img.jpg") no-repeat top center;
   min-height: 253px;
@@ -268,12 +272,12 @@ img {
   margin-bottom: 50px;
 }
 @media screen and (max-width: 768px) {
-  /* line 91, ../sass/about.scss */
+  /* line 94, ../sass/about.scss */
   .groups {
     background-size: cover;
   }
 }
-/* line 102, ../sass/about.scss */
+/* line 105, ../sass/about.scss */
 .groups p {
   margin-bottom: 70px;
   text-align: center;
@@ -281,14 +285,14 @@ img {
   font-family: "gotham_lightregular";
   font-size: 1.25rem;
 }
-/* line 110, ../sass/about.scss */
+/* line 113, ../sass/about.scss */
 .groups img {
   -webkit-box-shadow: 0px 5px 20px 1px #c4c4c4;
   -moz-box-shadow: 0px 5px 20px 1px #c4c4c4;
   box-shadow: 0px 5px 20px 1px #c4c4c4;
 }
 @media screen and (max-width: 768px) {
-  /* line 110, ../sass/about.scss */
+  /* line 113, ../sass/about.scss */
   .groups img {
     margin: 0 auto 20px;
   }
