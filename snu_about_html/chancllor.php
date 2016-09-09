@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/chancellor.css">
+<link rel="stylesheet" href="../../../snu_html_local/snu_about_html/css/chancellor.css">
 <?php include 'include/header.php';?>
 
   
