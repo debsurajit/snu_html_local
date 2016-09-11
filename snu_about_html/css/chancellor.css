@@ -143,6 +143,7 @@
 /*14px*/
 /*12px*/
 /*11px*/
+/*10px*/
 /*36px*/
 /*32px*/
 /*26px*/
@@ -209,19 +210,19 @@ img {
 }
 
 /*Left Panel*/
-/* line 57, ../sass/chancellor.scss */
+/* line 58, ../sass/chancellor.scss */
 .left-panel p:nth-child(3) {
   background: #f8f8f8;
   padding: 10px 0;
   position: relative;
 }
 @media screen and (max-width: 480px) {
-  /* line 57, ../sass/chancellor.scss */
+  /* line 58, ../sass/chancellor.scss */
   .left-panel p:nth-child(3) {
     background: none;
   }
 }
-/* line 69, ../sass/chancellor.scss */
+/* line 70, ../sass/chancellor.scss */
 .left-panel .grey-bg {
   position: absolute;
   left: -299px;
@@ -232,37 +233,37 @@ img {
   z-index: 1;
 }
 @media screen and (max-width: 1200px) {
-  /* line 69, ../sass/chancellor.scss */
+  /* line 70, ../sass/chancellor.scss */
   .left-panel .grey-bg {
     height: 132px;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 69, ../sass/chancellor.scss */
+  /* line 70, ../sass/chancellor.scss */
   .left-panel .grey-bg {
     height: 187px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 69, ../sass/chancellor.scss */
+  /* line 70, ../sass/chancellor.scss */
   .left-panel .grey-bg {
     height: 103px;
   }
 }
 @media screen and (max-width: 635px) {
-  /* line 69, ../sass/chancellor.scss */
+  /* line 70, ../sass/chancellor.scss */
   .left-panel .grey-bg {
     height: 132px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 69, ../sass/chancellor.scss */
+  /* line 70, ../sass/chancellor.scss */
   .left-panel .grey-bg {
     display: none;
   }
 }
 
-/* line 101, ../sass/chancellor.scss */
+/* line 102, ../sass/chancellor.scss */
 h2 {
   font-size: 1.25rem;
   line-height: 32px;
@@ -271,7 +272,7 @@ h2 {
   font-weight: normal;
 }
 
-/* line 109, ../sass/chancellor.scss */
+/* line 110, ../sass/chancellor.scss */
 h3 {
   font-size: 1rem;
   line-height: 32px;
@@ -283,30 +284,30 @@ h3 {
 }
 
 /*Right Panel*/
-/* line 120, ../sass/chancellor.scss */
+/* line 121, ../sass/chancellor.scss */
 .right-panel {
   padding-left: 100px;
 }
 @media screen and (max-width: 768px) {
-  /* line 120, ../sass/chancellor.scss */
+  /* line 121, ../sass/chancellor.scss */
   .right-panel {
     padding-left: 15px;
   }
 }
 
-/* line 126, ../sass/chancellor.scss */
+/* line 127, ../sass/chancellor.scss */
 .details {
   border: #ededed 1px solid;
   padding: 20px 15px;
   margin-bottom: 10px;
 }
-/* line 131, ../sass/chancellor.scss */
+/* line 132, ../sass/chancellor.scss */
 .details a {
   color: #747474;
 }
 
 /*Previous Chancellor*/
-/* line 137, ../sass/chancellor.scss */
+/* line 138, ../sass/chancellor.scss */
 .prev-chancellor {
   background: #000000;
   margin-top: 120px;
@@ -315,12 +316,12 @@ h3 {
   font-size: 0.75rem;
 }
 @media screen and (max-width: 768px) {
-  /* line 146, ../sass/chancellor.scss */
+  /* line 147, ../sass/chancellor.scss */
   .prev-chancellor img {
     margin: 0 auto;
   }
 }
-/* line 151, ../sass/chancellor.scss */
+/* line 152, ../sass/chancellor.scss */
 .prev-chancellor h2 {
   color: #ffffff;
   font-size: 1rem;
@@ -329,20 +330,20 @@ h3 {
   padding-left: 15px;
 }
 @media screen and (max-width: 768px) {
-  /* line 158, ../sass/chancellor.scss */
+  /* line 159, ../sass/chancellor.scss */
   .prev-chancellor .col-sm-4 {
     text-align: center;
   }
 }
-/* line 163, ../sass/chancellor.scss */
+/* line 164, ../sass/chancellor.scss */
 .prev-chancellor .prev-text {
   margin-top: 7%;
 }
-/* line 166, ../sass/chancellor.scss */
+/* line 167, ../sass/chancellor.scss */
 .prev-chancellor .img-text {
   padding-top: 10px;
 }
-/* line 169, ../sass/chancellor.scss */
+/* line 170, ../sass/chancellor.scss */
 .prev-chancellor .img-text span {
   color: #ffffff;
   nt-size: 1rem;
