@@ -2,7 +2,7 @@
   <!-- Content Start -->
   <div class="container margin-top offset-top">
       <div class="top-fix-color-bg-wrapper animatedParent"><div class="top-fix-color-bg animated bounceInLeft slower">&nbsp;</div></div>
-    <div class="breadcrumb col-md-offset-3">Research / <span>Faculty</span></div>
+    <div class="breadcrumb col-sm-offset-3">Research / <span>Faculty</span></div>
 
     <!-- Left Panel Start -->
     <div class="col-sm-3">

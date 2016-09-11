@@ -20,7 +20,7 @@
   <!-- Content Start -->
   <div class="container offset-top">
      
-    <div class="breadcrumb col-md-offset-3">About / <span>The Department</span></div>
+    <div class="breadcrumb col-sm-offset-3">About / <span>The Department</span></div>
 
     <!-- Left Panel Start -->
     <div class="col-sm-3">

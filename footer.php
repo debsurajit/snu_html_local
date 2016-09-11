@@ -10,8 +10,7 @@
   $(document).ready(function () {
     $(document).click(function () {
       $(".search-area").slideUp("slow");
-        
-
+      
     });
     $(".search ul li:last-child a").click(function (e) {
       e.stopPropagation();
@@ -21,55 +20,12 @@
     $('.search-area').click(function (e) {
       e.stopPropagation();
     });
-
-  });
-</script>
-
-<!-- fixed side menu js below  --->
-<script type="text/javascript">
-    
-
-if ($(window).width() >= 1200) {     
-    var left_menu_wrapper_width = '260px'; 
-}
-else if ($(window).width() >= 992) {
-    var left_menu_wrapper_width = '215px';
-}
-else if ($(window).width() >= 992) {
-    var left_menu_wrapper_width = '160px';
-}
-
-$(function() {
-	// Set this variable with the height of your sidebar + header
-	var offsetPixels = $( ".offset-top" ).offset().top - 240;
-
-	$(window).scroll(function() {
-		if ($(window).scrollTop() > offsetPixels) {
-			$( ".left-menu-wrapper" ).css({
-				"position": "fixed",
-				"top": "240px",
-                "width": left_menu_wrapper_width,
-			},"slow");
-		} else {
-			$( ".left-menu-wrapper" ).css({
-				"position": "static"
-			});
-		}
-	});
-});    
-
-
-</script>
-<!-- fixed side menu js end  --->
-
-
-<!-- top slide menu below  --->
-<script>
-    $(document).ready(function(){
-        $(".offset-top").click(function(){
+      
+      $(document).click(function(){
             $(".top-slide-menu").slideUp();
         });
-        $(".top-slide").click(function(){
+        $(".top-slide").click(function(e){
+             
             $(".top-slide-menu").slideToggle();
             
            if ($(".top-slide-menu ul").hasClass('fadeOut')) {
@@ -90,13 +46,84 @@ $(function() {
             $(".clickul-" + row_no2).removeClass("fadeIn");
             $(".clickul-" + row_no2).addClass("fadeOut");
         });
-         
-           
-       
-  
+           $('.top-slide-menu').click(function (e) {
+              e.stopPropagation();
+            });
+
+  });
+</script>
+
+
+<script>
+      $(document).ready(function () {  
+          $(".pull-right li:first-child").click(function () {
+              alert("ssss")
+            $(".top_menu").slideDown("slow");
         
+          });
     });
 </script>
+
+<!-- fixed side menu js below  --->
+<script type="text/javascript">
+    
+
+if ($(window).width() >= 1200) {     
+    var left_menu_wrapper_width = '19.5%'; 
+}
+else if ($(window).width() >= 992) {
+    var left_menu_wrapper_width = '20%';
+}
+else if ($(window).width() >= 768) {
+    var left_menu_wrapper_width = '21%';
+}
+
+    
+if ($(window).width() >= 768) {  
+$(function() {
+	// Set this variable with the height of your sidebar + header
+	var offsetPixels = $( ".offset-top" ).offset().top - 238;
+
+	$(window).scroll(function() {
+		if ($(window).scrollTop() > offsetPixels) {
+			$( ".left-menu-wrapper" ).css({
+				"position": "fixed",
+				"top": "238px",
+                "width": left_menu_wrapper_width,
+			},"slow");
+		} else {
+            
+			$( ".left-menu-wrapper" ).css({
+				"position": "static",
+                "width": "auto"
+			});
+		}
+	});
+}); 
+    
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    
+    if (scroll >= 300) {
+       $(".top_menu").slideUp(e); 
+        $(".search ul li:first-child").addClass("infoshow");
+       
+    } else {
+        $(".top_menu").slideDown(); 
+          $(".search ul li:first-child").removeClass("infoshow");
+    }
+    
+});    
+    
+    
+}
+
+</script>
+<!-- fixed side menu js end  --->
+
+
+<!-- top slide menu below  --->
+
 <!-- top slide menu end  --->
 <script>
 var container = document.getElementById('body');
@@ -129,28 +156,11 @@ $(window).scroll(function() {
         $(".top-fix-color-bg-wrapper").removeClass("hide");
     }
     
-    if (scroll >= 40) {
-       $(".top_menu").slideUp(); 
-        $(".search ul li:first-child").addClass("infoshow");
-       
-    } else {
-        $(".top_menu").slideDown(); 
-          $(".search ul li:first-child").removeClass("infoshow");
-    }
-    
 });
 
 
 </script> 
 
-<script>
-    $(document).ready(function(){
-     $(".infoshow").click(function(){
-            alert('ss');
-            $(".top-menu").slideDown();
-        });
-    });
-</script>
 <script src="js/custom.js"></script>
 
 </html>
