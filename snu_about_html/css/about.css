@@ -153,107 +153,105 @@
 /*17px*/
 /* Department section  */
 /* line 3, ../sass/about.scss */
-img {
+.founder-page {
+  /*Body Content*/
+  /*Left Panel*/
+  /*Right Panel*/
+}
+/* line 4, ../sass/about.scss */
+.founder-page img {
   max-width: 100%;
   height: auto;
 }
-
-/* line 7, ../sass/about.scss */
-.fixed-pad {
+/* line 8, ../sass/about.scss */
+.founder-page .fixed-pad {
   padding-top: 215px;
 }
 @media screen and (max-width: 992px) {
-  /* line 7, ../sass/about.scss */
-  .fixed-pad {
+  /* line 8, ../sass/about.scss */
+  .founder-page .fixed-pad {
     padding-top: 125px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 7, ../sass/about.scss */
-  .fixed-pad {
+  /* line 8, ../sass/about.scss */
+  .founder-page .fixed-pad {
     padding-top: 54px;
   }
 }
-
-/* line 17, ../sass/about.scss */
-.banner {
+/* line 18, ../sass/about.scss */
+.founder-page .banner {
   margin: 0 auto 23px;
 }
 @media screen and (max-width: 635px) {
-  /* line 17, ../sass/about.scss */
-  .banner {
+  /* line 18, ../sass/about.scss */
+  .founder-page .banner {
     margin: 0 auto 5px;
   }
 }
-/* line 23, ../sass/about.scss */
-.banner img {
+/* line 24, ../sass/about.scss */
+.founder-page .banner img {
   max-width: 100%;
   height: auto;
 }
-
-/*Body Content*/
-/* line 31, ../sass/about.scss */
-.breadcrumb {
+/* line 32, ../sass/about.scss */
+.founder-page .breadcrumb {
   background: transparent;
   font-size: 0.75rem;
 }
 @media screen and (max-width: 635px) {
-  /* line 31, ../sass/about.scss */
-  .breadcrumb {
+  /* line 32, ../sass/about.scss */
+  .founder-page .breadcrumb {
     margin-bottom: 0;
     padding: 8px 15px 0;
   }
 }
-
-/*Left Panel*/
-/* line 42, ../sass/about.scss */
-.left-panel {
+/* line 43, ../sass/about.scss */
+.founder-page .left-panel {
   padding-right: 70px;
 }
-/* line 43, ../sass/about.scss */
-.left-panel p {
+/* line 44, ../sass/about.scss */
+.founder-page .left-panel p {
   margin-bottom: 30px;
 }
 @media screen and (max-width: 768px) {
-  /* line 47, ../sass/about.scss */
-  .left-panel h1 {
+  /* line 48, ../sass/about.scss */
+  .founder-page .left-panel h1 {
     padding: 15px 0;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 42, ../sass/about.scss */
-  .left-panel {
+  /* line 43, ../sass/about.scss */
+  .founder-page .left-panel {
     padding-right: 0;
   }
 }
-
-/*Right Panel*/
-/* line 62, ../sass/about.scss */
-.right-panel {
+/* line 63, ../sass/about.scss */
+.founder-page .right-panel {
   padding-top: 95px;
 }
 @media screen and (max-width: 768px) {
-  /* line 62, ../sass/about.scss */
-  .right-panel {
+  /* line 63, ../sass/about.scss */
+  .founder-page .right-panel {
     padding-top: 0;
   }
 }
-/* line 69, ../sass/about.scss */
-.right-panel .video {
+/* line 70, ../sass/about.scss */
+.founder-page .right-panel .video {
   color: #0058A6;
 }
-/* line 71, ../sass/about.scss */
-.right-panel .video img {
+/* line 72, ../sass/about.scss */
+.founder-page .right-panel .video img {
   margin-bottom: 10px;
 }
 @media screen and (max-width: 768px) {
-  /* line 69, ../sass/about.scss */
-  .right-panel .video {
+  /* line 70, ../sass/about.scss */
+  .founder-page .right-panel .video {
     text-align: center;
   }
 }
-/* line 83, ../sass/about.scss */
-.right-panel .blue-block {
+/* line 84, ../sass/about.scss */
+.founder-page .right-panel .blue-block {
   margin-top: 15px;
   background: #0058A6;
   color: #ffffff;
@@ -262,9 +260,8 @@ img {
   font-family: "gotham_lightregular";
   line-height: 40px;
 }
-
-/* line 94, ../sass/about.scss */
-.groups {
+/* line 95, ../sass/about.scss */
+.founder-page .groups {
   background: url("../images/group-img.jpg") no-repeat top center;
   min-height: 253px;
   padding-top: 65px;
@@ -272,28 +269,28 @@ img {
   margin-bottom: 50px;
 }
 @media screen and (max-width: 768px) {
-  /* line 94, ../sass/about.scss */
-  .groups {
+  /* line 95, ../sass/about.scss */
+  .founder-page .groups {
     background-size: cover;
   }
 }
-/* line 105, ../sass/about.scss */
-.groups p {
+/* line 106, ../sass/about.scss */
+.founder-page .groups p {
   margin-bottom: 70px;
   text-align: center;
   color: #FAFAFA;
   font-family: "gotham_lightregular";
   font-size: 1.25rem;
 }
-/* line 113, ../sass/about.scss */
-.groups img {
+/* line 114, ../sass/about.scss */
+.founder-page .groups img {
   -webkit-box-shadow: 0px 5px 20px 1px #c4c4c4;
   -moz-box-shadow: 0px 5px 20px 1px #c4c4c4;
   box-shadow: 0px 5px 20px 1px #c4c4c4;
 }
 @media screen and (max-width: 768px) {
-  /* line 113, ../sass/about.scss */
-  .groups img {
+  /* line 114, ../sass/about.scss */
+  .founder-page .groups img {
     margin: 0 auto 20px;
   }
 }

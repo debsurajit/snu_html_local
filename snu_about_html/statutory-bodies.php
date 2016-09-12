@@ -2,7 +2,7 @@
 <?php include 'header.php';?>
 
   <!-- Content Sart -->
-  <section class="container-fluid fixed-pad content-wrapper">
+  <section class="container-fluid fixed-pad content-wrapper statutory-page">
 
     <div class="container top-content animatedParent">
       <div class="breadcrumb">

@@ -3,7 +3,7 @@
 
   
   <!-- Body Sart -->
-  
+  <div class="chancellor-page">
   <section class="container-fluid fixed-pad content-wrapper">
    
       <div class="container top-content animatedParent">
@@ -105,5 +105,5 @@
     </div>
   </section>
   <!-- Bottom Body End -->
-  
+  </div>
  <?php include 'footer.php';?>

@@ -1,7 +1,7 @@
 <?php include 'header.php';?>
 
   <!-- Content Sart -->
-  <section class="container-fluid fixed-pad content-wrapper">
+  <section class="container-fluid fixed-pad content-wrapper vision-page">
 
     <div class="container top-content">
       <div class="breadcrumb">
@@ -45,5 +45,5 @@
     
     </div>
     <!-- Content End -->
-
+</section>
 <?php include 'footer.php';?>
