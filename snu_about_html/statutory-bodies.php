@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="css/statutory-bodies.css">
-<?php include 'include/header.php';?>
+
+<?php include 'header.php';?>
 
   <!-- Content Sart -->
   <section class="container-fluid fixed-pad content-wrapper">
@@ -79,4 +79,4 @@
   </section>
     <!-- Content End -->
 
-<?php include 'include/footer.php';?>
+<?php include 'footer.php';?>

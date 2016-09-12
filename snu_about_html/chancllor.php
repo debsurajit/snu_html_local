@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="../../../snu_html_local/snu_about_html/css/chancellor.css">
-<?php include 'include/header.php';?>
+
+<?php include 'header.php';?>
 
   
   <!-- Body Sart -->
@@ -106,4 +106,4 @@
   </section>
   <!-- Bottom Body End -->
   
- <?php include 'include/footer.php';?>
+ <?php include 'footer.php';?>

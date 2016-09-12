@@ -1,4 +1,4 @@
-<?php include 'include/header.php';?>
+<?php include 'header.php';?>
 
   <!-- Content Sart -->
   <section class="container-fluid fixed-pad content-wrapper">
@@ -46,4 +46,4 @@
     </div>
     <!-- Content End -->
 
-<?php include 'include/footer.php';?>
+<?php include 'footer.php';?>

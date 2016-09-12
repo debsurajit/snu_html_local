@@ -57,9 +57,9 @@
 <script>
       $(document).ready(function () {  
           $(".pull-right li:first-child").click(function () {
-              alert("ssss")
+              
             $(".top_menu").slideDown("slow");
-        
+            $(".top_menu").css("display", "block !imporant")
           });
     });
 </script>
@@ -105,7 +105,7 @@ $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     
     if (scroll >= 300) {
-       $(".top_menu").slideUp(e); 
+       $(".top_menu").slideUp(); 
         $(".search ul li:first-child").addClass("infoshow");
        
     } else {

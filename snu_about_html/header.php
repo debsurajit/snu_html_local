@@ -6,9 +6,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../../../snu_html_local/snu_about_html/css/common.css">
+  <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="../css/animations.css">
-  <link rel="stylesheet" href="../../../snu_html_local/snu_about_html/css/vision.css">
+  <link rel="stylesheet" href="css/vision.css">
+    <link rel="stylesheet" href="css/chancellor.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="statutory-bodies.css">
   
  
 </head>
