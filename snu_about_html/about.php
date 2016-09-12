@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="css/about.css">
-<?php include 'include/header.php';?>
+
+<?php include 'header.php';?>
   
  <!-- Banner Sart -->
   <div class="container-fluid fixed-pad">
@@ -62,4 +62,4 @@
   </div>
   <!-- Group of invitives End -->
   
-<?php include 'include/footer.php';?>
+<?php include 'footer.php';?>

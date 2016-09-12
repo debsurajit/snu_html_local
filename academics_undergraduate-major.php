@@ -4,7 +4,7 @@
   <!-- Content Start -->
   <div class="container margin-top offset-top">
       <div class="top-fix-color-bg-wrapper animatedParent"><div class="top-fix-color-bg animated bounceInLeft slower">&nbsp;</div></div>
-    <div class="breadcrumb col-md-offset-3">Academics / undergraduate / <span>Major</span></div>
+    <div class="breadcrumb col-sm-offset-3">Academics / undergraduate / <span>Major</span></div>
 
     <div class="row">
     
