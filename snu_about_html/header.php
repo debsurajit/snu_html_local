@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/vision.css">
     <link rel="stylesheet" href="css/chancellor.css">
     <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="statutory-bodies.css">
+    <link rel="stylesheet" href="css/statutory-bodies.css">
   
  
 </head>
