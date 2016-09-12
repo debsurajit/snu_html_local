@@ -27,8 +27,8 @@
           </div>
          
           <div class="button-section animatedParent clearfix">
-                <a href="" class="undergraduate-brown-button pull-left animated bounceInLeft slower"><dd><span>B.Tech in</span> Electronics & Electronics Engineering</dd></a>
-                <a href="" class="undergraduate-gray-button pull-right animated bounceInRight slower"><dd><span>B.Tech in</span> Electronics Engineering</dd></a>
+                <a href="" class="undergraduate-brown-button pull-left animated bounceInUp slower"><dd><span>B.Tech in</span> Electronics & Electronics Engineering</dd></a>
+                <a href="" class="undergraduate-gray-button pull-right animated bounceInUp slower"><dd><span>B.Tech in</span> Electronics Engineering</dd></a>
             </div>
     
         </div>

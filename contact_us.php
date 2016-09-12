@@ -80,15 +80,16 @@
           <div class="col-sm-4 right-panel">
             
             <div class="animatedParent">
-            <div class="animated bounceInRight slow">
+            <div class="animated bounceInUp slow">
             <div class="map"><img src="images/map.jpg" alt=""></div>
-              </div>
-            </div>
+            
               
             <p>Block C, Academic Block,
               <br/> Shiv Nadar University, NH91, Tehsil
               <br/> Dadri, Gautam Buddha Nagar,
               <br/> Uttar Pradesh - 201314</p>
+              </div>
+            </div>
           </div>
 
 

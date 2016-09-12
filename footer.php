@@ -59,7 +59,7 @@
           $(".pull-right li:first-child").click(function () {
               
             $(".top_menu").slideDown("slow");
-            $(".top_menu").css("display", "block !imporant")
+            $(".top_menu").addClass("always-show");
           });
     });
 </script>
@@ -100,16 +100,18 @@ $(function() {
 		}
 	});
 }); 
-    
-$(window).scroll(function() {    
+
+$(window).scroll(function() {
+   
     var scroll = $(window).scrollTop();
-    
+       
     if (scroll >= 300) {
        $(".top_menu").slideUp(); 
         $(".search ul li:first-child").addClass("infoshow");
-       
+        
     } else {
         $(".top_menu").slideDown(); 
+        $(".top_menu").removeClass("always-show");
           $(".search ul li:first-child").removeClass("infoshow");
     }
     
