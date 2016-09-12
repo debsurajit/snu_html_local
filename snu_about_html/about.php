@@ -12,7 +12,7 @@
   <!-- Banner End -->
   
   <!-- Body Sart -->
-  <section class="container">
+  <section class="container founder-page">
    
       
       <div class="breadcrumb">
@@ -49,7 +49,7 @@
   <!-- Body End -->
 <!--  <div style="min-height:500px"></div>-->
   <!-- Group of invitives Sart -->
-  <div class="container-fluid">
+  <div class="container-fluid founder-page">
     <div class="groups row animatedParent">
     <div class="container animated bounceInUp slower">      
         <p>Group of invitives transforming the <br/>way how the world perfoms</p>
