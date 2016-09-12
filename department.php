@@ -75,7 +75,7 @@
         </div>
         <div class="col-sm-4 right-panel department-right-section">
           <div class="animatedParent">
-            <div class="animated bounceInRight slower">
+            <div class="animated bounceInUp slower">
               <img src="images/iao-logo.jpg" alt=" ">
               <img src="images/bac-logo.jpg" alt=" ">
             </div>

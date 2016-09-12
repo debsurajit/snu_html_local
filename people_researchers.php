@@ -17,7 +17,7 @@
      
         <div class="middle-content">
           <div class="animatedParent">
-            <h1 class="animated fadeImargin-topn slower">Researchers</h1>
+            <h1 class="animated fadeIn slower">Researchers</h1>
           </div>
           <div class="animatedParent">
             <div class="animated fadeIn slower">
@@ -34,37 +34,37 @@
                   <h3 class="title">Graduates</h3>
                   <ul class="row">
                     <li class="col-lg-3 col-md-6 col-xs-6 col-exe-12">
-                      <img src="images/researchers1.jpg" alt="">
+                      <a href="#"><img src="images/researchers1.jpg" alt=""></a>
                       <h3>Nellie Holland</h3> Secretary <br/> Office: C321 Ext: 389
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
 
                     <li class="col-lg-3 col-md-6 col-xs-6 col-exe-12">
-                      <img src="images/researchers2.jpg" alt="">
+                      <a href="#"><img src="images/researchers2.jpg" alt=""></a>
                       <h3>Nellie Holland</h3> Secretary <br/> Office: C321 Ext: 389
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
 
                     <li class="col-lg-3 col-md-6 col-xs-6 col-exe-12">
-                      <img src="images/researchers3.jpg" alt="">
+                      <a href="#"><img src="images/researchers3.jpg" alt=""></a>
                       <h3>Nellie Holland</h3> Secretary <br/> Office: C321 Ext: 389
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
 
                     <li class="col-lg-3 col-md-6 col-xs-6 col-exe-12">
-                      <img src="images/researchers4.jpg" alt="">
+                      <a href="#"><img src="images/researchers4.jpg" alt=""></a>
                       <h3>Nellie Holland</h3> Secretary <br/> Office: C321 Ext: 389
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
 
                     <li class="col-lg-3 col-md-6 col-xs-6 col-exe-12">
-                      <img src="images/researchers5.jpg" alt="">
+                      <a href="#"><img src="images/researchers5.jpg" alt=""></a>
                       <h3>Nellie Holland</h3> Secretary <br/> Office: C321 Ext: 389
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
                     
                     <li class="col-lg-3 col-md-6 col-xs-6 col-exe-12">
-                      <img src="images/researchers6.jpg" alt="">
+                      <a href="#"><img src="images/researchers6.jpg" alt=""></a>
                       <h3>Nellie Holland</h3> Secretary <br/> Office: C321 Ext: 389
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
@@ -82,13 +82,13 @@
                   <h3 class="title">Research Assistants</h3>
                   <ul class="row">
                     <li class="col-lg-3 col-md-6 col-xs-6 col-exe-12">
-                      <img src="images/researchers7.jpg" alt="">
+                      <a href="#"><img src="images/researchers7.jpg" alt=""></a>
                       <h3>Nellie Holland</h3> Secretary <br/> Office: C321 Ext: 389
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
 
                     <li class="col-lg-3 col-md-6 col-xs-6 col-exe-12">
-                      <img src="images/researchers3.jpg" alt="">
+                      <a href="#"><img src="images/researchers3.jpg" alt=""></a>
                       <h3>Nellie Holland</h3> Secretary <br/> Office: C321 Ext: 389
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
@@ -105,25 +105,25 @@
                   <h3 class="title">Undergraduates</h3>
                   <ul class="row">
                     <li class="col-lg-3 col-md-6 col-sm-3 col-xs-6">
-                      <img src="images/faculty10.jpg" alt="">
+                      <a href="#"><img src="images/faculty10.jpg" alt=""></a>
                       <h3>Nellie Holland</h3> Secretary <br/> Office: C321 Ext: 389
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
 
                     <li class="col-lg-3 col-md-6  col-sm-3 col-xs-6">
-                      <img src="images/researchers8.jpg" alt="">
+                      <a href="#"><img src="images/researchers8.jpg" alt=""></a>
                       <h3>Nellie Holland</h3> Secretary <br/> Office: C321 Ext: 389
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
 
                     <li class="col-lg-3 col-md-6  col-sm-3 col-xs-6">
-                      <img src="images/researchers9.jpg" alt="">
+                      <a href="#"><img src="images/researchers9.jpg" alt=""></a>
                       <h3>Nellie Holland</h3> Secretary <br/> Office: C321 Ext: 389
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>
                     
                     <li class="col-lg-3 col-md-6  col-sm-3 col-xs-6">
-                      <img src="images/researchers10.jpg" alt="">
+                      <a href="#"><img src="images/researchers10.jpg" alt=""></a>
                       <h3>Nellie Holland</h3> Secretary <br/> Office: C321 Ext: 389
                       <a href="mailto:jaideep.chaterjee@snu.edu.in">jaideep.chaterjee@snu.edu.in</a>
                     </li>

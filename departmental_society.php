@@ -33,22 +33,25 @@
         <div class="row">
           <div class="col-lg-8 col-md-8 col-sm-8 middle-content">
             <div class="animatedParent">
-              <div class="animated bounceInUp slower">
+              <div class="animated fadeIn slowest">
                 <h1>Orion - The Civil Society</h1>
               </div>
             </div>
 
             <div class="animatedParent">
-              <div class="animated bounceInLeft slower">
+              <div class="animated fadeIn slowest">
                 <img src="images/logo-img.jpg" alt="" class="pull-left">
               </div>
             </div>
             <div class="animatedParent">
-              <div class="animated fadeIn slower">
+              <div class="animated fadeIn slowest">
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                  <div class="responsive-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2b9f7TEXdng" frameborder="0" allowfullscreen></iframe>
+                  </div>
               </div>
             </div>
-            <img src="images/video-img.jpg" alt="">
+            
 
 
             <div class="animatedParent">
@@ -98,22 +101,37 @@
           <!-- Right Panel Start -->
           <div class="col-lg-4 col-md-4 col-sm-4 right-panel">
 
-            <img src="images/right-img1.jpg" alt="" width="100%">
-            <div class="events">
-              <div class="date">06 May 2016</div>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-              <div class="date">06 May 2016</div>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+              <div class="animatedParent">
+                    <div class="last-event-block animated bounceInUp slower">
+                        <img src="images/event-image.jpg">
+                        <div class="overlay">
+                            <div class="content">
+                                <div class="date">06 May 2016</div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            </div>
+                        </div>
+                        <div class="title">Club & Societies</div>
+                    </div> 
+                <div class="events animated bounceInUp slower">
+                       
+                      <div class="date">06 May 2016</div>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                      <div class="date">06 May 2016</div>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
             </div>
 
-            <div class="events upcoming">
-              <h4>Upcoming Events</h4>
-              <div class="date">06 May 2016</div>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-              <div class="date">06 May 2016</div>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-              <div class="date">06 May 2016</div>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <div class="animatedParent">    
+              <div class="events upcoming animated bounceInUp slower">
+                
+                  <h4>Upcoming Events</h4>
+                  <div class="date">06 May 2016</div>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                  <div class="date">06 May 2016</div>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                  <div class="date">06 May 2016</div>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
             </div>
           </div>
           <!-- Right Panel End -->

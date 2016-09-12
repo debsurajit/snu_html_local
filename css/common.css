@@ -1365,4 +1365,10 @@ a.undergraduate-gray-button span {
   overflow-y: hidden;
 }
 
+/* line 920, ../sass/common.scss */
+.always-show {
+  display: block !important;
+  height: auto !important;
+}
+
 /*# sourceMappingURL=common.css.map */

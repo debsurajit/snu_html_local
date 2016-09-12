@@ -1,7 +1,7 @@
 <?php include 'header.php';?>
     <a href="academics_faq.php" class="button-faq">FAQ</a>
   <!-- Content Start -->
-  <div class="container margin-top offset-tops">
+  <div class="container margin-top offset-top">
        <div class="top-fix-color-bg-wrapper animatedParent"><div class="top-fix-color-bg animated bounceInLeft slower">&nbsp;</div></div>
     <div class="breadcrumb col-sm-offset-3">Academics / <span>Graduate</span></div>
 
