@@ -100,7 +100,7 @@
   $(document).ready(function () {
     $(document).click(function () {
       $(".search-area").slideUp("slow");
-        
+       $(".top_menu").removeClass("always-show"); 
 
     });
     $(".search ul li:last-child a").click(function (e) {
@@ -125,6 +125,7 @@
           $(".top-slide").click(function () {
             
             $(".top_menu").toggleClass("always-show");
+              
           });
     });
 </script>
@@ -143,25 +144,33 @@ else if ($(window).width() >= 768) {
     var left_menu_wrapper_width = '21%';
 }
 
+    
+if ($(window).width() >= 768) {  
 $(function() {
 	// Set this variable with the height of your sidebar + header
-	var offsetPixels = $( ".offset-top" ).offset().top - 240;
+	var offsetPixels = $( ".offset-top" ).offset().top - 238;
 
 	$(window).scroll(function() {
 		if ($(window).scrollTop() > offsetPixels) {
 			$( ".left-menu-wrapper" ).css({
 				"position": "fixed",
-				"top": "240px",
+				"top": "238px",
                 "width": left_menu_wrapper_width,
 			},"slow");
 		} else {
+            
 			$( ".left-menu-wrapper" ).css({
-				"position": "static"
+				"position": "static",
+                "width": "auto"
 			});
 		}
 	});
-});    
+}); 
 
+   
+    
+    
+}
 if ($(window).width() >= 992) {      
     $(window).scroll(function() {
    
@@ -179,7 +188,6 @@ if ($(window).width() >= 992) {
     
 }); 
 }
-
 </script>
 <!-- fixed side menu js end  --->
 
