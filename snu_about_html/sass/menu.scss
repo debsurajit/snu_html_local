@@ -1,0 +1,130 @@
+@import 'main_import';
+
+.second-menu {
+  min-height: 66px;
+  background-color: #f5f5f5;
+  clear: both;
+  position: fixed;
+  top: 95px;
+  width: 100%;
+  z-index: 4;
+  
+  /*Main Menu*/
+  .navbar-default {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    background-color: transparent;
+  }
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .navbar-default {
+    
+    .navbar-nav {
+      width: 100%;
+      padding: 0;
+      
+      li {
+        
+        float: left;
+        
+        @media screen and (max-width: $md){
+          float: none;
+          display: block;
+          clear: both;
+        }
+        
+        a {
+          /*width: 200px;*/
+          padding: 23px 40px;
+          font-size: 18px;
+          color:$rightsidebar-navigation-bg;
+          
+          &:focus {
+            background-color: $white-color;
+            border: #e1e1e1 1px solid;
+      border-bottom: 0;
+      -webkit-box-shadow: 0px 8px 18px -2px rgba(246, 246, 246, 1);
+      -moz-box-shadow: 0px 8px 18px -2px rgba(246, 246, 246, 1);
+      box-shadow: 0px 8px 18px -2px rgba(246, 246, 246, 1);
+          }
+        }
+        
+        &:last-child {
+          
+          ul{
+            li{
+              width: 100%;
+              
+              a {
+                color: $light-gray !important;
+              }
+            }
+          }
+        }
+      }
+      .border-left {
+        border-left: $light-gray 1px solid;
+        ul {
+          li {
+            &:first-child {
+              a {
+                font-size: 14px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+    
+  }
+  
+  /*Sub Menu*/
+}
+
+ .mega-dropdown {
+  position: static !important;
+  /*width: 100%;*/
+}
+
+.mega-dropdown-menu {
+  padding: 24px 9px;
+  /*width: 100%;*/
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border-radius: 0;
+  border: #e1e1e1 1px solid;
+  -webkit-box-shadow: 0px 8px 18px -2px rgba(246, 246, 246, 1);
+  -moz-box-shadow: 0px 8px 18px -2px rgba(246, 246, 246, 1);
+  box-shadow: 0px 8px 18px -2px rgba(246, 246, 246, 1);
+  z-index: 4;
+  
+  li {
+    ul {
+      padding: 0;
+      margin: 0;
+      z-index: 4;
+      
+      li {
+        list-style: none;
+        a {
+          display: block;
+          padding:5px 11px !important;
+          clear: both;
+          font-weight: 600;
+          color: $base-blue-color !important;
+          white-space: normal;
+          font-size: $font-size !important;
+        }
+      }
+    }
+  }
+}
+
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+  color: #444;
+}
