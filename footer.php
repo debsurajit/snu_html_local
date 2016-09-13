@@ -10,7 +10,7 @@
   $(document).ready(function () {
     $(document).click(function () {
       $(".search-area").slideUp("slow");
-      
+      $(".top_menu").removeClass("always-show"); 
     });
     $(".search ul li:last-child a").click(function (e) {
       e.stopPropagation();
