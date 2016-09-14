@@ -658,7 +658,7 @@ section.snu-main-navigation .tb-megamenu .nav-collapse ul.nav li.dropdown.open >
 @media screen and (max-width: 992px) {
   /* line 389, ../sass/common.scss */
   .fixed-pad {
-    padding-top: 125px;
+    padding-top: 95px;
   }
 }
 @media screen and (max-width: 480px) {

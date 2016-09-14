@@ -166,70 +166,108 @@
 @media screen and (max-width: 635px) {
   /* line 2, ../sass/menu.scss */
   .second-menu {
-    top: 57px;
     position: relative;
   }
 }
-/* line 15, ../sass/menu.scss */
+@media screen and (max-width: 480px) {
+  /* line 2, ../sass/menu.scss */
+  .second-menu {
+    top: 71px;
+  }
+}
+/* line 19, ../sass/menu.scss */
 .second-menu .navbar-toggle {
   margin-right: 49px;
   margin-top: 10px;
 }
 @media screen and (min-width: 768px) {
-  /* line 15, ../sass/menu.scss */
+  /* line 19, ../sass/menu.scss */
   .second-menu .navbar-toggle {
     display: none;
   }
 }
-/* line 23, ../sass/menu.scss */
+/* line 27, ../sass/menu.scss */
 .second-menu .navbar-default {
   border: none;
   border-radius: 0;
   margin-bottom: 0;
   background-color: transparent;
 }
-/* line 29, ../sass/menu.scss */
+/* line 33, ../sass/menu.scss */
 .second-menu .navbar-collapse {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 34, ../sass/menu.scss */
+/* line 38, ../sass/menu.scss */
 .second-menu .navbar-default .navbar-nav {
   width: 100%;
   padding: 0;
 }
-/* line 37, ../sass/menu.scss */
+/* line 42, ../sass/menu.scss */
 .second-menu .navbar-default .navbar-nav li {
   float: left;
 }
-@media screen and (max-width: 635px) {
-  /* line 37, ../sass/menu.scss */
+@media screen and (max-width: 768px) {
+  /* line 42, ../sass/menu.scss */
   .second-menu .navbar-default .navbar-nav li {
     float: none;
-    display: block;
-    clear: both;
   }
 }
-/* line 44, ../sass/menu.scss */
+/* line 49, ../sass/menu.scss */
 .second-menu .navbar-default .navbar-nav li a {
   /*width: 200px;*/
   padding: 23px 40px;
   font-size: 1.125rem;
   color: #c4c4c4;
 }
+@media screen and (max-width: 1200px) {
+  /* line 49, ../sass/menu.scss */
+  .second-menu .navbar-default .navbar-nav li a {
+    padding: 23px 29px;
+  }
+}
 @media screen and (max-width: 992px) {
-  /* line 44, ../sass/menu.scss */
+  /* line 49, ../sass/menu.scss */
   .second-menu .navbar-default .navbar-nav li a {
     padding: 10px 32px;
   }
 }
+/* line 63, ../sass/menu.scss */
+.second-menu .navbar-default .navbar-nav li a:active {
+  background-color: #ffffff;
+  border: #e1e1e1 1px solid;
+  border-bottom: 0;
+  -webkit-box-shadow: 0px 8px 18px -2px #f6f6f6;
+  -moz-box-shadow: 0px 8px 18px -2px #f6f6f6;
+  box-shadow: 0px 8px 18px -2px #f6f6f6;
+  padding: 22px 39px;
+}
 @media screen and (max-width: 992px) {
-  /* line 44, ../sass/menu.scss */
-  .second-menu .navbar-default .navbar-nav li a {
+  /* line 63, ../sass/menu.scss */
+  .second-menu .navbar-default .navbar-nav li a:active {
+    border: 0;
+    box-shadow: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  /* line 63, ../sass/menu.scss */
+  .second-menu .navbar-default .navbar-nav li a:active {
+    padding: 23px 29px;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 63, ../sass/menu.scss */
+  .second-menu .navbar-default .navbar-nav li a:active {
+    padding: 10px 32px;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 63, ../sass/menu.scss */
+  .second-menu .navbar-default .navbar-nav li a:active {
     padding: 15px 18px;
   }
 }
-/* line 58, ../sass/menu.scss */
+/* line 91, ../sass/menu.scss */
 .second-menu .navbar-default .navbar-nav li a:focus {
   background-color: #ffffff;
   border: #e1e1e1 1px solid;
@@ -237,48 +275,67 @@
   -webkit-box-shadow: 0px 8px 18px -2px #f6f6f6;
   -moz-box-shadow: 0px 8px 18px -2px #f6f6f6;
   box-shadow: 0px 8px 18px -2px #f6f6f6;
+  padding: 22px 39px;
 }
 @media screen and (max-width: 992px) {
-  /* line 58, ../sass/menu.scss */
+  /* line 91, ../sass/menu.scss */
   .second-menu .navbar-default .navbar-nav li a:focus {
     border: 0;
     box-shadow: none;
   }
 }
-/* line 74, ../sass/menu.scss */
+@media screen and (max-width: 1200px) {
+  /* line 91, ../sass/menu.scss */
+  .second-menu .navbar-default .navbar-nav li a:focus {
+    padding: 23px 29px;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 91, ../sass/menu.scss */
+  .second-menu .navbar-default .navbar-nav li a:focus {
+    padding: 10px 32px;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 91, ../sass/menu.scss */
+  .second-menu .navbar-default .navbar-nav li a:focus {
+    padding: 15px 18px;
+  }
+}
+/* line 121, ../sass/menu.scss */
 .second-menu .navbar-default .navbar-nav li:last-child ul li {
   width: 100%;
 }
-/* line 76, ../sass/menu.scss */
+/* line 123, ../sass/menu.scss */
 .second-menu .navbar-default .navbar-nav li:last-child ul li a {
   color: #747474 !important;
 }
-/* line 83, ../sass/menu.scss */
+/* line 130, ../sass/menu.scss */
 .second-menu .navbar-default .navbar-nav .border-left {
   border-left: #747474 1px solid;
 }
 @media screen and (max-width: 992px) {
-  /* line 83, ../sass/menu.scss */
+  /* line 130, ../sass/menu.scss */
   .second-menu .navbar-default .navbar-nav .border-left {
     border: none;
   }
 }
-/* line 93, ../sass/menu.scss */
+/* line 140, ../sass/menu.scss */
 .second-menu .navbar-default .navbar-nav .border-left ul li:first-child a {
   font-size: 14px !important;
 }
-/* line 102, ../sass/menu.scss */
+/* line 149, ../sass/menu.scss */
 .second-menu .navbar-default .navbar-nav .open .dropdown-menu {
   background-color: #ffffff;
 }
 
-/* line 111, ../sass/menu.scss */
+/* line 158, ../sass/menu.scss */
 .mega-dropdown {
   position: static !important;
   /*width: 100%;*/
 }
 
-/* line 116, ../sass/menu.scss */
+/* line 163, ../sass/menu.scss */
 .mega-dropdown-menu {
   padding: 24px 9px;
   /*width: 100%;*/
@@ -292,17 +349,17 @@
   background-color: #ffffff;
   z-index: 4;
 }
-/* line 129, ../sass/menu.scss */
+/* line 178, ../sass/menu.scss */
 .mega-dropdown-menu li ul {
   padding: 0;
   margin: 0;
   z-index: 4;
 }
-/* line 133, ../sass/menu.scss */
+/* line 183, ../sass/menu.scss */
 .mega-dropdown-menu li ul li {
   list-style: none;
 }
-/* line 135, ../sass/menu.scss */
+/* line 186, ../sass/menu.scss */
 .mega-dropdown-menu li ul li a {
   display: block;
   padding: 5px 11px !important;
@@ -312,8 +369,22 @@
   white-space: normal;
   font-size: 1rem !important;
 }
+@media screen and (max-width: 992px) {
+  /* line 186, ../sass/menu.scss */
+  .mega-dropdown-menu li ul li a {
+    padding: 0 !important;
+    font-size: 0.688rem !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 186, ../sass/menu.scss */
+  .mega-dropdown-menu li ul li a {
+    padding: 0 !important;
+    font-size: 1rem !important;
+  }
+}
 
-/* line 149, ../sass/menu.scss */
+/* line 211, ../sass/menu.scss */
 .mega-dropdown-menu > li ul > li > a:hover,
 .mega-dropdown-menu > li ul > li > a:focus {
   text-decoration: none;
