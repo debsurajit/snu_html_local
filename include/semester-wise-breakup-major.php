@@ -3,7 +3,7 @@
             <h3 class="animated fadeIn slowest">Semester-wise breakup</h3>
             <p class="animated fadeIn slowest">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. </p>  
     </div>
-    <div class="col-sm-4 semester-table animatedParent">
+    <div class="col-exe-12 col-xs-6 col-sm-4 semester-table animatedParent">
         <div class="animated fadeIn slowest">
             <div class="semester-table-title">Semister1</div>
             <table>
@@ -35,7 +35,7 @@
         </div>
     </div><!-- semister block end -->
     
-    <div class="col-sm-4 semester-table animatedParent">
+    <div class="col-exe-12 col-xs-6 col-sm-4 semester-table animatedParent">
         <div class="animated fadeIn slowest">
             <div class="semester-table-title">Semister1</div>
             <table>
@@ -67,7 +67,7 @@
         </div>
     </div><!-- semister block end -->
     
-    <div class="col-sm-4 semester-table animatedParent">
+    <div class="col-exe-12 col-xs-6 col-sm-4 semester-table animatedParent">
         <div class="animated fadeIn slowest">
             <div class="semester-table-title">Semister1</div>
             <table>
@@ -99,40 +99,7 @@
         </div>
     </div><!-- semister block end -->
     
-    <div class="col-sm-4 semester-table animatedParent">
-        <div class="animated fadeIn slowest">
-            <div class="semester-table-title">Semister1</div>
-            <table>
-                <tr>
-                    <td>Core Course1</td>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <td>Core Course1</td>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <td>Core Course1</td>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <td>Core Course1</td>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <td>Core Course1</td>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <td>Total Credits</td>
-                    <td>15</td>
-                </tr>
-            </table>
-        </div>
-    </div><!-- semister block end -->
-    
-    
-    <div class="col-sm-4 semester-table animatedParent">
+    <div class="col-exe-12 col-xs-6 col-sm-4 semester-table animatedParent">
         <div class="animated fadeIn slowest">
             <div class="semester-table-title">Semister1</div>
             <table>
@@ -165,7 +132,7 @@
     </div><!-- semister block end -->
     
     
-    <div class="col-sm-4 semester-table animatedParent">
+    <div class="col-exe-12 col-xs-6 col-sm-4 semester-table animatedParent">
         <div class="animated fadeIn slowest">
             <div class="semester-table-title">Semister1</div>
             <table>
@@ -197,7 +164,8 @@
         </div>
     </div><!-- semister block end -->
     
-    <div class="col-sm-4 semester-table animatedParent">
+    
+    <div class="col-exe-12 col-xs-6 col-sm-4 semester-table animatedParent">
         <div class="animated fadeIn slowest">
             <div class="semester-table-title">Semister1</div>
             <table>
@@ -229,7 +197,39 @@
         </div>
     </div><!-- semister block end -->
     
-    <div class="col-sm-4 semester-table animatedParent">
+    <div class="col-exe-12 col-xs-6 col-sm-4 semester-table animatedParent">
+        <div class="animated fadeIn slowest">
+            <div class="semester-table-title">Semister1</div>
+            <table>
+                <tr>
+                    <td>Core Course1</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Core Course1</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Core Course1</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Core Course1</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Core Course1</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Total Credits</td>
+                    <td>15</td>
+                </tr>
+            </table>
+        </div>
+    </div><!-- semister block end -->
+    
+    <div class="col-exe-12 col-xs-6 col-sm-4 semester-table animatedParent">
         <div class="animated fadeIn slowest">
             <div class="semester-table-title">Semister1</div>
             <table>
@@ -267,13 +267,13 @@
             <h3 class="animated fadeIn slowest">Specialisation</h3>
             <p class="animated fadeIn slowest">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. </p>  
     </div>
-    <div class="col-sm-4 semester-table animatedParent">
+    <div class="col-exe-12 col-xs-6 col-sm-4 semester-table animatedParent">
         <div class="animated fadeIn slowest">
             <div class="specialisation-table-title">Communication Engineering</div>
             <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. </div>
         </div>
     </div><!-- semister block end -->
-    <div class="col-sm-4 semester-table animatedParent">
+    <div class="col-exe-12 col-xs-6 col-sm-4 semester-table animatedParent">
         <div class="animated fadeIn slowest">
             <div class="specialisation-table-title">Microelectronics</div>
             <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. </div>
