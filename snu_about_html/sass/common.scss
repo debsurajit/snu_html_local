@@ -110,7 +110,9 @@ h6 {
     margin: 0;
     padding: 0;
 }
-
+img {
+  max-width: 100%;
+}
 #navbar {
     margin: 0 auto;
     border-radius: 0;
@@ -388,7 +390,7 @@ section.snu-main-navigation {
   padding-top: 160px;
   
   @media screen and (max-width: $md){
-    padding-top: 125px;
+    padding-top: 95px;
   }
   @media screen and (max-width: $xs){
     padding-top:54px;
