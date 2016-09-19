@@ -30,8 +30,9 @@
               <p class="crimsone-text animated fadeIn slower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate lorem vitae condimentum pharetra. Vestibulum arcu arcu, sagittis ullamcorper imperdiet et, tempor vitae quam.Sed quis fringilla sapien, ut vehicula elit. In nec justo arcu. ut vehicula elit. </p>
               <p class="animated fadeIn slower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam fringilla eros, eget fermentum massa bibendum sit amet. Sed pulvinar elementum lorem, ut mollis felis laoreet ut. In sollicitudin leo cursus tortor luctus pharetra. Maecenas ornare feugiat magna eget efficitur. Vivamus sit amet ultricies sapien, id laoreet nibh. Aenean facilisis tortor vel justo pharetra vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
               <p class="animated fadeIn slower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam fringilla eros, eget fermentum massa bibendum sit amet. Sed pulvinar elementum lorem, ut mollis felis laoreet ut. In sollicitudin leo cursus tortor luctus pharetra. Maecenas ornare feugiat magna eget efficitur. Vivamus sit amet ultricies sapien, id laoreet nibh. Aenean facilisis tortor vel justo pharetra vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+              
           </div>
- 
+        
         </div>
         <!-- Middle Panel End -->
 
@@ -70,7 +71,7 @@
         <!-- Right Panel End -->
       </div>
         
-        <?php include 'include/semester-wise-breakup.php';?>
+        <?php include 'include/semester-wise-breakup-major.php';?>
 
 </div>
     </div>

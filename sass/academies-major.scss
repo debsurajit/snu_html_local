@@ -1,15 +1,11 @@
 @import 'main_import';
 .semester-table {
     padding-top: 30px;
-    @media screen and (max-width: $xs) {
-        overflow-x: scroll;
-    }
+    
     table {
         width: 100%;
         margin-top: 10px;
-        @media screen and (max-width: $xs) {
-            width: 200px;
-        }
+        
         tr {
             &:last-child {
                 font-family: $font-family-open-sans-bold;
@@ -42,11 +38,13 @@
 .specialisation-table-title {
     font-family: $font-family-open-sans-semibold;
     color: $department-base-color;
-    text-transform: uppercase;
+    text-transform: normal;
     padding-bottom: 10px;
     border-bottom: 2px solid $department-light-gray;
     margin-bottom: 10px;
 }
+
+
 
 
 /* below tab and accordion section  */

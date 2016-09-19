@@ -76,7 +76,7 @@
         <!-- Right Panel End -->
       </div>
         
-        <?php include 'include/semester-wise-breakup.php';?>
+        <?php include 'include/semester-wise-breakup-minor.php';?>
 
 </div>
     </div>

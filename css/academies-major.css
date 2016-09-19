@@ -159,48 +159,36 @@
 .semester-table {
   padding-top: 30px;
 }
-@media screen and (max-width: 480px) {
-  /* line 2, ../sass/academies-major.scss */
-  .semester-table {
-    overflow-x: scroll;
-  }
-}
-/* line 7, ../sass/academies-major.scss */
+/* line 5, ../sass/academies-major.scss */
 .semester-table table {
   width: 100%;
   margin-top: 10px;
 }
-@media screen and (max-width: 480px) {
-  /* line 7, ../sass/academies-major.scss */
-  .semester-table table {
-    width: 200px;
-  }
-}
-/* line 14, ../sass/academies-major.scss */
+/* line 10, ../sass/academies-major.scss */
 .semester-table table tr:last-child {
   font-family: "open_sansbold";
 }
 @media screen and (max-width: 992px) {
-  /* line 14, ../sass/academies-major.scss */
+  /* line 10, ../sass/academies-major.scss */
   .semester-table table tr:last-child {
     font-size: 1rem;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 14, ../sass/academies-major.scss */
+  /* line 10, ../sass/academies-major.scss */
   .semester-table table tr:last-child {
     font-size: 1.188rem;
   }
 }
-/* line 22, ../sass/academies-major.scss */
+/* line 18, ../sass/academies-major.scss */
 .semester-table table tr:last-child td {
   padding-top: 20px;
 }
-/* line 27, ../sass/academies-major.scss */
+/* line 23, ../sass/academies-major.scss */
 .semester-table table tr td:first-child {
   width: 85%;
 }
-/* line 33, ../sass/academies-major.scss */
+/* line 29, ../sass/academies-major.scss */
 .semester-table .semester-table-title {
   font-family: "open_sanssemibold";
   color: #8d5715;
@@ -209,11 +197,11 @@
   border-bottom: 2px solid #c3c3c3;
 }
 
-/* line 42, ../sass/academies-major.scss */
+/* line 38, ../sass/academies-major.scss */
 .specialisation-table-title {
   font-family: "open_sanssemibold";
   color: #8d5715;
-  text-transform: uppercase;
+  text-transform: normal;
   padding-bottom: 10px;
   border-bottom: 2px solid #c3c3c3;
   margin-bottom: 10px;
@@ -221,17 +209,17 @@
 
 /* below tab and accordion section  */
 @media screen and (max-width: 635px) {
-  /* line 54, ../sass/academies-major.scss */
+  /* line 52, ../sass/academies-major.scss */
   .undergraduate-inner-page-tab {
     overflow-x: scroll;
   }
 }
-/* line 60, ../sass/academies-major.scss */
+/* line 58, ../sass/academies-major.scss */
 .undergraduate-inner-page-tab .nav-tabs li a {
   font-family: "open_sanssemibold";
   color: #c3c3c3;
 }
-/* line 66, ../sass/academies-major.scss */
+/* line 64, ../sass/academies-major.scss */
 .undergraduate-inner-page-tab .nav-tabs li.active a {
   font-family: "open_sanssemibold";
   color: #8d5715;
@@ -239,27 +227,27 @@
   border-bottom: 2px solid #8d5715;
   padding: 10px 30px;
 }
-/* line 75, ../sass/academies-major.scss */
+/* line 73, ../sass/academies-major.scss */
 .undergraduate-inner-page-tab .undergraduate-inner-page-accordion {
   padding-top: 50px;
 }
 @media screen and (max-width: 480px) {
-  /* line 75, ../sass/academies-major.scss */
+  /* line 73, ../sass/academies-major.scss */
   .undergraduate-inner-page-tab .undergraduate-inner-page-accordion {
     width: 480px;
   }
 }
-/* line 80, ../sass/academies-major.scss */
+/* line 78, ../sass/academies-major.scss */
 .undergraduate-inner-page-tab .undergraduate-inner-page-accordion .panel-default {
   border: none;
   box-shadow: none;
 }
-/* line 83, ../sass/academies-major.scss */
+/* line 81, ../sass/academies-major.scss */
 .undergraduate-inner-page-tab .undergraduate-inner-page-accordion .panel-default .panel-heading {
   padding: 0;
   background: #f8f8f8;
 }
-/* line 87, ../sass/academies-major.scss */
+/* line 85, ../sass/academies-major.scss */
 .undergraduate-inner-page-tab .undergraduate-inner-page-accordion .panel-default .panel-heading .panel-title a {
   display: block;
   padding: 10px 20px;
@@ -268,12 +256,12 @@
   color: #656565;
 }
 @media screen and (max-width: 767px) {
-  /* line 87, ../sass/academies-major.scss */
+  /* line 85, ../sass/academies-major.scss */
   .undergraduate-inner-page-tab .undergraduate-inner-page-accordion .panel-default .panel-heading .panel-title a {
     font-size: 1.063rem;
   }
 }
-/* line 97, ../sass/academies-major.scss */
+/* line 95, ../sass/academies-major.scss */
 .undergraduate-inner-page-tab .undergraduate-inner-page-accordion .panel-default .panel-heading .panel-title a span {
   color: #000000;
   font-family: "open_sansregular";
@@ -281,13 +269,13 @@
   font-size: 0.875rem;
 }
 @media screen and (max-width: 767px) {
-  /* line 97, ../sass/academies-major.scss */
+  /* line 95, ../sass/academies-major.scss */
   .undergraduate-inner-page-tab .undergraduate-inner-page-accordion .panel-default .panel-heading .panel-title a span {
     font-size: 1.063rem;
     padding-left: 20px;
   }
 }
-/* line 106, ../sass/academies-major.scss */
+/* line 104, ../sass/academies-major.scss */
 .undergraduate-inner-page-tab .undergraduate-inner-page-accordion .panel-default .panel-heading .panel-title a span:nth-child(3) {
   font-family: "open_sanssemibold";
   float: right;
@@ -297,37 +285,37 @@
   font-size: 0.75rem;
 }
 @media screen and (max-width: 767px) {
-  /* line 106, ../sass/academies-major.scss */
+  /* line 104, ../sass/academies-major.scss */
   .undergraduate-inner-page-tab .undergraduate-inner-page-accordion .panel-default .panel-heading .panel-title a span:nth-child(3) {
     font-size: 1.063rem;
     margin-right: 30px;
   }
 }
-/* line 119, ../sass/academies-major.scss */
+/* line 117, ../sass/academies-major.scss */
 .undergraduate-inner-page-tab .undergraduate-inner-page-accordion .panel-default .panel-heading .panel-title a i {
   float: right;
   font-size: 1.375em;
 }
 @media screen and (max-width: 767px) {
-  /* line 119, ../sass/academies-major.scss */
+  /* line 117, ../sass/academies-major.scss */
   .undergraduate-inner-page-tab .undergraduate-inner-page-accordion .panel-default .panel-heading .panel-title a i {
     font-size: 1.375em;
   }
 }
-/* line 126, ../sass/academies-major.scss */
+/* line 124, ../sass/academies-major.scss */
 .undergraduate-inner-page-tab .undergraduate-inner-page-accordion .panel-default .panel-heading .panel-title a:hover, .undergraduate-inner-page-tab .undergraduate-inner-page-accordion .panel-default .panel-heading .panel-title a:focus {
   text-decoration: none;
 }
-/* line 135, ../sass/academies-major.scss */
+/* line 133, ../sass/academies-major.scss */
 .undergraduate-inner-page-tab .undergraduate-inner-page-accordion .panel-body .details {
   padding-bottom: 20px;
 }
-/* line 137, ../sass/academies-major.scss */
+/* line 135, ../sass/academies-major.scss */
 .undergraduate-inner-page-tab .undergraduate-inner-page-accordion .panel-body .details a {
   color: #8d5715;
   text-decoration: underline;
 }
-/* line 143, ../sass/academies-major.scss */
+/* line 141, ../sass/academies-major.scss */
 .undergraduate-inner-page-tab .undergraduate-inner-page-accordion .panel-body p a {
   color: #8d5715;
   text-decoration: underline;
@@ -335,7 +323,7 @@
 }
 
 /*  major-page-right-section*/
-/* line 157, ../sass/academies-major.scss */
+/* line 155, ../sass/academies-major.scss */
 .major-page-right-section .gray-widgets, .major-page-right-section .left-gray-widgets {
   background: #f0f0f0;
   padding: 20px;
@@ -346,12 +334,12 @@
   font-size: 1rem;
 }
 @media screen and (min-width: 767px) {
-  /* line 157, ../sass/academies-major.scss */
+  /* line 155, ../sass/academies-major.scss */
   .major-page-right-section .gray-widgets, .major-page-right-section .left-gray-widgets {
     font-size: 0.75rem;
   }
 }
-/* line 306, ../sass/_mixins.scss */
+/* line 308, ../sass/_mixins.scss */
 .major-page-right-section .gray-widgets:before, .major-page-right-section .left-gray-widgets:before {
   content: '';
   width: 60%;
@@ -361,7 +349,7 @@
   top: 0;
   left: 0;
 }
-/* line 315, ../sass/_mixins.scss */
+/* line 317, ../sass/_mixins.scss */
 .major-page-right-section .gray-widgets .widgets-title, .major-page-right-section .left-gray-widgets .widgets-title {
   color: #8d5715;
   font-size: 1.5rem;
@@ -369,23 +357,23 @@
   padding-bottom: 5px;
 }
 @media screen and (min-width: 767px) {
-  /* line 315, ../sass/_mixins.scss */
+  /* line 317, ../sass/_mixins.scss */
   .major-page-right-section .gray-widgets .widgets-title, .major-page-right-section .left-gray-widgets .widgets-title {
     font-size: 1.188rem;
   }
 }
-/* line 160, ../sass/academies-major.scss */
+/* line 158, ../sass/academies-major.scss */
 .major-page-right-section p {
   font-size: 0.75rem;
   color: #c3c3c3;
 }
 @media screen and (max-width: 767px) {
-  /* line 160, ../sass/academies-major.scss */
+  /* line 158, ../sass/academies-major.scss */
   .major-page-right-section p {
     font-size: 1.125rem;
   }
 }
-/* line 168, ../sass/academies-major.scss */
+/* line 166, ../sass/academies-major.scss */
 .major-page-right-section .left-gray-widgets {
   font-family: "open_sansregular";
 }
