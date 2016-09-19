@@ -1,4 +1,5 @@
 <div class="row">
+          
     <div class="col-sm-12 animatedParent">
         <h3 class="animated fadeIn slower">Course Requirment</h3>
 

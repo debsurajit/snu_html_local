@@ -855,8 +855,7 @@ a.undergraduate-gray-button {
             font-size: $font-size;
         }
 }
-
-
+        
 /* inner page to fix bg color */
 
 .top-fix-color-bg-wrapper{
@@ -921,5 +920,18 @@ a.undergraduate-gray-button {
     display: block !important;
     height: auto !important;
 }
+
+
+
+/*Left Panel*/
+
+.left-menu {
+    @include left-menu-structure;
+}
+
+.breadcrumb {
+    @include breadcrumb;
+}
+
 
 

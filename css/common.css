@@ -1303,12 +1303,12 @@ a.undergraduate-gray-button span {
 }
 
 /* inner page to fix bg color */
-/* line 862, ../sass/common.scss */
+/* line 861, ../sass/common.scss */
 .top-fix-color-bg-wrapper {
   position: relative;
 }
 
-/* line 867, ../sass/common.scss */
+/* line 866, ../sass/common.scss */
 .top-fix-color-bg {
   background: #eee5dc;
   width: 350px;
@@ -1319,7 +1319,7 @@ a.undergraduate-gray-button span {
   z-index: -1;
 }
 
-/* line 877, ../sass/common.scss */
+/* line 876, ../sass/common.scss */
 .top-fix-color-bg-right {
   background: #eee5dc;
   width: 350px;
@@ -1331,7 +1331,7 @@ a.undergraduate-gray-button span {
 }
 
 /* fixed faq button */
-/* line 890, ../sass/common.scss */
+/* line 889, ../sass/common.scss */
 .button-faq, .button-apply {
   background: none;
   border: 2px solid #8d5715;
@@ -1349,26 +1349,127 @@ a.undergraduate-gray-button span {
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
 }
-/* line 905, ../sass/common.scss */
+/* line 904, ../sass/common.scss */
 .button-faq:hover, .button-apply:hover {
   background: #8d5715;
   color: #ffffff;
 }
 
-/* line 911, ../sass/common.scss */
+/* line 910, ../sass/common.scss */
 .button-apply {
   top: 600px;
 }
 
-/* line 916, ../sass/common.scss */
+/* line 915, ../sass/common.scss */
 .bghide {
   overflow-y: hidden;
 }
 
-/* line 920, ../sass/common.scss */
+/* line 919, ../sass/common.scss */
 .always-show {
   display: block !important;
   height: auto !important;
+}
+
+/*Left Panel*/
+/* line 928, ../sass/common.scss */
+.left-menu {
+  background: #ffffff;
+  box-shadow: 12px 1px 50px 8px rgba(0, 0, 0, 0.05);
+}
+/* line 59, ../sass/_mixins.scss */
+.left-menu ul {
+  list-style: none;
+}
+/* line 61, ../sass/_mixins.scss */
+.left-menu ul li {
+  list-style: none;
+}
+/* line 63, ../sass/_mixins.scss */
+.left-menu ul li:last-child {
+  border: none;
+}
+/* line 66, ../sass/_mixins.scss */
+.left-menu ul li a {
+  color: #000000;
+  padding: 20px 0;
+  display: block;
+  border-bottom: #f0f0f0 1px solid;
+  font-family: "crimson_textroman";
+  font-size: 1rem;
+  margin-left: 20px;
+}
+@media screen and (max-width: 767px) {
+  /* line 66, ../sass/_mixins.scss */
+  .left-menu ul li a {
+    font-size: 1.125rem;
+  }
+}
+/* line 77, ../sass/_mixins.scss */
+.left-menu ul li a:hover {
+  color: #8d5715;
+  cursor: pointer;
+  font-family: "crimson_textbold";
+}
+/* line 81, ../sass/_mixins.scss */
+.left-menu ul li a:hover:after {
+  font-family: FontAwesome;
+  content: "\f105";
+  display: inline-block;
+  padding-left: 20px;
+  line-height: 12px;
+}
+/* line 90, ../sass/_mixins.scss */
+.left-menu ul li .active {
+  color: #8d5715;
+  cursor: pointer;
+  font-family: "crimson_textbold";
+}
+/* line 94, ../sass/_mixins.scss */
+.left-menu ul li .active:after {
+  font-family: FontAwesome;
+  content: "\f105";
+  display: inline-block;
+  padding-left: 20px;
+  line-height: 12px;
+}
+/* line 102, ../sass/_mixins.scss */
+.left-menu ul li ul {
+  width: 100%;
+  padding-left: 17px;
+  background: #f8f8f8;
+}
+/* line 107, ../sass/_mixins.scss */
+.left-menu ul li ul li a {
+  border-bottom: #ffffff 2px solid;
+}
+/* line 111, ../sass/_mixins.scss */
+.left-menu ul li ul li:last-child a {
+  border-bottom: none;
+}
+
+/* line 932, ../sass/common.scss */
+.breadcrumb {
+  background: none;
+  margin-top: 10px;
+  font-size: 0.75rem;
+  padding: 0;
+}
+/* line 127, ../sass/_mixins.scss */
+.breadcrumb span {
+  color: #8d5715;
+}
+@media screen and (max-width: 992px) {
+  /* line 932, ../sass/common.scss */
+  .breadcrumb {
+    font-size: 0.875rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 932, ../sass/common.scss */
+  .breadcrumb {
+    font-size: 1.063rem;
+  }
 }
 
 /*# sourceMappingURL=common.css.map */

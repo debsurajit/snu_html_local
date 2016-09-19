@@ -42,11 +42,13 @@
 .specialisation-table-title {
     font-family: $font-family-open-sans-semibold;
     color: $department-base-color;
-    text-transform: uppercase;
+    text-transform: normal;
     padding-bottom: 10px;
     border-bottom: 2px solid $department-light-gray;
     margin-bottom: 10px;
 }
+
+
 
 
 /* below tab and accordion section  */
