@@ -94,14 +94,20 @@ img {
 }
 
 .groups {
-    background: url("../images/group-img.jpg") no-repeat top center;
-    min-height: 253px;
+    background: url("../images/3.jpg") no-repeat top center;
+    height: 200px;
     padding-top: 65px;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: scroll;
   
   @media screen and (max-width: $sm){
     background-size: cover;
+    width: 100%;
+    height: auto;
+    background-attachment: inherit;
   }
   
   p {
@@ -123,5 +129,17 @@ img {
     
   }
   
+  .marginblock {
+    margin-bottom: 35px;
+    margin-top:180px ;
+  }
+  
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  ::-moz-scrollbar {
+    display: none;
   }
 }
