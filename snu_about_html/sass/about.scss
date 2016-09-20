@@ -96,12 +96,11 @@ img {
 .groups {
     background: url("../images/3.jpg") no-repeat top center;
     height: 200px;
-    padding-top: 65px;
+    padding-top: 30px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 500px;
     background-size: cover;
     background-attachment: fixed;
-    overflow-y: scroll;
   
   @media screen and (max-width: $sm){
     background-size: cover;
@@ -128,18 +127,8 @@ img {
     }
     
   }
-  
-  .marginblock {
-    margin-bottom: 35px;
-    margin-top:180px ;
-  }
+
   
   }
   
-  ::-webkit-scrollbar {
-    display: none;
-  }
-  ::-moz-scrollbar {
-    display: none;
-  }
 }
