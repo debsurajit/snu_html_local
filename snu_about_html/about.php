@@ -51,7 +51,7 @@
   <!-- Group of invitives Sart -->
   <div class="container-fluid founder-page">
     <div class="groups row animatedParent">
-    <div class="container animated bounceInUp slower">      
+    <div class="container animated bounceInUp slower marginblock">      
         <p>Group of invitives transforming the <br/>way how the world perfoms</p>
         <div class="col-sm-3 col-xs-6"><img src="images/hcl-logo.jpg" alt="" ></div>
         <div class="col-sm-3 col-xs-6"><img src="images/snf-logo.jpg" alt="" ></div>
