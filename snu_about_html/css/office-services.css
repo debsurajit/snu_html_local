@@ -1,0 +1,335 @@
+@font-face {
+  font-family: 'source_sans_prolight';
+  src: url("../fonts/source-sans-pro/sourcesanspro-light-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_proregular';
+  src: url("../fonts/source-sans-pro/sourcesanspro-regular-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_problack';
+  src: url("../fonts/source-sans-pro/sourcesanspro-black-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_probold';
+  src: url("../fonts/source-sans-pro/sourcesanspro-bold-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_prosemibold';
+  src: url("../fonts/source-sans-pro/sourcesanspro-semibold-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*@font-face {
+    font-family: 'gotham_bookregular';
+    src: url('../fonts/gotham/gotham-book-webfont.woff2') format('woff2'),
+         url('../fonts/gotham/gotham-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}*/
+@font-face {
+  font-family: 'gotham_mediumregular';
+  src: url("../fonts/gotham/gotham-medium1-webfont.woff2") format("woff2"), url("../fonts/gotham/gotham-medium1-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gotham_boldregular';
+  src: url("../fonts/gotham/gotham-bold1-webfont.woff2") format("woff2"), url("../fonts/gotham/gotham-bold1-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gotham_lightregular';
+  src: url("../fonts/gotham/gotham-light1-webfont.woff2") format("woff2"), url("../fonts/gotham/gotham-light1-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gothambookregular';
+  src: url("../fonts/gotham/gothambook_regular-webfont.woff2") format("woff2"), url("../fonts/gotham/gothambook_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'loraregular';
+  src: url("../fonts/lora/lora-regular-webfont.woff2") format("woff2"), url("../fonts/lora/lora-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'timesbold';
+  src: url("../fonts/times-bold-webfont.woff2") format("woff2"), url("times-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'timesbold_italic';
+  src: url("../fonts/times-bolditalic-webfont.woff2") format("woff2"), url("times-bolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'timesitalic';
+  src: url("../fonts/times-italic-webfont.woff2") format("woff2"), url("times-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'timesregular';
+  src: url("../fonts/times-roman-webfont.woff2") format("woff2"), url("times-roman-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*Font for Department*/
+@font-face {
+  font-family: 'crimson_textbold';
+  src: url("../fonts/crimson-bold/crimsontext-bold-webfont.woff2") format("woff2"), url("../fonts/crimson-bold/crimsontext-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'crimson_textitalic';
+  src: url("../fonts/crimson-italic/crimsontext-italic-webfont.woff2") format("woff2"), url("../fonts/crimson-italic/crimsontext-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'crimson_textroman';
+  src: url("../fonts/crimson-regular/crimsontext-regular-webfont.woff2") format("woff2"), url("../fonts/crimson-regular/crimsontext-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sansbold';
+  src: url("../fonts/open_sans/opensans-bold-webfont.woff2") format("woff2"), url("../fonts/open_sans/opensans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sanslight';
+  src: url("../fonts/open_sans/opensans-light-webfont.woff2") format("woff2"), url("../fonts/open_sans/opensans-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("../fonts/open_sans/opensans-regular-webfont.woff2") format("woff2"), url("../fonts/open_sans/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url("../fonts/open_sans/opensans-semibold-webfont.woff2") format("woff2"), url("../fonts/open_sans/opensans-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*Fonts for Department*/
+/*16px*/
+/*17px*/
+/*18px*/
+/*19px*/
+/*20px*/
+/*22px*/
+/*15px*/
+/*14px*/
+/*12px*/
+/*11px*/
+/*10px*/
+/*36px*/
+/*32px*/
+/*26px*/
+/*24px*/
+/*22px*/
+/*20px*/
+/*17px*/
+/* Department section  */
+/* line 5, ../sass/office-services.scss */
+.officeandservices-page .office-block {
+  border: 1px solid #c1c1c1;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #8e8e8e;
+  cursor: pointer;
+  font-family: "crimson_textroman";
+  font-size: 1rem;
+  line-height: 24px;
+}
+@media screen and (max-width: 768px) {
+  /* line 5, ../sass/office-services.scss */
+  .officeandservices-page .office-block {
+    font-size: 1.063rem;
+  }
+}
+/* line 20, ../sass/office-services.scss */
+.officeandservices-page .office-block.active {
+  border: none;
+  color: #1C79CA;
+  box-shadow: 0 0 20px 5px #f5f5f5;
+}
+/* line 26, ../sass/office-services.scss */
+.officeandservices-page .office-services-details {
+  float: left;
+  width: 100%;
+  color: #ffffff;
+  margin-bottom: 25px;
+  display: table;
+}
+@media screen and (max-width: 768px) {
+  /* line 26, ../sass/office-services.scss */
+  .officeandservices-page .office-services-details {
+    display: block;
+  }
+}
+/* line 35, ../sass/office-services.scss */
+.officeandservices-page .office-services-details h4 {
+  text-transform: uppercase;
+  font-family: "open_sansbold";
+  margin: 25px 0;
+  font-size: 1rem;
+}
+@media screen and (min-width: 768px) {
+  /* line 35, ../sass/office-services.scss */
+  .officeandservices-page .office-services-details h4 {
+    font-size: 0.875rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 35, ../sass/office-services.scss */
+  .officeandservices-page .office-services-details h4 {
+    font-size: 0.75rem;
+  }
+}
+/* line 48, ../sass/office-services.scss */
+.officeandservices-page .office-services-details p {
+  font-size: 1rem;
+}
+@media screen and (min-width: 768px) {
+  /* line 48, ../sass/office-services.scss */
+  .officeandservices-page .office-services-details p {
+    font-size: 0.875rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 48, ../sass/office-services.scss */
+  .officeandservices-page .office-services-details p {
+    font-size: 0.75rem;
+  }
+}
+/* line 57, ../sass/office-services.scss */
+.officeandservices-page .office-services-details .blue-section {
+  background: #005197;
+  padding: 10px 35px 0;
+  display: table-cell;
+  height: 100%;
+  float: inherit;
+}
+@media screen and (max-width: 768px) {
+  /* line 57, ../sass/office-services.scss */
+  .officeandservices-page .office-services-details .blue-section {
+    display: block;
+    float: left;
+  }
+}
+/* line 67, ../sass/office-services.scss */
+.officeandservices-page .office-services-details .blue-section .row {
+  margin: 0 -35px;
+}
+/* line 70, ../sass/office-services.scss */
+.officeandservices-page .office-services-details .blue-section .dark-area {
+  background: #003664;
+  padding: 15px 35px 30px;
+  margin-top: 20px;
+}
+/* line 74, ../sass/office-services.scss */
+.officeandservices-page .office-services-details .blue-section .dark-area table {
+  width: 100%;
+}
+/* line 76, ../sass/office-services.scss */
+.officeandservices-page .office-services-details .blue-section .dark-area table td {
+  width: 50%;
+}
+/* line 83, ../sass/office-services.scss */
+.officeandservices-page .office-services-details .white-section {
+  box-shadow: 0 0 30px 10px #f5f5f5;
+  display: table-cell;
+  height: 100%;
+  float: inherit;
+  padding: 10px 35px 0;
+  color: #000000;
+  font-family: "open_sanssemibold";
+}
+@media screen and (max-width: 768px) {
+  /* line 83, ../sass/office-services.scss */
+  .officeandservices-page .office-services-details .white-section {
+    display: block;
+    float: left;
+  }
+}
+/* line 95, ../sass/office-services.scss */
+.officeandservices-page .office-services-details .white-section h4 {
+  color: #d5d5d5;
+}
+/* line 98, ../sass/office-services.scss */
+.officeandservices-page .office-services-details .white-section table {
+  width: 100%;
+  font-size: 0.75rem;
+}
+/* line 101, ../sass/office-services.scss */
+.officeandservices-page .office-services-details .white-section table td {
+  width: 50%;
+  line-height: 24px;
+}
+/* line 104, ../sass/office-services.scss */
+.officeandservices-page .office-services-details .white-section table td span {
+  font-family: "crimson_textroman";
+  font-size: 1rem;
+  color: #1C79CA;
+}
+/* line 115, ../sass/office-services.scss */
+.officeandservices-page .office-services-details .white-section .team-table tr:first-child td {
+  padding-top: 0;
+}
+/* line 121, ../sass/office-services.scss */
+.officeandservices-page .office-services-details .white-section .team-table tr:last-child td {
+  border: none;
+}
+/* line 125, ../sass/office-services.scss */
+.officeandservices-page .office-services-details .white-section .team-table tr td {
+  border-bottom: 1px solid #c1c1c1;
+  padding: 15px 0;
+}
+@media screen and (min-width: 992px) {
+  /* line 139, ../sass/office-services.scss */
+  .officeandservices-page .edit-class .col-md-3 {
+    width: 24%;
+    display: inline-block;
+    float: inherit;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 146, ../sass/office-services.scss */
+  .officeandservices-page .edit-class .col-xs-6 {
+    width: 49%;
+    display: inline-block;
+    float: inherit;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 154, ../sass/office-services.scss */
+  .officeandservices-page .edit-class .col-exe-12 {
+    width: 100%;
+    float: left;
+  }
+}
+
+/*# sourceMappingURL=office-services.css.map */
