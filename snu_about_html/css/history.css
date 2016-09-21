@@ -162,48 +162,56 @@
   background: -ms-linear-gradient(left, #005197 0%, #005197 39%, white 39%, white 100%);
   background: linear-gradient(to right, #005197 0%, #005197 39%, white 39%, white 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005197', endColorstr='#ffffff', GradientType=1 );
-}
-/* line 15, ../sass/history.scss */
-.history-page h1 {
-  color: #ffffff;
+  position: relative;
 }
 /* line 19, ../sass/history.scss */
-.history-page .breadcrumb {
-  color: #ffffff;
+.history-page .top-content {
+  position: absolute;
+  left: 75px;
+  top: 170px;
+  z-index: 3;
 }
 /* line 25, ../sass/history.scss */
-.history-page .slide .img-block {
+.history-page .top-content h1 {
+  color: #ffffff;
+}
+/* line 29, ../sass/history.scss */
+.history-page .top-content .breadcrumb {
+  color: #ffffff;
+}
+/* line 35, ../sass/history.scss */
+.history-page .top-content .slide .img-block {
   margin-right: 28px;
   color: #ffffff;
   font-size: 2.25rem;
 }
-/* line 31, ../sass/history.scss */
-.history-page .slide .img-block span {
+/* line 41, ../sass/history.scss */
+.history-page .top-content .slide .img-block span {
   text-align: right;
   display: block;
   margin: 0 40px 20px 0;
   font-family: "crimson_textroman";
 }
-/* line 38, ../sass/history.scss */
-.history-page .slide .img-block img {
+/* line 48, ../sass/history.scss */
+.history-page .top-content .slide .img-block img {
   -webkit-box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
   -moz-box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
   box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
 }
-/* line 45, ../sass/history.scss */
-.history-page .slide .slide-content {
+/* line 55, ../sass/history.scss */
+.history-page .top-content .slide .slide-content {
   position: relative;
   height: 400px;
   font-size: 0.75rem;
 }
-/* line 50, ../sass/history.scss */
-.history-page .slide .slide-content div {
+/* line 60, ../sass/history.scss */
+.history-page .top-content .slide .slide-content div {
   position: absolute;
   bottom: 0;
   left: 0;
 }
-/* line 55, ../sass/history.scss */
-.history-page .slide .slide-content div h2 {
+/* line 65, ../sass/history.scss */
+.history-page .top-content .slide .slide-content div h2 {
   color: #0058A6;
   font-family: "crimson_textroman";
   font-size: 2rem;
