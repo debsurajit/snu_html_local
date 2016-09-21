@@ -9,11 +9,13 @@
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="../css/animations.css">
   <link rel="stylesheet" href="css/vision.css">
-    <link rel="stylesheet" href="css/chancellor.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/statutory-bodies.css">
+  <link rel="stylesheet" href="css/chancellor.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/statutory-bodies.css">
   <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/office-services.css">
+  <link rel="stylesheet" href="css/history.css">
+  <link rel="stylesheet" href="css/office-services.css">
+
   
  
 </head>

@@ -1,0 +1,65 @@
+@import 'main_import';
+
+.history-page {
+  .content-wrapper {
+      background: rgba(0,81,151,1);
+      background: -moz-linear-gradient(left, rgba(0,81,151,1) 0%, rgba(0,81,151,1) 39%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,81,151,1)), color-stop(39%, rgba(0,81,151,1)), color-stop(39%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+      background: -webkit-linear-gradient(left, rgba(0,81,151,1) 0%, rgba(0,81,151,1) 39%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 100%);
+      background: -o-linear-gradient(left, rgba(0,81,151,1) 0%, rgba(0,81,151,1) 39%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 100%);
+      background: -ms-linear-gradient(left, rgba(0,81,151,1) 0%, rgba(0,81,151,1) 39%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 100%);
+      background: linear-gradient(to right, rgba(0,81,151,1) 0%, rgba(0,81,151,1) 39%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005197', endColorstr='#ffffff', GradientType=1 );
+  }
+  
+  h1 {
+    color: $white-color;
+  }
+  
+  .breadcrumb {
+    color: $white-color;
+  }
+  
+  .slide {
+    
+    .img-block {
+      margin-right: 28px;
+      
+      color: $white-color;
+      font-size:$font-lg;
+      
+      span {
+        text-align: right;
+        display: block;
+        margin: 0 40px 20px 0;
+        font-family: $font-family-crimson-roman;
+      }
+      
+      img {
+        -webkit-box-shadow: 0px 1px 10px 4px rgba(0,0,0,0.24);
+        -moz-box-shadow:    0px 1px 10px 4px rgba(0,0,0,0.24);
+        box-shadow:         0px 1px 10px 4px rgba(0,0,0,0.24);
+      }
+    }
+    
+    .slide-content {
+      position: relative;
+      height: 400px;
+      font-size: $font-size-s;
+      
+      div {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        
+        h2 {
+          color: $button-color-2;
+          font-family: $font-family-crimson-roman;
+          font-size: $font-h1;
+        }
+      }
+      
+    }
+    
+  }
+}
