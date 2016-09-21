@@ -1,0 +1,186 @@
+@font-face {
+  font-family: 'source_sans_prolight';
+  src: url("../fonts/source-sans-pro/sourcesanspro-light-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_proregular';
+  src: url("../fonts/source-sans-pro/sourcesanspro-regular-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_problack';
+  src: url("../fonts/source-sans-pro/sourcesanspro-black-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_probold';
+  src: url("../fonts/source-sans-pro/sourcesanspro-bold-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_prosemibold';
+  src: url("../fonts/source-sans-pro/sourcesanspro-semibold-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*@font-face {
+    font-family: 'gotham_bookregular';
+    src: url('../fonts/gotham/gotham-book-webfont.woff2') format('woff2'),
+         url('../fonts/gotham/gotham-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}*/
+@font-face {
+  font-family: 'gotham_mediumregular';
+  src: url("../fonts/gotham/gotham-medium1-webfont.woff2") format("woff2"), url("../fonts/gotham/gotham-medium1-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gotham_boldregular';
+  src: url("../fonts/gotham/gotham-bold1-webfont.woff2") format("woff2"), url("../fonts/gotham/gotham-bold1-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gotham_lightregular';
+  src: url("../fonts/gotham/gotham-light1-webfont.woff2") format("woff2"), url("../fonts/gotham/gotham-light1-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gothambookregular';
+  src: url("../fonts/gotham/gothambook_regular-webfont.woff2") format("woff2"), url("../fonts/gotham/gothambook_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'loraregular';
+  src: url("../fonts/lora/lora-regular-webfont.woff2") format("woff2"), url("../fonts/lora/lora-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'timesbold';
+  src: url("../fonts/times-bold-webfont.woff2") format("woff2"), url("times-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'timesbold_italic';
+  src: url("../fonts/times-bolditalic-webfont.woff2") format("woff2"), url("times-bolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'timesitalic';
+  src: url("../fonts/times-italic-webfont.woff2") format("woff2"), url("times-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'timesregular';
+  src: url("../fonts/times-roman-webfont.woff2") format("woff2"), url("times-roman-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*Font for Department*/
+@font-face {
+  font-family: 'crimson_textbold';
+  src: url("../fonts/crimson-bold/crimsontext-bold-webfont.woff2") format("woff2"), url("../fonts/crimson-bold/crimsontext-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'crimson_textitalic';
+  src: url("../fonts/crimson-italic/crimsontext-italic-webfont.woff2") format("woff2"), url("../fonts/crimson-italic/crimsontext-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'crimson_textroman';
+  src: url("../fonts/crimson-regular/crimsontext-regular-webfont.woff2") format("woff2"), url("../fonts/crimson-regular/crimsontext-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sansbold';
+  src: url("../fonts/open_sans/opensans-bold-webfont.woff2") format("woff2"), url("../fonts/open_sans/opensans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sanslight';
+  src: url("../fonts/open_sans/opensans-light-webfont.woff2") format("woff2"), url("../fonts/open_sans/opensans-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("../fonts/open_sans/opensans-regular-webfont.woff2") format("woff2"), url("../fonts/open_sans/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url("../fonts/open_sans/opensans-semibold-webfont.woff2") format("woff2"), url("../fonts/open_sans/opensans-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*Fonts for Department*/
+/*16px*/
+/*17px*/
+/*18px*/
+/*19px*/
+/*20px*/
+/*22px*/
+/*15px*/
+/*14px*/
+/*12px*/
+/*11px*/
+/*10px*/
+/*36px*/
+/*32px*/
+/*26px*/
+/*24px*/
+/*22px*/
+/*20px*/
+/*17px*/
+/* Department section  */
+/* line 4, ../sass/history.scss */
+.history-page .content-wrapper {
+  background: #005197;
+  background: -moz-linear-gradient(left, #005197 0%, #005197 39%, white 39%, white 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #005197), color-stop(39%, #005197), color-stop(39%, white), color-stop(100%, white));
+  background: -webkit-linear-gradient(left, #005197 0%, #005197 39%, white 39%, white 100%);
+  background: -o-linear-gradient(left, #005197 0%, #005197 39%, white 39%, white 100%);
+  background: -ms-linear-gradient(left, #005197 0%, #005197 39%, white 39%, white 100%);
+  background: linear-gradient(to right, #005197 0%, #005197 39%, white 39%, white 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005197', endColorstr='#ffffff', GradientType=1 );
+}
+/* line 15, ../sass/history.scss */
+.history-page h1 {
+  color: #ffffff;
+}
+/* line 19, ../sass/history.scss */
+.history-page .breadcrumb {
+  color: #ffffff;
+}
+/* line 25, ../sass/history.scss */
+.history-page .slide .img-block {
+  float: left;
+  margin-right: 28px;
+  width: 440px;
+  color: #ffffff;
+  font-size: img;
+  font-size--webkit-box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
+  font-size--moz-box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
+  font-size-box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
+}
+
+/*# sourceMappingURL=history.css.map */

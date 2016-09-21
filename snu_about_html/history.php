@@ -12,10 +12,16 @@
        
         <h1 class="animated bounceInUp slowest">History</h1>
         
-        2016 
+        <div class="slide">
+        <div class="img-block">2016 
         <img src="images/history-img.jpg" alt="">
+        </div>
+          
+        <div class="slide-content">
         <h2>SNU Website Redesigned by Greatest Minds on Planet</h2>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        </div>
     </div>
     
     
