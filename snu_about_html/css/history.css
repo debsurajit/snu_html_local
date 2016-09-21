@@ -173,14 +173,40 @@
 }
 /* line 25, ../sass/history.scss */
 .history-page .slide .img-block {
-  float: left;
   margin-right: 28px;
-  width: 440px;
   color: #ffffff;
-  font-size: img;
-  font-size--webkit-box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
-  font-size--moz-box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
-  font-size-box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
+  font-size: 2.25rem;
+}
+/* line 31, ../sass/history.scss */
+.history-page .slide .img-block span {
+  text-align: right;
+  display: block;
+  margin: 0 40px 20px 0;
+  font-family: "crimson_textroman";
+}
+/* line 38, ../sass/history.scss */
+.history-page .slide .img-block img {
+  -webkit-box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
+}
+/* line 45, ../sass/history.scss */
+.history-page .slide .slide-content {
+  position: relative;
+  height: 400px;
+  font-size: 0.75rem;
+}
+/* line 50, ../sass/history.scss */
+.history-page .slide .slide-content div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/* line 55, ../sass/history.scss */
+.history-page .slide .slide-content div h2 {
+  color: #0058A6;
+  font-family: "crimson_textroman";
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=history.css.map */
