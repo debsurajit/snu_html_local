@@ -1,0 +1,161 @@
+@import 'main_import';
+
+.officeandservices-page{
+    
+    .office-block{
+        border: 1px solid lighten($light-gray, 30%);
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 30px;
+        color: lighten($light-gray, 10%);
+        cursor: pointer;
+        font-family: $font-family-crimson-roman;
+        font-size: $font-size;
+        line-height: 24px;
+        @media screen and (max-width:$sm){
+              font-size: $font-size-sm;
+            }
+    }
+    
+    .office-block.active{
+        border: none;
+        color: $button-color-1;
+        box-shadow: 0 0 20px 5px $box-shadow-color;
+    }
+    
+    .office-services-details{
+        float: left;
+        width: 100%;
+        color: $white-color;
+        margin-bottom: 25px;
+        display: table;
+        @media screen and (max-width:$sm){
+              display: block;
+            }
+        h4{
+            
+            text-transform: uppercase;
+            font-family: $font-family-open-sans-bold;
+            margin: 25px 0;
+            font-size: $font-size;
+            @media screen and (min-width:$sm){
+              font-size: $font-size-m;  
+            }
+            @media screen and (min-width:$md){
+              font-size: $font-size-s;  
+            }
+        }
+        p{
+            font-size: $font-size;
+            @media screen and (min-width:$sm){
+              font-size: $font-size-m;  
+            }
+            @media screen and (min-width:$md){
+              font-size: $font-size-s;  
+            }
+        }
+        .blue-section{
+            background: $top-menu-color;
+            padding: 10px 35px 0;
+            display: table-cell;
+            height: 100%;
+            float: inherit;
+            @media screen and (max-width:$sm){
+                  display: block;
+                float: left;
+                }
+            .row{
+                margin: 0 -35px;
+            }
+            .dark-area{
+               background: darken($top-menu-color, 10%); 
+                padding:15px 35px 30px;
+                margin-top: 20px;
+                table{
+                    width: 100%;
+                    td{
+                        width: 50%;
+                    }
+                }
+            }
+        }
+        
+        .white-section{
+            box-shadow: 0 0 30px 10px $box-shadow-color;
+            display: table-cell;
+            height: 100%;
+            float: inherit;
+            padding: 10px 35px 0;
+            color: $black-color;
+            font-family: $font-family-open-sans-semibold;
+            @media screen and (max-width:$sm){
+                  display: block;
+                float: left;
+                }
+            h4{
+                color: lighten($body-text-color, 50%);
+            }
+             table{
+                    width: 100%;
+                    font-size: $font-size-s;
+                    td{
+                        width: 50%;
+                        line-height: 24px;
+                        span{
+                            font-family: $font-family-crimson-roman;
+                            font-size: $font-size;
+                            color: $button-color-1;
+                        }
+                    }
+                }
+            
+            .team-table{
+                tr{
+                    &:first-child{
+                        td{
+                            padding-top: 0;
+                        }
+                    }
+                    
+                    &:last-child{
+                        td{
+                            border: none;
+                        }
+                    }
+                   td{
+                        border-bottom: 1px solid lighten($light-gray, 30%);
+                        padding: 15px 0;
+                 
+                    } 
+                }
+                                
+            }
+        }
+        
+    }
+    
+    .edit-class{
+        @media screen and (min-width:$md){
+            .col-md-3{
+                width: 24%;
+                display: inline-block;
+                float:inherit;
+            }
+        }
+        @media screen and (max-width:$md){
+            .col-xs-6{
+                width: 49%;
+                display: inline-block;
+                float:inherit;
+            }
+        }
+        
+        @media screen and (max-width:$xs){
+            .col-exe-12{
+                width:100%;
+                float: left;
+            }
+        }
+    }
+    
+}
