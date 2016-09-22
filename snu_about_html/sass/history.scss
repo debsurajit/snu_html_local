@@ -71,7 +71,30 @@
       
     }
     
+    
+    
   }
 }
+  
+  .dots {
+    background: url(../images/dot-blank.png) no-repeat;
+    position: absolute;
+    left: 261px;
+    top: 353px;
+    width: 13px;
+    height: 13px;
+    }
+
 }
+
+ .dots-fill {
+    background: url(../images/dot-white.png) no-repeat;
+    position: absolute;
+    left: 402px;
+    top: 335px;
+    width: 13px;
+    height: 13px;
+    }
+
+
   

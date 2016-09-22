@@ -216,5 +216,24 @@
   font-family: "crimson_textroman";
   font-size: 2rem;
 }
+/* line 79, ../sass/history.scss */
+.history-page .dots {
+  background: url(../images/dot-blank.png) no-repeat;
+  position: absolute;
+  left: 261px;
+  top: 353px;
+  width: 13px;
+  height: 13px;
+}
+
+/* line 90, ../sass/history.scss */
+.dots-fill {
+  background: url(../images/dot-white.png) no-repeat;
+  position: absolute;
+  left: 402px;
+  top: 335px;
+  width: 13px;
+  height: 13px;
+}
 
 /*# sourceMappingURL=history.css.map */
