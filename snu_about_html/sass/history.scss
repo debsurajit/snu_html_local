@@ -13,9 +13,7 @@
     
       position: relative;
   }
-  
 
-  
   .top-content{
     position: absolute;
     left:75px; 
@@ -30,51 +28,9 @@
     color: $white-color;
   }
   
-  .slide {
-    
-    .img-block {
-      margin-right: 28px;
-      
-      color: $white-color;
-      font-size:$font-lg;
-      
-      span {
-        text-align: right;
-        display: block;
-        margin: 0 40px 20px 0;
-        font-family: $font-family-crimson-roman;
-      }
-      
-      img {
-        -webkit-box-shadow: 0px 1px 10px 4px rgba(0,0,0,0.24);
-        -moz-box-shadow:    0px 1px 10px 4px rgba(0,0,0,0.24);
-        box-shadow:         0px 1px 10px 4px rgba(0,0,0,0.24);
-      }
-    }
-    
-    .slide-content {
-      position: relative;
-      height: 400px;
-      font-size: $font-size-s;
-      
-      div {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        
-        h2 {
-          color: $button-color-2;
-          font-family: $font-family-crimson-roman;
-          font-size: $font-h1;
-        }
-      }
-      
-    }
-    
-    
-    
-  }
+  
 }
+  
   
   .dots {
     background: url(../images/dot-blank.png) no-repeat;
@@ -84,7 +40,6 @@
     width: 13px;
     height: 13px;
     }
-
 }
 
  .dots-fill {
@@ -97,4 +52,79 @@
     }
 
 
+  /*Carousel*/
   
+ /*.carousel-container {
+  position:relative;
+  width:100%;
+}
+#carousel {
+  position:relative;
+}
+
+.carousel-feature { 
+  position:absolute;
+  top:-1000px;
+  left:-1000px;
+  cursor:pointer;
+}
+
+.carousel-inner-wrapper {
+  width:100%;
+}
+ .carousel-image {
+  border:0;
+  float: left;
+}
+
+.carousel-text {
+  float: left;
+  width: 50%;
+}
+
+.tracker-individual-container, .tracker-summation-container {
+  display: none !important;
+}*/
+
+.carousel-container {
+  position:relative;
+  width:100%;
+}
+#carousel {
+  height:280px;
+  width:100%;
+  position:relative;
+}
+
+.carousel-feature {
+  position:absolute;
+  top:-1000px;
+  left:-1000px;
+  cursor:pointer;
+}
+.carousel-inner-wrapper {
+  width:100%;
+}
+.carousel-image {
+  border:0;
+  display: inline-block;
+  width: 40%;
+
+}
+.slide-content {
+  display: inline-block;
+  width: 50%;
+}
+
+#carousel-left {
+  position:absolute;
+  bottom:33px;
+  left:220px;
+  cursor:pointer;
+}
+#carousel-right {
+  position:absolute;
+  bottom:33px;
+  right:220px;
+  cursor:pointer;
+}

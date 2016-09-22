@@ -21,21 +21,45 @@
        
         <h1 class="animated bounceInUp slowest">History</h1>
         
-        <div class="slide col-sm-12" style="top:130px;">
-          <div class="col-sm-5 img-block">
-            <span>2016</span> 
-            <img src="images/history-img.jpg" alt="">
+         
         </div>
-          
-        <div class="col-sm-6 slide-content">
-        <div><h2>SNU Website Redesigned by <br/>Greatest Minds on Planet</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      
+      
+      
+      <div class="carousel-container">
+    
+      <div id="carousel">
+        <div class="carousel-feature">
+          <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
+          <div class="slide-content">AASfsafsafasdfasd</div>
           </div>
         </div>
-          
+      
+        <div class="carousel-feature">
+          <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
+          <div class="slide-content">AASfsafsafasdfasd</div>
+          </div>
         </div>
-          
+        
+        <div class="carousel-feature">
+          <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
+          <div class="slide-content">AASfsafsafasdfasd</div>
+          </div>
         </div>
+        
+        <div class="carousel-feature">
+          <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
+          <div class="slide-content">AASfsafsafasdfasd</div>
+          </div>
+        </div>
+        
+      </div>
+    
+    
+    </div>
+      
+      
+      
     </div>
  
   </section>
