@@ -5,7 +5,7 @@
   <div class="history-page">
   <section class="fixed-pad content-wrapper">
    
-      
+      <div class="container ">
     
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
     <circle fill="none" stroke="#ffffff" stroke-miterlimit="10" cx="170" cy="230" r="150" style="stroke-dashoffset: 660.084; stroke-dasharray: 1885.96, 1895.96;"></circle>
@@ -27,21 +27,20 @@
       
       
      
-      
+        </div>
       
       
     </div>
  
     
-    <div style="width:1600px;  position:absolute; left:-110px; top:393px; z-index:99;"> <div class="carousel-container">
+    <div style="width:1600px;  position:absolute; left:-110px; top:393px; z-index:3;"> <div class="carousel-container">
     
       <div id="carousel">
         <div class="carousel-feature">
           <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
           <div class="slide-content">
-          <h2>SNU Website Redesigned by <br/>Greatest Minds on Planet</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> 
-            
+          <div><h2>SNU Website Redesigned by <br/>Greatest Minds on Planet</h2>
+             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></div> 
             </div>
           </div>
         </div>
@@ -49,8 +48,8 @@
         <div class="carousel-feature">
           <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
           <div class="slide-content">
-<h2>SNU Website Redesigned by <br/>Greatest Minds on Planet</h2>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> 
+<div><h2>SNU Website Redesigned by <br/>Greatest Minds on Planet</h2>
+             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></div> 
             </div>
           </div>
         </div>
@@ -58,8 +57,8 @@
         <div class="carousel-feature">
           <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
           <div class="slide-content">
-            <h2>SNU Website Redesigned by <br/>Greatest Minds on Planet</h2>
-     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> 
+           <div><h2>SNU Website Redesigned by <br/>Greatest Minds on Planet</h2>
+             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></div> 
             </div>
           </div>
         </div>
@@ -67,8 +66,8 @@
         <div class="carousel-feature">
           <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
           <div class="slide-content">
-           <h2>SNU Website Redesigned by <br/>Greatest Minds on Planet</h2>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
+           <div><h2>SNU Website Redesigned by <br/>Greatest Minds on Planet</h2>
+             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></div> 
             </div>
           </div>
         </div>

@@ -184,7 +184,7 @@
   background: url(../images/dot-blank.png) no-repeat;
   position: absolute;
   left: 261px;
-  top: 353px;
+  top: 357px;
   width: 13px;
   height: 13px;
 }
@@ -193,8 +193,8 @@
 .dots-fill {
   background: url(../images/dot-white.png) no-repeat;
   position: absolute;
-  left: 402px;
-  top: 335px;
+  left: 387px;
+  top: 309px;
   width: 13px;
   height: 13px;
 }
@@ -272,15 +272,27 @@
   float: right;
   width: 350px;
   font-size: 0.75rem;
+  position: relative;
+  height: 286px;
 }
-/* line 123, ../sass/history.scss */
-.slide-content h2 {
+/* line 125, ../sass/history.scss */
+.slide-content div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/* line 130, ../sass/history.scss */
+.slide-content div h2 {
   color: #0058A6;
   font-family: "crimson_textroman";
   font-size: 2rem;
 }
+/* line 135, ../sass/history.scss */
+.slide-content div p {
+  margin-bottom: 0;
+}
 
-/* line 130, ../sass/history.scss */
+/* line 142, ../sass/history.scss */
 #carousel-left {
   position: absolute;
   bottom: 33px;
@@ -288,7 +300,7 @@
   cursor: pointer;
 }
 
-/* line 136, ../sass/history.scss */
+/* line 148, ../sass/history.scss */
 #carousel-right {
   position: absolute;
   bottom: 33px;
