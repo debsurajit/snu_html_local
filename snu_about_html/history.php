@@ -14,7 +14,7 @@
     <div class="dots"></div>
     <div class="dots-fill"></div>
     
-    <div class="container top-content animatedParent">
+    <div class="top-content animatedParent">
       <div class="content-block"><div class="breadcrumb">
         Home / About /
       </div>
@@ -26,13 +26,21 @@
       
       
       
-      <div class="carousel-container">
+     
+      
+      
+      
+    </div>
+ 
+    
+    <div style="width:1600px;  position:absolute; left:-110px; top:393px; z-index:99;"> <div class="carousel-container">
     
       <div id="carousel">
         <div class="carousel-feature">
           <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
           <div class="slide-content">
-          
+          <h2>SNU Website Redesigned by <br/>Greatest Minds on Planet</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> 
             
             </div>
           </div>
@@ -41,7 +49,8 @@
         <div class="carousel-feature">
           <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
           <div class="slide-content">
-             
+<h2>SNU Website Redesigned by <br/>Greatest Minds on Planet</h2>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> 
             </div>
           </div>
         </div>
@@ -49,7 +58,8 @@
         <div class="carousel-feature">
           <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
           <div class="slide-content">
-            
+            <h2>SNU Website Redesigned by <br/>Greatest Minds on Planet</h2>
+     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> 
             </div>
           </div>
         </div>
@@ -57,7 +67,8 @@
         <div class="carousel-feature">
           <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
           <div class="slide-content">
-           
+           <h2>SNU Website Redesigned by <br/>Greatest Minds on Planet</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
             </div>
           </div>
         </div>
@@ -65,12 +76,8 @@
       </div>
     
     
-    </div>
-      
-      
-      
-    </div>
- 
+      </div></div>
+    
   </section>
   <!-- Body End -->
   
