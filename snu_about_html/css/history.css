@@ -261,13 +261,13 @@
 .carousel-image {
   border: 0;
   display: inline-block;
-  width: 40%;
+  width: 400px;
 }
 
 /* line 114, ../sass/history.scss */
 .slide-content {
   display: inline-block;
-  width: 50%;
+  width: 40%;
 }
 
 /* line 119, ../sass/history.scss */

@@ -31,25 +31,34 @@
       <div id="carousel">
         <div class="carousel-feature">
           <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
-          <div class="slide-content">AASfsafsafasdfasd</div>
+          <div class="slide-content">
+          
+            
+            </div>
           </div>
         </div>
       
         <div class="carousel-feature">
           <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
-          <div class="slide-content">AASfsafsafasdfasd</div>
+          <div class="slide-content">
+             
+            </div>
           </div>
         </div>
         
         <div class="carousel-feature">
           <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
-          <div class="slide-content">AASfsafsafasdfasd</div>
+          <div class="slide-content">
+            
+            </div>
           </div>
         </div>
         
         <div class="carousel-feature">
           <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
-          <div class="slide-content">AASfsafsafasdfasd</div>
+          <div class="slide-content">
+           
+            </div>
           </div>
         </div>
         
