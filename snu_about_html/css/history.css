@@ -164,57 +164,136 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005197', endColorstr='#ffffff', GradientType=1 );
   position: relative;
 }
-/* line 19, ../sass/history.scss */
+/* line 17, ../sass/history.scss */
 .history-page .top-content {
   position: absolute;
   left: 75px;
   top: 170px;
   z-index: 3;
 }
-/* line 25, ../sass/history.scss */
+/* line 23, ../sass/history.scss */
 .history-page .top-content h1 {
   color: #ffffff;
 }
-/* line 29, ../sass/history.scss */
+/* line 27, ../sass/history.scss */
 .history-page .top-content .breadcrumb {
   color: #ffffff;
 }
 /* line 35, ../sass/history.scss */
-.history-page .top-content .slide .img-block {
-  margin-right: 28px;
-  color: #ffffff;
-  font-size: 2.25rem;
+.history-page .dots {
+  background: url(../images/dot-blank.png) no-repeat;
+  position: absolute;
+  left: 261px;
+  top: 353px;
+  width: 13px;
+  height: 13px;
 }
-/* line 41, ../sass/history.scss */
-.history-page .top-content .slide .img-block span {
-  text-align: right;
-  display: block;
-  margin: 0 40px 20px 0;
-  font-family: "crimson_textroman";
+
+/* line 45, ../sass/history.scss */
+.dots-fill {
+  background: url(../images/dot-white.png) no-repeat;
+  position: absolute;
+  left: 402px;
+  top: 335px;
+  width: 13px;
+  height: 13px;
 }
-/* line 48, ../sass/history.scss */
-.history-page .top-content .slide .img-block img {
+
+/*Carousel*/
+ /*.carousel-container {
+  position:relative;
+  width:100%;
+}
+#carousel {
+  position:relative;
+}
+
+.carousel-feature { 
+  position:absolute;
+  top:-1000px;
+  left:-1000px;
+  cursor:pointer;
+}
+
+.carousel-inner-wrapper {
+  width:100%;
+}
+ .carousel-image {
+  border:0;
+  float: left;
+}
+
+.carousel-text {
+  float: left;
+  width: 50%;
+}
+
+.tracker-individual-container, .tracker-summation-container {
+  display: none !important;
+}*/
+/* line 89, ../sass/history.scss */
+.carousel-container {
+  position: relative;
+  width: 100%;
+}
+
+/* line 93, ../sass/history.scss */
+#carousel {
+  height: 280px;
+  width: 100%;
+  position: relative;
+}
+
+/* line 99, ../sass/history.scss */
+.carousel-feature {
+  position: absolute;
+  top: -1000px;
+  left: -1000px;
+  cursor: pointer;
+}
+
+/* line 105, ../sass/history.scss */
+.carousel-inner-wrapper {
+  width: 100%;
+}
+
+/* line 108, ../sass/history.scss */
+.carousel-image {
+  border: 0;
+  width: 380px;
+  margin-right: 10px;
   -webkit-box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
   -moz-box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
   box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
 }
-/* line 55, ../sass/history.scss */
-.history-page .top-content .slide .slide-content {
-  position: relative;
-  height: 400px;
+
+/* line 118, ../sass/history.scss */
+.slide-content {
+  float: right;
+  width: 350px;
   font-size: 0.75rem;
 }
-/* line 60, ../sass/history.scss */
-.history-page .top-content .slide .slide-content div {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-/* line 65, ../sass/history.scss */
-.history-page .top-content .slide .slide-content div h2 {
+/* line 123, ../sass/history.scss */
+.slide-content h2 {
   color: #0058A6;
   font-family: "crimson_textroman";
   font-size: 2rem;
+}
+
+/* line 130, ../sass/history.scss */
+#carousel-left {
+  position: absolute;
+  bottom: 33px;
+  left: 220px;
+  cursor: pointer;
+}
+
+/* line 136, ../sass/history.scss */
+#carousel-right {
+  position: absolute;
+  bottom: 33px;
+  right: 220px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=history.css.map */
