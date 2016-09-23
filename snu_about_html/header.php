@@ -24,7 +24,7 @@
 
   <!-- Top Menu Sart -->
   <header id="navbar" role="banner" class="navbar navbar-default">
-    <div class="container-fluid">
+    <div class="container">
       <div class="navbar-header">
         <a class="logo navbar-btn pull-left" href="#" title="Home">
           <img src="images/snu-dept-logo.jpg" alt="Home">
