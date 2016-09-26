@@ -152,7 +152,7 @@
 /*20px*/
 /*17px*/
 /* Department section  */
-/* line 4, ../sass/history.scss */
+/* line 3, ../sass/history.scss */
 .history-page .content-wrapper {
   background: #005197;
   background: -moz-linear-gradient(left, #005197 0%, #005197 39%, white 39%, white 100%);
@@ -161,25 +161,24 @@
   background: -o-linear-gradient(left, #005197 0%, #005197 39%, white 39%, white 100%);
   background: -ms-linear-gradient(left, #005197 0%, #005197 39%, white 39%, white 100%);
   background: linear-gradient(to right, #005197 0%, #005197 39%, white 39%, white 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005197', endColorstr='#ffffff', GradientType=1 );
   position: relative;
 }
-/* line 17, ../sass/history.scss */
+/* line 15, ../sass/history.scss */
 .history-page .top-content {
   position: absolute;
   left: 75px;
-  top: 170px;
+  top: 15px;
   z-index: 3;
 }
-/* line 23, ../sass/history.scss */
+/* line 20, ../sass/history.scss */
 .history-page .top-content h1 {
   color: #ffffff;
 }
-/* line 27, ../sass/history.scss */
+/* line 23, ../sass/history.scss */
 .history-page .top-content .breadcrumb {
   color: #ffffff;
 }
-/* line 35, ../sass/history.scss */
+/* line 27, ../sass/history.scss */
 .history-page .dots {
   background: url(../images/dot-blank.png) no-repeat;
   position: absolute;
@@ -189,7 +188,7 @@
   height: 13px;
 }
 
-/* line 45, ../sass/history.scss */
+/* line 37, ../sass/history.scss */
 .dots-fill {
   background: url(../images/dot-white.png) no-repeat;
   position: absolute;
@@ -200,7 +199,7 @@
 }
 
 /*Carousel*/
- /*.carousel-container {
+/*.carousel-container {
   position:relative;
   width:100%;
 }
@@ -231,20 +230,36 @@
 .tracker-individual-container, .tracker-summation-container {
   display: none !important;
 }*/
-/* line 89, ../sass/history.scss */
+/* line 81, ../sass/history.scss */
+.position {
+  position: relative;
+}
+
+/* line 84, ../sass/history.scss */
+.slider-block {
+  width: 1920px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top: 393px;
+  z-index: 3;
+}
+
+/* line 94, ../sass/history.scss */
 .carousel-container {
   position: relative;
   width: 100%;
 }
 
-/* line 93, ../sass/history.scss */
+/* line 99, ../sass/history.scss */
 #carousel {
   height: 280px;
   width: 100%;
   position: relative;
 }
 
-/* line 99, ../sass/history.scss */
+/* line 105, ../sass/history.scss */
 .carousel-feature {
   position: absolute;
   top: -1000px;
@@ -252,47 +267,47 @@
   cursor: pointer;
 }
 
-/* line 105, ../sass/history.scss */
+/* line 112, ../sass/history.scss */
 .carousel-inner-wrapper {
   width: 100%;
 }
 
-/* line 108, ../sass/history.scss */
+/* line 116, ../sass/history.scss */
 .carousel-image {
   border: 0;
-  width: 380px;
+  width: 441px;
   margin-right: 10px;
   -webkit-box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
   -moz-box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
   box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
 }
 
-/* line 118, ../sass/history.scss */
+/* line 125, ../sass/history.scss */
 .slide-content {
   float: right;
-  width: 350px;
+  width: 450px;
   font-size: 0.75rem;
   position: relative;
   height: 286px;
 }
-/* line 125, ../sass/history.scss */
+/* line 132, ../sass/history.scss */
 .slide-content div {
   position: absolute;
   bottom: 0;
   left: 0;
 }
-/* line 130, ../sass/history.scss */
+/* line 137, ../sass/history.scss */
 .slide-content div h2 {
   color: #0058A6;
   font-family: "crimson_textroman";
   font-size: 2rem;
 }
-/* line 135, ../sass/history.scss */
+/* line 143, ../sass/history.scss */
 .slide-content div p {
   margin-bottom: 0;
 }
 
-/* line 142, ../sass/history.scss */
+/* line 149, ../sass/history.scss */
 #carousel-left {
   position: absolute;
   bottom: 33px;
@@ -300,7 +315,7 @@
   cursor: pointer;
 }
 
-/* line 148, ../sass/history.scss */
+/* line 156, ../sass/history.scss */
 #carousel-right {
   position: absolute;
   bottom: 33px;

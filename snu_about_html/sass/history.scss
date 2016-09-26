@@ -1,37 +1,29 @@
 @import 'main_import';
-
 .history-page {
   .content-wrapper {
-        background: rgba(0,81,151,1);
-        background: -moz-linear-gradient(left, rgba(0,81,151,1) 0%, rgba(0,81,151,1) 39%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 100%);
-        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,81,151,1)), color-stop(39%, rgba(0,81,151,1)), color-stop(39%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
-        background: -webkit-linear-gradient(left, rgba(0,81,151,1) 0%, rgba(0,81,151,1) 39%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 100%);
-        background: -o-linear-gradient(left, rgba(0,81,151,1) 0%, rgba(0,81,151,1) 39%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 100%);
-        background: -ms-linear-gradient(left, rgba(0,81,151,1) 0%, rgba(0,81,151,1) 39%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 100%);
-        background: linear-gradient(to right, rgba(0,81,151,1) 0%, rgba(0,81,151,1) 39%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005197', endColorstr='#ffffff', GradientType=1 );
+    background: rgba(0, 81, 151, 1);
+    background: -moz-linear-gradient(left, rgba(0, 81, 151, 1) 0%, rgba(0, 81, 151, 1) 39%, rgba(255, 255, 255, 1) 39%, rgba(255, 255, 255, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 81, 151, 1)), color-stop(39%, rgba(0, 81, 151, 1)), color-stop(39%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
+    background: -webkit-linear-gradient(left, rgba(0, 81, 151, 1) 0%, rgba(0, 81, 151, 1) 39%, rgba(255, 255, 255, 1) 39%, rgba(255, 255, 255, 1) 100%);
+    background: -o-linear-gradient(left, rgba(0, 81, 151, 1) 0%, rgba(0, 81, 151, 1) 39%, rgba(255, 255, 255, 1) 39%, rgba(255, 255, 255, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(0, 81, 151, 1) 0%, rgba(0, 81, 151, 1) 39%, rgba(255, 255, 255, 1) 39%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(to right, rgba(0, 81, 151, 1) 0%, rgba(0, 81, 151, 1) 39%, rgba(255, 255, 255, 1) 39%, rgba(255, 255, 255, 1) 100%);
+   
     
-      position: relative;
+    position: relative;
   }
-
-  .top-content{
+  .top-content {
     position: absolute;
-    left:75px; 
-    top:170px; 
+    left: 75px;
+    top: 15px;
     z-index: 3;
-  
-  h1 {
-    color: $white-color;
+    h1 {
+      color: $white-color;
+    }
+    .breadcrumb {
+      color: $white-color;
+    }
   }
-  
-  .breadcrumb {
-    color: $white-color;
-  }
-  
-  
-}
-  
-  
   .dots {
     background: url(../images/dot-blank.png) no-repeat;
     position: absolute;
@@ -39,22 +31,23 @@
     top: 357px;
     width: 13px;
     height: 13px;
-    }
+  }
 }
 
- .dots-fill {
-    background: url(../images/dot-white.png) no-repeat;
-    position: absolute;
-    left: 387px;
-    top: 309px;
-    width: 13px;
-    height: 13px;
-    }
+.dots-fill {
+  background: url(../images/dot-white.png) no-repeat;
+  position: absolute;
+  left: 387px;
+  top: 309px;
+  width: 13px;
+  height: 13px;
+}
 
 
-  /*Carousel*/
-  
- /*.carousel-container {
+/*Carousel*/
+
+
+/*.carousel-container {
   position:relative;
   width:100%;
 }
@@ -85,39 +78,53 @@
 .tracker-individual-container, .tracker-summation-container {
   display: none !important;
 }*/
+.position {
+  position: relative;
+}
+.slider-block {
+  width:1920px;  
+  position:absolute; 
+  left: 50%; 
+  -webkit-transform: translateX(-50%); 
+  transform: translateX(-50%); 
+  top:393px; 
+  z-index:3;
+}
 
 .carousel-container {
-  position:relative;
-  width:100%;
+  position: relative;
+  width: 100%;
 }
+
 #carousel {
-  height:280px;
-  width:100%;
-  position:relative;
+  height: 280px;
+  width: 100%;
+  position: relative;
 }
 
 .carousel-feature {
-  position:absolute;
-  top:-1000px;
-  left:-1000px;
-  cursor:pointer;
+  position: absolute;
+  top: -1000px;
+  left: -1000px;
+  cursor: pointer;
 }
+
 .carousel-inner-wrapper {
-  width:100%;
+  width: 100%;
 }
+
 .carousel-image {
-  border:0;
-  width:380px;
+  border: 0;
+  width: 441px;
   margin-right: 10px;
-  
-  -webkit-box-shadow: 0px 1px 10px 4px rgba(0,0,0,0.24);
-        -moz-box-shadow:    0px 1px 10px 4px rgba(0,0,0,0.24);
-        box-shadow:         0px 1px 10px 4px rgba(0,0,0,0.24);
-  
+  -webkit-box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
 }
+
 .slide-content {
   float: right;
-  width:350px;
+  width: 450px;
   font-size: $font-size-s;
   position: relative;
   height: 286px;
@@ -126,28 +133,29 @@
     position: absolute;
     bottom: 0;
     left: 0;
-  
-  h2 {
-          color: $button-color-2;
-          font-family: $font-family-crimson-roman;
-          font-size: $font-h1;
-        }
+    
+    h2 {
+      color: $button-color-2;
+      font-family: $font-family-crimson-roman;
+      font-size: $font-h1;
+    }
+    
     p {
       margin-bottom: 0;
     }
+  }
 }
-    }
-
 
 #carousel-left {
-  position:absolute;
-  bottom:33px;
-  left:220px;
-  cursor:pointer;
+  position: absolute;
+  bottom: 33px;
+  left: 220px;
+  cursor: pointer;
 }
+
 #carousel-right {
-  position:absolute;
-  bottom:33px;
-  right:220px;
-  cursor:pointer;
+  position: absolute;
+  bottom: 33px;
+  right: 220px;
+  cursor: pointer;
 }
