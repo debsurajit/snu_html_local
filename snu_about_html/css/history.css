@@ -312,7 +312,8 @@
 .history-page .tracker-individual-container .tracker-individual-blip {
   margin: 0 3px;
   padding: 0 3px;
-  background: #ffffff;
+  border: 1px solid #ffffff;
+  background: #005197;
   width: 10px;
   height: 10px;
   -moz-border-radius: 50px;
@@ -320,10 +321,12 @@
   border-radius: 50px;
   font-size: 0;
 }
-/* line 172, ../sass/history.scss */
+/* line 173, ../sass/history.scss */
 .history-page .tracker-individual-container .tracker-individual-blip-selected {
-  border: 1px solid #ffffff;
-  background: #005197;
+  background: #ffffff;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
 }
 
 /*# sourceMappingURL=history.css.map */
