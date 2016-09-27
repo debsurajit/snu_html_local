@@ -161,7 +161,8 @@
 .tracker-individual-container .tracker-individual-blip {
   margin:0 3px;
   padding:0 3px;
-  background: $white-color;
+  border: 1px solid $white-color;
+  background:#005197;
   width: 10px;
   height: 10px;
   -moz-border-radius: 50px;
@@ -170,7 +171,11 @@
   font-size: 0;
 }
 .tracker-individual-container .tracker-individual-blip-selected {
-  border: 1px solid $white-color;
-  background:#005197;
+  
+  
+  background: $white-color;
+   -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
 }
 }
