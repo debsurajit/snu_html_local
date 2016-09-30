@@ -225,7 +225,15 @@
   -moz-box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
   box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.24);
 }
-/* line 77, ../sass/history.scss */
+/* line 76, ../sass/history.scss */
+.history-page .date {
+  font-size: 2.25rem;
+  color: #ffffff;
+  padding-bottom: 20px;
+  padding-left: 190px;
+  font-family: "crimson_textroman";
+}
+/* line 84, ../sass/history.scss */
 .history-page .slide-content {
   float: right;
   width: 450px;
@@ -233,42 +241,42 @@
   position: relative;
   height: 332px;
 }
-/* line 84, ../sass/history.scss */
+/* line 91, ../sass/history.scss */
 .history-page .slide-content div {
   position: absolute;
   bottom: 0;
   left: 0;
 }
-/* line 89, ../sass/history.scss */
+/* line 96, ../sass/history.scss */
 .history-page .slide-content div h2 {
   color: #0058A6;
   font-family: "crimson_textroman";
   font-size: 2rem;
 }
-/* line 95, ../sass/history.scss */
+/* line 102, ../sass/history.scss */
 .history-page .slide-content div p {
   margin-bottom: 0;
 }
-/* line 101, ../sass/history.scss */
+/* line 108, ../sass/history.scss */
 .history-page #carousel-left {
   position: absolute;
   bottom: 33px;
   left: 220px;
   cursor: pointer;
 }
-/* line 108, ../sass/history.scss */
+/* line 115, ../sass/history.scss */
 .history-page #carousel-right {
   position: absolute;
   bottom: 33px;
   right: 220px;
   cursor: pointer;
 }
-/* line 115, ../sass/history.scss */
+/* line 122, ../sass/history.scss */
 .history-page .tracker-individual-container {
   padding: 0;
   margin: 0;
 }
-/* line 120, ../sass/history.scss */
+/* line 127, ../sass/history.scss */
 .history-page .tracker-individual-container li {
   list-style: none;
   position: absolute;
@@ -278,7 +286,7 @@
   top: -85px;
   z-index: 3;
 }
-/* line 130, ../sass/history.scss */
+/* line 137, ../sass/history.scss */
 .history-page .tracker-individual-container li:nth-child(2) {
   list-style: none;
   position: absolute;
@@ -288,7 +296,7 @@
   top: -61px;
   z-index: 3;
 }
-/* line 141, ../sass/history.scss */
+/* line 148, ../sass/history.scss */
 .history-page .tracker-individual-container li:nth-child(3) {
   list-style: none;
   position: absolute;
@@ -298,7 +306,7 @@
   top: 9px;
   z-index: 3;
 }
-/* line 151, ../sass/history.scss */
+/* line 158, ../sass/history.scss */
 .history-page .tracker-individual-container li:nth-child(4) {
   list-style: none;
   position: absolute;
@@ -308,7 +316,7 @@
   top: 113px;
   z-index: 3;
 }
-/* line 161, ../sass/history.scss */
+/* line 168, ../sass/history.scss */
 .history-page .tracker-individual-container .tracker-individual-blip {
   margin: 0 3px;
   padding: 0 3px;
@@ -321,7 +329,7 @@
   border-radius: 50px;
   font-size: 0;
 }
-/* line 173, ../sass/history.scss */
+/* line 180, ../sass/history.scss */
 .history-page .tracker-individual-container .tracker-individual-blip-selected {
   background: #ffffff;
   -moz-border-radius: 50px;
