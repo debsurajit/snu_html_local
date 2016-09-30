@@ -38,7 +38,7 @@
     
       <div id="carousel">
         <div class="carousel-feature">
-          <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
+          <div class="carousel-inner-wrapper"><div class="date">2016</div><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
           <div class="slide-content">
           <div><h2>SNU Website Redesigned by <br/>Greatest Minds on Planet</h2>
              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></div> 
@@ -47,7 +47,7 @@
         </div>
       
         <div class="carousel-feature">
-          <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
+          <div class="carousel-inner-wrapper"><div class="date">2016</div><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
           <div class="slide-content">
 <div><h2>SNU Website Redesigned by <br/>Greatest Minds on Planet</h2>
              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></div> 
@@ -56,7 +56,7 @@
         </div>
         
         <div class="carousel-feature">
-          <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
+          <div class="carousel-inner-wrapper"><div class="date">2016</div><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
           <div class="slide-content">
            <div><h2>SNU Website Redesigned by <br/>Greatest Minds on Planet</h2>
              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></div> 
@@ -65,7 +65,7 @@
         </div>
         
         <div class="carousel-feature">
-          <div class="carousel-inner-wrapper"><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
+          <div class="carousel-inner-wrapper"><div class="date">2016</div><img class="carousel-image" alt="Image Caption" src="images/history-img.jpg">
           <div class="slide-content">
            <div><h2>SNU Website Redesigned by <br/>Greatest Minds on Planet</h2>
              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></div> 
